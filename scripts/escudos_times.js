@@ -74,11 +74,6 @@ window.escudosTimes = {
   "Doug Leal F.C": "../imagens/1_doug_leal_fc.png",
   "Grêmio_Campeão_LA_27": "../imagens/1_gremio_campeao_la_27.png",
   "Esquadrão Gazembrino": "../imagens/1_esquadrao_gazembrino.png"
-
-
-
-
-
   
 };
 
