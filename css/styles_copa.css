@@ -1,0 +1,267 @@
+/* styles_copa.css */
+
+:root {
+  --copa-card: #f7f9f9;
+  --copa-dark: #2c3639;
+  --copa-mid: #3f4e4f;
+  --copa-accent: #ff7604;
+}
+
+.copa-container {
+  max-width: 1100px;
+  margin: 24px auto 40px;
+  padding: 0 10px 30px;
+}
+
+.copa-page {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.copa-page .copa-container {
+  flex: 1;
+}
+
+.copa-page .footer {
+  margin-top: auto;
+}
+
+
+.copa-bracket-wrap {
+  background: var(--copa-mid);
+  border-radius: 16px;
+  padding: 22px 18px 26px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
+.copa-bracket {
+  display: flex;
+  gap: 26px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+}
+
+.copa-bracket::-webkit-scrollbar {
+  height: 8px;
+}
+
+.copa-bracket::-webkit-scrollbar-thumb {
+  background: #222a2b;
+  border-radius: 999px;
+}
+
+.round {
+  min-width: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+}
+
+.round-title {
+  font-size: 12px;
+  color: #cfd8d8;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.match {
+  background: var(--copa-card);
+  color: var(--copa-dark);
+  border-left: 4px solid var(--copa-accent);
+  border-radius: 12px;
+  padding: 10px 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.match.secondary {
+  border-left-color: #9aa5a5;
+}
+
+.team-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2c3639;
+}
+
+.team-row + .team-row {
+  margin-top: 6px;
+}
+
+.team-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.team-escudo {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: #eef0f0;
+  object-fit: contain;
+  padding: 3px;
+}
+
+.team-score {
+  font-weight: 900;
+}
+
+.team-row.winner {
+  color: #a44600;
+}
+
+.team-row.winner .team-score {
+  color: var(--copa-accent);
+}
+
+.team-row.loser {
+  opacity: 0.6;
+}
+
+.team-row.placeholder {
+  color: #7a8686;
+}
+
+
+.round-final .match {
+  border-left-width: 5px;
+}
+
+.round-terceiro .match {
+  border-left-color: #8f8f8f;
+}
+
+.copa-legend {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #d1dada;
+}
+
+.copa-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--copa-accent);
+}
+
+.legend-dot.secondary {
+  background: #9aa5a5;
+}
+
+.copa-bracket[data-view="oitavas"] .round:not(.round-oitavas) {
+  display: none;
+}
+
+.copa-bracket[data-view="quartas"] .round:not(.round-quartas) {
+  display: none;
+}
+
+.copa-bracket[data-view="semi"] .round:not(.round-semi) {
+  display: none;
+}
+
+.copa-bracket[data-view="final"] .round:not(.round-final):not(.round-terceiro) {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .copa-bracket {
+    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    align-items: center;
+    gap: 26px;
+  }
+
+  .copa-bracket[data-view] .round {
+    display: flex !important;
+  }
+
+  .round {
+    margin-top: 0;
+  }
+
+  .round-oitavas { grid-column: 1; }
+  .round-quartas { grid-column: 2; }
+  .round-semi { grid-column: 3; }
+
+  .round-final {
+    grid-column: 4;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .round-terceiro {
+    grid-column: 4;
+    align-self: center;
+    margin-top: 2px;
+    position: relative;
+    z-index: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --copa-mobile-width: 360px;
+  }
+
+  .copa-bracket {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .round {
+    min-width: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .copa-bracket-wrap {
+    padding: 18px 14px 22px;
+    width: min(100%, var(--copa-mobile-width));
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copa-legend {
+    font-size: 11px;
+  }
+
+  .copa-bracket[data-view="final"] {
+    flex-direction: column;
+    align-items: stretch;
+    overflow-x: hidden;
+  }
+
+  .copa-bracket[data-view="final"] .round {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .copa-page .copa-container {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+}

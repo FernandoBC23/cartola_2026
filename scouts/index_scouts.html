@@ -1,0 +1,77 @@
+<!-- scouts/index_scouts.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Análises de Scouts</title>
+  <link rel="stylesheet" href="../css/reset.css"/>
+  <link rel="stylesheet" href="../css/styles_global.css"/>
+  <link rel="stylesheet" href="../css/styles_home.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="header-content-home">
+      <div class="logo-titulo-home">
+        <h1>Análises de Scouts</h1>
+      </div>
+      <nav class="navbar-home">
+        <ul>
+          <li><a href="../index.html">🏠 Voltar para Competições</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cards de Análises -->
+  <div class="competicoes">
+
+    <a href="./scouts/scouts_totais.html" class="card-competicao">
+      <img src="../imagens/icon_scouts_totais.PNG" alt="Scouts">
+      <h2>Scouts Totais</h2>
+    </a>
+
+    <a href="./por_clube/por_clube.html" class="card-competicao">
+      <img src="../imagens/icon_media_por_clube.PNG" alt="Média por Clube">
+      <h2>Média por Clube</h2>
+    </a>
+
+    <a href="./media_posicao.html" class="card-competicao">
+      <img src="../imagens/icon_media_posicao.PNG" alt="Média por Posição">
+      <h2>Média por Posição</h2>
+    </a>
+
+    <a href="./lideres_por_scout.html" class="card-competicao">
+      <img src="../imagens/icon_lideres_scouts.PNG" alt="Líderes por Scout">
+      <h2>Líderes por Scout</h2>
+    </a>
+
+    <a href="./comparativos_rodadas.html" class="card-competicao">
+      <img src="../imagens/icon_comparativo_rodadas.PNG" alt="Comparativo Rodadas">
+      <h2>Comparativo Rodadas</h2>
+    </a>
+
+    <!-- outros cards futuros -->
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 Painel Ligas | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <script src="../transicoes.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
+
+</body>
+</html>

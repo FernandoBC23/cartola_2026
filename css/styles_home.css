@@ -1,0 +1,69 @@
+/* styles_home.css */
+
+/* Cards de Competições */
+.competicoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .card-competicao {
+    background-color: #DCDCDC;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    text-decoration: none;
+    color: #3F4E4F;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-competicao:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 12px 16px rgba(0, 0, 0, 0.9);
+  }
+  
+  .card-competicao img {
+    width: 100%;
+    height: 130px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .card-competicao h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3F4E4F;
+    text-align: center;
+  }
+  
+
+/* ------------------------------------
+   RESPONSIVO PARA DISPOSITIVOS MÓVEIS
+   ------------------------------------ */
+   @media (max-width: 768px) {
+    .competicoes {
+      justify-content: center;
+      padding: 20px;
+      gap: 16px;
+    }
+  
+    .card-competicao {
+      width: 40%; /* 2 por linha com margem */
+    }
+  
+    .card-competicao img {
+      height: 80px;
+    }
+  
+    .card-competicao h2 {
+      font-size: 0.9rem;
+    }
+  }  
+
+  

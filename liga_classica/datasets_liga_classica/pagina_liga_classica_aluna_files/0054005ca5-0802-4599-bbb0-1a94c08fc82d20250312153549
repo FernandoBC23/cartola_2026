@@ -1,0 +1,26 @@
+<svg width="500px" height="525px" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <clipPath id="formato">
+        <path d="M278 489s100-29 138-42c16-5 23-8 27-17 5-11 5-28 5-28V4H53v394s0 17 5 28c4 9 11 11 27 17l138 42 32 11 23-7z"/>
+      </clipPath>
+    </defs>
+
+    <g id="fundo" fill="#000000" x="0">
+      <path d="M278 489s100-29 138-42c16-5 23-8 27-17 5-11 5-28 5-28V4H53v394s0 17 5 28c4 9 11 11 27 17l138 42 32 11 23-7z"/>
+    </g>
+
+    
+  <g id="estampa1" fill="#ffcb00" x="0" clip-path="url(#formato)">
+    <rect x="226" width="56" height="100%"></rect>
+    <rect y="280" width="100%" height="56"></rect>
+  </g>
+
+
+    <g id="borda" fill="none" stroke="#ffcb00" stroke-width="10" x="0">
+      <path d="M278 489s100-29 138-42c16-5 23-8 27-17 5-11 5-28 5-28V4H53v394s0 17 5 28c4 9 11 11 27 17l138 42 32 11 23-7z"/>
+    </g>
+
+    
+<g id="adorno"></g>
+
+</svg>

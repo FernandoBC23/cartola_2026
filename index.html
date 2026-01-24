@@ -1,0 +1,88 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Escolha de Portal</title>
+  <link rel="stylesheet" href="./css/reset.css"/>
+  <link rel="stylesheet" href="./css/styles_global.css"/>
+  <link rel="stylesheet" href="./css/styles_home.css"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .portal-switch {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .portal-switch a {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #1f6d5a, #2a8c73);
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-size: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+    .portal-switch a:hover {
+      filter: brightness(1.1);
+      transform: translateY(-1px);
+    }
+    .portal-switch a.secondary {
+      background: linear-gradient(135deg, #5b2c83, #7b3fb0);
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Menu de Navega��o -->
+    <header class="header">
+        <div class="header-content-home">
+          <div class="logo-titulo-home">
+            <h1>Escolha seu portal</h1>
+          </div>
+          <nav class="navbar-home">
+  <div class="portal-switch">
+    <a href="./portal-leon/index.html">Portal Leon</a>
+    <a class="secondary" href="./portal-aluna/index.html">Portal Aluna</a>
+  </div>
+</nav>           
+        </div>
+      </header>    
+
+<!-- cards de competi��es -->
+<div class="competicoes">
+    <a href="./portal-leon/index.html" class="card-competicao">
+      <img src="./imagens/logo_liga_classica_gerado_fb_1.png" alt="Portal Leon">
+      <h2>Entrar no Portal Leon</h2>
+    </a>
+    <a href="./portal-aluna/index.html" class="card-competicao">
+      <img src="./imagens/logo_liga_classica_gerado_fb_1.png" alt="Portal Aluna">
+      <h2>Entrar no Portal Aluna</h2>
+    </a>
+  </div>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>© Painel Ligas | Desenvolvido por Fernando Chagas</p>
+  </div>
+</footer>
+
+  <script src="./transicoes.js"></script>
+
+</body>
+</html>
+
+

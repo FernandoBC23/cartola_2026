@@ -1,0 +1,23 @@
+<svg width="500px" height="525px" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <clipPath id="formato">
+        <path d="M46.75,0.807L46.75,0.807v227.992c0,208.528,203.24,270.395,203.24,270.395s203.26-61.866,203.26-270.395V0.807H46.75z"/>
+      </clipPath>
+    </defs>
+
+    <g id="fundo" fill="#80007f" x="0">
+      <path d="M46.75,0.807L46.75,0.807v227.992c0,208.528,203.24,270.395,203.24,270.395s203.26-61.866,203.26-270.395V0.807H46.75z"/>
+    </g>
+
+    <g id="estampa1" fill="#80007f" x="0" clip-path="url(#formato)"><rect x="300" width="50" height="100%"/><rect y="150" width="100%" height="50"/></g>
+
+    <g id="borda" fill="none" stroke="#cccccc" stroke-width="10" x="0">
+      <path d="M46.75,0.807L46.75,0.807v227.992c0,208.528,203.24,270.395,203.24,270.395s203.26-61.866,203.26-270.395V0.807H46.75z"/>
+    </g>
+
+    
+<g id="adorno" transform="scale(2) translate(64, 65)" data-nome="estrela branca">
+  <path d="M61 11L72.2257 45.2037L108.553 45.2037L79.1636 66.3427L90.3893 100.546L61 79.4073L31.6107 100.546L42.8364 66.3427L13.4472 45.2037L49.7743 45.2037L61 11Z" fill="white"/>
+</g>
+
+</svg>

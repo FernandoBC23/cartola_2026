@@ -1,0 +1,331 @@
+/* ========================================
+   styles_confrontos.css
+   → Estilos específicos da Libertadores
+======================================== */
+
+/* === Navegação de Rodadas === */
+.rodada-container {
+  max-width: 960px;
+  width: 100%;  
+  padding: 10px;  
+  margin: 10px auto 0; 
+  /* background-color: #28a745; */
+}
+
+.navegacao-rodada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.titulo-rodada {
+  font-size: 1rem;
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  padding: 6px 12px;
+  border-radius: 6px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+  font-weight: bold;
+}
+
+.navegacao-rodada button {
+  background-color: #FF7604;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+  transition: background-color 0.3s ease;
+}
+
+.navegacao-rodada button:hover {
+  background-color: #cc5a02;
+}
+
+.navegacao-rodada button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* === Destaque de líder do grupo === */
+/* .lider-grupo {
+  background-color: var(--texto);
+  color: var(--texto);
+  font-weight: bold;
+  border-left: 4px solid #28a745;
+} */
+
+/* === Cards de Grupos === */
+.tabela-grupo {
+  margin-bottom: 30px;
+}
+
+.tabela-grupo h2 {
+  font-size: 20px;
+  color: var(--texto);
+  text-align: left;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+/* === Tags de identificação extra === */
+.tag-clube {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  background-color: #2C3639;
+  color: white;
+  border-radius: 4px;
+}
+
+.tag-escudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 5px;
+  padding: 3px 8px;
+  background-color: #2C3639;
+  font-size: 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+/* === Escudo e Nome do Time === */
+.time-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.escudo {
+  width: 8%;
+  height: 8%;
+  object-fit: contain;
+  border-radius: 10%;
+  /* background-color: #28a745;  */
+}
+
+/* === Cards de Confrontos === */
+.jogo {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bloco);
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 16px auto;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+  flex-wrap: wrap;
+}
+
+.jogo .time {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.jogo .time img {
+  width: 35%;
+  height: 35%;
+  object-fit: contain;
+  border-radius: 10%;
+}
+
+.placar {
+  width: 50%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--texto);
+}
+
+.placar-x {
+  color: var(--destaque);
+  margin: 0 4px;
+}
+
+.resultado {
+  text-align: center;
+  font-size: 12px;
+  margin-top: -38px;
+}
+
+
+  /* Aviso de eliminação */
+  .aviso-eliminado {
+    max-width: 960px;
+    width: 100%;
+    background-color: #FFE6E1;
+    color: #2C3639;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border-left: 5px solid #e2421a;
+    border-radius: 4px;
+    margin: 20px auto;
+    max-width: 960px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+  }
+    
+  .eliminado-tag {
+  /* background-color: #A27B5C; */
+    background-color: #A27B5C;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-left: 8px;
+    font-weight: 600;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+    
+  .tabela-classificacao tr:hover .eliminado-tag {
+    transform: scale(1.05);
+    background-color: #e2421a;
+  }
+    
+  tr.eliminado-atual {
+    background-color: #FFE6E1;
+  }  
+
+  .resumo-eliminacao {
+    max-width: 960px;
+    width: 100%;
+    /* background-color: #3F4E4F; */
+    background-color: #3F4E4F;
+    border-left: 5px solid #A27B5C;
+    padding: 20px 25px;
+    /* margin: 40px auto 60px auto; */
+    margin: 40px auto 20px;
+    max-width: 960px;
+    border-radius: 10px;
+    /* color: #ffffff; */
+    color: #dcdcdc;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+      
+  .resumo-eliminacao h3 {
+    margin-bottom: 12px;
+    color: #FF7604;
+    font-size: 20px;
+    border-bottom: 1px solid #A27B5C;
+    padding-bottom: 6px;
+  }
+      
+  .resumo-eliminacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+      
+  .resumo-eliminacao li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+      
+  .resumo-eliminacao p {
+    margin: 12px 0;
+    font-weight: bold;
+  }
+
+
+/* ------------------------------------
+   RESPONSIVO - Mobile
+------------------------------------ */
+@media (max-width: 768px) {
+
+  .rodada-container{    
+    width: 95%;        
+    /* background-color: #28a745; */
+  }
+
+  .aviso-eliminado{    
+    width: 95%;
+  }
+
+  .resumo-eliminacao{
+    width: 95%;
+  }
+
+  .resumo-eliminacao h3 {
+    font-size: 16px;
+  }
+
+  .resumo-eliminacao li {    
+    font-size: 10px;    
+  }
+
+  .titulo-rodada {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .navegacao-rodada {
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .navegacao-rodada button {
+    font-size: 10px;
+    padding: 6px 10x;
+  }
+
+  .tabela-grupo h2 {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .tag-clube {
+    font-size: 8px;
+    margin-left: 3px;
+  }
+
+  .tag-escudo {
+    font-size: 8px;
+    padding: 2px 6px;
+  }
+
+  .escudo {
+    width: 20%;
+    height: 20%;
+  } 
+
+  .placar {
+    font-size: 18px;
+  }
+
+  .resultado {
+    font-size: 10px;
+    margin-top: -30px;
+  }
+
+  .resumo-rodada {
+    padding: 12px 16px;
+    margin: 20px 10px;
+    font-size: 10px;
+  }
+
+  .resumo-rodada h3 {
+    font-size: 13px;
+  }
+
+  .resumo-rodada ul li {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,21 @@
+<svg width="500px" height="525px" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <clipPath id="formato">
+        <ellipse cx="250.001" cy="250" rx="175.786" ry="249.802"/>
+      </clipPath>
+    </defs>
+
+    <g id="fundo" fill="#0066ff" x="0">
+      <ellipse cx="250.001" cy="250" rx="175.786" ry="249.802"/>
+    </g>
+
+    <g id="estampa1" x="0" clip-path="url(#formato)"></g>
+
+    <g id="borda" fill="none" stroke="#000000" stroke-width="10" x="0">
+      <ellipse cx="250.001" cy="250" rx="175.786" ry="249.802"/>
+    </g>
+
+    
+<g id="adorno"></g>
+
+</svg>

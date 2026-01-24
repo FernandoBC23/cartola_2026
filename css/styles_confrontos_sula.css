@@ -1,0 +1,97 @@
+/* === Padrão visual === */
+body {
+  background-color: var(--fundo);
+  font-family: 'Inter', sans-serif;
+  color: var(--texto);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--bloco);
+  border-bottom: 4px solid var(--destaque);
+  padding: 12px 20px;
+}
+
+h1 {
+  color: var(--texto);
+  font-size: 22px;
+  margin: 0;
+}
+
+/* === Logo padrão === */
+.logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+}
+
+/* === Container do bracket === */
+#bracket {
+  margin: 10px auto;
+  max-width: 960px;
+  background-color: var(--bloco);
+  border-radius: 12px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+/* === Rodada atual === */
+.info-rodada {
+  max-width: 960px;
+  margin: 10px auto 10px auto;
+  background-color: var(--destaque);
+  color: var(--preto);
+  text-align: center;
+  padding: 10px;  
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* === Estilo do Bracket === */
+.jQBracket .team {
+  color: var(--texto);
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.jQBracket .score {
+  color: var(--texto);
+  background-color: #444;
+  font-size: 13px;
+  width: 50px;
+}
+
+/* Destacar vencedores e perdedores */
+.jQBracket .score.winner {
+  background-color: #2e7d32; /* verde escuro */
+  color: white;
+}
+
+.jQBracket .score.loser {
+  background-color: #b71c1c; /* vermelho escuro */
+  color: white;
+}
+
+/* Fase futura ainda não definida */
+.jQBracket .team .label:contains('TBD') {
+  opacity: 0.5;
+}
+
+/* Classificados ainda ocultos (jogo de ida) */
+.classificado-oculto {
+  opacity: 0.3;
+}
+
+.classificado-visivel {
+  font-weight: bold;
+  color: var(--texto);
+}

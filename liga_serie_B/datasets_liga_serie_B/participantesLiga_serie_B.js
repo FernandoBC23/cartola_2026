@@ -1,0 +1,22 @@
+window.participantesLiga = [
+  "CAFÉ AMARGO PRO26.2",
+  "cartola scheuer17",
+  "Dom Camillo68",
+  "FBC Colorado",
+  "Fedato Futebol Clube",
+  "Gremiomaniasm",
+  "JV5 Tricolor Gaúcho",
+  "lsauer fc",
+  "Mau Humor F.C.",
+  "Paulo Virgili FC",
+  "Pity10",
+  "pura bucha/internacional",
+  "PUXE FC",
+  "Rolo Compressor ZN",
+  "seralex",
+  "Sport Clube PAIM",
+  "Tatols Beants F.C",
+  "TEAM LOPES 99",
+  "Texas Club 2026",
+  "TIGRE LEON"
+];

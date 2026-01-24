@@ -1,0 +1,428 @@
+/* ========================================
+   styles_confrontos.css
+   → Estilos específicos para páginas com confrontos e classificação
+======================================== */
+
+/* Rodada - Navegação */
+  .rodada-container {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navegacao-rodada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  
+  .titulo-rodada {
+    font-size: 1rem;
+    background-color: #3F4E4F;
+    color: #DCD7C9;
+    padding: 6px 12px;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+    font-weight: bold;
+  }
+  
+  .navegacao-rodada button {
+    background-color: #FF7604;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+    transition: background-color 0.3s ease;
+  }
+  
+  .navegacao-rodada button:hover {
+    background-color: #8f654f;
+  }
+  
+  .navegacao-rodada button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  
+  /* === Destaque do líder do grupo === */
+  .lider-grupo {
+    background-color: var(--texto);
+    color: var(--texto);
+    font-weight: bold;
+    border-left: 4px solid #FF7604;
+  } 
+
+
+  .titulo-grupo {
+    width: 100%;
+    max-width: 960px;
+    margin: 30px auto 0; /* mantém o espaçamento acima */
+    padding: 10px 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 5px; /* 👈 colado na tabela */
+  } 
+
+
+  .tag-clube {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    background-color: #2C3639;
+    color: white;
+    border-radius: 4px;
+  }
+
+  .tag-escudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+    padding: 3px 8px;
+    background-color: #2C3639;
+    font-size: 10px;
+    color: white;
+    border-radius: 4px;
+  } 
+  
+  
+  /* === Escudo e Nome do Time === */
+  .time-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .escudo {
+    width: 8%;
+    height: 8%;
+    object-fit: contain;
+    border-radius: 10%;
+    /* background-color: #28a745; */
+  }
+  
+  /* === Cards de Confrontos === */
+  .jogo {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bloco);
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin: 16px auto;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+    flex-wrap: wrap;
+  }
+  
+  .jogo .time {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .jogo .time img {
+    width: 35%;
+    height: 35%;
+    object-fit: contain;
+    border-radius: 10%;
+    background-color: #F7F9F9;
+  }
+  
+  .placar {
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--texto);
+  }
+  
+  .placar-x {
+    color: var(--destaque);
+    margin: 0 4px;
+  }
+  
+  .resultado {
+    text-align: center;
+    font-size: 12px;
+    margin-top: -38px;
+  }
+
+/* Card de Resumo da Rodada */
+.resumo-rodada {
+    background-color: #3F4E4F;
+    border-left: 5px solid #A27B5C;
+    padding: 15px 20px;
+    margin: 30px auto;
+    max-width: 960px;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  
+  .resumo-rodada h3 {
+    margin-bottom: 10px;
+    color: #FF7604;
+    font-size: 18px;
+    border-bottom: 1px solid #FF7604;
+    padding-bottom: 5px;
+  }
+  
+  .resumo-rodada ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resumo-rodada ul li {
+    margin-bottom: 6px;
+    font-size: 15px;
+  }
+
+  /* ----------------------------------------------------------------- */
+
+  /* Destaque base para líderes */
+  .lider-grupo td {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+
+  /* Destaque para o Campeão */
+  tr.campeao td {    
+    background-color: rgba(255, 215, 0, 0.08);
+    color: #e8f0ea;
+    background: #269846;
+  }
+
+  /* Destaque para o 3º lugar */
+  tr.terceiro-lugar td {    
+    background-color: rgba(205, 127, 50, 0.08);
+    color: #e8f0ea;
+    background: #e28a32;
+  }
+
+  /* Organização horizontal do nome + escudo + tags */
+  .tabela-classificacao .time-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  tr.campeao td:first-child::before {
+  content: "🏆 ";
+  margin-right: 4px;
+  }
+
+  tr.terceiro-lugar td:first-child::before {
+    content: "🥉 ";
+    margin-right: 4px;
+  }
+
+  /* ------------------------------------------------------------------ */
+
+  
+
+/* ------------------------------------
+   RESPONSIVO PARA DISPOSITIVOS MÓVEIS
+   ------------------------------------ */
+   @media (max-width: 768px) {
+
+    /* body {
+      font-size: 12px;      
+    } */
+  
+    /* .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+   */
+    /* .logo {
+      width: 50%;
+      height: 20%;
+    } */
+  
+    /* .header h1 {
+      font-size: 20px;
+    } */
+  
+    /* .navbar ul {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 4px;
+    }
+   */
+    /* .navbar a {
+      font-size: 10px;
+      padding: 2px 8px;
+    } */
+  
+    .rodada-container {
+      padding: 5px;
+    }
+  
+    .navegacao-rodada {
+      flex-direction: row;
+      gap: 8px;
+      margin-top: 10px;
+    }
+  
+    .titulo-rodada {
+      font-size: 0.8rem;
+      padding: 6px 10px;
+      text-align: center;    
+      box-shadow: 2px 4px 8px rgba(0,0,0,0.9); 
+    }
+  
+    .navegacao-rodada button {
+      font-size: 10px;
+      padding: 6px 12px;
+      /* box-shadow: 2px 4px 8px rgba(0,0,0,0.9); */
+    }
+  
+    .painel-grupos {
+      padding: 0 10px;
+    }
+  
+    .grupo-linha {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .grupo-linha .coluna-esquerda,
+    .grupo-linha .coluna-direita {
+      flex: 1 1 100%;
+    }
+
+    /* .tabela-grupo h2 {
+      font-size: 14px;
+      text-align: left;
+      margin-top: 30px;
+      margin-bottom: 5px;
+    } */
+
+    /* .titulo-grupo {
+      width: 100%;      
+      padding: 5px 10px;   
+      font-size: 14px;    
+      margin-bottom: 0; 
+    }  */
+  
+    .tabela-classificacao {
+      margin-top: 0;      
+      width: 95%;  
+      font-size: 10px;      
+    }
+  
+    .tabela-classificacao th,
+    .tabela-classificacao td {
+      padding: 8px;
+    }
+
+    .tag-clube {      
+      margin-left: 3px;      
+      font-size: 8px;    
+    }
+    
+    .tag-escudo {      
+      padding: 3px 8px;
+      background-color: #2C3639;
+      font-size: 8px;
+      color: white;
+      border-radius: 4px;
+    } 
+  
+    .time-info {
+      flex-direction: row;
+      gap: 5px;
+    }
+  
+    .escudo {
+      width: 35%;
+      height: 35%;
+    } 
+  
+    .jogo {
+      max-width: 960px;
+      width: 95%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #3F4E4F;
+      border-radius: 12px;
+      padding: 10px 10px;
+      margin: 12px auto;          
+      box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+    }
+  
+    .jogo .time {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .jogo .time img {
+      width: 60%;
+      height: 60%;
+      object-fit: contain;
+      border-radius: 10%;
+    }
+  
+    .placar {
+      width: 50%;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: #DCD7C9;
+    }
+  
+    .placar-x {
+      color: #A27B5C;
+      margin: 0 4px;
+    }
+
+    .resultado {
+      text-align: center;
+      font-size: 10px;
+      margin-top: -30px;
+    }
+
+    /* .resumo-rodada {
+      padding: 12px 16px;
+      margin: 20px 10px;
+      font-size: 10px;
+    } */
+    
+    /* .resumo-rodada h3 {
+      font-size: 13px;
+    } */
+    
+    /* .resumo-rodada ul li {
+      font-size: 13px;
+    }     */
+  
+    /* .footer {
+      font-size: 10px;
+      padding: 10px;
+    } */
+  }
+
+  
+  

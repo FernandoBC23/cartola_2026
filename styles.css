@@ -1,0 +1,445 @@
+/* ------------------------------------
+   styles.css (Global)
+   → Estilos compartilhados padronizados
+------------------------------------ */
+
+/* Paleta principal:
+   Fundo: #2C3639
+   Bloco: #3F4E4F
+   Destaque: #A27B5C
+   Texto: #DCD7C9
+*/
+
+/* Base */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #2C3639;
+  color: #DCD7C9;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+h1, h2 {
+  color: #2C3639;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+/* Header / Navegação */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #3F4E4F;
+  padding: 12px 20px;
+  border-bottom: 3px solid #A27B5C;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #DCD7C9;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #DCD7C9;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #A27B5C;
+  border-bottom: 2px solid #A27B5C;
+}
+
+.navbar a.ativo {
+  color: #A27B5C;
+  border-bottom: 2px solid #A27B5C;
+}
+
+/* Rodada - Navegação */
+.rodada-container {
+  padding: 10px;
+  text-align: center;
+}
+
+.navegacao-rodada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.titulo-rodada {
+  font-size: 1rem;
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  padding: 6px 12px;
+  border-radius: 6px;
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+}
+
+.navegacao-rodada button {
+  background-color: #A27B5C;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.navegacao-rodada button:hover {
+  background-color: #8f654f;
+}
+
+.navegacao-rodada button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Painel de Grupos */
+#painel-grupos {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: aqua;
+}
+
+.grupo-linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  background-color: chartreuse;
+}
+
+.grupo-linha .coluna-esquerda,
+.grupo-linha .coluna-direita {
+  flex: 1 1 48%;
+}
+
+/* Confrontos */
+/* .jogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3F4E4F;
+  border-radius: 12px;
+  padding: 6px 10px;
+  margin: 20px auto 10px auto;
+  max-width: 80%;
+} */
+
+/* .jogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3F4E4F;
+  border-radius: 12px;
+  padding: 6px 10px;
+  margin: 16px auto;
+  width: 95%;
+  max-width: 1280px;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.8);
+  flex-wrap: wrap;
+} */
+
+
+.time {
+  text-align: center;
+  width: 30%;
+}
+
+.time img {
+  width: 30%;
+  height: 30%;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.placar {
+  text-align: center;
+  width: 40%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.placar-x {
+  color: #A27B5C;
+}
+
+.resultado {
+  text-align: center;
+  margin-top: -38px;
+}
+
+/* Cards de Competições */
+.competicoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.card-competicao {
+  background-color: #DCDCDC;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  /* height: 150px; */
+  text-decoration: none;
+  color: #3F4E4F;
+  box-shadow: 4px 8px 12px rgba(0,0,0,0.9);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-competicao:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 12px 16px rgba(0,0,0,0.9);
+}
+
+.card-competicao img {
+  width: 100%;
+  height: 130px; /* altura fixa para padronizar os escudos */
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 12px; /* libera espaço para o título */
+}
+
+.card-competicao h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3F4E4F;
+  text-align: center;
+}
+
+
+/* Página em Construção */
+.pagina-construcao {
+  text-align: center;
+  margin: 60px auto;
+  padding: 40px;
+  border: 2px dashed #A27B5C;
+  border-radius: 12px;
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  max-width: 600px;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.pagina-construcao h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+#resumo-eliminacao {
+  background-color: #3F4E4F;
+  border-left: 5px solid #A27B5C;
+  padding: 20px 25px;
+  margin: 40px auto 60px auto;
+  max-width: 960px;
+  border-radius: 10px;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 15px;
+}
+
+#resumo-eliminacao h3 {
+  margin-bottom: 12px;
+  color: #A27B5C;
+  font-size: 20px;
+  border-bottom: 1px solid #A27B5C;
+  padding-bottom: 6px;
+}
+
+#resumo-eliminacao ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+#resumo-eliminacao li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#resumo-eliminacao p {
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+#resumo-eliminacao li::before {
+  content: "•";
+  color: #A27B5C;
+  margin-right: 6px;
+}
+
+
+/* Rodapé */
+.footer {
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  border-top: 1px solid #2C3639;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+
+
+/* ------------------------------------
+   RESPONSIVO PARA DISPOSITIVOS MÓVEIS
+   ------------------------------------ */
+   @media (max-width: 768px) {
+
+    body {
+      font-size: 13px;
+      padding: 0 16px;
+    }
+  
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .logo-titulo {
+      flex-direction: row;
+      align-items: center;
+      gap: 12px;
+    }
+  
+    .logo {
+      width: 20%;
+      height: 20%;
+    }
+  
+    .header h1 {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 8px;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      padding-left: 0;
+      margin-top: 8px;
+    }
+  
+    .navbar a {
+      font-size: 13px;
+      padding: 4px 8px;
+    }
+  
+    .competicoes {
+      flex-direction: row;
+      align-items: center;
+      padding: 20px;
+      gap: 24px;
+    }
+  
+    .card-competicao {
+      width: 31%; /* Dois cards por linha no celular */
+    }
+  
+    .card-competicao img {
+      height: 100px; /* um pouco menor no mobile */
+    }
+  
+    .card-competicao h2 {
+      font-size: 0.9rem;
+    }
+  
+    .pagina-construcao {
+      padding: 20px;
+      margin: 40px 0;
+      max-width: 90%;
+      font-size: 14px;      
+    }
+  
+    .pagina-construcao h2 {
+      font-size: 20px;
+    }
+  
+    footer {
+      margin-top: auto;
+      text-align: center;
+      color: #ccc;
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 10px 5px;
+      font-size: 0.85rem;
+      border-top: 1px solid #555;
+      margin-top: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+  }
+  

@@ -1,0 +1,215 @@
+/* ------------------------------------
+   styles_liga_classica.css
+   → Estilo unificado no padrão escuro elegante
+------------------------------------ */
+
+/* Fundo escuro base */
+body {
+  background-color: #2C3639;
+  font-family: 'Inter', sans-serif;
+  color: #DCD7C9;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #3F4E4F;
+  border-bottom: 3px solid #A27B5C;
+}
+
+.header h1 {
+  color: #DCD7C9;
+}
+
+.navbar a {
+  color: #DCD7C9;
+}
+
+.navbar a.ativo {
+  color: #A27B5C;
+  border-bottom: 2px solid #A27B5C;
+}
+
+/* Abas de navegação */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.tab {
+  padding: 8px 16px;
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+  width: 7%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab:hover {
+  background-color: #5e6d6f;
+}
+
+.tab.active {
+  background-color: #A27B5C;
+  color: white;
+}
+
+/* Tabela de classificação */
+.tabela-classificacao {
+  width: 100%;
+  max-width: 960px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #f7f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tabela-classificacao th {
+  background-color: #252525;
+  color: #DCDCDC;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.tabela-classificacao td {
+  padding: 10px;
+  border-bottom: 1px solid #2C3639;
+  color: #252525;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.tabela-classificacao tbody tr:hover {
+  background-color: #ececec;
+  transition: background-color 0.3s ease;
+}
+
+/* Destaque das posições */
+.primeiro {
+  background-color: #ffeaa7;
+}
+
+.segundo {
+  background-color: #dfe6e9;
+}
+
+.terceiro {
+  background-color: #fab1a0;
+}
+
+.top5 {
+  background-color: #e2f0cb;
+}
+
+/* Escudo e time */
+.time-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.escudo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  text-align: center;
+  padding: 15px;
+}
+
+
+/* ------------------------------------
+   RESPONSIVO - Liga Clássica (Mobile)
+------------------------------------ */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin-top: 8px;
+  }
+
+  .navbar a {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .tab {
+    width: 20%; /* aumenta a largura para facilitar o toque */
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .tabela-classificacao {
+    font-size: 12px;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .tabela-classificacao th,
+  .tabela-classificacao td {
+    padding: 8px;
+  }
+
+  .time-info {
+    gap: 6px;
+  }
+
+  .escudo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+

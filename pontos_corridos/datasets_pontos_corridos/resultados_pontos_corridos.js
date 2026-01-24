@@ -1,0 +1,1 @@
+const resultadosFase1 = [];

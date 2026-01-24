@@ -1,0 +1,264 @@
+/* ------------------------------------
+   styles_sula.css
+   → Estilo visual padronizado da Sul-Americana
+------------------------------------ */
+
+/* Fundo escuro base */
+body {
+  background-color: #2C3639;
+  font-family: 'Inter', sans-serif;
+  color: #DCD7C9;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #3F4E4F;
+  border-bottom: 3px solid #A27B5C;
+}
+
+.header h1 {
+  color: #DCD7C9;
+}
+
+/* Navbar */
+.navbar a {
+  color: #DCD7C9;
+}
+
+.navbar a.ativo {
+  color: #A27B5C;
+  border-bottom: 2px solid #A27B5C;
+}
+
+/* Títulos */
+h2, .titulo-rodada, .titulo-grupo {
+  color: #A27B5C;
+}
+
+/* Tabela */
+.tabela-classificacao {
+  width: 100%;
+  max-width: 960px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #f7f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tabela-classificacao th {
+  background-color: #252525;
+  color: #DCDCDC;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.tabela-classificacao td {
+  padding: 10px;
+  border-bottom: 1px solid #2C3639;
+  color: #252525;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.tabela-classificacao tbody tr:hover {
+  background-color: #ececec;
+  transition: background-color 0.3s ease;
+}
+
+/* Escudo e time */
+.time-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.escudo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Página em construção */
+.pagina-construcao {
+  border: 2px dashed #A27B5C;
+  color: #A27B5C;
+  background-color: #3F4E4F;
+  padding: 30px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 600px;
+  font-weight: bold;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.pagina-construcao h2 {
+  color: #DCD7C9;
+  margin-bottom: 10px;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+/* ------------------------------------
+   RESPONSIVO PARA DISPOSITIVOS MÓVEIS
+   ------------------------------------ */
+   @media (max-width: 768px) {
+
+    body {
+      font-size: 12px;
+      /* padding: 0 16px; */
+    }
+  
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .logo {
+      width: 36px;
+      height: 36px;
+    }
+  
+    .header h1 {
+      font-size: 18px;
+    }
+  
+    .navbar ul {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 4px;
+    }
+  
+    .navbar a {
+      font-size: 12px;
+      padding: 2px 10px;
+    }
+  
+    .rodada-container {
+      padding: 5px;
+    }
+  
+    .navegacao-rodada {
+      flex-direction: row;
+      gap: 8px;
+      margin-top: 10px;
+    }
+  
+    .titulo-rodada {
+      font-size: 0.8rem;
+      padding: 6px 10px;
+      text-align: center;     
+    }
+  
+    .navegacao-rodada button {
+      font-size: 10px;
+      padding: 6px 12px;
+    }
+  
+    #painel-grupos {
+      padding: 0 10px;
+    }
+  
+    .grupo-linha {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .grupo-linha .coluna-esquerda,
+    .grupo-linha .coluna-direita {
+      flex: 1 1 100%;
+    }
+
+    .tabela-grupo h2 {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .tabela-classificacao {
+      margin-top: 0;
+      width: 100%;
+      max-width: 932px;
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: #f7f9f9;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      font-size: 10px;
+    }
+  
+    .tabela-classificacao th,
+    .tabela-classificacao td {
+      padding: 8px;
+    }
+  
+    .time-info {
+      flex-direction: row;
+      gap: 6px;
+    }
+  
+    .escudo {
+      width: 36px;
+      height: 36px;
+    } 
+  
+    .jogo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #3F4E4F;
+      border-radius: 12px;
+      padding: 10px 14px;
+      margin: 12px auto;
+      width: 100%;
+      max-width: 360px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+  
+    .jogo .time {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .jogo .time img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+  
+    .placar {
+      width: 50%;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: #DCD7C9;
+    }
+  
+    .placar-x {
+      color: #A27B5C;
+      margin: 0 4px;
+    }
+  
+    .footer {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,321 @@
+/* ------------------------------------
+   styles_libertadores.css
+   → Estilo adaptado para o novo layout escuro
+------------------------------------ */
+
+body {
+  background-color: #2C3639;
+  font-family: 'Inter', sans-serif;
+  color: #DCD7C9;
+}
+
+.header {
+  background-color: #3F4E4F;
+  border-bottom: 3px solid #A27B5C;
+}
+
+.header h1 {
+  color: #DCD7C9;
+}
+
+.navbar a {
+  color: #DCD7C9;
+}
+
+.navbar a.ativo {
+  color: #A27B5C;
+  border-bottom: 2px solid #A27B5C;
+}
+
+.rodada-container {
+  padding: 10px;
+}
+
+.navegacao-rodada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.titulo-rodada {
+  max-width: 960px;
+  background-color: #3F4E4F;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+  color: #DCD7C9;
+}
+
+/* Botões */
+.navegacao-rodada button,
+.navegacao-rodada button:focus {
+  background-color: #A27B5C;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.navegacao-rodada button:hover {
+  background-color: #8f654f;
+}
+
+/* Tabela de classificação */
+.tabela-classificacao {
+  max-width: 960px;
+  width: 100%; 
+  margin: 10px auto;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #f7f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+.tabela-classificacao th {
+  background-color: #252525;
+  color: #DCDCDC;
+  padding: 12px;
+}
+
+.tabela-classificacao td {
+  padding: 10px;
+  border-bottom: 1px solid #2C3639;
+  color: #252525;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tabela-classificacao tbody tr:hover {
+  background-color: #DCDCDC;
+  transition: background-color 0.3s ease;
+}
+
+.jogo {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3F4E4F;
+  border-radius: 12px;
+  padding: 6px 10px;
+  margin: 16px auto;  
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.8);
+  flex-wrap: wrap;
+}
+
+/* Escudo e nome do time */
+.time-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.escudo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Grupos */
+.tabela-grupo {
+  margin-bottom: 30px;
+}
+
+.tabela-grupo h2 {
+  font-size: 20px;
+  color: #DCD7C9;
+  /* margin: 15px auto; */
+  text-align: left;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+
+/* Destaque para o líder do grupo */
+.lider-grupo {
+  background-color: #DCD7C9;
+  color: #DCDCDC;
+  font-weight: bold;
+  border-left: 4px solid #28a745;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+/* ------------------------------------
+   RESPONSIVO PARA DISPOSITIVOS MÓVEIS
+   ------------------------------------ */
+   @media (max-width: 768px) {
+
+    body {
+      font-size: 12px;
+      /* padding: 0 16px; */
+    }
+  
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .logo {
+      width: 20%;
+      height: 20%;
+    }
+  
+    .header h1 {
+      font-size: 18px;
+    }
+  
+    .navbar ul {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 4px;
+    }
+  
+    .navbar a {
+      font-size: 10px;
+      padding: 2px 8px;
+    }
+  
+    .rodada-container {
+      padding: 5px;
+    }
+  
+    .navegacao-rodada {
+      flex-direction: row;
+      gap: 8px;
+      margin-top: 10px;
+    }
+  
+    .titulo-rodada {
+      font-size: 10px;
+      padding: 6px 6px;
+      text-align: center;     
+    }
+  
+    .navegacao-rodada button {
+      font-size: 10px;
+      padding: 6px 10px;
+    }
+  
+    #painel-grupos {
+      padding: 0 10px;
+    }
+  
+    .grupo-linha {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .grupo-linha .coluna-esquerda,
+    .grupo-linha .coluna-direita {
+      flex: 1 1 100%;
+    }
+
+    .tabela-grupo h2 {
+      font-size: 14px;
+      text-align: left;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .tabela-classificacao {
+      margin-top: 20px;
+      width: 100%;
+      max-width: 932px;
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: #f7f9f9;
+      box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+      font-size: 10px;
+    }
+  
+    .tabela-classificacao th,
+    .tabela-classificacao td {
+      padding: 8px;
+    }
+  
+    .time-info {
+      flex-direction: row;
+      gap: 5px;
+    }
+  
+    .escudo {
+      width: 25%;
+      height: 25%;
+    } 
+ 
+
+    .jogo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #3F4E4F;
+      border-radius: 12px;
+      padding: 10px 14px;
+      margin: 16px auto;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+      flex-wrap: wrap;
+    }
+    
+  
+    .jogo .time {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .jogo .time img {
+      width: 60%;
+      height: 60%;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+  
+    .placar {
+      width: 50%;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: #DCD7C9;
+    }
+    
+    .resultado {
+      text-align: center;
+      font-size: 8px;
+      margin-top: -30px;
+    }    
+  
+    .placar-x {
+      color: #A27B5C;
+      margin: 0 4px;
+    }
+  
+    .footer {
+      font-size: 10px;
+      padding: 8px;
+    }
+  }
+  

@@ -1,0 +1,73 @@
+<!-- liga_classica_premiacoes.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liga Clássica</title>
+
+  <!-- Estilos globais e especificos -->
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_classica.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="loaded">
+  <!-- Cabecalho -->
+  <header class="header">
+    <div class="header-content container-central">
+      <div class="logo-titulo">
+        <img src="../imagens/logo_liga_classica_gerado_fb_1.png" alt="Logo" class="logo" />
+        <h1>Liga Clássica 2026</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="../portal-leon/index.html">Painel Competicoes</a></li>          
+          <li><a class="ativo" href="./liga_classica.html">Liga Clássica</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteudo -->
+  <main class="container-central">
+    <!-- Abas -->
+    <div class="tabs" id="tabs-container"></div>
+
+    <!-- Tabela de Classificacao -->
+    <section>
+      <div id="info-atualizacao" class="info-atualizacao"></div>
+      <table class="tabela-classificacao">
+        <thead>
+          <tr>
+            <th>Posicao</th>
+            <th>Time</th>
+            <th>Total de Pontos</th>
+          </tr>
+        </thead>
+        <tbody id="classificacao-corpo"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Rodape -->
+  <footer class="footer">
+    <div class="footer-content container-central">
+      <p>© 2026 Liga Clássica | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../transicoes.js"></script>
+  <script src="../scripts/escudos_times.js"></script>
+  <script src="./datasets_liga_classica/Pontuacoes_Liga_Classica.js"></script>
+  <script src="./scripts_liga_classica_aluna/liga_classica.js"></script>
+</body>
+</html>
+
+
+
+
+
+

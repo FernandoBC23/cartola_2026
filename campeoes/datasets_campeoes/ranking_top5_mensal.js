@@ -1,0 +1,1 @@
+const rankingTop5Mensal = [];

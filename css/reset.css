@@ -1,0 +1,58 @@
+/* reset.css */
+/* Remover margens, paddings e bordas padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remover estilos padrões de títulos e textos */
+  h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre,
+  dl, dd, ol, ul,
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remover bullets e numeração */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* Remover formatações padrão de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remover estilo padrão de botões */
+  button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  /* Garantir que imagens não saiam da caixa */
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  /* Zerar borda e aparência padrão dos inputs */
+  input, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  /* HTML e body com altura mínima */
+  html, body {
+    height: 100%;
+  }
+  

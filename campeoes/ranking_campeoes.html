@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ranking de Campeões</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_classica.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="loaded">
+
+  <header class="header">
+    <div class="header-content container-central">
+      <div class="logo-titulo">
+        <img src="../imagens/logo-ranking-campeoes.png" alt="Logo" class="logo" />
+        <h1>Ranking de Campeões</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="../index.html">Painel Competições</a></li>
+          <li><a class="ativo" href="./ranking_campeoes.html">Ranking Campeões</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container-central">
+    <section>
+      <label for="select-competicao"><strong>Escolha a competição:</strong></label>
+      <select id="select-competicao"></select>
+    </section>
+
+    <section>
+      <table class="tabela-classificacao">
+        <thead>
+          <tr>
+            <th>Posição</th>
+            <th>Time</th>
+            <th>Pontos</th>
+            <th>Aparições</th>
+            <th>Meses</th>
+          </tr>
+        </thead>
+        <tbody id="corpo-ranking-campeoes"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content container-central">
+      <p>© 2025 Ranking de Campeões | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_campeoes/ranking_top5_mensal.js"></script>
+  <script src="../scripts/escudos_times.js"></script>
+  <script src="./scripts_campeoes/ranking_campeoes.js"></script>
+</body>
+</html>

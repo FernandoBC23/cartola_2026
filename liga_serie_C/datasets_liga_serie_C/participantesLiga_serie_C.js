@@ -1,0 +1,22 @@
+window.participantesLiga = [
+  "A Lenda Super Vasco F.c",
+  "CAFÉ AMARGO PRO26.2",
+  "cartola scheuer17",
+  "Dom Camillo68",
+  "FBC Colorado",
+  "Fedato Futebol Clube",
+  "Gremiomaniasm",
+  "lsauer fc",
+  "Mau Humor F.C.",
+  "mercearia Estrela",
+  "Paulo Virgili FC",
+  "pra sempre imortal fc",
+  "pura bucha/internacional",
+  "Rolo Compressor ZN",
+  "seralex",
+  "TATITTA FC",
+  "Tatols Beants F.C",
+  "TEAM LOPES 99",
+  "Texas Club 2026",
+  "TIGRE LEON"
+];

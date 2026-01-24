@@ -1,0 +1,463 @@
+<!-- scouts.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scouts dos Jogadores</title>
+  <link rel="stylesheet" href="../css/reset.css" />  
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #2C3639;
+      color: #DCD7C9;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fcd535;
+    }
+
+    .filtros {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .filtros select,
+    .filtros input,
+    .filtros label {
+      font-size: 16px;
+    }
+
+    .checkboxes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      max-width: 600px;
+      justify-content: center;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #fcd535;
+    }
+
+    .tabela-wrapper {
+      max-height: 400px;
+      overflow-y: auto;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #3F4E4F;
+      color: white;
+      min-width: 600px;
+      font-size: 12px;
+    }
+
+    th, td {
+      padding: 8px;
+      border: 1px solid #555;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    th {
+      background-color: #A27B5C;
+    }
+
+    th.sortable:hover {
+      background-color: #c89c7b;
+    }
+
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    button {
+      margin-right: 10px;
+      padding: 4px 8px;
+      background-color: #A27B5C;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #c89c7b;
+    }
+  </style>
+</head>
+<body>
+  <h1>📊 Scouts Totais por Jogador</h1>
+
+  <div class="filtros">
+    <div>
+      <label for="filtroPosicao">Posição:</label><br>
+      <select id="filtroPosicao">
+        <option value="todas">Todas</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="filtroClube">Clube:</label><br>
+      <select id="filtroClube">
+        <option value="todos">Todos</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="filtroNome">Nome:</label><br>
+      <input type="text" id="filtroNome" placeholder="Buscar jogador..." style="padding: 5px; width: 180px;" />
+    </div>
+
+    <div>
+      <label><strong>Scouts:</strong></label>
+      <div style="margin-bottom: 10px;">
+        <button id="btnSelecionarTodos">Selecionar Todos</button>
+        <button id="btnLimparTodos">Limpar Todos</button>
+      </div>
+      <label><strong>Positivos:</strong></label>
+      <div id="filtroScoutsPositivos" class="checkboxes" style="max-height: 100px; overflow-y: auto;"></div>
+      <label><strong>Negativos:</strong></label>
+      <div id="filtroScoutsNegativos" class="checkboxes" style="max-height: 100px; overflow-y: auto;"></div>
+    </div>
+  </div>
+
+  <div id="cards-destaque" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 30px;"></div>
+
+  <div id="conteudo-scouts"></div>
+
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_scouts/scouts_totais.js"></script>
+
+  <script>
+    const div = document.getElementById('conteudo-scouts');
+    const selectPosicao = document.getElementById('filtroPosicao');
+    const selectClube = document.getElementById('filtroClube');
+    const inputNome = document.getElementById('filtroNome');
+    const filtroScoutsPositivos = document.getElementById('filtroScoutsPositivos');
+    const filtroScoutsNegativos = document.getElementById('filtroScoutsNegativos');
+
+    const ordemScouts = ["G", "A", "FT", "FD", "FF", "DS", "PC", "PS", "FS", "SG", "DE", "DP", "GS", "FC", "GC", "PP", "I", "CA", "CV"];
+    const scoutsPositivos = ["G", "A", "FT", "FD", "FF", "DS", "FS", "SG", "DE", "DP", "PS"];
+    const scoutsNegativos = ["GS", "FC", "GC", "PP", "I", "CA", "CV"];
+
+    const pesosScouts = {
+      G: 8.0, A: 5.0, FT: 3.0, FD: 1.2, FF: 0.8,
+      FS: 0.5, PS: 1.0, DS: 1.5, DE: 1.3, DP: 7.0,
+      SG: 5.0, GC: -3.0, CV: -3.0, CA: -1.0, GS: -1.0,
+      FC: -0.3, PC: -1.0, I: -0.1
+    };
+
+
+    let scoutsSelecionados = [];
+
+    function getScoutsSelecionados() {
+      return [
+        ...document.querySelectorAll("#filtroScoutsPositivos input[type='checkbox']:checked"),
+        ...document.querySelectorAll("#filtroScoutsNegativos input[type='checkbox']:checked")
+      ].map(cb => cb.value);
+    }
+
+    function criarTabela(jogadoresPorPosicao, scouts) {
+      if (!jogadoresPorPosicao || scouts.length === 0) return '';
+
+      const scoutsOrdenados = ordemScouts.filter(s => scouts.includes(s));
+
+      let html = `<div class="tabela-wrapper"><table><thead><tr>`;
+      html += `<th class="sortable" onclick="ordenarPor(this, 'todos', 'Nome do Jogador')">Jogador</th>`;
+      html += `<th class="sortable" onclick="ordenarPor(this, 'todos', 'Clube')">Clube</th>`;
+      html += `<th class="sortable" onclick="ordenarPor(this, 'todos', 'Posição')">Posição</th>`;
+
+      scoutsOrdenados.forEach(s => {
+        html += `<th class="sortable" onclick="ordenarPor(this, 'todos', '${s}')">${s}</th>`;
+      });
+
+      html += `<th class="sortable" onclick="ordenarPor(this, 'todos', '__TOTAL_POS__')">Pont. Positiva</th>`;
+      html += `<th class="sortable" onclick="ordenarPor(this, 'todos', '__TOTAL_NEG__')">Pont. Negativa</th>`;
+      html += `<th class="sortable" onclick="ordenarPor(this, 'todos', '__PONT_TOTAL__')">Pontuação Total</th>`;
+      html += `</tr></thead><tbody id="tbody-todos">`;
+
+      Object.entries(jogadoresPorPosicao).forEach(([posicao, jogadores]) => {
+        jogadores.forEach(j => {
+          html += `<tr><td>${j["Nome do Jogador"]}</td><td>${j["Clube"]}</td><td>${posicao}</td>`;
+
+          let totalPositivo = 0;
+          let totalNegativo = 0;
+
+          scoutsOrdenados.forEach(s => {
+            const valor = j[s] ? 0;
+            const peso = pesosScouts[s] ? 0;
+            const pts = valor * peso;
+
+            if (peso > 0) totalPositivo += pts;
+            if (peso < 0) totalNegativo += pts;
+
+            html += `<td>${valor}</td>`;
+          });
+
+          const totalFinal = totalPositivo + totalNegativo;
+
+          html += `<td><strong>${totalPositivo.toFixed(1)}</strong></td>`;
+          html += `<td><strong>${totalNegativo.toFixed(1)}</strong></td>`;
+          html += `<td><strong>${totalFinal.toFixed(1)}</strong></td>`;
+          html += `</tr>`;
+        });
+      });
+
+      html += `</tbody></table></div>`;
+      return html;
+    }
+
+
+
+    function renderizar(posicaoSelecionada, clubeSelecionado, nomeFiltro) {
+      div.innerHTML = "";
+      const jogadoresFiltrados = {};
+
+      for (const [posicao, jogadores] of Object.entries(scoutsTotais)) {
+        if (posicaoSelecionada !== "todas" && posicaoSelecionada !== posicao) continue;
+
+        let filtrados = jogadores;
+
+        if (clubeSelecionado !== "todos") {
+          filtrados = filtrados.filter(j => j["Clube"] === clubeSelecionado);
+        }
+
+        if (nomeFiltro.trim()) {
+          const nomeBusca = nomeFiltro.trim().toLowerCase();
+          filtrados = filtrados.filter(j => j["Nome do Jogador"].toLowerCase().includes(nomeBusca));
+        }
+
+        if (filtrados.length > 0) {
+          jogadoresFiltrados[posicao] = filtrados;
+        }
+      }
+
+      const tabelaHTML = criarTabela(jogadoresFiltrados, scoutsSelecionados);
+      div.innerHTML = tabelaHTML;
+
+    }
+
+    function salvarFiltrosNoLocalStorage() {
+      const filtros = {
+        posicao: selectPosicao.value,
+        clube: selectClube.value,
+        nome: inputNome.value,
+        scouts: scoutsSelecionados
+      };
+      localStorage.setItem('filtrosScoutsCartola', JSON.stringify(filtros));
+    }
+
+    function carregarFiltrosDoLocalStorage() {
+      const filtrosSalvos = localStorage.getItem('filtrosScoutsCartola');
+      if (!filtrosSalvos) return;
+
+      try {
+        const { posicao, clube, nome, scouts } = JSON.parse(filtrosSalvos);
+        if (posicao) selectPosicao.value = posicao;
+        if (clube) selectClube.value = clube;
+        if (nome) inputNome.value = nome;
+
+        scoutsSelecionados = scouts;
+
+        [...document.querySelectorAll("#filtroScoutsPositivos input"),
+         ...document.querySelectorAll("#filtroScoutsNegativos input")]
+          .forEach(cb => cb.checked = scouts.includes(cb.value));
+      } catch (e) {
+        console.error("❌ Erro ao carregar filtros salvos:", e);
+      }
+    }
+
+    function preencherFiltros() {
+      const posicoes = Object.keys(scoutsTotais);
+      const scoutsSet = new Set();
+      const clubesSet = new Set();
+
+      posicoes.forEach(pos => {
+        const opt = document.createElement("option");
+        opt.value = pos;
+        opt.textContent = pos;
+        selectPosicao.appendChild(opt);
+
+        scoutsTotais[pos].forEach(j => {
+          Object.keys(j).forEach(k => {
+            if (!["Nome do Jogador", "Clube", "Posição"].includes(k)) {
+              scoutsSet.add(k);
+            }
+          });
+          clubesSet.add(j["Clube"]);
+        });
+      });
+
+      ordemScouts.forEach(s => {
+        if (!scoutsSet.has(s)) return;
+        const label = document.createElement("label");
+        label.innerHTML = `<input type="checkbox" value="${s}" checked /> ${s}`;
+        if (scoutsPositivos.includes(s)) {
+          filtroScoutsPositivos.appendChild(label);
+        } else {
+          filtroScoutsNegativos.appendChild(label);
+        }
+      });
+
+      scoutsSelecionados = ordemScouts.filter(s => scoutsSet.has(s));
+
+      const clubes = Array.from(clubesSet).sort();
+      clubes.forEach(clube => {
+        const opt = document.createElement("option");
+        opt.value = clube;
+        opt.textContent = clube;
+        selectClube.appendChild(opt);
+      });
+    }
+
+    function atualizarVisualizacao() {
+      scoutsSelecionados = getScoutsSelecionados();
+      renderizar(selectPosicao.value, selectClube.value, inputNome.value);
+      salvarFiltrosNoLocalStorage();
+      gerarCardsDestaques(); 
+    }
+
+
+    document.getElementById("btnSelecionarTodos").addEventListener("click", () => {
+      [...document.querySelectorAll("#filtroScoutsPositivos input"),
+       ...document.querySelectorAll("#filtroScoutsNegativos input")]
+        .forEach(cb => cb.checked = true);
+      atualizarVisualizacao();
+    });
+
+    document.getElementById("btnLimparTodos").addEventListener("click", () => {
+      [...document.querySelectorAll("#filtroScoutsPositivos input"),
+       ...document.querySelectorAll("#filtroScoutsNegativos input")]
+        .forEach(cb => cb.checked = false);
+      atualizarVisualizacao();
+    });
+
+    if (typeof scoutsTotais !== 'undefined') {
+      preencherFiltros();
+      carregarFiltrosDoLocalStorage();
+      atualizarVisualizacao();
+
+      selectPosicao.addEventListener("change", atualizarVisualizacao);
+      selectClube.addEventListener("change", atualizarVisualizacao);
+      inputNome.addEventListener("input", atualizarVisualizacao);
+      document.getElementById("filtroScoutsPositivos").addEventListener("change", atualizarVisualizacao);
+      document.getElementById("filtroScoutsNegativos").addEventListener("change", atualizarVisualizacao);
+    } else {
+      div.innerHTML = "<p>❌ scoutsTotais não está definido.</p>";
+    }
+
+    window.ordenarPor = function (th, posicao, campo) {
+    const tbody = document.getElementById(`tbody-${posicao}`);
+    const linhas = Array.from(tbody.querySelectorAll("tr"));
+    const idx = Array.from(th.parentElement.children).indexOf(th);
+    const crescente = th.dataset.ordem !== "asc";
+    th.dataset.ordem = crescente ? "asc" : "desc";
+
+    linhas.sort((a, b) => {
+      let va = a.children[idx].textContent;
+      let vb = b.children[idx].textContent;
+
+      // Tentar converter para número
+      const na = parseFloat(va.replace(',', '.'));
+      const nb = parseFloat(vb.replace(',', '.'));
+
+      if (!isNaN(na) && !isNaN(nb)) {
+        return crescente ? na - nb : nb - na;
+      } else {
+        return crescente ? va.localeCompare(vb) : vb.localeCompare(va);
+      }
+    });
+
+    tbody.innerHTML = "";
+    linhas.forEach(l => tbody.appendChild(l));
+  };
+
+  function gerarCardsDestaques() {
+  const todosJogadores = Object.entries(scoutsTotais).flatMap(([posicao, jogadores]) =>
+    jogadores.map(j => ({ ...j, Posição: posicao }))
+  );
+
+  function top3PorScout(scout, label, emoji) {
+    const top = [...todosJogadores]
+      .filter(j => j[scout] !== undefined)
+      .sort((a, b) => (b[scout] ? 0) - (a[scout] ? 0))
+      .slice(0, 3);
+
+    return {
+      titulo: `${emoji} ${label}`,
+      lista: top.map(j => ({
+        nome: j["Nome do Jogador"],
+        clube: j["Clube"],
+        valor: `${j[scout]}`
+      }))
+    };
+  }
+
+  function top3PontuacaoTotal() {
+    const top = [...todosJogadores]
+      .map(j => {
+        const total = Object.keys(pesosScouts).reduce((acc, scout) => {
+          return acc + (j[scout] ? 0) * (pesosScouts[scout] ? 0);
+        }, 0);
+        return { ...j, total };
+      })
+      .sort((a, b) => b.total - a.total)
+      .slice(0, 3);
+
+    return {
+      titulo: '⭐ Maior Pontuação',
+      lista: top.map(j => ({
+        nome: j["Nome do Jogador"],
+        clube: j["Clube"],
+        valor: `${j.total.toFixed(2)} pts`
+      }))
+    };
+  }
+
+  const cardsData = [
+    top3PorScout('G', 'Goleadores', '🥇'),
+    top3PorScout('A', 'Assistências', '🛡️'),
+    top3PorScout('DS', 'Mais Desarmes', '🛡️'),    
+    top3PorScout('DE', 'Defesas', '🛡️'), 
+    top3PontuacaoTotal()
+  ];
+
+  const container = document.getElementById("cards-destaque");
+  container.innerHTML = "";
+
+  cardsData.forEach(card => {
+    container.innerHTML += `
+      <div style="background-color: #A27B5C; padding: 15px; border-radius: 10px; min-width: 220px; color: #fff;">
+        <h3 style="margin-bottom: 10px; text-align: center;">${card.titulo}</h3>
+        <ol style="padding-left: 20px; font-size: 12px;">
+          ${card.lista.map(j => `
+            <li>
+              <strong>${j.nome}</strong> - ${j.clube} <br>
+              <span style="color: #fcd535;">${j.valor}</span>
+            </li>`).join('')}
+        </ol>
+      </div>
+    `;
+  });
+}
+
+
+
+  </script>
+</body>
+</html>

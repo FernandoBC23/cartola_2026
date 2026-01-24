@@ -1,0 +1,85 @@
+<!-- liga_eliminacao.html ajustado -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liga Eliminação 20</title>
+
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_eliminacao.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="loaded">
+  <header class="header">
+    <div class="header-content container-central">
+      <div class="logo-titulo">
+        <img src="../imagens/logo_liga_eliminacao_gerado_fb_1.png" alt="Logo" class="logo" />
+        <h1>Liga Eliminação 20</h1>
+      </div>
+      <nav class="navbar">
+        <div class="container-central">
+          <ul>
+            <li><a href="../portal-aluna/index.html">Painel Competições</a></li>
+            <!-- <li><a href="./liga_eliminacao.html">Liga Eliminação</a></li> -->
+            <li><a class="ativo" href="./liga_eliminacao_20.html">Liga Eliminação 20</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    </div>
+  </header>
+  
+
+  <!-- Navegação -->
+  <div class="rodada-container container-central">
+    <div class="navegacao-rodada">
+      <button id="btn-anterior">◀️ Rodada Anterior</button>
+      <div class="titulo-rodada" id="titulo-rodada">Rodada 20</div>
+      <button id="btn-proxima">Próxima Rodada ▶️</button>
+    </div>
+  </div>
+
+  <main class="container-central">
+    <section>
+      <div id="aviso-eliminado" class="aviso-eliminado"></div>
+
+      <table class="tabela-classificacao">
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Time</th>
+            <th>Pontos</th>          </tr>
+        </thead>
+        <tbody id="classificacao-corpo"></tbody>
+      </table>
+      <div id="resumo-eliminacao" class="resumo-eliminacao"></div>
+    </section>
+  </main>
+
+  <!-- Navegação Inferior -->
+  <div class="rodada-container container-central">
+    <div class="navegacao-rodada">
+      <button id="btn-anterior-bottom">◀️ Rodada Anterior</button>
+      <div class="titulo-rodada" id="titulo-rodada-bottom">Rodada 20</div>
+      <button id="btn-proxima-bottom">Próxima Rodada ▶️</button>
+    </div>
+  </div>  
+
+  <footer class="footer">
+    <div class="footer-content container-central">
+      <p>© 2026 Liga Eliminação 20 | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_liga_eliminacao/Pontuacoes_Por_Rodada_Liga_Eliminacao_20.js"></script>
+  <script src="./datasets_liga_eliminacao/Eliminados_Por_Rodada_Liga_Eliminacao_20.js"></script>
+  <script src="../scripts/escudos_times.js"></script>
+  <script src="./scripts_liga_eliminacao/liga_eliminacao_20.js"></script>
+</body>
+</html>
+

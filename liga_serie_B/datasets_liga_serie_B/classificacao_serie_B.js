@@ -1,0 +1,3 @@
+const classificacaoSerieB = {
+  "Série B": []
+};

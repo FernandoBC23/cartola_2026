@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pontos Corridos 2026/1</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_confrontos_series.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="loaded">
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-titulo">
+        <img src="../imagens/logo_serie_A_gerado_fb_1.png" alt="Pontos Corridos" class="logo" />
+        <h1>Pontos Corridos</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="../portal-aluna/index.html">Painel Competições</a></li>          
+          <li><a class="ativo" href="./pontos_corridos.html">Pontos Corridos</a></li>         
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- Painel de Grupos -->
+  <div id="painel-grupos"></div> 
+
+  <!-- container da lista -->
+  <div id="lista-serie-a" style="margin-top:16px;"></div>
+
+  
+  <!-- Placeholder de Página em Construção -->
+  <!-- <div class="pagina-construcao">
+    <h2>🚧 Aguardando Sorteio dos Confrontos - SÉRIE A🚧</h2>
+    <p>Em breve você poderá acompanhar os jogos, confrontos e classificações por aqui!</p>
+  </div> -->
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 Pontos Corridos | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../transicoes.js"></script>
+
+  <!-- Escudos globais (precisa vir antes dos JS das ligas) -->
+  <script src="../scripts/escudos_times.js"></script>
+
+  <!-- Datasets -->
+  <script src="./datasets_pontos_corridos/classificacao_pontos_corridos.js"></script>
+  <script src="./datasets_pontos_corridos/confrontos_pontos_corridos.js"></script>
+  <script src="./datasets_pontos_corridos/resultados_pontos_corridos.js"></script>
+  <script src="./datasets_pontos_corridos/participantesLiga_pontos_corridos.js"></script>
+
+  <!-- Lógica da Série A -->
+  <script src="./scripts_pontos_corridos/pontos_corridos.js"></script>
+
+
+</body>
+</html>
+
+
+

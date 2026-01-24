@@ -1,0 +1,55 @@
+<!-- copa.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Copa - Mata-Mata</title>
+
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_copa.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="loaded copa-page">
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-titulo">
+        <img src="../imagens/logo-copa-libertadores-256.png" alt="Logo Copa" class="logo" />
+        <h1>Copa - 2026/1</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="../portal-leon/index.html">Painel Competições</a></li>
+          <li><a class="ativo" data-round-link="oitavas" href="./copa.html#oitavas">Oitavas</a></li>
+          <li><a data-round-link="quartas" href="./copa.html#quartas">Quartas</a></li>
+          <li><a data-round-link="semi" href="./copa.html#semi">Semifinal</a></li>
+          <li><a data-round-link="final" href="./copa.html#final">Final</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="copa-container">
+    <section class="copa-bracket-wrap">
+      <div class="copa-bracket" id="copa-bracket" data-view="oitavas"></div>
+      <div class="copa-legend">
+        <span><span class="legend-dot"></span> Vencedor</span>
+        <span><span class="legend-dot secondary"></span> Placares pendentes</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 Copa Cartola | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_copa/copa_dados.js"></script>
+  <script src="../scripts/escudos_times.js"></script>
+  <script src="./scripts_copa/copa.js"></script>
+</body>
+</html>

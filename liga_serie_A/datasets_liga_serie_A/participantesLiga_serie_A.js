@@ -1,0 +1,22 @@
+window.participantesLiga = [
+  "Atlético Colorado 2021",
+  "cartola scheuer17",
+  "Dom Camillo68",
+  "FBC Colorado",
+  "Fedato Futebol Clube",
+  "Gremiomaniasm",
+  "JV5 Tricolor Gaúcho",
+  "lsauer fc",
+  "MAFRA MARTINS FC",
+  "Mau Humor F.C.",
+  "Paulo Virgili FC",
+  "pura bucha/internacional",
+  "Rolo Compressor ZN",
+  "seralex",
+  "Tatols Beants F.C",
+  "TEAM LOPES 99",
+  "Texas Club 2026",
+  "TIGRE LEON",
+  "TORRESMO COM PINGA PRO26.2",
+  "VASCO MARTINS FC"
+];

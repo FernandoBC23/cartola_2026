@@ -1,0 +1,3 @@
+const classificacaoSerieC = {
+  "Série C": []
+};

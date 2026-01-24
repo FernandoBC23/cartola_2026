@@ -1,0 +1,21 @@
+<svg width="500px" height="525px" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <clipPath id="formato">
+        <circle cx="250.026" cy="249.975" r="249.475"/>
+      </clipPath>
+    </defs>
+
+    <g id="fundo" fill="#ff241d" x="0">
+      <circle cx="250.026" cy="249.975" r="249.475"/>
+    </g>
+
+    <g id="estampa1" x="0" clip-path="url(#formato)"></g>
+
+    <g id="borda" fill="none" stroke="#ff241d" stroke-width="10" x="0">
+      <circle cx="250.026" cy="249.975" r="249.475"/>
+    </g>
+
+    
+<g id="adorno" transform="scale(2) translate(64, 65)" data-nome="cartola branca"> <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1846 81.8462L26.3 23H93.3847L87.5 81.8462H111.039L93.3847 99.5L18.0615 94.7924L11 81.8462H32.1846ZM37.3462 81.8462L83.5 82L84.5612 68L36.285 69.0129L37.3462 81.8462Z" fill="white"/> </g>
+
+</svg>

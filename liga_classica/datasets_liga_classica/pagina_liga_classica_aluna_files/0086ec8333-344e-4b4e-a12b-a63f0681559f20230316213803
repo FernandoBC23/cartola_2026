@@ -1,0 +1,24 @@
+<svg width="500px" height="525px" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <clipPath id="formato">
+        <path d="M46.75,0.807L46.75,0.807v227.992c0,208.528,203.24,270.395,203.24,270.395s203.26-61.866,203.26-270.395V0.807H46.75z"/>
+      </clipPath>
+    </defs>
+
+    <g id="fundo" fill="#a64b00" x="0">
+      <path d="M46.75,0.807L46.75,0.807v227.992c0,208.528,203.24,270.395,203.24,270.395s203.26-61.866,203.26-270.395V0.807H46.75z"/>
+    </g>
+
+    <g id="estampa1" fill="#000000" x="0" clip-path="url(#formato)"><g><rect x="125" width="50" height="100%"/><rect x="225" width="50" height="100%"/><rect x="325" width="50" height="100%"/></g><rect id="estampa2" width="500" height="100" fill="#000000"/></g>
+
+    <g id="borda" fill="none" stroke="#ffcb00" stroke-width="10" x="0">
+      <path d="M46.75,0.807L46.75,0.807v227.992c0,208.528,203.24,270.395,203.24,270.395s203.26-61.866,203.26-270.395V0.807H46.75z"/>
+    </g>
+
+    
+<g id="adorno" transform="scale(2) translate(64, 65)" data-nome="cartola colorido">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M32.1846 81.8462L26.3 23H93.3847L87.5 81.8462H111.039L93.3847 99.5L18.0615 94.7924L11 81.8462H32.1846Z" fill="#222222"/>
+    <path d="M37.3461 81.8462L83.4999 82L84.5612 68L36.2849 69.0129L37.3461 81.8462Z" fill="#EF7C31"/>
+</g>
+
+</svg>

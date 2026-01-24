@@ -1,0 +1,257 @@
+/* ------------------------------------
+   styles_serie_a.css
+   → Estilos específicos Liga de Eliminação
+------------------------------------ */
+
+
+  /* Fundo base escuro e cores principais */
+  body {
+    background-color: #2C3639;
+    font-family: 'Inter', sans-serif;
+    color: #DCD7C9;
+  }
+
+  .header {
+    background-color: #3F4E4F;
+    border-bottom: 3px solid #A27B5C;
+  }
+
+  .header h1 {
+    color: #DCD7C9;
+  }
+
+  .navbar a {
+    color: #DCD7C9;
+  }
+
+  .navbar a.ativo {
+    color: #A27B5C;
+    border-bottom: 2px solid #A27B5C;
+  }
+
+  .rodada-container {
+    /* background-color: #3F4E4F; */
+    padding: 10px;
+  }
+
+  .navegacao-rodada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .titulo-rodada {
+    font-size: 1.2rem;
+    color: #DCD7C9;
+    font-weight: bold;
+  }
+
+  .titulo-rodada {
+    background-color: #3F4E4F;
+    padding: 6px 12px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+  }
+
+
+  /* Botões */
+  .navegacao-rodada button,
+  .navegacao-rodada button:focus {
+    background-color: #A27B5C;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .navegacao-rodada button:hover {
+    background-color: #8f654f;
+  }
+
+  /* Tabela */
+  .tabela-classificacao {
+    width: 100%;
+    max-width: 960px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #f7f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .tabela-classificacao tbody tr:hover {
+    background-color: #ececec;
+    transition: background-color 0.3s ease;
+  }
+
+
+  .tabela-classificacao th {
+    background-color: #252525;
+    color: #DCDCDC;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .tabela-classificacao td {
+    padding: 10px;
+    border-bottom: 1px solid #2C3639;
+    color: #252525;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .time-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .escudo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+
+  /* Aviso de eliminação */
+  .aviso-eliminado {
+    background-color: #A27B5C;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border-left: 5px solid #DCD7C9;
+    border-radius: 4px;
+    margin: 20px auto;
+    max-width: 960px;
+  }
+
+  .eliminado-tag {
+    /* background-color: #A27B5C; */
+    background-color: #A27B5C;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-left: 8px;
+    font-weight: 600;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .tabela-classificacao tr:hover .eliminado-tag {
+    transform: scale(1.05);
+    background-color: #e2421a;
+  }
+
+  tr.eliminado-atual {
+    background-color: #FFE6E1;
+  }  
+
+  /* Rodapé */
+  .footer {
+    background-color: #3F4E4F;
+    color: #DCD7C9;
+    text-align: center;
+    padding: 15px;
+  }
+
+
+
+/* ------------------------------------
+   RESPONSIVO - Liga de Eliminação (Mobile)
+------------------------------------ */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin-top: 8px;
+  }
+
+  .navbar a {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+
+  .navegacao-rodada {
+    flex-direction: row;
+    gap: 8px;
+    margin: 10px 0;
+  }
+
+  .titulo-rodada {
+    font-size: 0.95rem;
+    padding: 6px 10px;
+    text-align: center;
+  }
+
+  .navegacao-rodada button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .tabela-classificacao {
+    font-size: 12px;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .tabela-classificacao th,
+  .tabela-classificacao td {
+    padding: 8px;
+  }
+
+  .time-info {
+    gap: 6px;
+  }
+
+  .escudo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .aviso-eliminado {
+    font-size: 13px;
+    padding: 10px;
+    margin: 20px 10px;
+  }
+
+  .eliminado-tag {
+    font-size: 11px;
+    padding: 2px 6px;
+    margin-left: 4px;
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
