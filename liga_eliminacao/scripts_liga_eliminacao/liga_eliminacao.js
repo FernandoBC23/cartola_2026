@@ -4,8 +4,31 @@ const RODADA_INICIO = 1;
 const RODADA_FIM = 19;
 let totalRodadas = RODADA_FIM;
 
+const getFontePontuacoes = () => (
+  (typeof pontuacoesPorRodada === "object" && pontuacoesPorRodada) ? pontuacoesPorRodada : {}
+);
+
+function coletarPontuacoesRodada(rodada) {
+  const lista = [];
+  const fonte = getFontePontuacoes();
+  for (const id in fonte) {
+    const row = fonte[id] || {};
+    const nome = row.Time || id;
+    const pontosRodada = row[`Rodada ${rodada}`];
+    if (typeof pontosRodada === "number") {
+      let totalTurno = 0;
+      for (let r = RODADA_INICIO; r <= rodada; r++) {
+        const pts = row[`Rodada ${r}`];
+        if (typeof pts === "number") totalTurno += pts;
+      }
+      lista.push({ id, nome, pontosRodada, totalTurno });
+    }
+  }
+  return lista;
+}
+
 const getRodadasComPontuacao = () => {
-  const fonte = (typeof pontuacoesPorRodada === "object" && pontuacoesPorRodada) ? pontuacoesPorRodada : {};
+  const fonte = getFontePontuacoes();
   return Object.values(fonte)
     .flatMap((p) => Object.entries(p)
       .filter(([_, pontos]) => typeof pontos === "number")
@@ -182,6 +205,15 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   const avisoContainer = document.getElementById("aviso-eliminado");
   if (!avisoContainer) return;
 
+  const pontuacoesRodada = coletarPontuacoesRodada(rodadaAtual);
+  if (pontuacoesRodada.length > 0 && pontuacoesRodada.every((item) => item.pontosRodada === 0)) {
+    avisoContainer.innerHTML = `
+      <strong>Aguardando inicio do campeonato:</strong>
+      todos os times estao com 0 pontos na rodada ${rodadaAtual}.
+    `;
+    return;
+  }
+
   const eliminadosFonte = (typeof eliminadosPorRodada === "object" && eliminadosPorRodada) ? eliminadosPorRodada : {};
   let eliminadosRodada = eliminadosFonte[rodadaAtual] || eliminadosFonte[String(rodadaAtual)] || [];
   if (!Array.isArray(eliminadosRodada) || eliminadosRodada.length === 0) {
@@ -246,6 +278,7 @@ function exibirResumoEliminacao(rodadaAtual) {
 
   let estatisticasHTML = "";
   if (pontuacoesRodada.length > 0) {
+    const todosZero = pontuacoesRodada.every((item) => item.pontosRodada === 0);
     pontuacoesRodada.sort((a, b) => {
       if (b.pontosRodada !== a.pontosRodada) return b.pontosRodada - a.pontosRodada;
       return b.totalTurno - a.totalTurno;
@@ -255,14 +288,21 @@ function exibirResumoEliminacao(rodadaAtual) {
     const total = pontuacoesRodada.reduce((sum, obj) => sum + obj.pontosRodada, 0);
     const media = (total / pontuacoesRodada.length).toFixed(2);
 
-    estatisticasHTML = `
-      <h3>Resumo da Rodada ${rodadaAtual}</h3>
-      <ul>
-        <li><strong>Maior pontuacao:</strong> ${maior.nome} (${maior.pontosRodada.toFixed(2)} pts)</li>
-        <li><strong>Menor pontuacao:</strong> ${menor.nome} (${menor.pontosRodada.toFixed(2)} pts)</li>
-        <li><strong>Media geral:</strong> ${media} pts</li>
-      </ul>
-    `;
+    if (todosZero) {
+      estatisticasHTML = `
+        <h3>Resumo da Rodada ${rodadaAtual}</h3>
+        <p><strong>Aguardando inicio do campeonato:</strong> todos os times estao com 0 pontos.</p>
+      `;
+    } else {
+      estatisticasHTML = `
+        <h3>Resumo da Rodada ${rodadaAtual}</h3>
+        <ul>
+          <li><strong>Maior pontuacao:</strong> ${maior.nome} (${maior.pontosRodada.toFixed(2)} pts)</li>
+          <li><strong>Menor pontuacao:</strong> ${menor.nome} (${menor.pontosRodada.toFixed(2)} pts)</li>
+          <li><strong>Media geral:</strong> ${media} pts</li>
+        </ul>
+      `;
+    }
   }
 
   const eliminadosFonte = (typeof eliminadosPorRodada === "object" && eliminadosPorRodada) ? eliminadosPorRodada : {};
