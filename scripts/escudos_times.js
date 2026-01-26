@@ -41,6 +41,7 @@ window.escudosTimes = {
   "FIGUEIRA DA ILHA": "../imagens/1_figueira_da_ilha.png",
   "Gig@ntte": "../imagens/1_gigntte.png",
   "Grêmio imortal 37": "../imagens/1_gremio_imortal_37.png",
+  "Grêmio imortal 36": "../imagens/1_gremio_imortal_36.png",
   "JUV. KP": "../imagens/1_juv_kp.png",
   "Luis lemes inter": "../imagens/1_luis_lemes_inter.png",
   "Máquina Laranjja": "../imagens/1_maquina_laranjja.png",
@@ -73,7 +74,11 @@ window.escudosTimes = {
   "Atlético Colorado 2021": "../imagens/1_atletico_colorado_2021.png",
   "Doug Leal F.C": "../imagens/1_doug_leal_fc.png",
   "Grêmio_Campeão_LA_27": "../imagens/1_gremio_campeao_la_27.png",
-  "Esquadrão Gazembrino": "../imagens/1_esquadrao_gazembrino.png"
+  "Esquadrão Gazembrino": "../imagens/1_esquadrao_gazembrino.png",
+  "GaúchoDaFronteira F.C": "../imagens/1_gaucho_da_fronteira_fc.png",
+  "Pontaç0 F.C.": "../imagens/1_pontaco_fc.png",
+  "SC 100 Sono": "../imagens/1_sc_100_sono.png",
+  "GrioTeam": "../imagens/1_grioteam.png"
   
 };
 

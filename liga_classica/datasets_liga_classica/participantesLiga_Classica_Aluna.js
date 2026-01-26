@@ -1,12 +1,19 @@
 window.participantesLiga = [
+  "bugredasmissões",
+  "C R Juvenal",
   "Doug Leal F.C",
+  "Esquadrão Gazembrino",
   "FBC Colorado",
+  "GaúchoDaFronteira F.C",
   "GE Bebum",
   "Grêmio_Campeão_LA_27",
   "JV5 Tricolor Gaúcho",
   "La Primeira Patada Es Nuestra",
   "lsauer fc",
   "Medonho´s F.C.",
+  "NHU PORÃ SAF.",
+  "Pontaç0 F.C.",
+  "SC 100 Sono",
   "SC ÉoINTER!",
   "Texas Club 2026"
 ];

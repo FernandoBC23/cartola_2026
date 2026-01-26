@@ -94,7 +94,7 @@ const resultadosFase1 = [
     "grupo": "Grupo D",
     "rodada": 1,
     "mandante": {
-      "nome": "BORGES ITAQUI F.C.",
+      "nome": "Grêmio imortal 36",
       "pontos": NaN
     },
     "visitante": {
@@ -306,7 +306,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "BORGES ITAQUI F.C.",
+      "nome": "Grêmio imortal 36",
       "pontos": null
     },
     "vencedor": "indefinido"
@@ -501,7 +501,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "BORGES ITAQUI F.C.",
+      "nome": "Grêmio imortal 36",
       "pontos": null
     },
     "vencedor": "indefinido"
@@ -718,7 +718,7 @@ const resultadosFase1 = [
     "grupo": "Grupo D",
     "rodada": 4,
     "mandante": {
-      "nome": "BORGES ITAQUI F.C.",
+      "nome": "Grêmio imortal 36",
       "pontos": null
     },
     "visitante": {
@@ -913,7 +913,7 @@ const resultadosFase1 = [
     "grupo": "Grupo D",
     "rodada": 5,
     "mandante": {
-      "nome": "BORGES ITAQUI F.C.",
+      "nome": "Grêmio imortal 36",
       "pontos": null
     },
     "visitante": {
@@ -1125,7 +1125,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "BORGES ITAQUI F.C.",
+      "nome": "Grêmio imortal 36",
       "pontos": null
     },
     "vencedor": "indefinido"

@@ -87,8 +87,8 @@ const confrontosFase1 = [
     "grupo": "Grupo D",
     "rodada": 1,
     "mandante": {
-      "id": 3914981,
-      "nome": "BORGES ITAQUI F.C."
+      "id": 24856400,
+      "nome": "Grêmio imortal 36"
     },
     "visitante": {
       "id": 117598,
@@ -283,8 +283,8 @@ const confrontosFase1 = [
       "nome": "FBC Colorado"
     },
     "visitante": {
-      "id": 3914981,
-      "nome": "BORGES ITAQUI F.C."
+      "id": 24856400,
+      "nome": "Grêmio imortal 36"
     }
   },
   {
@@ -463,8 +463,8 @@ const confrontosFase1 = [
       "nome": "Mau Humor F.C."
     },
     "visitante": {
-      "id": 3914981,
-      "nome": "BORGES ITAQUI F.C."
+      "id": 24856400,
+      "nome": "Grêmio imortal 36"
     }
   },
   {
@@ -663,8 +663,8 @@ const confrontosFase1 = [
     "grupo": "Grupo D",
     "rodada": 4,
     "mandante": {
-      "id": 3914981,
-      "nome": "BORGES ITAQUI F.C."
+      "id": 24856400,
+      "nome": "Grêmio imortal 36"
     },
     "visitante": {
       "id": 186283,
@@ -843,8 +843,8 @@ const confrontosFase1 = [
     "grupo": "Grupo D",
     "rodada": 5,
     "mandante": {
-      "id": 3914981,
-      "nome": "BORGES ITAQUI F.C."
+      "id": 24856400,
+      "nome": "Grêmio imortal 36"
     },
     "visitante": {
       "id": 19033717,
@@ -1039,8 +1039,8 @@ const confrontosFase1 = [
       "nome": "A Lenda Super Vasco F.c"
     },
     "visitante": {
-      "id": 3914981,
-      "nome": "BORGES ITAQUI F.C."
+      "id": 24856400,
+      "nome": "Grêmio imortal 36"
     }
   },
   {

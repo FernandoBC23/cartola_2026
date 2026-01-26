@@ -4,8 +4,6 @@ window.participantesLiga = [
   "AZURRA82",
   "Bandoleros FCS",
   "BordonFC04",
-  "BORGES CLIMA FUT F.C",
-  "BORGES ITAQUI F.C.",
   "C.A. Charru@",
   "cartola scheuer17",
   "CARTOLEIRO DO VALLE PRO26.5",

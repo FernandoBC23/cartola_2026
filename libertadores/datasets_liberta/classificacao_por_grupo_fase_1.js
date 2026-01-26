@@ -151,7 +151,7 @@ const classificacaoFase1 = {
     },
     {
       "posicao": 2,
-      "nome": "BORGES ITAQUI F.C.",
+      "nome": "FBC Colorado",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
@@ -162,7 +162,7 @@ const classificacaoFase1 = {
     },
     {
       "posicao": 3,
-      "nome": "FBC Colorado",
+      "nome": "Grêmio imortal 36",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
