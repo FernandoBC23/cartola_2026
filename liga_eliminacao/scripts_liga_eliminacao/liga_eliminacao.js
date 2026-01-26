@@ -1,31 +1,32 @@
 // liga_eliminacao.js
 
-const RODADA_INICIO = 1;
-const RODADA_FIM = 19;
-let totalRodadas = RODADA_FIM;
+const TURNO_INICIO = 1;
+const TURNO_FIM = 19;
+const RODADA_INICIO = TURNO_INICIO;
+const RODADA_FIM = TURNO_FIM;
+let totalRodadas = TURNO_FIM;
 
 const getFontePontuacoes = () => (
   (typeof pontuacoesPorRodada === "object" && pontuacoesPorRodada) ? pontuacoesPorRodada : {}
 );
 
-function coletarPontuacoesRodada(rodada) {
-  const lista = [];
-  const fonte = getFontePontuacoes();
-  for (const id in fonte) {
-    const row = fonte[id] || {};
-    const nome = row.Time || id;
-    const pontosRodada = row[`Rodada ${rodada}`];
-    if (typeof pontosRodada === "number") {
-      let totalTurno = 0;
-      for (let r = RODADA_INICIO; r <= rodada; r++) {
-        const pts = row[`Rodada ${r}`];
-        if (typeof pts === "number") totalTurno += pts;
-      }
-      lista.push({ id, nome, pontosRodada, totalTurno });
-    }
-  }
-  return lista;
-}
+const getCampeonatoComecou = () => (
+  typeof window.campeonato_comecou === "boolean" ? window.campeonato_comecou : true
+);
+
+const clampRodada = (rodada) => Math.min(RODADA_FIM, Math.max(RODADA_INICIO, rodada));
+
+const getRodadaQuery = () => {
+  if (!window.location?.search) return null;
+  const valor = new URLSearchParams(window.location.search).get("rodada");
+  const rodada = parseInt(valor, 10);
+  return Number.isFinite(rodada) ? rodada : null;
+};
+
+const getRodadaDados = () => {
+  const rodada = window.rodada_atual ?? window.rodadaAtual;
+  return typeof rodada === "number" ? rodada : null;
+};
 
 const getRodadasComPontuacao = () => {
   const fonte = getFontePontuacoes();
@@ -37,10 +38,66 @@ const getRodadasComPontuacao = () => {
     .filter((n) => Number.isFinite(n));
 };
 
-let rodadaAtual = (() => {
+const getRodadaInicial = () => {
+  const rodadaQuery = getRodadaQuery();
+  if (Number.isFinite(rodadaQuery)) return clampRodada(rodadaQuery);
+  if (!getCampeonatoComecou()) return RODADA_INICIO;
+  const rodadaDados = getRodadaDados();
+  if (Number.isFinite(rodadaDados)) return clampRodada(rodadaDados);
   const rodadasComPontuacao = getRodadasComPontuacao();
-  return rodadasComPontuacao.length ? Math.max(...rodadasComPontuacao) : RODADA_INICIO;
-})();
+  return rodadasComPontuacao.length ? clampRodada(Math.max(...rodadasComPontuacao)) : RODADA_INICIO;
+};
+
+function getTimesBase() {
+  const fonte = getFontePontuacoes();
+  const ids = Object.keys(fonte);
+  if (ids.length) {
+    return ids.map((id) => ({ id, nome: fonte[id]?.Time || id }));
+  }
+
+  const listaTimes = window.times_confirmados || window.timesConfirmados || window.times;
+  if (Array.isArray(listaTimes)) {
+    return listaTimes.map((time) => {
+      if (typeof time === "string") return { id: time, nome: time };
+      return {
+        id: String(time.id ?? time.time_id ?? time.nome ?? time.name ?? ""),
+        nome: String(time.nome ?? time.name ?? time.apelido ?? time.id ?? time.time_id ?? ""),
+      };
+    }).filter((time) => time.nome);
+  }
+
+  const idsTimes = window.ids_times || window.idsTimes;
+  if (Array.isArray(idsTimes)) {
+    return idsTimes.map((id) => ({ id: String(id), nome: String(id) }));
+  }
+  if (idsTimes && typeof idsTimes === "object") {
+    return Object.entries(idsTimes).map(([nome, id]) => ({ id: String(id), nome }));
+  }
+
+  return [];
+}
+
+function montarListaRodada(rodada) {
+  const fonte = getFontePontuacoes();
+  const lista = getTimesBase().map(({ id, nome }) => {
+    const row = fonte[id] || {};
+    const pontosRodadaRaw = row[`Rodada ${rodada}`];
+    const pontosRodada = typeof pontosRodadaRaw === "number" ? pontosRodadaRaw : 0;
+    let totalTurno = 0;
+    for (let r = RODADA_INICIO; r <= rodada; r++) {
+      const pts = row[`Rodada ${r}`];
+      if (typeof pts === "number") totalTurno += pts;
+    }
+    return { id, nome, pontosRodada, totalTurno };
+  });
+
+  return lista;
+}
+
+function coletarPontuacoesRodada(rodada) {
+  return montarListaRodada(rodada);
+}
+let rodadaAtual = RODADA_INICIO;
 
 document.addEventListener("DOMContentLoaded", () => {
   totalRodadas = RODADA_FIM;
@@ -68,12 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const desabilitarAnterior = rodadaAtual <= RODADA_INICIO;
 
-    const rodadasComPontuacao = getRodadasComPontuacao();
-    const ultimaRodadaComPontuacao = rodadasComPontuacao.length
-      ? Math.max(...rodadasComPontuacao)
-      : RODADA_INICIO;
-
-    const desabilitarProxima = rodadaAtual >= ultimaRodadaComPontuacao;
+    const desabilitarProxima = rodadaAtual >= RODADA_FIM;
 
     if (btnAnteriorTop) btnAnteriorTop.disabled = desabilitarAnterior;
     if (btnProximaTop) btnProximaTop.disabled = desabilitarProxima;
@@ -98,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
   configurarBotao(btnAnteriorBottom, -1);
   configurarBotao(btnProximaBottom, +1);
 
-  atualizarRodada(rodadaAtual);
+  atualizarRodada(getRodadaInicial());
 });
 
 // Escudos centralizados (usa scripts/escudos_times.js)
@@ -153,26 +205,12 @@ function exibirPontuacoesRodada(rodada) {
   if (!tbody) return;
 
   tbody.innerHTML = "";
-  const lista = [];
-
-  const fonte = (typeof pontuacoesPorRodada === "object" && pontuacoesPorRodada) ? pontuacoesPorRodada : {};
-  for (const id in fonte) {
-    const row = fonte[id] || {};
-    const nome = row.Time || id;
-    const pontosRodada = row[`Rodada ${rodada}`];
-    if (typeof pontosRodada === "number") {
-      let totalTurno = 0;
-      for (let r = RODADA_INICIO; r <= rodada; r++) {
-        const pts = row[`Rodada ${r}`];
-        if (typeof pts === "number") totalTurno += pts;
-      }
-      lista.push({ id, nome, pontosRodada, totalTurno });
-    }
-  }
+  const lista = montarListaRodada(rodada);
 
   lista.sort((a, b) => {
     if (b.pontosRodada !== a.pontosRodada) return b.pontosRodada - a.pontosRodada;
-    return b.totalTurno - a.totalTurno;
+    if (b.totalTurno !== a.totalTurno) return b.totalTurno - a.totalTurno;
+    return a.nome.localeCompare(b.nome);
   });
 
   const eliminadosFonte = (typeof eliminadosPorRodada === "object" && eliminadosPorRodada) ? eliminadosPorRodada : {};
@@ -205,7 +243,7 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   const avisoContainer = document.getElementById("aviso-eliminado");
   if (!avisoContainer) return;
 
-  const pontuacoesRodada = coletarPontuacoesRodada(rodadaAtual);
+  const pontuacoesRodada = montarListaRodada(rodadaAtual);
   if (pontuacoesRodada.length > 0 && pontuacoesRodada.every((item) => item.pontosRodada === 0)) {
     avisoContainer.innerHTML = `
       <strong>Aguardando inicio do campeonato:</strong>
@@ -258,23 +296,8 @@ function exibirResumoEliminacao(rodadaAtual) {
   const container = document.getElementById("resumo-eliminacao");
   if (!container) return;
 
-  const rodadaChave = `Rodada ${rodadaAtual}`;
-  const pontuacoesRodada = [];
-
-  const fonte = (typeof pontuacoesPorRodada === "object" && pontuacoesPorRodada) ? pontuacoesPorRodada : {};
-  for (const id in fonte) {
-    const row = fonte[id] || {};
-    const nome = row.Time || id;
-    const pontosRodada = row[rodadaChave];
-    if (typeof pontosRodada === "number") {
-      let totalTurno = 0;
-      for (let r = RODADA_INICIO; r <= rodadaAtual; r++) {
-        const pts = row[`Rodada ${r}`];
-        if (typeof pts === "number") totalTurno += pts;
-      }
-      pontuacoesRodada.push({ id, nome, pontosRodada, totalTurno });
-    }
-  }
+  const fonte = getFontePontuacoes();
+  const pontuacoesRodada = montarListaRodada(rodadaAtual);
 
   let estatisticasHTML = "";
   if (pontuacoesRodada.length > 0) {
