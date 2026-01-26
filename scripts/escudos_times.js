@@ -78,8 +78,8 @@ window.escudosTimes = {
   "GaúchoDaFronteira F.C": "../imagens/1_gaucho_da_fronteira_fc.png",
   "Pontaç0 F.C.": "../imagens/1_pontaco_fc.png",
   "SC 100 Sono": "../imagens/1_sc_100_sono.png",
-  "GrioTeam": "../imagens/1_grioteam.png"
-  
+  "GrioTeam": "../imagens/1_grioteam.png",
+  "Pepe Leal FC": "../imagens/1_pepe_leal_fc.png",  
 };
 
 window.ESCUDO_PADRAO = "escudo_default.png";

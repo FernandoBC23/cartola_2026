@@ -12,6 +12,7 @@ window.participantesLiga = [
   "lsauer fc",
   "Medonho´s F.C.",
   "NHU PORÃ SAF.",
+  "Pepe Leal FC",
   "Pontaç0 F.C.",
   "SC 100 Sono",
   "SC ÉoINTER!",
