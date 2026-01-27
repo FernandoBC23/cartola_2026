@@ -1,0 +1,83 @@
+<!-- copa_leon.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Copa Leon - Mata-Mata</title>
+
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_copa.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body class="loaded copa-page">
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-titulo">
+        <img src="../imagens/trofeu_copa_leon.png" alt="Logo Copa Leon" class="logo" />
+        <h1>Copa Leon - 2026/1</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="../portal-leon/index.html">Painel Competições</a></li>
+          <li><a class="ativo" data-round-link="16avos" href="./copa_leon.html#16avos">16avos</a></li>
+          <li><a data-round-link="oitavas" href="./copa_leon.html#oitavas">Oitavas</a></li>
+          <li><a data-round-link="quartas" href="./copa_leon.html#quartas">Quartas</a></li>
+          <li><a data-round-link="semi" href="./copa_leon.html#semi">Semifinal</a></li>
+          <li><a data-round-link="final" href="./copa_leon.html#final">Final</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="copa-container">
+    <div id="aviso-copa" class="pagina-construcao">
+      <h2>🕒 Copa Leon ainda não começou</h2>
+      <p>Os confrontos serão exibidos quando os jogos da Rodada 1 começarem.</p>
+    </div>
+    <section class="copa-bracket-wrap hidden">
+      <div class="copa-bracket" id="copa-bracket" data-view="oitavas"></div>
+      <div class="copa-legend">
+        <span><span class="legend-dot"></span> Vencedor</span>
+        <span><span class="legend-dot secondary"></span> Placares pendentes</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 Copa Cartola | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_copa_leon/copa_dados_leon.js"></script>
+  <script src="../scripts/escudos_times.js"></script>
+  <script src="./scripts_copa_leon/copa_leon.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const aviso = document.getElementById("aviso-copa");
+      const bracket = document.querySelector(".copa-bracket-wrap");
+      const fases = window.copaDados?.fases || {};
+      const lista16 = fases["16avos"] || fases.dezesseisavos || [];
+      const oitavas = fases.oitavas || [];
+      const temConfrontos = [...lista16, ...oitavas].some((match) =>
+        match && (match.casaId != null || match.foraId != null)
+      );
+
+      if (temConfrontos) {
+        aviso?.classList.add("hidden");
+        bracket?.classList.remove("hidden");
+      }
+    });
+  </script>
+</body>
+</html>
+

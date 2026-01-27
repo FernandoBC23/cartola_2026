@@ -7,6 +7,7 @@ window.participantesLiga = [
   "FBC Colorado",
   "GaúchoDaFronteira F.C",
   "GE Bebum",
+  "GrioTeam",
   "Grêmio_Campeão_LA_27",
   "JV5 Tricolor Gaúcho",
   "La Primeira Patada Es Nuestra",

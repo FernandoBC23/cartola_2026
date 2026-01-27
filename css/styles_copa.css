@@ -171,6 +171,10 @@
   display: none;
 }
 
+.copa-bracket[data-view="16avos"] .round:not(.round-16avos) {
+  display: none;
+}
+
 .copa-bracket[data-view="quartas"] .round:not(.round-quartas) {
   display: none;
 }
@@ -187,7 +191,7 @@
   .copa-bracket {
     overflow-x: auto;
     display: grid;
-    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    grid-template-columns: repeat(5, minmax(220px, 1fr));
     align-items: center;
     gap: 26px;
   }
@@ -200,12 +204,13 @@
     margin-top: 0;
   }
 
-  .round-oitavas { grid-column: 1; }
-  .round-quartas { grid-column: 2; }
-  .round-semi { grid-column: 3; }
+  .round-16avos { grid-column: 1; }
+  .round-oitavas { grid-column: 2; }
+  .round-quartas { grid-column: 3; }
+  .round-semi { grid-column: 4; }
 
   .round-final {
-    grid-column: 4;
+    grid-column: 5;
     align-self: center;
     justify-content: center;
     position: relative;
@@ -213,7 +218,7 @@
   }
 
   .round-terceiro {
-    grid-column: 4;
+    grid-column: 5;
     align-self: center;
     margin-top: 2px;
     position: relative;

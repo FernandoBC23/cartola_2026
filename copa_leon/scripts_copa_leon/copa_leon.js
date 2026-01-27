@@ -1,6 +1,7 @@
 // copa.js
 
 const LABEL_FASES = {
+  "16avos": "16avos de Final",
   oitavas: "Oitavas de Final",
   quartas: "Quartas de Final",
   semi: "Semifinal",
@@ -151,17 +152,25 @@ const construirFases = (timesMap) => {
   const dados = getCopaDados();
   const fases = dados.fases || {};
 
+  const dezesseisavos = garantirLista(fases["16avos"] || fases.dezesseisavos, 16);
   const oitavas = garantirLista(fases.oitavas, 8);
   let quartas = garantirLista(fases.quartas, 4);
   let semi = garantirLista(fases.semi, 2);
   let final = garantirLista(fases.final, 1);
   let terceiro = garantirLista(fases.terceiro, 1);
 
+  const winners16 = coletarVencedores(dezesseisavos, timesMap);
   const winnersOitavas = coletarVencedores(oitavas, timesMap);
   const winnersQuartas = coletarVencedores(quartas, timesMap);
   const winnersSemis = coletarVencedores(semi, timesMap);
   const losersSemis = coletarPerdedores(semi, timesMap);
 
+  if (winners16.length) {
+    const oitavasDefinidas = definirTimesPorResultado(oitavas, winners16);
+    for (let i = 0; i < oitavas.length; i += 1) {
+      oitavas[i] = oitavasDefinidas[i];
+    }
+  }
   if (winnersOitavas.length) {
     quartas = definirTimesPorResultado(quartas, winnersOitavas);
   }
@@ -175,7 +184,7 @@ const construirFases = (timesMap) => {
     terceiro = definirTimesPorResultado(terceiro, losersSemis);
   }
 
-  return { oitavas, quartas, semi, final, terceiro };
+  return { dezesseisavos, oitavas, quartas, semi, final, terceiro };
 };
 
 const formatarScore = (valor) => (Number.isFinite(valor) ? valor.toFixed(1) : "--");
@@ -257,6 +266,7 @@ const renderBracket = () => {
   container.innerHTML = "";
 
   const roundConfigs = [
+    { key: "16avos", title: LABEL_FASES["16avos"], matches: fases.dezesseisavos },
     { key: "oitavas", title: LABEL_FASES.oitavas, matches: fases.oitavas },
     { key: "quartas", title: LABEL_FASES.quartas, matches: fases.quartas },
     { key: "semi", title: LABEL_FASES.semi, matches: fases.semi },
@@ -304,7 +314,7 @@ const atualizarFaseAtiva = (fase, { atualizarHash = true } = {}) => {
 document.addEventListener("DOMContentLoaded", () => {
   renderBracket();
   const hash = window.location.hash.replace("#", "");
-  const faseInicial = LABEL_FASES[hash] ? hash : "oitavas";
+  const faseInicial = LABEL_FASES[hash] ? hash : "16avos";
   atualizarFaseAtiva(faseInicial, { atualizarHash: false });
 
   document.querySelectorAll("[data-round-link]").forEach((link) => {
