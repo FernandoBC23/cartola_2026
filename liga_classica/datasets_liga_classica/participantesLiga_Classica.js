@@ -45,6 +45,7 @@ window.participantesLiga = [
   "Tabajara de Inhaua PB1",
   "TATITTA FC",
   "Tatols Beants F.C",
+  "TEAM LOPES 99",
   "teves_futsal20 f.c",
   "Texas Club 2026",
   "TIGRE LEON",
