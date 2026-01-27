@@ -81,8 +81,8 @@ const criarMapaTimes = (times) => {
 };
 
 const normalizarMatch = (match) => ({
-  casaId: match?.casaId ? null,
-  foraId: match?.foraId ? null,
+  casaId: match?.casaId ?? null,
+  foraId: match?.foraId ?? null,
   casaPts: Number.isFinite(match?.casaPts) ? match.casaPts : null,
   foraPts: Number.isFinite(match?.foraPts) ? match.foraPts : null,
 });
