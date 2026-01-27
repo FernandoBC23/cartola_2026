@@ -351,6 +351,28 @@ const pontuacoesPorRodada = {
     "Rodada 18": "",
     "Rodada 19": ""
   },
+  "19833277": {
+    "Time": "Arran Katoko FC",
+    "Rodada 1": 0.0,
+    "Rodada 2": "",
+    "Rodada 3": "",
+    "Rodada 4": "",
+    "Rodada 5": "",
+    "Rodada 6": "",
+    "Rodada 7": "",
+    "Rodada 8": "",
+    "Rodada 9": "",
+    "Rodada 10": "",
+    "Rodada 11": "",
+    "Rodada 12": "",
+    "Rodada 13": "",
+    "Rodada 14": "",
+    "Rodada 15": "",
+    "Rodada 16": "",
+    "Rodada 17": "",
+    "Rodada 18": "",
+    "Rodada 19": ""
+  },
   "20651178": {
     "Time": "Pontaç0 F.C.",
     "Rodada 1": 0.0,

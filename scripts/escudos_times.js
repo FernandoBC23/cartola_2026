@@ -80,6 +80,7 @@ window.escudosTimes = {
   "SC 100 Sono": "../imagens/1_sc_100_sono.png",
   "GrioTeam": "../imagens/1_grioteam.png",
   "Pepe Leal FC": "../imagens/1_pepe_leal_fc.png",  
+  "Arran Katoko FC": "../imagens/1_arran_katoko_fc.png"
 };
 
 window.ESCUDO_PADRAO = "escudo_default.png";

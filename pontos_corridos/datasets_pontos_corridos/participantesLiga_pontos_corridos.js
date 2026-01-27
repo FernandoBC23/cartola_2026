@@ -1,4 +1,5 @@
 window.participantesLiga = [
+  "Arran Katoko FC",
   "bugredasmissões",
   "C R Juvenal",
   "Doug Leal F.C",
