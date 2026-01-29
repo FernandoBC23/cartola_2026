@@ -14,6 +14,18 @@ function logDebug(...args) {
   if (DEBUG) console.log(...args);
 }
 
+function getParcialPayload() {
+  return (typeof pontuacaoParcialRodadaAtual === "object" && pontuacaoParcialRodadaAtual)
+    ? pontuacaoParcialRodadaAtual
+    : { rodada: null, times: {} };
+}
+
+function getParcialRodada() {
+  const payload = getParcialPayload();
+  if (!payload || !payload.rodada || !payload.times) return null;
+  return Object.keys(payload.times).length ? payload.rodada : null;
+}
+
 // =========================
 // INIT
 // =========================
@@ -77,6 +89,9 @@ function criarAbas() {
 // RODADA ATUAL (inteligente)
 // =========================
 function obterRodadaAtual() {
+  const rodadaParcial = getParcialRodada();
+  if (Number.isFinite(rodadaParcial)) return rodadaParcial;
+
   const geral = classificacaoLigaClassica?.geral;
   if (!geral) return null;
 
@@ -148,7 +163,15 @@ function exibirClassificacaoPor(tipo, chave) {
 
   const rodadaTexto = (rodadaAtual === null) ? "—" : rodadaAtual;
 
-  infoDiv.innerHTML = `📅 Rodada Atual: <strong>${rodadaTexto}</strong> &nbsp;&nbsp; ⏱️ Última atualização: <strong>${dataAtualizacao}</strong>`;
+  const rodadaParcial = getParcialRodada();
+  const temParcial = Number.isFinite(rodadaParcial);
+  if (temParcial) {
+    infoDiv.classList.add("parcial");
+    infoDiv.innerHTML = `Rodada ${rodadaParcial} em andamento: pontuacoes parciais (nao definitivas).`;
+  } else {
+    infoDiv.classList.remove("parcial");
+    infoDiv.innerHTML = `Rodada Atual: <strong>${rodadaTexto}</strong> | Ultima atualizacao: <strong>${dataAtualizacao}</strong>`;
+  }
 
   // Monta dados
   if (tipo === "geral") {

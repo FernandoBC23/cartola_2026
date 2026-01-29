@@ -64,6 +64,14 @@
     margin-bottom: 20px;
     box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.7);
   }
+
+  .info-atualizacao.parcial {
+    background-color: #FFE6C7;
+    color: #4a2d00;
+    border-left: 5px solid #FF7604;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+  }
   
 
   /* Escudo e time */
