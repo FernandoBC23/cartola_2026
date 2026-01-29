@@ -1,0 +1,21 @@
+Rodada,Confronto,Time A,Time B,ID A,ID B
+1,1,CAFÉ AMARGO PRO26.2,FBC Colorado,1,3
+1,2,JV5 Tricolor Gaúcho,PUXE FC,6,8
+1,3,Sport Clube PAIM,TEAM LOPES 99,12,13
+1,4,TIGRE LEON,Pity10,14,10
+1,5,cartola scheuer17,Tatols Beants F.C,17,15
+1,6,pura bucha/internacional,lsauer fc,19,18
+1,7,Paulo Virgili FC,Texas Club 2026,9,16
+1,8,Dom Camillo68,Fedato Futebol Clube,2,4
+1,9,Gremiomaniasm,Mau Humor F.C.,5,7
+1,10,seralex,Rolo Compressor ZN,20,11
+2,1,FBC Colorado,TIGRE LEON,3,14
+2,2,CAFÉ AMARGO PRO26.2,PUXE FC,1,8
+2,3,JV5 Tricolor Gaúcho,TEAM LOPES 99,6,13
+2,4,Tatols Beants F.C,Sport Clube PAIM,15,12
+2,5,lsauer fc,Pity10,18,10
+2,6,cartola scheuer17,Texas Club 2026,17,16
+2,7,pura bucha/internacional,Fedato Futebol Clube,19,4
+2,8,Mau Humor F.C.,Paulo Virgili FC,7,9
+2,9,Dom Camillo68,seralex,2,20
+2,10,Gremiomaniasm,Rolo Compressor ZN,5,11
