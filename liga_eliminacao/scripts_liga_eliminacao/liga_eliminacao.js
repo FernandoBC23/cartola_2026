@@ -10,6 +10,19 @@ const getFontePontuacoes = () => (
   (typeof pontuacoesPorRodada === "object" && pontuacoesPorRodada) ? pontuacoesPorRodada : {}
 );
 
+const getParcialPayload = () => (
+  (typeof pontuacaoParcialRodadaAtual === "object" && pontuacaoParcialRodadaAtual)
+    ? pontuacaoParcialRodadaAtual
+    : { rodada: null, times: {} }
+);
+
+function getParcialRodada(rodada) {
+  const payload = getParcialPayload();
+  if (!payload || payload.rodada !== rodada || !payload.times) return null;
+  const keys = Object.keys(payload.times || {});
+  return keys.length ? payload.times : null;
+}
+
 const getCampeonatoComecou = () => (
   typeof window.campeonato_comecou === "boolean" ? window.campeonato_comecou : true
 );
@@ -79,9 +92,14 @@ function getTimesBase() {
 
 function montarListaRodada(rodada) {
   const fonte = getFontePontuacoes();
+  const parcial = getParcialRodada(rodada);
   const lista = getTimesBase().map(({ id, nome }) => {
     const row = fonte[id] || {};
-    const pontosRodadaRaw = row[`Rodada ${rodada}`];
+    let pontosRodadaRaw = row[`Rodada ${rodada}`];
+    if (parcial && Object.prototype.hasOwnProperty.call(parcial, String(id))) {
+      const parcialVal = parcial[String(id)];
+      if (typeof parcialVal === "number") pontosRodadaRaw = parcialVal;
+    }
     const pontosRodada = typeof pontosRodadaRaw === "number" ? pontosRodadaRaw : 0;
     let totalTurno = 0;
     for (let r = RODADA_INICIO; r <= rodada; r++) {
@@ -243,6 +261,17 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   const avisoContainer = document.getElementById("aviso-eliminado");
   if (!avisoContainer) return;
 
+  const usandoParcial = !!getParcialRodada(rodadaAtual);
+  if (usandoParcial) {
+    avisoContainer.classList.add("aviso-parcial");
+    avisoContainer.innerHTML = `
+      <strong>Rodada ${rodadaAtual} em andamento:</strong>
+      pontuacoes parciais (nao definitivas).
+    `;
+    return;
+  }
+
+  avisoContainer.classList.remove("aviso-parcial");
   const pontuacoesRodada = montarListaRodada(rodadaAtual);
   if (pontuacoesRodada.length > 0 && pontuacoesRodada.every((item) => item.pontosRodada === 0)) {
     avisoContainer.innerHTML = `
