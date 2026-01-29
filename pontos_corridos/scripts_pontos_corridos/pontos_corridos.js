@@ -91,8 +91,11 @@
     }
 
     function isParcial(rodadaReal) {
+      const rodadaParcial = window.pontosCorridosMeta?.rodada_parcial;
+      if (Number.isFinite(rodadaParcial)) {
+        return rodadaReal === rodadaParcial;
+      }
       if (window.pontosCorridosMeta?.parcial_disponivel) return true;
-      if (window.pontosCorridosMeta?.rodada_parcial === rodadaReal) return true;
 
       const resultadosRodada = (resultadosFase1 || []).filter(r => +r.rodada === +rodadaReal);
       const temNulos = resultadosRodada.some(r =>
@@ -245,7 +248,10 @@
       painelGrupos.innerHTML = "";
 
       const tituloBadge = "";
-      const usarAvisoParcial = isParcial(numeroRodada);
+      const rodadaParcial = window.pontosCorridosMeta?.rodada_parcial;
+      const usarAvisoParcial = Number.isFinite(rodadaParcial)
+        ? (numeroRodada === rodadaParcial)
+        : isParcial(numeroRodada);
       let avisoInserido = false;
 
       // --- agrupamento de confrontos por grupo ---
@@ -334,7 +340,8 @@
           const aviso = document.createElement("div");
           aviso.id = "aviso-parcial-rodada";
           aviso.className = "aviso-parcial";
-          aviso.textContent = `Rodada ${numeroRodada} em andamento: pontuacoes parciais (nao definitivas).`;
+          const rodadaAviso = Number.isFinite(rodadaParcial) ? rodadaParcial : numeroRodada;
+          aviso.textContent = `Rodada ${rodadaAviso} em andamento: pontuacoes parciais (nao definitivas).`;
           colunaEsq.insertBefore(aviso, navTop.nextSibling);
           avisoInserido = true;
         }

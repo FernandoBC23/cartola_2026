@@ -240,3 +240,4 @@ const resultadosFase1 = [
     }
   }
 ];
+window.pontosCorridosMeta = {"rodada_parcial": 1, "parcial_disponivel": true};

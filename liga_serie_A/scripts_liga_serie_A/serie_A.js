@@ -34,7 +34,7 @@
     // ================================
     // Utilitários
     // ================================
-    const formatPts = (n) => Number.isFinite(n) ? n.toFixed(2) : "?";
+    const formatPts = (n) => Number.isFinite(n) ? n.toFixed(2) : "0.00";
 
     // Escudos centralizados (usa scripts/escudos_times.js)
     function escudoSrc(nome) {
@@ -52,17 +52,59 @@
       return NaN;
     }
 
+    function normKey(s) {
+      if (!s) return "";
+      return String(s)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-zA-Z0-9]/g, "")
+        .toLowerCase();
+    }
+
+    const getPontuacoesMap = (() => {
+      let cacheRef = null;
+      let cacheNorm = null;
+      return () => {
+        const mapa = window.pontuacoesPorRodada || {};
+        if (mapa !== cacheRef) {
+          cacheRef = mapa;
+          cacheNorm = new Map();
+          Object.keys(mapa).forEach((k) => {
+            const nk = normKey(k);
+            if (nk && !cacheNorm.has(nk)) cacheNorm.set(nk, k);
+          });
+        }
+        return { mapa, cacheNorm };
+      };
+    })();
+
     function getParcial(nomeTime, rodadaReal) {
       // rodadaReal = 1..19
       const col = `Rodada ${rodadaReal + TURNO_OFFSET}`;
-      const mapa = window.pontuacoesPorRodada || {};
-      return toNum(mapa?.[nomeTime]?.[col]);
+      const { mapa, cacheNorm } = getPontuacoesMap();
+      if (!mapa) return NaN;
+      if (mapa[nomeTime] && mapa[nomeTime][col] !== undefined) {
+        return toNum(mapa[nomeTime][col]);
+      }
+      const altKey = cacheNorm.get(normKey(nomeTime));
+      return altKey ? toNum(mapa?.[altKey]?.[col]) : NaN;
     }
 
     function isParcial(rodadaReal) {
+      const rodadaParcial = window.ligaSerieAMeta?.rodada_parcial;
+      if (Number.isFinite(rodadaParcial)) {
+        return rodadaReal === rodadaParcial;
+      }
+      if (window.ligaSerieAMeta?.parcial_disponivel) return true;
+
+      const resultadosRodada = (resultadosFase1 || []).filter(r => +r.rodada === +rodadaReal);
+      const temNulos = resultadosRodada.some(r =>
+        !Number.isFinite(r?.mandante?.pontos) || !Number.isFinite(r?.visitante?.pontos)
+      );
+      if (temNulos) return true;
+
       const col = `Rodada ${rodadaReal + TURNO_OFFSET}`;
       const mapa = window.pontuacoesPorRodada || {};
-
       const times = Object.values(mapa);
       if (!times.length) return false;
 
@@ -70,30 +112,6 @@
       const filled = vals.filter(Number.isFinite).length;
 
       return filled > 0 && filled < vals.length;
-    }
-
-    function renderBannerParcial(container, rodadaReal) {
-      if (!isParcial(rodadaReal)) return;
-
-      const aviso = document.createElement("div");
-      aviso.id = "aviso-parcial-rodada";
-      aviso.className = "aviso-parcial";
-      aviso.innerHTML = `
-        <span style="font-size:1.1rem;margin-right:.5rem">⏳</span>
-        <strong>Rodada ${rodadaReal} em andamento:</strong>
-        pontuações <strong>parciais</strong> â€” o resultado ainda não é definitivo.
-      `;
-      aviso.style.cssText = [
-        "margin:0 0 16px 0",
-        "padding:10px 14px",
-        "background:#ffe7cc",
-        "border:1px solid #ffcf91",
-        "color:#4a2d00",
-        "border-radius:10px",
-        "font-weight:600"
-      ].join(";");
-
-      container.appendChild(aviso);
     }
 
     // ================================
@@ -219,10 +237,12 @@
     function renderPainelCompleto(numeroRodada) {
       painelGrupos.innerHTML = "";
 
-      // banner de rodada parcial (se aplicável)
-      renderBannerParcial(painelGrupos, numeroRodada);
-
-      const tituloBadge = isParcial(numeroRodada) ? " â€¢ PARCIAL" : "";
+      const tituloBadge = "";
+      const rodadaParcial = window.ligaSerieAMeta?.rodada_parcial;
+      const usarAvisoParcial = Number.isFinite(rodadaParcial)
+        ? (numeroRodada === rodadaParcial)
+        : isParcial(numeroRodada);
+      let avisoInserido = false;
 
       // --- agrupamento de confrontos por grupo ---
       const confrontosRodada = (confrontosFase1 || []).filter(j => +j.rodada === +numeroRodada);
@@ -306,6 +326,16 @@
           </div>`;
         colunaEsq.prepend(navTop);
 
+        if (usarAvisoParcial && !avisoInserido) {
+          const aviso = document.createElement("div");
+          aviso.id = "aviso-parcial-rodada";
+          aviso.className = "aviso-parcial";
+          const rodadaAviso = Number.isFinite(rodadaParcial) ? rodadaParcial : numeroRodada;
+          aviso.textContent = `Rodada ${rodadaAviso} em andamento: pontuacoes parciais (nao definitivas).`;
+          colunaEsq.insertBefore(aviso, navTop.nextSibling);
+          avisoInserido = true;
+        }
+
         // ===== coluna direita: confrontos da rodada (com parciais) =====
         const colunaDir = document.createElement("div");
         colunaDir.className = "coluna-direita";
@@ -326,13 +356,18 @@
               r?.mandante?.nome === mand && r?.visitante?.nome === visi
             );
 
-            const pMand = Number.isFinite(final?.mandante?.pontos)
+            const pMandRaw = Number.isFinite(final?.mandante?.pontos)
               ? final.mandante.pontos
               : getParcial(mand, numeroRodada);
 
-            const pVis = Number.isFinite(final?.visitante?.pontos)
+            const pVisRaw = Number.isFinite(final?.visitante?.pontos)
               ? final.visitante.pontos
               : getParcial(visi, numeroRodada);
+
+            const mandOk = Number.isFinite(pMandRaw);
+            const visOk = Number.isFinite(pVisRaw);
+            const pMand = mandOk ? pMandRaw : 0;
+            const pVis = visOk ? pVisRaw : 0;
 
             // escudos
             const t1 = document.createElement("div");
@@ -357,23 +392,32 @@
             const span = document.createElement("span");
             span.className = "vencedor";
 
-            if (!Number.isFinite(pMand) || !Number.isFinite(pVis)) {
+            if (!mandOk && !visOk) {
               span.textContent = "🕒 Aguardando Confronto";
               span.style.backgroundColor = "#ffc107";
               span.style.color = "#000";
+            } else if (isParcial(numeroRodada)) {
+              if (pMand > pVis) {
+                span.textContent = `⏳ ${mand} está vencendo`;
+              } else if (pMand < pVis) {
+                span.textContent = `⏳ ${visi} está vencendo`;
+              } else {
+                span.textContent = "⏳ Parcial: empate";
+              }
+            } else if (Number.isFinite(final?.mandante?.pontos) && Number.isFinite(final?.visitante?.pontos)) {
+              if (pMand > pVis) {
+                span.textContent = `✅ ${mand} venceu`;
+              } else if (pMand < pVis) {
+                span.textContent = `✅ ${visi} venceu`;
+              } else {
+                span.textContent = "🤝 Empate";
+              }
             } else if (pMand > pVis) {
               span.textContent = `✅ ${mand} venceu`;
             } else if (pMand < pVis) {
               span.textContent = `✅ ${visi} venceu`;
             } else {
               span.textContent = "🤝 Empate";
-            }
-
-            if (isParcial(numeroRodada)) {
-              const badge = document.createElement("div");
-              badge.textContent = "PARCIAL";
-              badge.style.cssText = "margin-top:4px;font-size:.8rem;opacity:.85;";
-              resDiv.appendChild(badge);
             }
 
             jDiv.appendChild(t1);
@@ -407,51 +451,53 @@
         </div>`;
       painelGrupos.appendChild(navBottom);
 
-      // === resumo da rodada (usa final OU parcial) ===
-      const jogosResumo = (confrontosFase1 || []).filter(j => +j.rodada === +numeroRodada);
-      let maiorPontuacao = "", maiorTotal = -Infinity;
-      let maiorDiferenca = "", difMax = -Infinity;
-      let soma = 0, jogosValidos = 0;
+      // === resumo da rodada (no padrão da Liga Eliminação) ===
+      const grupoResumoKey = Object.keys(classificacaoFonte || {}).find(
+        (k) => Array.isArray(classificacaoFonte?.[k]) && classificacaoFonte[k].length > 0
+      );
+      const timesResumo = grupoResumoKey ? classificacaoFonte[grupoResumoKey] : [];
+      const usarParcialResumo = isParcial(numeroRodada);
+      const mapaFinalRodada = new Map();
 
-      jogosResumo.forEach(j => {
-        const mand = j.mandante?.nome, visi = j.visitante?.nome;
+      if (!usarParcialResumo) {
+        (resultadosFase1 || [])
+          .filter(r => +r.rodada === +numeroRodada)
+          .forEach(r => {
+            if (Number.isFinite(r?.mandante?.pontos)) {
+              mapaFinalRodada.set(r.mandante.nome, r.mandante.pontos);
+            }
+            if (Number.isFinite(r?.visitante?.pontos)) {
+              mapaFinalRodada.set(r.visitante.nome, r.visitante.pontos);
+            }
+          });
+      }
 
-        const final = (resultadosFase1 || []).find(r =>
-          +r.rodada === +numeroRodada &&
-          r?.mandante?.nome === mand &&
-          r?.visitante?.nome === visi
-        );
+      let maiorTime = null;
+      let menorTime = null;
+      let soma = 0;
+      let count = 0;
 
-        const a = Number.isFinite(final?.mandante?.pontos) ? final.mandante.pontos : getParcial(mand, numeroRodada);
-        const b = Number.isFinite(final?.visitante?.pontos) ? final.visitante.pontos : getParcial(visi, numeroRodada);
-
-        if (!Number.isFinite(a) || !Number.isFinite(b)) return;
-
-        const tot = a + b;
-        const dif = Math.abs(a - b);
-
-        if (tot > maiorTotal) {
-          maiorTotal = tot;
-          maiorPontuacao = `${mand} ${formatPts(a)} x ${formatPts(b)} ${visi}`;
-        }
-        if (dif > difMax) {
-          difMax = dif;
-          maiorDiferenca = `${mand} ${formatPts(a)} x ${formatPts(b)} ${visi}`;
-        }
-
-        soma += tot;
-        jogosValidos += 1;
+      timesResumo.forEach(t => {
+        const nome = t?.nome;
+        const raw = usarParcialResumo
+          ? getParcial(nome, numeroRodada)
+          : (mapaFinalRodada.has(nome) ? mapaFinalRodada.get(nome) : getParcial(nome, numeroRodada));
+        const pts = Number.isFinite(raw) ? raw : 0;
+        if (!maiorTime || pts > maiorTime.pts) maiorTime = { nome, pts };
+        if (!menorTime || pts < menorTime.pts) menorTime = { nome, pts };
+        soma += pts;
+        count += 1;
       });
 
-      const media = jogosValidos ? (soma / (jogosValidos * 2)).toFixed(2) : "-";
+      const media = count ? (soma / count).toFixed(2) : "-";
       const resumo = document.createElement("div");
       resumo.className = "resumo-rodada";
       resumo.innerHTML = `
         <h3>Resumo da Rodada ${numeroRodada}${tituloBadge}</h3>
         <ul>
-          <li><strong>Maior pontuação total:</strong> ${maiorPontuacao || "Aguardando..."}</li>
-          <li><strong>Vitória mais elástica:</strong> ${maiorDiferenca || "Aguardando..."}</li>
-          <li><strong>Média de pontos por time:</strong> ${media}</li>
+          <li><strong>Maior pontuacao:</strong> ${maiorTime ? `${maiorTime.nome} (${formatPts(maiorTime.pts)} pts)` : "Aguardando..."}</li>
+          <li><strong>Menor pontuacao:</strong> ${menorTime ? `${menorTime.nome} (${formatPts(menorTime.pts)} pts)` : "Aguardando..."}</li>
+          <li><strong>Media geral:</strong> ${media}</li>
         </ul>`;
       painelGrupos.appendChild(resumo);
 
