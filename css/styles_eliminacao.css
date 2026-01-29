@@ -175,6 +175,20 @@
     max-width: 960px;
     box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
   }
+
+  .aviso-parcial {
+    max-width: 960px;
+    width: 100%;
+    background-color: #FFE6C7;
+    color: #4a2d00;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border-left: 5px solid #FF7604;
+    border-radius: 8px;
+    margin: 16px auto 20px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+  }
     
   .eliminado-tag {
   /* background-color: #A27B5C; */
@@ -254,6 +268,10 @@
   }
 
   .aviso-eliminado{    
+    width: 95%;
+  }
+
+  .aviso-parcial{
     width: 95%;
   }
 

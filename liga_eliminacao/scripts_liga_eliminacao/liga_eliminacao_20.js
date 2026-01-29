@@ -16,6 +16,47 @@ const temEliminacaoManual = (fonte) => Object.values(fonte).some(
   (lista) => Array.isArray(lista) && lista.length > 0
 );
 
+const getParcialPayload = () => (
+  (typeof pontuacaoParcialRodadaAtual === "object" && pontuacaoParcialRodadaAtual)
+    ? pontuacaoParcialRodadaAtual
+    : { rodada: null, times: {} }
+);
+
+function getParcialRodada(rodada) {
+  const payload = getParcialPayload();
+  if (!payload || payload.rodada !== rodada || !payload.times) return null;
+  const keys = Object.keys(payload.times || {});
+  return keys.length ? payload.times : null;
+}
+
+function coletarPontuacoesExibicao(rodada) {
+  const lista = [];
+  const fonte = getFontePontuacoes();
+  const parcial = getParcialRodada(rodada);
+
+  for (const id in fonte) {
+    const row = fonte[id] || {};
+    const nome = row.Time || id;
+    let pontosRodada = row[`Rodada ${rodada}`];
+
+    if (parcial && Object.prototype.hasOwnProperty.call(parcial, String(id))) {
+      const parcialVal = parcial[String(id)];
+      if (typeof parcialVal === "number") pontosRodada = parcialVal;
+    }
+
+    if (typeof pontosRodada === "number") {
+      let totalTurno = 0;
+      for (let r = RODADA_INICIO; r <= rodada; r++) {
+        const pts = row[`Rodada ${r}`];
+        if (typeof pts === "number") totalTurno += pts;
+      }
+      lista.push({ id, nome, pontosRodada, totalTurno });
+    }
+  }
+
+  return { lista, usandoParcial: !!parcial };
+}
+
 function coletarPontuacoesRodada(rodada, ativosSet = null) {
   const lista = [];
   const fonte = getFontePontuacoes();
@@ -242,7 +283,7 @@ function exibirPontuacoesRodada(rodada) {
   if (!tbody) return;
 
   tbody.innerHTML = "";
-  const lista = coletarPontuacoesRodada(rodada);
+  const { lista } = coletarPontuacoesExibicao(rodada);
 
   lista.sort((a, b) => {
     if (b.pontosRodada !== a.pontosRodada) return b.pontosRodada - a.pontosRodada;
@@ -282,7 +323,18 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   const avisoContainer = document.getElementById("aviso-eliminado");
   if (!avisoContainer) return;
 
-  const pontuacoesRodada = coletarPontuacoesRodada(rodadaAtual);
+  const usandoParcial = !!getParcialRodada(rodadaAtual);
+  if (usandoParcial) {
+    avisoContainer.classList.add("aviso-parcial");
+    avisoContainer.innerHTML = `
+      <strong>Rodada ${rodadaAtual} em andamento:</strong>
+      pontuacoes parciais (nao definitivas).
+    `;
+    return;
+  }
+
+  avisoContainer.classList.remove("aviso-parcial");
+  const pontuacoesRodada = coletarPontuacoesExibicao(rodadaAtual).lista;
   if (pontuacoesRodada.length > 0 && pontuacoesRodada.every((item) => item.pontosRodada === 0)) {
     avisoContainer.innerHTML = `
       <strong>Aguardando inicio do campeonato:</strong>
@@ -344,23 +396,8 @@ function exibirResumoEliminacao(rodadaAtual) {
   const container = document.getElementById("resumo-eliminacao");
   if (!container) return;
 
-  const rodadaChave = `Rodada ${rodadaAtual}`;
-  const pontuacoesRodada = [];
-
   const fonte = getFontePontuacoes();
-  for (const id in fonte) {
-    const row = fonte[id] || {};
-    const nome = row.Time || id;
-    const pontosRodada = row[rodadaChave];
-    if (typeof pontosRodada === "number") {
-      let totalTurno = 0;
-      for (let r = RODADA_INICIO; r <= rodadaAtual; r++) {
-        const pts = row[`Rodada ${r}`];
-        if (typeof pts === "number") totalTurno += pts;
-      }
-      pontuacoesRodada.push({ id, nome, pontosRodada, totalTurno });
-    }
-  }
+  const { lista: pontuacoesRodada } = coletarPontuacoesExibicao(rodadaAtual);
 
   let estatisticasHTML = "";
   if (pontuacoesRodada.length > 0) {
