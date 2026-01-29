@@ -126,10 +126,24 @@
     margin: 0 4px;
   }
   
-  .resultado {
+.resultado {
+  text-align: center;
+  font-size: 12px;
+  margin-top: -38px;
+}
+
+  .aviso-parcial {
+    max-width: 960px;
+    width: 100%;
+    background-color: #FFE6C7;
+    color: #4a2d00;
+    font-weight: bold;
+    padding: 12px;
     text-align: center;
-    font-size: 12px;
-    margin-top: -38px;
+    border-left: 5px solid #FF7604;
+    border-radius: 8px;
+    margin: 16px auto 20px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
   }
 
 /* Card de Resumo da Rodada */
@@ -170,7 +184,7 @@
 /* ------------------------------------
    RESPONSIVO PARA DISPOSITIVOS MÓVEIS
    ------------------------------------ */
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
 
     body {
       font-size: 12px;      
@@ -237,6 +251,10 @@
     .grupo-linha .coluna-esquerda,
     .grupo-linha .coluna-direita {
       flex: 1 1 100%;
+    }
+
+    .aviso-parcial {
+      width: 95%;
     }
 
     .tabela-grupo h2 {

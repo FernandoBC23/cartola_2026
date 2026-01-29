@@ -1,0 +1,172 @@
+def classificacao_por_grupo(
+    df_rodadas: pd.DataFrame,
+    df_pontuacoes: pd.DataFrame,
+    rodadas_encerradas: set[int] | None = None,
+    rodada_parcial: int | None = None,
+):
+    """
+    Gera classificação por grupo a partir de confrontos (df_rodadas) e pontuações (df_pontuacoes).
+
+    - `rodadas_encerradas`: rodadas 100% fechadas (contam normalmente).
+    - `rodada_parcial`: rodada em andamento; só conta confrontos se ambos tiverem número e
+      pelo menos UM deles > 0 (evita empates 0x0 de placeholder).
+    """
+
+    # --- 0) Normalizações para casar chaves ---
+    df_pontuacoes_times = df_pontuacoes.drop(index='Lider_Rodada', errors='ignore').copy()
+    if df_pontuacoes_times.index.dtype != "object":
+        df_pontuacoes_times.index = df_pontuacoes_times.index.astype(str)
+    df_pontuacoes_times.index = df_pontuacoes_times.index.str.strip()
+    df_pontuacoes_times.columns = [str(c).strip() for c in df_pontuacoes_times.columns]
+
+    required_cols = {"Grupo", "Mandante_Nome", "Visitante_Nome", "Rodada"}
+    faltando = required_cols - set(df_rodadas.columns)
+    if faltando:
+        raise ValueError(f"df_rodadas está sem as colunas: {sorted(faltando)}")
+
+    # --- 1) Pré-inicializa times (zerados) por grupo, a partir dos confrontos ---
+    estatisticas: dict[str, dict[str, dict]] = {}
+    for _, r in df_rodadas.iterrows():
+        grupo = str(r["Grupo"]).strip()
+        mandante = str(r["Mandante_Nome"]).strip()
+        visitante = str(r["Visitante_Nome"]).strip()
+        if grupo not in estatisticas:
+            estatisticas[grupo] = {}
+        for time in (mandante, visitante):
+            if time not in estatisticas[grupo]:
+                estatisticas[grupo][time] = {
+                    "Pontos": 0,
+                    "Vitórias": 0,
+                    "Empates": 0,
+                    "Derrotas": 0,
+                    "Total_Cartola": 0.0,
+                    "Cartola_Sofrido": 0.0,
+                }
+
+    # helper seguro para ler pontuação do DF; None => não considerar
+    def safe_pontuacao(nome_time: str, coluna_rodada: str):
+        if (nome_time in df_pontuacoes_times.index) and (coluna_rodada in df_pontuacoes_times.columns):
+            val = df_pontuacoes_times.at[nome_time, coluna_rodada]
+            if pd.notnull(val):
+                try:
+                    return float(val)
+                except Exception:
+                    return None
+        return None
+
+    # --- 1.1) (NOVO) Se não for informado, inferir 'encerradas' pelo DF de pontuações ---
+    if rodadas_encerradas is None:
+        rodadas_encerradas = set()
+        # usa as rodadas que aparecem no CSV de confrontos, convertidas p/ int
+        candidatas = pd.to_numeric(df_rodadas["Rodada"], errors="coerce").dropna().astype(int).unique()
+        for n in candidatas:
+            if rodada_parcial is not None and n == rodada_parcial:
+                continue  # nunca trate a parcial como encerrada
+
+            col = f"Rodada {n}"
+            if col not in df_pontuacoes_times.columns:
+                continue
+
+            serie = pd.to_numeric(df_pontuacoes_times[col], errors="coerce")
+            num_validos = serie.notna().sum()
+            tem_algum_ponto = (serie.fillna(0) > 0).any()
+
+            # "Encerrada" = tem pelo menos 2 placares válidos e alguém > 0
+            if num_validos >= 2 and tem_algum_ponto:
+                rodadas_encerradas.add(n)
+
+    # Sanity: se por engano passou a parcial dentro das encerradas, remove
+    if rodada_parcial is not None and rodada_parcial in rodadas_encerradas:
+        rodadas_encerradas.discard(rodada_parcial)
+
+    # --- 2) Processa confrontos conforme status da rodada ---
+    for _, confronto in df_rodadas.iterrows():
+        try:
+            rodada = int(confronto["Rodada"])
+        except Exception:
+            try:
+                rodada = int(str(confronto["Rodada"]).strip())
+            except Exception:
+                continue
+
+        mandante = str(confronto["Mandante_Nome"]).strip()
+        visitante = str(confronto["Visitante_Nome"]).strip()
+        grupo = str(confronto["Grupo"]).strip()
+        coluna_rodada = f"Rodada {rodada}"
+
+        # Rodada não elegível? (nem encerrada, nem a parcial atual) → ignora
+        if (rodada not in rodadas_encerradas) and (rodada != rodada_parcial):
+            continue
+
+        pm = safe_pontuacao(mandante, coluna_rodada)
+        pv = safe_pontuacao(visitante, coluna_rodada)
+
+        # Regra para rodada PARCIAL: só conta se ambos têm número e pelo menos UM > 0
+        if rodada == rodada_parcial:
+            if pm is None or pv is None:
+                continue
+            if (pm == 0.0) and (pv == 0.0):
+                continue
+
+        # Regra para rodada ENCERRADA: exige números válidos para ambos
+        if rodada in rodadas_encerradas:
+            if pm is None or pv is None:
+                continue
+
+        # --- acumula totais ---
+        estatisticas[grupo][mandante]["Total_Cartola"] += pm
+        estatisticas[grupo][mandante]["Cartola_Sofrido"] += pv
+        estatisticas[grupo][visitante]["Total_Cartola"] += pv
+        estatisticas[grupo][visitante]["Cartola_Sofrido"] += pm
+
+        # --- pontos/vit/emp/der ---
+        if pm > pv:
+            estatisticas[grupo][mandante]["Pontos"] += 3
+            estatisticas[grupo][mandante]["Vitórias"] += 1
+            estatisticas[grupo][visitante]["Derrotas"] += 1
+        elif pm < pv:
+            estatisticas[grupo][visitante]["Pontos"] += 3
+            estatisticas[grupo][visitante]["Vitórias"] += 1
+            estatisticas[grupo][mandante]["Derrotas"] += 1
+        else:
+            estatisticas[grupo][mandante]["Pontos"] += 1
+            estatisticas[grupo][visitante]["Pontos"] += 1
+            estatisticas[grupo][mandante]["Empates"] += 1
+            estatisticas[grupo][visitante]["Empates"] += 1
+
+    # --- 3) Monta DataFrame final ---
+    frames = []
+    for grupo, times in estatisticas.items():
+        if not times:
+            continue
+        df_g = pd.DataFrame({
+            "Grupo": grupo,
+            "Nome do Time": list(times.keys()),
+            "Pontos": [stats["Pontos"] for stats in times.values()],
+            "Vitórias": [stats["Vitórias"] for stats in times.values()],
+            "Empates": [stats["Empates"] for stats in times.values()],
+            "Derrotas": [stats["Derrotas"] for stats in times.values()],
+            "Total Cartola": [stats["Total_Cartola"] for stats in times.values()],
+            "Cartola Sofrido": [stats["Cartola_Sofrido"] for stats in times.values()],
+        })
+        df_g["Saldo Cartola"] = df_g["Total Cartola"] - df_g["Cartola Sofrido"]
+        frames.append(df_g)
+
+    if not frames:
+        cols = ["Grupo","Nome do Time","Pontos","Vitórias","Empates","Derrotas",
+                "Total Cartola","Cartola Sofrido","Saldo Cartola","Posição"]
+        return pd.DataFrame(columns=cols), {}
+
+    df_resultado = pd.concat(frames, ignore_index=True).sort_values(
+        by=["Grupo", "Pontos", "Total Cartola", "Saldo Cartola", "Nome do Time"],
+        ascending=[True, False, False, False, True]
+    ).reset_index(drop=True)
+
+    df_resultado["Posição"] = df_resultado.groupby("Grupo").cumcount() + 1
+
+    df_resultado_por_grupo = {
+        g: df_resultado[df_resultado["Grupo"] == g].copy()
+        for g in df_resultado["Grupo"].unique()
+    }
+
+    return df_resultado, df_resultado_por_grupo
