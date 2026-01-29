@@ -15,6 +15,26 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const painelGrupos = document.getElementById("painel-fase2");
   const aviso = document.getElementById("aviso-liberta");
+  const avisoOriginal = aviso ? { html: aviso.innerHTML, className: aviso.className } : null;
+  const metaRodada = Number.isFinite(window.libertaMeta?.rodada_atual)
+    ? Number(window.libertaMeta.rodada_atual)
+    : null;
+  const parcialRodadaRaw = Number.isFinite(window.pontuacaoParcialRodadaAtual?.rodada)
+    ? Number(window.pontuacaoParcialRodadaAtual.rodada)
+    : metaRodada;
+  const parcialTimes = window.pontuacaoParcialRodadaAtual?.times || {};
+  const parcialRodadaExibida = Number.isFinite(parcialRodadaRaw)
+    ? parcialRodadaRaw
+    : null;
+  const parcialDisponivel = (
+    (window.libertaMeta?.parcial_disponivel === true) ||
+    (Object.keys(parcialTimes).length > 0)
+  ) && parcialRodadaExibida !== null
+    && parcialRodadaExibida >= RODADA_MINIMA
+    && parcialRodadaExibida <= RODADA_MAXIMA;
+  if (parcialDisponivel) {
+    rodadaAtual = parcialRodadaExibida;
+  }
   const rodadaSistema = Number.isFinite(window.RODADA_ATUAL)
     ? window.RODADA_ATUAL
     : (Number.isFinite(window.rodadaAtual) ? window.rodadaAtual : null);
@@ -34,7 +54,13 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   const temDados = hasTimes || hasConfrontosNaFase;
   if (faseNaoIniciou || !temDados) {
-    if (aviso) aviso.style.display = "block";
+    if (aviso) {
+      if (avisoOriginal) {
+        aviso.className = avisoOriginal.className;
+        aviso.innerHTML = avisoOriginal.html;
+      }
+      aviso.style.display = "block";
+    }
     if (painelGrupos) painelGrupos.style.display = "none";
     return;
   }
@@ -61,6 +87,16 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   function renderPainelCompleto(numeroRodada) {
     painelGrupos.innerHTML = "";
+    const rodadaEmAndamento = parcialDisponivel && parcialRodadaExibida === numeroRodada;
+    if (aviso) {
+      if (rodadaEmAndamento) {
+        aviso.className = "aviso-parcial";
+        aviso.textContent = `Rodada ${numeroRodada} em andamento: pontuacoes parciais (nao definitivas).`;
+        aviso.style.display = "block";
+      } else {
+        aviso.style.display = "none";
+      }
+    }
 
     const confrontosRodada = confrontosFase2.filter(j => j.rodada === numeroRodada);
     const resultadosRodada = resultadosFase2.filter(j => j.rodada === numeroRodada);
@@ -165,8 +201,13 @@ window.addEventListener('DOMContentLoaded', () => {
             r.visitante.nome === jogo.visitante.nome
           );
 
-          const p1 = resultado?.mandante?.pontos?.toFixed(2) ? "?";
-          const p2 = resultado?.visitante?.pontos?.toFixed(2) ? "?";
+          const p1Raw = resultado?.mandante?.pontos;
+          const p2Raw = resultado?.visitante?.pontos;
+          const p1Num = Number(p1Raw);
+          const p2Num = Number(p2Raw);
+          const temPontos = Number.isFinite(p1Num) && Number.isFinite(p2Num) && (p1Num + p2Num) > 0;
+          const p1 = temPontos ? p1Num.toFixed(2) : "?";
+          const p2 = temPontos ? p2Num.toFixed(2) : "?";
 
           // const placar = document.createElement("div");
           // placar.className = "placar";
@@ -186,16 +227,22 @@ window.addEventListener('DOMContentLoaded', () => {
           const span = document.createElement("span");
           span.className = "vencedor";
 
-          if (!resultado || resultado.mandante.pontos == null || resultado.visitante.pontos == null) {
-            span.textContent = "🕒 Aguardando Confronto";
+          if (!resultado || !temPontos) {
+            span.textContent = "\u23F0 Aguardando Confronto";
             span.style.backgroundColor = "#ffc107";
             span.style.color = "#000";
-          } else if (resultado.mandante.pontos > resultado.visitante.pontos) {
-          span.textContent = `âœ… ${resultado.mandante.nome} venceu`;
-          } else if (resultado.mandante.pontos < resultado.visitante.pontos) {
-            span.textContent = `âœ… ${resultado.visitante.nome} venceu`;
+          } else if (rodadaEmAndamento) {
+            span.textContent = (p1Num > p2Num)
+              ? `\u23F3 ${resultado.mandante.nome} est\u00E1 vencendo`
+              : (p1Num < p2Num)
+                ? `\u23F3 ${resultado.visitante.nome} est\u00E1 vencendo`
+                : "\u23F3 Parcial: empate";
+          } else if (p1Num > p2Num) {
+            span.textContent = `\u2705 ${resultado.mandante.nome} venceu`;
+          } else if (p1Num < p2Num) {
+            span.textContent = `\u2705 ${resultado.visitante.nome} venceu`;
           } else {
-            span.textContent = `ðŸ¤ Empate`;
+            span.textContent = "\uD83E\uDD1D Empate";
           }
 
           jogoDiv.appendChild(time1);

@@ -163,6 +163,20 @@
     margin-top: -38px;
   }
 
+  .aviso-parcial {
+    max-width: 960px;
+    width: 100%;
+    background-color: #FFE6C7;
+    color: #4a2d00;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border-left: 5px solid #FF7604;
+    border-radius: 8px;
+    margin: 16px auto 20px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
+  }
+
 /* Card de Resumo da Rodada */
 .resumo-rodada {
     background-color: #3F4E4F;
@@ -402,6 +416,10 @@
       text-align: center;
       font-size: 10px;
       margin-top: -30px;
+    }
+
+    .aviso-parcial {
+      width: 95%;
     }
 
     /* .resumo-rodada {

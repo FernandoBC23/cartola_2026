@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const RODADA_MIN = RODADA_MIN_DATA - RODADA_OFFSET;
   const RODADA_MAXIMA = Math.min(RODADA_MAX_DATA - RODADA_OFFSET, RODADA_FIM);
 
-  // Uma rodada ? considerada encerrada se tiver flag 'encerrado'
+  // Uma rodada e considerada encerrada se tiver flag 'encerrado'
   // ou se a soma dos pontos for > 0 (evita contar 0.00 como jogo encerrado)
   const rodadasEncerradas = resultadosFase1
     .filter(r => {
@@ -27,24 +27,52 @@ window.addEventListener('DOMContentLoaded', () => {
     .map(r => r.rodada - RODADA_OFFSET)
     .filter(r => r >= RODADA_INICIO && r <= RODADA_FIM);
 
+  const metaRodada = Number.isFinite(window.libertaMeta?.rodada_atual)
+    ? Number(window.libertaMeta.rodada_atual)
+    : null;
+  const parcialRodadaRaw = Number.isFinite(window.pontuacaoParcialRodadaAtual?.rodada)
+    ? Number(window.pontuacaoParcialRodadaAtual.rodada)
+    : metaRodada;
+  const parcialTimes = window.pontuacaoParcialRodadaAtual?.times || {};
+  const parcialRodadaExibida = Number.isFinite(parcialRodadaRaw)
+    ? (parcialRodadaRaw - RODADA_OFFSET)
+    : null;
+  const parcialDisponivel = (
+    (window.libertaMeta?.parcial_disponivel === true) ||
+    (parcialRodadaExibida !== null && Object.keys(parcialTimes).length > 0)
+  ) && parcialRodadaExibida !== null
+    && parcialRodadaExibida >= RODADA_INICIO
+    && parcialRodadaExibida <= RODADA_FIM;
+
   // Escolha da rodada a exibir ao abrir:
-  // - se houver encerradas, pega a ?ltima encerrada (ou a pr?xima, se preferir, some +1 e fa?a clamp)
-  // - sen?o, usa RODADA_INICIO (ex.: 20)
-  let rodadaAtual = rodadasEncerradas.length
-    ? Math.max(...rodadasEncerradas)
-    : RODADA_INICIO;
+  // - se houver parcial, usa a rodada parcial
+  // - senao, ultima encerrada
+  // - senao, usa RODADA_INICIO
+  let rodadaAtual = parcialDisponivel
+    ? parcialRodadaExibida
+    : (rodadasEncerradas.length ? Math.max(...rodadasEncerradas) : RODADA_INICIO);
 
   // Garante que est? dentro do intervalo do dataset
   rodadaAtual = Math.min(Math.max(rodadaAtual, RODADA_MIN), RODADA_MAXIMA);
 
   const painelGrupos = document.getElementById("painel-grupos");
-  const aviso = document.getElementById("aviso-liberta");
+  let aviso = document.getElementById("aviso-liberta");
+  if (!aviso && painelGrupos && painelGrupos.parentNode) {
+    aviso = document.createElement("div");
+    aviso.id = "aviso-liberta";
+    aviso.className = "aviso-parcial";
+    aviso.style.display = "none";
+    painelGrupos.parentNode.insertBefore(aviso, painelGrupos);
+  }
   const rodadaSistema = Number.isFinite(window.RODADA_ATUAL)
     ? window.RODADA_ATUAL
     : (Number.isFinite(window.rodadaAtual) ? window.rodadaAtual : null);
   const faseNaoIniciou = rodadaSistema !== null && rodadaSistema < RODADA_INICIO;
   if (faseNaoIniciou) {
-    if (aviso) aviso.style.display = "block";
+    if (aviso) {
+      aviso.textContent = "Fase 1 ainda nao iniciou.";
+      aviso.style.display = "block";
+    }
     if (painelGrupos) painelGrupos.style.display = "none";
     return;
   }
@@ -68,8 +96,17 @@ window.addEventListener('DOMContentLoaded', () => {
     return base + arquivo;
   }
 
-function renderPainelCompleto(numeroRodada) {
+  function renderPainelCompleto(numeroRodada) {
   painelGrupos.innerHTML = "";
+  const rodadaEmAndamento = parcialDisponivel && parcialRodadaExibida === numeroRodada;
+  if (aviso) {
+    if (rodadaEmAndamento) {
+      aviso.textContent = `Rodada ${numeroRodada} em andamento: pontuacoes parciais (nao definitivas).`;
+      aviso.style.display = "block";
+    } else {
+      aviso.style.display = "none";
+    }
+  }
 
   const rodadaDataset = numeroRodada + RODADA_OFFSET;
   const confrontosRodada = confrontosFase1.filter(j => j.rodada === rodadaDataset);
@@ -216,13 +253,21 @@ function renderPainelCompleto(numeroRodada) {
         resultadoDiv.className = "resultado";
         const span = document.createElement("span");
         span.className = "vencedor";
-        span.textContent = (!resultado || !temPontos)
-          ? "🕒 Aguardando Confronto"
-          : (p1Num > p2Num
-              ? `?o. ${resultado.mandante.nome} venceu`
-              : p1Num < p2Num
-                  ? `?o. ${resultado.visitante.nome} venceu`
-                  : `?Y? Empate`);
+        if (!resultado || !temPontos) {
+          span.textContent = "\u23F0 Aguardando Confronto";
+        } else if (rodadaEmAndamento) {
+          span.textContent = (p1Num > p2Num)
+            ? `\u23F3 ${resultado.mandante.nome} est\u00E1 vencendo`
+            : (p1Num < p2Num)
+              ? `\u23F3 ${resultado.visitante.nome} est\u00E1 vencendo`
+              : "\u23F3 Parcial: empate";
+        } else {
+          span.textContent = (p1Num > p2Num)
+            ? `\u2705 ${resultado.mandante.nome} venceu`
+            : (p1Num < p2Num)
+              ? `\u2705 ${resultado.visitante.nome} venceu`
+              : "\uD83E\uDD1D Empate";
+        }
 
         if (!resultado || !temPontos) {
           span.style.backgroundColor = "#ffc107";
