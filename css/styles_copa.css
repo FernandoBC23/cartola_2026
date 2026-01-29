@@ -171,7 +171,7 @@
   display: none;
 }
 
-.copa-bracket[data-view="16avos"] .round:not(.round-16avos) {
+.copa-bracket[data-view="primeira_fase"] .round:not(.round-primeira_fase) {
   display: none;
 }
 
@@ -185,6 +185,21 @@
 
 .copa-bracket[data-view="final"] .round:not(.round-final):not(.round-terceiro) {
   display: none;
+}
+
+
+.aviso-parcial {
+  max-width: 960px;
+  width: 100%;
+  background-color: #FFE6C7;
+  color: #4a2d00;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  border-left: 5px solid #FF7604;
+  border-radius: 8px;
+  margin: 16px auto 20px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.9);
 }
 
 @media (min-width: 769px) {
@@ -204,7 +219,7 @@
     margin-top: 0;
   }
 
-  .round-16avos { grid-column: 1; }
+  .round-primeira_fase { grid-column: 1; }
   .round-oitavas { grid-column: 2; }
   .round-quartas { grid-column: 3; }
   .round-semi { grid-column: 4; }

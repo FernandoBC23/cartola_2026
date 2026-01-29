@@ -1,7 +1,7 @@
 // copa.js
 
 const LABEL_FASES = {
-  "16avos": "16avos de Final",
+  primeira_fase: "Primeira Fase",
   oitavas: "Oitavas de Final",
   quartas: "Quartas de Final",
   semi: "Semifinal",
@@ -152,21 +152,21 @@ const construirFases = (timesMap) => {
   const dados = getCopaDados();
   const fases = dados.fases || {};
 
-  const dezesseisavos = garantirLista(fases["16avos"] || fases.dezesseisavos, 16);
+  const primeiraFase = garantirLista(fases.primeira_fase, 16);
   const oitavas = garantirLista(fases.oitavas, 8);
   let quartas = garantirLista(fases.quartas, 4);
   let semi = garantirLista(fases.semi, 2);
   let final = garantirLista(fases.final, 1);
   let terceiro = garantirLista(fases.terceiro, 1);
 
-  const winners16 = coletarVencedores(dezesseisavos, timesMap);
+  const winnersPrimeira = coletarVencedores(primeiraFase, timesMap);
   const winnersOitavas = coletarVencedores(oitavas, timesMap);
   const winnersQuartas = coletarVencedores(quartas, timesMap);
   const winnersSemis = coletarVencedores(semi, timesMap);
   const losersSemis = coletarPerdedores(semi, timesMap);
 
-  if (winners16.length) {
-    const oitavasDefinidas = definirTimesPorResultado(oitavas, winners16);
+  if (winnersPrimeira.length) {
+    const oitavasDefinidas = definirTimesPorResultado(oitavas, winnersPrimeira);
     for (let i = 0; i < oitavas.length; i += 1) {
       oitavas[i] = oitavasDefinidas[i];
     }
@@ -184,10 +184,10 @@ const construirFases = (timesMap) => {
     terceiro = definirTimesPorResultado(terceiro, losersSemis);
   }
 
-  return { dezesseisavos, oitavas, quartas, semi, final, terceiro };
+  return { primeiraFase, oitavas, quartas, semi, final, terceiro };
 };
 
-const formatarScore = (valor) => (Number.isFinite(valor) ? valor.toFixed(1) : "--");
+const formatarScore = (valor) => (Number.isFinite(valor) ? valor.toFixed(2) : "--");
 
 const renderTeamRow = (time, score, status) => {
   const row = document.createElement("div");
@@ -256,6 +256,22 @@ const renderMatch = (match, timesMap, isSecondary = false) => {
   return container;
 };
 
+
+const garantirAvisoParcial = () => {
+  const container = document.querySelector(".copa-container");
+  const bracketWrap = document.querySelector(".copa-bracket-wrap");
+  if (!container || !bracketWrap) return null;
+  let aviso = document.getElementById("aviso-parcial-copa");
+  if (!aviso) {
+    aviso = document.createElement("div");
+    aviso.id = "aviso-parcial-copa";
+    aviso.className = "aviso-parcial";
+    aviso.style.display = "none";
+    container.insertBefore(aviso, bracketWrap);
+  }
+  return aviso;
+};
+
 const renderBracket = () => {
   const dados = getCopaDados();
   const timesMap = criarMapaTimes(dados.times || []);
@@ -266,7 +282,7 @@ const renderBracket = () => {
   container.innerHTML = "";
 
   const roundConfigs = [
-    { key: "16avos", title: LABEL_FASES["16avos"], matches: fases.dezesseisavos },
+    { key: "primeira_fase", title: LABEL_FASES.primeira_fase, matches: fases.primeiraFase },
     { key: "oitavas", title: LABEL_FASES.oitavas, matches: fases.oitavas },
     { key: "quartas", title: LABEL_FASES.quartas, matches: fases.quartas },
     { key: "semi", title: LABEL_FASES.semi, matches: fases.semi },
@@ -312,9 +328,21 @@ const atualizarFaseAtiva = (fase, { atualizarHash = true } = {}) => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
+  const avisoParcial = garantirAvisoParcial();
+  const meta = window.copaMeta || {};
+  const parcialAtiva = meta.parcial_disponivel === true;
+  if (avisoParcial) {
+    if (parcialAtiva) {
+      const rodadaTxt = Number.isFinite(meta.rodada) ? meta.rodada : "";
+      avisoParcial.textContent = `Rodada ${rodadaTxt} em andamento: pontuacoes parciais (nao definitivas).`;
+      avisoParcial.style.display = "block";
+    } else {
+      avisoParcial.style.display = "none";
+    }
+  }
   renderBracket();
   const hash = window.location.hash.replace("#", "");
-  const faseInicial = LABEL_FASES[hash] ? hash : "16avos";
+  const faseInicial = LABEL_FASES[hash] ? hash : "primeira_fase";
   atualizarFaseAtiva(faseInicial, { atualizarHash: false });
 
   document.querySelectorAll("[data-round-link]").forEach((link) => {
