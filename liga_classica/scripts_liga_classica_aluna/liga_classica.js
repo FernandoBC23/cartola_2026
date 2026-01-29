@@ -10,6 +10,18 @@ function logDebug(...args) {
   if (DEBUG) console.log(...args);
 }
 
+function getParcialPayload() {
+  return (typeof pontuacaoParcialRodadaAtual === "object" && pontuacaoParcialRodadaAtual)
+    ? pontuacaoParcialRodadaAtual
+    : { rodada: null, times: {} };
+}
+
+function getParcialRodada() {
+  const payload = getParcialPayload();
+  if (!payload || !payload.rodada || !payload.times) return null;
+  return Object.keys(payload.times).length ? payload.rodada : null;
+}
+
 // =========================
 // CONFIGURACAO DE MESES
 // Ajuste os intervalos de rodadas conforme o calendario da temporada.
@@ -86,6 +98,9 @@ function criarAbas() {
 // RODADA ATUAL (inteligente)
 // =========================
 function obterRodadaAtual() {
+  const rodadaParcial = getParcialRodada();
+  if (Number.isFinite(rodadaParcial)) return rodadaParcial;
+
   const geral = classificacaoLigaClassica?.geral;
   if (!geral) return null;
 
@@ -155,6 +170,15 @@ function exibirClassificacaoPor(tipo, chave) {
   const dataAtualizacao = hoje.toLocaleDateString("pt-BR");
   const rodadaTexto = (rodadaAtual === null) ? "-" : rodadaAtual;
 
+  const rodadaParcial = getParcialRodada();
+  const temParcial = Number.isFinite(rodadaParcial);
+  if (temParcial) {
+    infoDiv.classList.add("parcial");
+    infoDiv.innerHTML = `Rodada ${rodadaParcial} em andamento: pontuacoes parciais (nao definitivas).`;
+  } else {
+    infoDiv.classList.remove("parcial");
+  }
+
   let periodoInfo = "";
   let periodoAtual = null;
 
@@ -191,8 +215,10 @@ function exibirClassificacaoPor(tipo, chave) {
     }
   }
 
-  const periodoTexto = periodoInfo ? ` | Periodo: <strong>${periodoInfo}</strong>` : "";
-  infoDiv.innerHTML = `Rodada Atual: <strong>${rodadaTexto}</strong> | Ultima atualizacao: <strong>${dataAtualizacao}</strong>${periodoTexto}`;
+  if (!temParcial) {
+    const periodoTexto = periodoInfo ? ` | Periodo: <strong>${periodoInfo}</strong>` : "";
+    infoDiv.innerHTML = `Rodada Atual: <strong>${rodadaTexto}</strong> | Ultima atualizacao: <strong>${dataAtualizacao}</strong>${periodoTexto}`;
+  }
 
   // Status da competicao (texto/cor do selo)
   const { texto, cor } = gerarStatusDaTag(tipo, chave, rodadaAtual, periodoAtual);
