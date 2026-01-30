@@ -1,62 +1,62 @@
 window.pontuacoesPorRodada = {
   "A Lenda Super Vasco F.c": {
-    "Rodada 1": 63.76
+    "Rodada 1": 68.06
   },
   "CAFÉ AMARGO PRO26.2": {
-    "Rodada 1": 71.16
+    "Rodada 1": 73.76
   },
   "cartola scheuer17": {
-    "Rodada 1": 57.26
+    "Rodada 1": 61.56
   },
   "Dom Camillo68": {
-    "Rodada 1": 59.69
+    "Rodada 1": 72.7
   },
   "FBC Colorado": {
-    "Rodada 1": 49.36
+    "Rodada 1": 53.66
   },
   "Fedato Futebol Clube": {
-    "Rodada 1": 56.09
+    "Rodada 1": 63.9
   },
   "Gremiomaniasm": {
-    "Rodada 1": 56.65
+    "Rodada 1": 57.45
   },
   "lsauer fc": {
-    "Rodada 1": 58.26
+    "Rodada 1": 62.56
   },
   "Mau Humor F.C.": {
-    "Rodada 1": 71.36
+    "Rodada 1": 73.96
   },
   "mercearia Estrela": {
-    "Rodada 1": 48.96
+    "Rodada 1": 51.56
   },
   "Paulo Virgili FC": {
-    "Rodada 1": 81.76
+    "Rodada 1": 84.26
   },
   "pra sempre imortal fc": {
-    "Rodada 1": 31.61
+    "Rodada 1": 43.51
   },
   "pura bucha/internacional": {
-    "Rodada 1": 44.46
+    "Rodada 1": 50.26
   },
   "Rolo Compressor ZN": {
-    "Rodada 1": 54.95
+    "Rodada 1": 59.25
   },
   "seralex": {
-    "Rodada 1": 34.36
+    "Rodada 1": 60.16
   },
   "TATITTA FC": {
-    "Rodada 1": 55.59
+    "Rodada 1": 64.2
   },
   "Tatols Beants F.C": {
     "Rodada 1": 66.86
   },
   "TEAM LOPES 99": {
-    "Rodada 1": 54.66
+    "Rodada 1": 58.96
   },
   "Texas Club 2026": {
-    "Rodada 1": 63.76
+    "Rodada 1": 68.06
   },
   "TIGRE LEON": {
-    "Rodada 1": 47.86
+    "Rodada 1": 51.26
   }
 };

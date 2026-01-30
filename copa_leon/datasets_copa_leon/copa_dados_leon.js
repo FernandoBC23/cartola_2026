@@ -167,98 +167,98 @@ window.copaDados = {
       {
         "casaId": 25811332,
         "foraId": 14124559,
-        "casaPts": 48.5,
-        "foraPts": 81.76
+        "casaPts": 49.0,
+        "foraPts": 84.26
       },
       {
         "casaId": 28741323,
         "foraId": 51010813,
-        "casaPts": 59.36,
-        "foraPts": 43.56
+        "casaPts": 61.96,
+        "foraPts": 47.86
       },
       {
         "casaId": 29228373,
         "foraId": 49180400,
-        "casaPts": 34.36,
-        "foraPts": 55.59
+        "casaPts": 60.16,
+        "foraPts": 64.2
       },
       {
         "casaId": 3447341,
         "foraId": 212042,
-        "casaPts": 61.96,
+        "casaPts": 64.56,
         "foraPts": 66.86
       },
       {
         "casaId": 13913874,
         "foraId": 3424598,
-        "casaPts": 71.46,
-        "foraPts": 47.86
+        "casaPts": 74.06,
+        "foraPts": 51.26
       },
       {
         "casaId": 117598,
         "foraId": 18344271,
-        "casaPts": 63.76,
-        "foraPts": 50.76
+        "casaPts": 68.06,
+        "foraPts": 54.16
       },
       {
         "casaId": 48498051,
         "foraId": 3708025,
-        "casaPts": 61.96,
-        "foraPts": 25.16
+        "casaPts": 64.56,
+        "foraPts": 44.26
       },
       {
         "casaId": 25565675,
         "foraId": 18223508,
         "casaPts": 44.06,
-        "foraPts": 54.95
+        "foraPts": 59.25
       },
       {
         "casaId": 24468241,
         "foraId": 13951133,
-        "casaPts": 48.29,
-        "foraPts": 46.79
+        "casaPts": 57.6,
+        "foraPts": 54.6
       },
       {
         "casaId": 24856400,
         "foraId": 1747619,
-        "casaPts": 50.69,
-        "foraPts": 43.56
+        "casaPts": 64.7,
+        "foraPts": 47.86
       },
       {
         "casaId": 20696550,
         "foraId": 528730,
-        "casaPts": 59.69,
-        "foraPts": 56.65
+        "casaPts": 72.7,
+        "foraPts": 57.45
       },
       {
         "casaId": 335716,
         "foraId": 5823700,
-        "casaPts": 65.7,
-        "foraPts": 65.06
+        "casaPts": 70.0,
+        "foraPts": 84.86
       },
       {
         "casaId": 18661583,
         "foraId": 186283,
-        "casaPts": 44.46,
-        "foraPts": 49.36
+        "casaPts": 50.26,
+        "foraPts": 53.66
       },
       {
         "casaId": 13707047,
         "foraId": 18642587,
-        "casaPts": 38.66,
-        "foraPts": 56.09
+        "casaPts": 42.96,
+        "foraPts": 63.9
       },
       {
         "casaId": 3851966,
         "foraId": 18346776,
-        "casaPts": 57.26,
-        "foraPts": 33.96
+        "casaPts": 61.56,
+        "foraPts": 38.26
       },
       {
         "casaId": 479510,
         "foraId": 19033717,
-        "casaPts": 54.66,
-        "foraPts": 71.36
+        "casaPts": 58.96,
+        "foraPts": 73.96
       }
     ],
     "oitavas": [],

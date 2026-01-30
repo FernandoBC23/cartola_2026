@@ -4,11 +4,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "FBC Colorado",
-      "pontos": 49.36
+      "pontos": 53.66
     },
     "visitante": {
       "nome": "GE Bebum",
-      "pontos": 44.65
+      "pontos": 56.05
     }
   },
   {
@@ -16,11 +16,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "GaúchoDaFronteira F.C",
-      "pontos": 67.66
+      "pontos": 71.96
     },
     "visitante": {
       "nome": "Pepe Leal FC",
-      "pontos": 18.49
+      "pontos": 59.8
     }
   },
   {
@@ -44,7 +44,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "C R Juvenal",
-      "pontos": 42.06
+      "pontos": 47.86
     }
   },
   {
@@ -52,11 +52,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "bugredasmissões",
-      "pontos": 62.76
+      "pontos": 63.56
     },
     "visitante": {
       "nome": "Arran Katoko FC",
-      "pontos": 56.69
+      "pontos": 64.5
     }
   },
   {
@@ -64,11 +64,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": 58.26
+      "pontos": 62.56
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 43.56
+      "pontos": 47.86
     }
   },
   {
@@ -76,11 +76,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Pontaç0 F.C.",
-      "pontos": 56.86
+      "pontos": 61.16
     },
     "visitante": {
       "nome": "La Primeira Patada Es Nuestra",
-      "pontos": 43.96
+      "pontos": 55.66
     }
   },
   {
@@ -88,11 +88,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "GrioTeam",
-      "pontos": 57.26
+      "pontos": 61.56
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": 63.76
+      "pontos": 68.06
     }
   },
   {
@@ -104,7 +104,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "SC ÉoINTER!",
-      "pontos": 45.59
+      "pontos": 54.9
     }
   },
   {
@@ -112,7 +112,7 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Doug Leal F.C",
-      "pontos": 62.07
+      "pontos": 66.37
     },
     "visitante": {
       "nome": "NHU PORÃ SAF.",

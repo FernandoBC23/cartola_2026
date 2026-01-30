@@ -20,7 +20,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 43.96
+    "Parcial Rodada 1": 55.66
   },
   "184499": {
     "Time": "SC ÉoINTER! ",
@@ -43,7 +43,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 45.59
+    "Parcial Rodada 1": 54.9
   },
   "186283": {
     "Time": "FBC Colorado",
@@ -66,7 +66,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 49.36
+    "Parcial Rodada 1": 53.66
   },
   "287965": {
     "Time": "Doug Leal F.C",
@@ -89,7 +89,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 62.07
+    "Parcial Rodada 1": 66.37
   },
   "1273719": {
     "Time": "Texas Club 2026",
@@ -112,7 +112,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 63.76
+    "Parcial Rodada 1": 68.06
   },
   "1326835": {
     "Time": "Pepe Leal FC",
@@ -135,7 +135,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 18.49
+    "Parcial Rodada 1": 59.8
   },
   "1488983": {
     "Time": "C R Juvenal",
@@ -158,7 +158,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 42.06
+    "Parcial Rodada 1": 47.86
   },
   "1747619": {
     "Time": "JV5 Tricolor Gaúcho",
@@ -181,7 +181,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 43.56
+    "Parcial Rodada 1": 47.86
   },
   "1867254": {
     "Time": "Medonho´s F.C. ",
@@ -227,7 +227,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 67.66
+    "Parcial Rodada 1": 71.96
   },
   "2916559": {
     "Time": "Esquadrão Gazembrino",
@@ -319,7 +319,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 57.26
+    "Parcial Rodada 1": 61.56
   },
   "16411206": {
     "Time": "GE Bebum",
@@ -342,7 +342,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 44.65
+    "Parcial Rodada 1": 56.05
   },
   "19209079": {
     "Time": "bugredasmissões ",
@@ -365,7 +365,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 62.76
+    "Parcial Rodada 1": 63.56
   },
   "19833277": {
     "Time": "Arran Katoko FC",
@@ -388,7 +388,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 56.69
+    "Parcial Rodada 1": 64.5
   },
   "20651178": {
     "Time": "Pontaç0 F.C.",
@@ -411,7 +411,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 56.86
+    "Parcial Rodada 1": 61.16
   },
   "44810918": {
     "Time": "lsauer fc",
@@ -434,7 +434,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 58.26
+    "Parcial Rodada 1": 62.56
   },
   "47775950": {
     "Time": "Grêmio_Campeão_LA_27",
@@ -466,25 +466,25 @@ const eliminadosPorRodada = {};
 const pontuacaoParcialRodadaAtual = {
   "rodada": 1,
   "times": {
-    "32966": 43.96,
-    "184499": 45.59,
-    "186283": 49.36,
-    "287965": 62.07,
-    "1273719": 63.76,
-    "1326835": 18.49,
-    "1488983": 42.06,
-    "1747619": 43.56,
+    "32966": 55.66,
+    "184499": 54.9,
+    "186283": 53.66,
+    "287965": 66.37,
+    "1273719": 68.06,
+    "1326835": 59.8,
+    "1488983": 47.86,
+    "1747619": 47.86,
     "1867254": 55.66,
-    "2371918": 67.66,
+    "2371918": 71.96,
     "2916559": 83.2,
     "4088673": 0.0,
     "14709358": 67.16,
-    "14933455": 57.26,
-    "16411206": 44.65,
-    "19209079": 62.76,
-    "19833277": 56.69,
-    "20651178": 56.86,
-    "44810918": 58.26,
+    "14933455": 61.56,
+    "16411206": 56.05,
+    "19209079": 63.56,
+    "19833277": 64.5,
+    "20651178": 61.16,
+    "44810918": 62.56,
     "47775950": 54.05
   }
 };
