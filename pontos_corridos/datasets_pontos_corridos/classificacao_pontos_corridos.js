@@ -7,9 +7,20 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 83.2,
-      "cartolaSofrido": 40.4,
-      "saldoCartola": 42.8,
+      "cartolaSofrido": 45.59,
+      "saldoCartola": 37.61,
       "posicao": 1
+    },
+    {
+      "nome": "GaúchoDaFronteira F.C",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 67.66,
+      "cartolaSofrido": 18.49,
+      "saldoCartola": 49.17,
+      "posicao": 2
     },
     {
       "nome": "SC 100 Sono",
@@ -20,18 +31,18 @@ const classificacaoSerieA = {
       "totalCartola": 67.16,
       "cartolaSofrido": 54.05,
       "saldoCartola": 13.11,
-      "posicao": 2
+      "posicao": 3
     },
     {
-      "nome": "GaúchoDaFronteira F.C",
+      "nome": "Texas Club 2026",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 63.76,
-      "cartolaSofrido": 16.4,
-      "saldoCartola": 47.36,
-      "posicao": 3
+      "cartolaSofrido": 57.26,
+      "saldoCartola": 6.5,
+      "posicao": 4
     },
     {
       "nome": "bugredasmissões",
@@ -40,19 +51,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 62.76,
-      "cartolaSofrido": 51.5,
-      "saldoCartola": 11.259999999999998,
-      "posicao": 4
-    },
-    {
-      "nome": "Texas Club 2026",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 59.86,
-      "cartolaSofrido": 53.36,
-      "saldoCartola": 6.5,
+      "cartolaSofrido": 56.69,
+      "saldoCartola": 6.07,
       "posicao": 5
     },
     {
@@ -61,10 +61,32 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 58.17,
+      "totalCartola": 62.07,
       "cartolaSofrido": 0.0,
-      "saldoCartola": 58.17,
+      "saldoCartola": 62.07,
       "posicao": 6
+    },
+    {
+      "nome": "lsauer fc",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 58.26,
+      "cartolaSofrido": 43.56,
+      "saldoCartola": 14.699999999999996,
+      "posicao": 7
+    },
+    {
+      "nome": "Pontaç0 F.C.",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 56.86,
+      "cartolaSofrido": 43.96,
+      "saldoCartola": 12.9,
+      "posicao": 8
     },
     {
       "nome": "Medonho´s F.C.",
@@ -73,30 +95,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 55.66,
-      "cartolaSofrido": 38.16,
-      "saldoCartola": 17.5,
-      "posicao": 7
-    },
-    {
-      "nome": "lsauer fc",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 54.36,
-      "cartolaSofrido": 39.66,
-      "saldoCartola": 14.700000000000005,
-      "posicao": 8
-    },
-    {
-      "nome": "Pontaç0 F.C.",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 52.96,
-      "cartolaSofrido": 43.96,
-      "saldoCartola": 9.0,
+      "cartolaSofrido": 42.06,
+      "saldoCartola": 13.599999999999994,
       "posicao": 9
     },
     {
@@ -105,10 +105,32 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 45.46,
+      "totalCartola": 49.36,
       "cartolaSofrido": 44.65,
-      "saldoCartola": 0.8100000000000023,
+      "saldoCartola": 4.710000000000001,
       "posicao": 10
+    },
+    {
+      "nome": "GrioTeam",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 57.26,
+      "cartolaSofrido": 63.76,
+      "saldoCartola": -6.5,
+      "posicao": 11
+    },
+    {
+      "nome": "Arran Katoko FC",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 56.69,
+      "cartolaSofrido": 62.76,
+      "saldoCartola": -6.07,
+      "posicao": 12
     },
     {
       "nome": "Grêmio_Campeão_LA_27",
@@ -119,29 +141,18 @@ const classificacaoSerieA = {
       "totalCartola": 54.05,
       "cartolaSofrido": 67.16,
       "saldoCartola": -13.11,
-      "posicao": 11
-    },
-    {
-      "nome": "GrioTeam",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 53.36,
-      "cartolaSofrido": 59.86,
-      "saldoCartola": -6.5,
-      "posicao": 12
-    },
-    {
-      "nome": "Arran Katoko FC",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 51.5,
-      "cartolaSofrido": 62.76,
-      "saldoCartola": -11.259999999999998,
       "posicao": 13
+    },
+    {
+      "nome": "SC ÉoINTER!",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 45.59,
+      "cartolaSofrido": 83.2,
+      "saldoCartola": -37.61,
+      "posicao": 14
     },
     {
       "nome": "GE Bebum",
@@ -150,9 +161,9 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 44.65,
-      "cartolaSofrido": 45.46,
-      "saldoCartola": -0.8100000000000023,
-      "posicao": 14
+      "cartolaSofrido": 49.36,
+      "saldoCartola": -4.710000000000001,
+      "posicao": 15
     },
     {
       "nome": "La Primeira Patada Es Nuestra",
@@ -161,19 +172,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 43.96,
-      "cartolaSofrido": 52.96,
-      "saldoCartola": -9.0,
-      "posicao": 15
-    },
-    {
-      "nome": "SC ÉoINTER!",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 40.4,
-      "cartolaSofrido": 83.2,
-      "saldoCartola": -42.8,
+      "cartolaSofrido": 56.86,
+      "saldoCartola": -12.9,
       "posicao": 16
     },
     {
@@ -182,9 +182,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 39.66,
-      "cartolaSofrido": 54.36,
-      "saldoCartola": -14.700000000000005,
+      "totalCartola": 43.56,
+      "cartolaSofrido": 58.26,
+      "saldoCartola": -14.699999999999996,
       "posicao": 17
     },
     {
@@ -193,9 +193,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 38.16,
+      "totalCartola": 42.06,
       "cartolaSofrido": 55.66,
-      "saldoCartola": -17.5,
+      "saldoCartola": -13.599999999999994,
       "posicao": 18
     },
     {
@@ -204,9 +204,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 16.4,
-      "cartolaSofrido": 63.76,
-      "saldoCartola": -47.36,
+      "totalCartola": 18.49,
+      "cartolaSofrido": 67.66,
+      "saldoCartola": -49.17,
       "posicao": 19
     },
     {
@@ -216,8 +216,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 0.0,
-      "cartolaSofrido": 58.17,
-      "saldoCartola": -58.17,
+      "cartolaSofrido": 62.07,
+      "saldoCartola": -62.07,
       "posicao": 20
     }
   ]

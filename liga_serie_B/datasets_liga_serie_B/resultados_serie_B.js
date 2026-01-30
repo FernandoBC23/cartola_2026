@@ -4,11 +4,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": 69.56
+      "pontos": 71.16
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 45.46
+      "pontos": 49.36
     }
   },
   {
@@ -16,11 +16,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 39.66
+      "pontos": 43.56
     },
     "visitante": {
       "nome": "PUXE FC",
-      "pontos": 60.36
+      "pontos": 61.96
     }
   },
   {
@@ -28,11 +28,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Sport Clube PAIM",
-      "pontos": 55.96
+      "pontos": 57.56
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 50.76
+      "pontos": 54.66
     }
   },
   {
@@ -40,11 +40,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "TIGRE LEON",
-      "pontos": 46.26
+      "pontos": 47.86
     },
     "visitante": {
       "nome": "Pity10",
-      "pontos": 60.36
+      "pontos": 61.96
     }
   },
   {
@@ -52,11 +52,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "cartola scheuer17",
-      "pontos": 53.36
+      "pontos": 57.26
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 65.26
+      "pontos": 66.86
     }
   },
   {
@@ -68,7 +68,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": 54.36
+      "pontos": 58.26
     }
   },
   {
@@ -76,11 +76,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Paulo Virgili FC",
-      "pontos": 73.66
+      "pontos": 81.76
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": 59.86
+      "pontos": 63.76
     }
   },
   {
@@ -88,11 +88,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Dom Camillo68",
-      "pontos": 58.4
+      "pontos": 59.69
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 50.9
+      "pontos": 56.09
     }
   },
   {
@@ -104,7 +104,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 69.76
+      "pontos": 71.36
     }
   },
   {
@@ -116,7 +116,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Rolo Compressor ZN",
-      "pontos": 51.05
+      "pontos": 54.95
     }
   },
   {

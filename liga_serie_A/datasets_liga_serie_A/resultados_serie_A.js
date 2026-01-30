@@ -4,11 +4,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "FBC Colorado",
-      "pontos": 45.46
+      "pontos": 49.36
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 65.26
+      "pontos": 66.86
     }
   },
   {
@@ -16,11 +16,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 69.76
+      "pontos": 71.36
     },
     "visitante": {
       "nome": "Atlético Colorado 2021",
-      "pontos": 39.06
+      "pontos": 41.36
     }
   },
   {
@@ -32,7 +32,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": 58.4
+      "pontos": 59.69
     }
   },
   {
@@ -44,7 +44,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 39.66
+      "pontos": 43.56
     }
   },
   {
@@ -52,11 +52,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": 69.56
+      "pontos": 71.16
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 50.9
+      "pontos": 56.09
     }
   },
   {
@@ -64,7 +64,7 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "cartola scheuer17",
-      "pontos": 53.36
+      "pontos": 57.26
     },
     "visitante": {
       "nome": "pura bucha/internacional",
@@ -76,7 +76,7 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 59.86
+      "pontos": 63.76
     },
     "visitante": {
       "nome": "seralex",
@@ -88,11 +88,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "TIGRE LEON",
-      "pontos": 46.26
+      "pontos": 47.86
     },
     "visitante": {
       "nome": "Rolo Compressor ZN",
-      "pontos": 51.05
+      "pontos": 54.95
     }
   },
   {
@@ -100,11 +100,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "VASCO MARTINS FC",
-      "pontos": 35.8
+      "pontos": 50.85
     },
     "visitante": {
       "nome": "Paulo Virgili FC",
-      "pontos": 73.66
+      "pontos": 81.76
     }
   },
   {
@@ -112,11 +112,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 50.76
+      "pontos": 54.66
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": 54.36
+      "pontos": 58.26
     }
   },
   {

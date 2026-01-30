@@ -1,7 +1,7 @@
 const classificacaoLigaClassica = {
   "geral": {
     "Arran Katoko FC": {
-      "Rodada 1": 51.5,
+      "Rodada 1": 56.69,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -81,7 +81,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "C R Juvenal": {
-      "Rodada 1": 38.46,
+      "Rodada 1": 42.06,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -121,7 +121,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Doug Leal F.C": {
-      "Rodada 1": 58.17,
+      "Rodada 1": 62.07,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -161,7 +161,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Esquadrão Gazembrino": {
-      "Rodada 1": 83.5,
+      "Rodada 1": 83.2,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -201,7 +201,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "FBC Colorado": {
-      "Rodada 1": 45.46,
+      "Rodada 1": 49.36,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -241,7 +241,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "GaúchoDaFronteira F.C": {
-      "Rodada 1": 63.76,
+      "Rodada 1": 67.66,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -321,7 +321,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "GrioTeam": {
-      "Rodada 1": 53.06,
+      "Rodada 1": 57.26,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -361,7 +361,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Grêmio_Campeão_LA_27": {
-      "Rodada 1": 53.91,
+      "Rodada 1": 54.05,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -401,7 +401,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "JV5 Tricolor Gaúcho": {
-      "Rodada 1": 39.66,
+      "Rodada 1": 43.56,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -441,7 +441,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "La Primeira Patada Es Nuestra": {
-      "Rodada 1": 44.26,
+      "Rodada 1": 43.96,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -481,7 +481,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "lsauer fc": {
-      "Rodada 1": 54.36,
+      "Rodada 1": 58.26,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -521,7 +521,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Medonho´s F.C.": {
-      "Rodada 1": 55.96,
+      "Rodada 1": 55.66,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -601,7 +601,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Pepe Leal FC": {
-      "Rodada 1": 16.4,
+      "Rodada 1": 18.49,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -641,7 +641,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Pontaç0 F.C.": {
-      "Rodada 1": 52.66,
+      "Rodada 1": 56.86,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -721,7 +721,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "SC ÉoINTER!": {
-      "Rodada 1": 40.4,
+      "Rodada 1": 45.59,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -761,7 +761,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Texas Club 2026": {
-      "Rodada 1": 59.86,
+      "Rodada 1": 63.76,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -827,25 +827,25 @@ const classificacaoLigaClassica = {
   },
   "meses": {
     "Janeiro": {
-      "Esquadrão Gazembrino": 83.5,
+      "Esquadrão Gazembrino": 83.2,
+      "GaúchoDaFronteira F.C": 67.66,
       "SC 100 Sono": 67.16,
-      "GaúchoDaFronteira F.C": 63.76,
+      "Texas Club 2026": 63.76,
       "bugredasmissões": 62.76,
-      "Texas Club 2026": 59.86,
-      "Doug Leal F.C": 58.17,
-      "Medonho´s F.C.": 55.96,
-      "lsauer fc": 54.36,
-      "Grêmio_Campeão_LA_27": 53.91,
-      "GrioTeam": 53.06,
-      "Pontaç0 F.C.": 52.66,
-      "Arran Katoko FC": 51.5,
-      "FBC Colorado": 45.46,
+      "Doug Leal F.C": 62.07,
+      "lsauer fc": 58.26,
+      "GrioTeam": 57.26,
+      "Pontaç0 F.C.": 56.86,
+      "Arran Katoko FC": 56.69,
+      "Medonho´s F.C.": 55.66,
+      "Grêmio_Campeão_LA_27": 54.05,
+      "FBC Colorado": 49.36,
+      "SC ÉoINTER!": 45.59,
       "GE Bebum": 44.65,
-      "La Primeira Patada Es Nuestra": 44.26,
-      "SC ÉoINTER!": 40.4,
-      "JV5 Tricolor Gaúcho": 39.66,
-      "C R Juvenal": 38.46,
-      "Pepe Leal FC": 16.4,
+      "La Primeira Patada Es Nuestra": 43.96,
+      "JV5 Tricolor Gaúcho": 43.56,
+      "C R Juvenal": 42.06,
+      "Pepe Leal FC": 18.49,
       "NHU PORÃ SAF.": 0.0
     },
     "Fevereiro": {
@@ -963,25 +963,25 @@ const classificacaoLigaClassica = {
 const pontuacaoParcialRodadaAtual = {
   "rodada": 1,
   "times": {
-    "19833277": 51.5,
+    "19833277": 56.69,
     "19209079": 62.76,
-    "1488983": 38.46,
-    "287965": 58.17,
-    "2916559": 83.5,
-    "186283": 45.46,
-    "2371918": 63.76,
+    "1488983": 42.06,
+    "287965": 62.07,
+    "2916559": 83.2,
+    "186283": 49.36,
+    "2371918": 67.66,
     "16411206": 44.65,
-    "14933455": 53.06,
-    "47775950": 53.91,
-    "1747619": 39.66,
-    "32966": 44.26,
-    "44810918": 54.36,
-    "1867254": 55.96,
+    "14933455": 57.26,
+    "47775950": 54.05,
+    "1747619": 43.56,
+    "32966": 43.96,
+    "44810918": 58.26,
+    "1867254": 55.66,
     "4088673": 0.0,
-    "1326835": 16.4,
-    "20651178": 52.66,
+    "1326835": 18.49,
+    "20651178": 56.86,
     "14709358": 67.16,
-    "184499": 40.4,
-    "1273719": 59.86
+    "184499": 45.59,
+    "1273719": 63.76
   }
 };

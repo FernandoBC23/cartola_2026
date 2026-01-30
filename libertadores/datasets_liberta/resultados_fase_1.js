@@ -4,24 +4,24 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "SERGRILLO",
-      "pontos": 38.5
+      "pontos": 48.5
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 39.66
+      "pontos": 43.56
     },
-    "vencedor": "visitante"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo A",
     "rodada": 1,
     "mandante": {
       "nome": "JUV. KP",
-      "pontos": 41.6
+      "pontos": 46.79
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 64.96
+      "pontos": 66.86
     },
     "vencedor": "visitante"
   },
@@ -30,11 +30,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "S.E.R. GRILLO",
-      "pontos": 59.76
+      "pontos": 65.06
     },
     "visitante": {
       "nome": "Máquina Laranjja",
-      "pontos": 45.86
+      "pontos": 47.16
     },
     "vencedor": "mandante"
   },
@@ -43,11 +43,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "LISI GREMISTA",
-      "pontos": 39.66
+      "pontos": 43.56
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": 58.4
+      "pontos": 59.69
     },
     "vencedor": "visitante"
   },
@@ -69,11 +69,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Bandoleros FCS",
-      "pontos": 69.56
+      "pontos": 71.46
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": 53.06
+      "pontos": 57.26
     },
     "vencedor": "mandante"
   },
@@ -82,11 +82,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 69.76
+      "pontos": 71.36
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 45.46
+      "pontos": 49.36
     },
     "vencedor": "mandante"
   },
@@ -95,11 +95,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Grêmio imortal 36",
-      "pontos": 30.6
+      "pontos": 50.69
     },
     "visitante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 59.56
+      "pontos": 63.76
     },
     "vencedor": "visitante"
   },
@@ -108,11 +108,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 50.6
+      "pontos": 56.09
     },
     "visitante": {
       "nome": "Paulo Virgili FC",
-      "pontos": 73.66
+      "pontos": 81.76
     },
     "vencedor": "visitante"
   },
@@ -121,11 +121,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "FÚRIA LEON",
-      "pontos": 49.16
+      "pontos": 50.76
     },
     "visitante": {
       "nome": "KillerColorado",
-      "pontos": 57.25
+      "pontos": 59.65
     },
     "vencedor": "visitante"
   },
@@ -134,11 +134,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "AZURRA82",
-      "pontos": 30.06
+      "pontos": 33.96
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": 54.36
+      "pontos": 58.26
     },
     "vencedor": "visitante"
   },
@@ -147,11 +147,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "DM Studio",
-      "pontos": 47.2
+      "pontos": 52.39
     },
     "visitante": {
       "nome": "Rolo Compressor ZN",
-      "pontos": 51.05
+      "pontos": 54.95
     },
     "vencedor": "visitante"
   },
@@ -160,11 +160,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "A Lenda Super Vascão f.c",
-      "pontos": 45.3
+      "pontos": 48.89
     },
     "visitante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": 57.76
+      "pontos": 59.36
     },
     "vencedor": "visitante"
   },
@@ -173,11 +173,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": 69.26
+      "pontos": 71.16
     },
     "visitante": {
       "nome": "Grêmio imortal 37",
-      "pontos": 43.1
+      "pontos": 48.29
     },
     "vencedor": "mandante"
   },
@@ -186,7 +186,7 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Super Vasco f.c",
-      "pontos": 34.76
+      "pontos": 38.66
     },
     "visitante": {
       "nome": "Gremiomaniasm",
@@ -199,11 +199,11 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 59.86
+      "pontos": 63.76
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 50.76
+      "pontos": 54.66
     },
     "vencedor": "mandante"
   },
@@ -1250,38 +1250,38 @@ const resultadosFase1 = [
 ];const pontuacaoParcialRodadaAtual = {
   "rodada": 1,
   "times": {
-    "212042": 64.96,
-    "1747619": 39.66,
-    "13951133": 41.6,
-    "25811332": 38.5,
-    "20696550": 58.4,
-    "30267301": 45.86,
-    "51010813": 39.66,
-    "5823700": 59.76,
-    "3851966": 53.06,
+    "212042": 66.86,
+    "1747619": 43.56,
+    "13951133": 46.79,
+    "25811332": 48.5,
+    "20696550": 59.69,
+    "30267301": 47.16,
+    "51010813": 43.56,
+    "5823700": 65.06,
+    "3851966": 57.26,
     "7017989": 71.36,
-    "13913874": 69.56,
+    "13913874": 71.46,
     "29228373": 34.36,
-    "117598": 59.56,
-    "186283": 45.46,
-    "24856400": 30.6,
-    "19033717": 69.76,
-    "36359": 57.25,
-    "14124559": 73.66,
-    "18344271": 49.16,
-    "18642587": 50.6,
-    "387186": 47.2,
-    "18223508": 51.05,
-    "18346776": 30.06,
-    "44810918": 54.36,
-    "24468241": 43.1,
-    "28741323": 57.76,
-    "47544767": 69.26,
-    "49355335": 45.3,
-    "479510": 50.76,
+    "117598": 63.76,
+    "186283": 49.36,
+    "24856400": 50.69,
+    "19033717": 71.36,
+    "36359": 59.65,
+    "14124559": 81.76,
+    "18344271": 50.76,
+    "18642587": 56.09,
+    "387186": 52.39,
+    "18223508": 54.95,
+    "18346776": 33.96,
+    "44810918": 58.26,
+    "24468241": 48.29,
+    "28741323": 59.36,
+    "47544767": 71.16,
+    "49355335": 48.89,
+    "479510": 54.66,
     "528730": 56.65,
-    "1273719": 59.86,
-    "13707047": 34.76
+    "1273719": 63.76,
+    "13707047": 38.66
   }
 };window.libertaMeta = {
   "rodada_atual": 1,

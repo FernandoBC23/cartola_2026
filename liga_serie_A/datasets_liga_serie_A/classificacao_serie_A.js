@@ -6,9 +6,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 73.66,
-      "cartolaSofrido": 35.8,
-      "saldoCartola": 37.86,
+      "totalCartola": 81.76,
+      "cartolaSofrido": 50.85,
+      "saldoCartola": 30.910000000000004,
       "posicao": 1
     },
     {
@@ -17,9 +17,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 69.76,
-      "cartolaSofrido": 39.06,
-      "saldoCartola": 30.700000000000003,
+      "totalCartola": 71.36,
+      "cartolaSofrido": 41.36,
+      "saldoCartola": 30.0,
       "posicao": 2
     },
     {
@@ -28,9 +28,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 69.56,
-      "cartolaSofrido": 50.9,
-      "saldoCartola": 18.660000000000004,
+      "totalCartola": 71.16,
+      "cartolaSofrido": 56.09,
+      "saldoCartola": 15.069999999999991,
       "posicao": 3
     },
     {
@@ -39,9 +39,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 65.26,
-      "cartolaSofrido": 45.46,
-      "saldoCartola": 19.800000000000004,
+      "totalCartola": 66.86,
+      "cartolaSofrido": 49.36,
+      "saldoCartola": 17.5,
       "posicao": 4
     },
     {
@@ -50,10 +50,21 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 59.86,
+      "totalCartola": 63.76,
       "cartolaSofrido": 34.36,
-      "saldoCartola": 25.5,
+      "saldoCartola": 29.4,
       "posicao": 5
+    },
+    {
+      "nome": "Dom Camillo68",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 59.69,
+      "cartolaSofrido": 56.65,
+      "saldoCartola": 3.039999999999999,
+      "posicao": 6
     },
     {
       "nome": "MAFRA MARTINS FC",
@@ -62,19 +73,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 58.51,
-      "cartolaSofrido": 39.66,
-      "saldoCartola": 18.85,
-      "posicao": 6
-    },
-    {
-      "nome": "Dom Camillo68",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 58.4,
-      "cartolaSofrido": 56.65,
-      "saldoCartola": 1.75,
+      "cartolaSofrido": 43.56,
+      "saldoCartola": 14.949999999999996,
       "posicao": 7
     },
     {
@@ -83,8 +83,8 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 54.36,
-      "cartolaSofrido": 50.76,
+      "totalCartola": 58.26,
+      "cartolaSofrido": 54.66,
       "saldoCartola": 3.6000000000000014,
       "posicao": 8
     },
@@ -94,9 +94,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 53.36,
+      "totalCartola": 57.26,
       "cartolaSofrido": 44.46,
-      "saldoCartola": 8.899999999999999,
+      "saldoCartola": 12.799999999999995,
       "posicao": 9
     },
     {
@@ -105,9 +105,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 51.05,
-      "cartolaSofrido": 46.26,
-      "saldoCartola": 4.789999999999999,
+      "totalCartola": 54.95,
+      "cartolaSofrido": 47.86,
+      "saldoCartola": 7.090000000000003,
       "posicao": 10
     },
     {
@@ -117,8 +117,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 56.65,
-      "cartolaSofrido": 58.4,
-      "saldoCartola": -1.75,
+      "cartolaSofrido": 59.69,
+      "saldoCartola": -3.039999999999999,
       "posicao": 11
     },
     {
@@ -127,9 +127,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 50.9,
-      "cartolaSofrido": 69.56,
-      "saldoCartola": -18.660000000000004,
+      "totalCartola": 56.09,
+      "cartolaSofrido": 71.16,
+      "saldoCartola": -15.069999999999991,
       "posicao": 12
     },
     {
@@ -138,20 +138,20 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 50.76,
-      "cartolaSofrido": 54.36,
+      "totalCartola": 54.66,
+      "cartolaSofrido": 58.26,
       "saldoCartola": -3.6000000000000014,
       "posicao": 13
     },
     {
-      "nome": "TIGRE LEON",
+      "nome": "VASCO MARTINS FC",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 46.26,
-      "cartolaSofrido": 51.05,
-      "saldoCartola": -4.789999999999999,
+      "totalCartola": 50.85,
+      "cartolaSofrido": 81.76,
+      "saldoCartola": -30.910000000000004,
       "posicao": 14
     },
     {
@@ -160,10 +160,21 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 45.46,
-      "cartolaSofrido": 65.26,
-      "saldoCartola": -19.800000000000004,
+      "totalCartola": 49.36,
+      "cartolaSofrido": 66.86,
+      "saldoCartola": -17.5,
       "posicao": 15
+    },
+    {
+      "nome": "TIGRE LEON",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 47.86,
+      "cartolaSofrido": 54.95,
+      "saldoCartola": -7.090000000000003,
+      "posicao": 16
     },
     {
       "nome": "pura bucha/internacional",
@@ -172,9 +183,9 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 44.46,
-      "cartolaSofrido": 53.36,
-      "saldoCartola": -8.899999999999999,
-      "posicao": 16
+      "cartolaSofrido": 57.26,
+      "saldoCartola": -12.799999999999995,
+      "posicao": 17
     },
     {
       "nome": "JV5 Tricolor Gaúcho",
@@ -182,10 +193,10 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 39.66,
+      "totalCartola": 43.56,
       "cartolaSofrido": 58.51,
-      "saldoCartola": -18.85,
-      "posicao": 17
+      "saldoCartola": -14.949999999999996,
+      "posicao": 18
     },
     {
       "nome": "Atlético Colorado 2021",
@@ -193,20 +204,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 39.06,
-      "cartolaSofrido": 69.76,
-      "saldoCartola": -30.700000000000003,
-      "posicao": 18
-    },
-    {
-      "nome": "VASCO MARTINS FC",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 35.8,
-      "cartolaSofrido": 73.66,
-      "saldoCartola": -37.86,
+      "totalCartola": 41.36,
+      "cartolaSofrido": 71.36,
+      "saldoCartola": -30.0,
       "posicao": 19
     },
     {
@@ -216,8 +216,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 34.36,
-      "cartolaSofrido": 59.86,
-      "saldoCartola": -25.5,
+      "cartolaSofrido": 63.76,
+      "saldoCartola": -29.4,
       "posicao": 20
     }
   ]
