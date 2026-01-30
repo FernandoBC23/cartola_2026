@@ -18,8 +18,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 71.96,
-      "cartolaSofrido": 59.8,
-      "saldoCartola": 12.159999999999997,
+      "cartolaSofrido": 60.6,
+      "saldoCartola": 11.359999999999992,
       "posicao": 2
     },
     {
@@ -138,9 +138,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 59.8,
+      "totalCartola": 60.6,
       "cartolaSofrido": 71.96,
-      "saldoCartola": -12.159999999999997,
+      "saldoCartola": -11.359999999999992,
       "posicao": 13
     },
     {

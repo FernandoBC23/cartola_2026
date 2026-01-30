@@ -42,7 +42,7 @@ window.pontuacoesPorRodada = {
     "Rodada 1": 55.66
   },
   "Pepe Leal FC": {
-    "Rodada 1": 59.8
+    "Rodada 1": 60.6
   },
   "Pontaç0 F.C.": {
     "Rodada 1": 61.16

@@ -135,7 +135,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 59.8
+    "Parcial Rodada 1": 60.6
   },
   "1488983": {
     "Time": "C R Juvenal",
@@ -471,7 +471,7 @@ const pontuacaoParcialRodadaAtual = {
     "186283": 53.66,
     "287965": 66.37,
     "1273719": 68.06,
-    "1326835": 59.8,
+    "1326835": 60.6,
     "1488983": 47.86,
     "1747619": 47.86,
     "1867254": 55.66,

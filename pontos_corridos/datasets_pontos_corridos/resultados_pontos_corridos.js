@@ -20,7 +20,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Pepe Leal FC",
-      "pontos": 59.8
+      "pontos": 60.6
     }
   },
   {

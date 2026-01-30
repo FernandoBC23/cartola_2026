@@ -227,7 +227,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 1": 43.46
+    "Parcial Rodada 1": 44.26
   },
   "3851966": {
     "Time": "cartola scheuer17",
@@ -751,7 +751,7 @@ const pontuacaoParcialRodadaAtual = {
     "1273719": 68.06,
     "1747619": 47.86,
     "3447341": 64.56,
-    "3708025": 43.46,
+    "3708025": 44.26,
     "3851966": 61.56,
     "5823700": 84.86,
     "13707047": 42.96,

@@ -601,7 +601,7 @@ const classificacaoLigaClassica = {
       "Rodada 38": 0.0
     },
     "Pepe Leal FC": {
-      "Rodada 1": 59.8,
+      "Rodada 1": 60.6,
       "Rodada 2": 0.0,
       "Rodada 3": 0.0,
       "Rodada 4": 0.0,
@@ -837,7 +837,7 @@ const classificacaoLigaClassica = {
       "lsauer fc": 62.56,
       "GrioTeam": 61.56,
       "Pontaç0 F.C.": 61.16,
-      "Pepe Leal FC": 59.8,
+      "Pepe Leal FC": 60.6,
       "GE Bebum": 56.05,
       "La Primeira Patada Es Nuestra": 55.66,
       "Medonho´s F.C.": 55.66,
@@ -978,7 +978,7 @@ const pontuacaoParcialRodadaAtual = {
     "44810918": 62.56,
     "1867254": 55.66,
     "4088673": 0.0,
-    "1326835": 59.8,
+    "1326835": 60.6,
     "20651178": 61.16,
     "14709358": 67.16,
     "184499": 54.9,
