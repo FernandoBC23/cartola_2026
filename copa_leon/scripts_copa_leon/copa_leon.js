@@ -16,12 +16,23 @@ const ESCUDO_PLACEHOLDER =
   "<text x='32' y='36' text-anchor='middle' font-family='Arial' font-size='16' fill='%23636f6f'>TBD</text>" +
   "</svg>";
 
+const FASES_POR_RODADA = {
+  1: "primeira_fase",
+  2: "oitavas",
+  3: "quartas",
+  4: "semi",
+  5: "final",
+  6: "terceiro",
+};
+
 const DEFAULT_MATCH = () => ({
   casaId: null,
   foraId: null,
   casaPts: null,
   foraPts: null,
 });
+
+const CACHE_KEY = "copa_leon_fases_cache";
 
 const getCopaDados = () => window.copaDados || { times: [], fases: {} };
 
@@ -88,6 +99,46 @@ const normalizarMatch = (match) => ({
   foraPts: Number.isFinite(match?.foraPts) ? match.foraPts : null,
 });
 
+const matchTemPontuacao = (match) =>
+  Number.isFinite(match?.casaPts) || Number.isFinite(match?.foraPts);
+
+const carregarCacheFases = () => {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === "object" ? parsed : null;
+  } catch {
+    return null;
+  }
+};
+
+const salvarCacheFases = (fases) => {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify(fases));
+  } catch {
+    // ignore
+  }
+};
+
+const mesclarFasesComCache = (fases) => {
+  const cache = carregarCacheFases();
+  if (!cache) return fases;
+  const resultado = { ...fases };
+
+  Object.keys(fases).forEach((fase) => {
+    const atual = fases[fase] || [];
+    const cached = cache[fase] || [];
+    const temPontuacaoAtual = atual.some(matchTemPontuacao);
+    const temPontuacaoCache = cached.some(matchTemPontuacao);
+    if (!temPontuacaoAtual && temPontuacaoCache && cached.length === atual.length) {
+      resultado[fase] = cached.map(normalizarMatch);
+    }
+  });
+
+  return resultado;
+};
+
 const garantirLista = (lista, tamanho) => {
   const result = [];
   for (let i = 0; i < tamanho; i += 1) {
@@ -150,7 +201,7 @@ const coletarPerdedores = (lista, timesMap) =>
 
 const construirFases = (timesMap) => {
   const dados = getCopaDados();
-  const fases = dados.fases || {};
+  const fases = mesclarFasesComCache(dados.fases || {});
 
   const primeiraFase = garantirLista(fases.primeira_fase, 16);
   const oitavas = garantirLista(fases.oitavas, 8);
@@ -184,7 +235,24 @@ const construirFases = (timesMap) => {
     terceiro = definirTimesPorResultado(terceiro, losersSemis);
   }
 
-  return { primeiraFase, oitavas, quartas, semi, final, terceiro };
+  const fasesMontadas = { primeiraFase, oitavas, quartas, semi, final, terceiro };
+
+  const fasesParaCache = {
+    primeira_fase: primeiraFase,
+    oitavas,
+    quartas,
+    semi,
+    final,
+    terceiro,
+  };
+  const temQualquerPontuacao = Object.values(fasesParaCache).some((lista) =>
+    Array.isArray(lista) && lista.some(matchTemPontuacao)
+  );
+  if (temQualquerPontuacao) {
+    salvarCacheFases(fasesParaCache);
+  }
+
+  return fasesMontadas;
 };
 
 const formatarScore = (valor) => (Number.isFinite(valor) ? valor.toFixed(2) : "--");
@@ -272,6 +340,13 @@ const garantirAvisoParcial = () => {
   return aviso;
 };
 
+const getRodadaEmAndamento = (meta) => {
+  const rodadaGlobal = window.rodada_atual ?? window.rodadaAtual;
+  if (Number.isFinite(rodadaGlobal)) return rodadaGlobal;
+  if (Number.isFinite(meta?.rodada)) return meta.rodada;
+  return null;
+};
+
 const renderBracket = () => {
   const dados = getCopaDados();
   const timesMap = criarMapaTimes(dados.times || []);
@@ -330,9 +405,12 @@ const atualizarFaseAtiva = (fase, { atualizarHash = true } = {}) => {
 document.addEventListener("DOMContentLoaded", () => {
   const avisoParcial = garantirAvisoParcial();
   const meta = window.copaMeta || {};
-  const parcialAtiva = meta.parcial_disponivel === true;
+  const rodadaEmAndamento = getRodadaEmAndamento(meta);
+  const parcialAtiva = meta.parcial_disponivel === true && Number.isFinite(meta.rodada);
+  const mostrarAviso = parcialAtiva
+    && (!Number.isFinite(rodadaEmAndamento) || meta.rodada === rodadaEmAndamento);
   if (avisoParcial) {
-    if (parcialAtiva) {
+    if (mostrarAviso) {
       const rodadaTxt = Number.isFinite(meta.rodada) ? meta.rodada : "";
       avisoParcial.textContent = `Rodada ${rodadaTxt} em andamento: pontuacoes parciais (nao definitivas).`;
       avisoParcial.style.display = "block";
@@ -342,7 +420,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   renderBracket();
   const hash = window.location.hash.replace("#", "");
-  const faseInicial = LABEL_FASES[hash] ? hash : "primeira_fase";
+  const faseMeta = Number.isFinite(meta?.rodada) ? FASES_POR_RODADA[meta.rodada] : null;
+  const faseInicial = LABEL_FASES[hash] ? hash : (faseMeta || "primeira_fase");
   atualizarFaseAtiva(faseInicial, { atualizarHash: false });
 
   document.querySelectorAll("[data-round-link]").forEach((link) => {

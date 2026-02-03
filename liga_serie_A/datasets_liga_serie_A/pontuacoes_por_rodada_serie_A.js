@@ -1,7 +1,4 @@
 window.pontuacoesPorRodada = {
-  "Atlético Colorado 2021": {
-    "Rodada 1": 53.26
-  },
   "cartola scheuer17": {
     "Rodada 1": 61.56
   },
@@ -52,9 +49,6 @@ window.pontuacoesPorRodada = {
   },
   "TIGRE LEON": {
     "Rodada 1": 51.26
-  },
-  "TORRESMO COM PINGA PRO26.2": {
-    "Rodada 1": 73.76
   },
   "VASCO MARTINS FC": {
     "Rodada 1": 55.9

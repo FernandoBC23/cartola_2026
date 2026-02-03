@@ -19,6 +19,7 @@ function getParcialPayload() {
 function getParcialRodada() {
   const payload = getParcialPayload();
   if (!payload || !payload.rodada || !payload.times) return null;
+  if (payload.rodada !== getRodadaEmAndamento()) return null;
   return Object.keys(payload.times).length ? payload.rodada : null;
 }
 
@@ -97,9 +98,9 @@ function criarAbas() {
 // =========================
 // RODADA ATUAL (inteligente)
 // =========================
-function obterRodadaAtual() {
-  const rodadaParcial = getParcialRodada();
-  if (Number.isFinite(rodadaParcial)) return rodadaParcial;
+function getRodadaEmAndamento() {
+  const metaRodada = window.ligaClassicaMeta?.rodada_atual ?? window.rodada_atual ?? window.rodadaAtual;
+  if (Number.isFinite(metaRodada)) return metaRodada;
 
   const geral = classificacaoLigaClassica?.geral;
   if (!geral) return null;
@@ -108,14 +109,12 @@ function obterRodadaAtual() {
   if (!umTimeQualquer) return null;
 
   const rodadas = geral[umTimeQualquer] || {};
-
   let ultimaRodadaValida = 0;
 
   // Ultima rodada com pontos (>0)
   for (const rodada in rodadas) {
     const numero = parseInt(rodada.match(/\d+/)?.[0], 10);
     const pontos = Number(rodadas[rodada]);
-
     if (!isNaN(numero) && pontos > 0) {
       ultimaRodadaValida = Math.max(ultimaRodadaValida, numero);
     }
@@ -128,11 +127,15 @@ function obterRodadaAtual() {
       return n === 1;
     });
     if (existeRodada1) return 1;
-
     return null;
   }
 
-  return ultimaRodadaValida;
+  const proxima = ultimaRodadaValida + 1;
+  return Math.min(proxima, 38);
+}
+
+function obterRodadaAtual() {
+  return getRodadaEmAndamento();
 }
 
 // =========================

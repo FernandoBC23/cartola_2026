@@ -5,13 +5,15 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const RODADA_MINIMA = 26;
   const RODADA_MAXIMA = 31; // Define a rodada m?xima
-
-  let rodadaAtual = (() => {
-    const rodadasComPontuacao = resultadosFase2
-      .filter(r => r.mandante?.pontos != null && r.visitante?.pontos != null)
-      .map(r => r.rodada);
-    return rodadasComPontuacao.length ? Math.max(...rodadasComPontuacao) : RODADA_MINIMA;
-  })();
+  const rodadasEncerradas = resultadosFase2
+    .filter(r => {
+      const p1 = r?.mandante?.pontos;
+      const p2 = r?.visitante?.pontos;
+      const temPontos = (p1 != null && p2 != null && (Number(p1) + Number(p2)) > 0);
+      return r?.encerrado === true || temPontos;
+    })
+    .map(r => r.rodada)
+    .filter(r => r >= RODADA_MINIMA && r <= RODADA_MAXIMA);
 
   const painelGrupos = document.getElementById("painel-fase2");
   const aviso = document.getElementById("aviso-liberta");
@@ -26,15 +28,25 @@ window.addEventListener('DOMContentLoaded', () => {
   const parcialRodadaExibida = Number.isFinite(parcialRodadaRaw)
     ? parcialRodadaRaw
     : null;
+  const rodadaEncerradaMax = rodadasEncerradas.length ? Math.max(...rodadasEncerradas) : null;
+  const rodadaEmAndamento = (() => {
+    if (metaRodada !== null && metaRodada >= RODADA_MINIMA && metaRodada <= RODADA_MAXIMA) {
+      return metaRodada;
+    }
+    if (rodadaEncerradaMax !== null) {
+      return Math.min(rodadaEncerradaMax + 1, RODADA_MAXIMA);
+    }
+    return RODADA_MINIMA;
+  })();
   const parcialDisponivel = (
     (window.libertaMeta?.parcial_disponivel === true) ||
     (Object.keys(parcialTimes).length > 0)
   ) && parcialRodadaExibida !== null
+    && parcialRodadaExibida === rodadaEmAndamento
     && parcialRodadaExibida >= RODADA_MINIMA
     && parcialRodadaExibida <= RODADA_MAXIMA;
-  if (parcialDisponivel) {
-    rodadaAtual = parcialRodadaExibida;
-  }
+  let rodadaAtual = rodadaEmAndamento;
+  rodadaAtual = Math.min(Math.max(rodadaAtual, RODADA_MINIMA), RODADA_MAXIMA);
   const rodadaSistema = Number.isFinite(window.RODADA_ATUAL)
     ? window.RODADA_ATUAL
     : (Number.isFinite(window.rodadaAtual) ? window.rodadaAtual : null);
@@ -206,8 +218,8 @@ window.addEventListener('DOMContentLoaded', () => {
           const p1Num = Number(p1Raw);
           const p2Num = Number(p2Raw);
           const temPontos = Number.isFinite(p1Num) && Number.isFinite(p2Num) && (p1Num + p2Num) > 0;
-          const p1 = temPontos ? p1Num.toFixed(2) : "?";
-          const p2 = temPontos ? p2Num.toFixed(2) : "?";
+          const p1 = temPontos ? p1Num.toFixed(2) : "0.00";
+          const p2 = temPontos ? p2Num.toFixed(2) : "0.00";
 
           // const placar = document.createElement("div");
           // placar.className = "placar";

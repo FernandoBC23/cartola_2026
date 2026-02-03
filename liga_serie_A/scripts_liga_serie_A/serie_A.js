@@ -90,17 +90,38 @@
       return altKey ? toNum(mapa?.[altKey]?.[col]) : NaN;
     }
 
+    function getRodadaEmAndamento() {
+      const metaRodada = window.ligaSerieAMeta?.rodada_atual ?? window.rodada_atual ?? window.rodadaAtual;
+      if (Number.isFinite(metaRodada)) return metaRodada;
+
+      const completos = (resultadosFase1 || [])
+        .filter(r => Number.isFinite(r?.mandante?.pontos) && Number.isFinite(r?.visitante?.pontos))
+        .map(r => +r.rodada || 0)
+        .filter(n => Number.isFinite(n) && n >= TURNO_INICIO && n <= RODADA_MAXIMA);
+
+      const maxFinal = completos.length ? Math.max(...completos) : 0;
+      const guess = maxFinal + 1;
+      if (guess >= TURNO_INICIO && guess <= RODADA_MAXIMA) return guess;
+
+      return TURNO_INICIO;
+    }
+
     function isParcial(rodadaReal) {
+      const rodadaEmAndamento = getRodadaEmAndamento();
+      if (Number.isFinite(rodadaEmAndamento) && rodadaReal !== rodadaEmAndamento) return false;
+
       const rodadaParcial = window.ligaSerieAMeta?.rodada_parcial;
-      if (Number.isFinite(rodadaParcial)) {
-        return rodadaReal === rodadaParcial;
-      }
-      if (window.ligaSerieAMeta?.parcial_disponivel) return true;
+      if (Number.isFinite(rodadaParcial)) return rodadaReal === rodadaParcial;
+      if (window.ligaSerieAMeta?.parcial_disponivel === true) return true;
 
       const resultadosRodada = (resultadosFase1 || []).filter(r => +r.rodada === +rodadaReal);
+      const temAlgum = resultadosRodada.some(r =>
+        Number.isFinite(r?.mandante?.pontos) || Number.isFinite(r?.visitante?.pontos)
+      );
       const temNulos = resultadosRodada.some(r =>
         !Number.isFinite(r?.mandante?.pontos) || !Number.isFinite(r?.visitante?.pontos)
       );
+      if (!temAlgum) return false;
       if (temNulos) return true;
 
       const col = `Rodada ${rodadaReal + TURNO_OFFSET}`;
@@ -115,46 +136,15 @@
     }
 
     // ================================
-    // Rodada inicial inteligente
-    // - Maior rodada com final OU parcial dentro do intervalo do turno
+    // Rodada inicial
+    // - Sempre abrir na rodada atual (em andamento)
     // ================================
     let rodadaAtual = (() => {
-      // 1) Rodadas com resultado FINAL
-      const finals = (resultadosFase1 || [])
-        .filter(r => Number.isFinite(r?.mandante?.pontos) && Number.isFinite(r?.visitante?.pontos))
-        .map(r => +r.rodada || 0)
-        .filter(n => Number.isFinite(n) && n >= TURNO_INICIO && n <= RODADA_MAXIMA);
-
-      const maxFinal = finals.length ? Math.max(...finals) : 0;
-
-      // 2) Rodadas que existem em pontuacoesPorRodada (parcial / preenchida)
-      const mapa = window.pontuacoesPorRodada || {};
-      const cols = new Set();
-
-      Object.values(mapa).forEach(m => {
-        Object.keys(m || {}).forEach(k => {
-          const n = parseInt((k || "").replace("Rodada ", ""), 10);
-          if (
-            Number.isFinite(n) &&
-            n >= TURNO_INICIO &&
-            n <= RODADA_MAXIMA
-          ) {
-            cols.add(n);
-          }
-        });
-      });
-
-      const maxParcial = cols.size ? Math.max(...cols) : 0;
-
-      // 3) Chute final: maior entre final e parcial
-      const guess = Math.max(maxFinal, maxParcial);
-
-      // 4) Se nada ainda (pré rodada 1), começa em TURNO_INICIO
-      return (
-        Number.isFinite(guess) &&
-        guess >= TURNO_INICIO &&
-        guess <= RODADA_MAXIMA
-      ) ? guess : TURNO_INICIO;
+      const rodadaAtualMeta = getRodadaEmAndamento();
+      if (Number.isFinite(rodadaAtualMeta)) {
+        return Math.min(Math.max(rodadaAtualMeta, TURNO_INICIO), RODADA_MAXIMA);
+      }
+      return TURNO_INICIO;
     })();
 
     // ================================

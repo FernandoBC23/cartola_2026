@@ -30,6 +30,9 @@ window.addEventListener('DOMContentLoaded', () => {
   const metaRodada = Number.isFinite(window.libertaMeta?.rodada_atual)
     ? Number(window.libertaMeta.rodada_atual)
     : null;
+  const metaRodadaExibida = Number.isFinite(metaRodada)
+    ? (metaRodada - RODADA_OFFSET)
+    : null;
   const parcialRodadaRaw = Number.isFinite(window.pontuacaoParcialRodadaAtual?.rodada)
     ? Number(window.pontuacaoParcialRodadaAtual.rodada)
     : metaRodada;
@@ -37,10 +40,21 @@ window.addEventListener('DOMContentLoaded', () => {
   const parcialRodadaExibida = Number.isFinite(parcialRodadaRaw)
     ? (parcialRodadaRaw - RODADA_OFFSET)
     : null;
+  const rodadaEncerradaMax = rodadasEncerradas.length ? Math.max(...rodadasEncerradas) : null;
+  const rodadaEmAndamento = (() => {
+    if (metaRodadaExibida !== null && metaRodadaExibida >= RODADA_INICIO && metaRodadaExibida <= RODADA_FIM) {
+      return metaRodadaExibida;
+    }
+    if (rodadaEncerradaMax !== null) {
+      return Math.min(rodadaEncerradaMax + 1, RODADA_FIM);
+    }
+    return RODADA_INICIO;
+  })();
   const parcialDisponivel = (
     (window.libertaMeta?.parcial_disponivel === true) ||
     (parcialRodadaExibida !== null && Object.keys(parcialTimes).length > 0)
   ) && parcialRodadaExibida !== null
+    && parcialRodadaExibida === rodadaEmAndamento
     && parcialRodadaExibida >= RODADA_INICIO
     && parcialRodadaExibida <= RODADA_FIM;
 
@@ -48,9 +62,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // - se houver parcial, usa a rodada parcial
   // - senao, ultima encerrada
   // - senao, usa RODADA_INICIO
-  let rodadaAtual = parcialDisponivel
-    ? parcialRodadaExibida
-    : (rodadasEncerradas.length ? Math.max(...rodadasEncerradas) : RODADA_INICIO);
+  let rodadaAtual = rodadaEmAndamento;
 
   // Garante que est? dentro do intervalo do dataset
   rodadaAtual = Math.min(Math.max(rodadaAtual, RODADA_MIN), RODADA_MAXIMA);
@@ -238,8 +250,8 @@ window.addEventListener('DOMContentLoaded', () => {
         const p1Num = Number(p1Raw);
         const p2Num = Number(p2Raw);
         const temPontos = Number.isFinite(p1Num) && Number.isFinite(p2Num) && (p1Num + p2Num) > 0;
-        const p1 = temPontos ? p1Num.toFixed(2) : "?";
-        const p2 = temPontos ? p2Num.toFixed(2) : "?";
+        const p1 = temPontos ? p1Num.toFixed(2) : "0.00";
+        const p2 = temPontos ? p2Num.toFixed(2) : "0.00";
 
         const placar = document.createElement("div");
         placar.className = "placar";

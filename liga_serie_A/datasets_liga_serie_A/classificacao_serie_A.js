@@ -18,20 +18,9 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 73.96,
-      "cartolaSofrido": 53.26,
-      "saldoCartola": 20.7,
+      "cartolaSofrido": 0.0,
+      "saldoCartola": 73.96,
       "posicao": 2
-    },
-    {
-      "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 73.76,
-      "cartolaSofrido": 63.9,
-      "saldoCartola": 9.860000000000008,
-      "posicao": 3
     },
     {
       "nome": "Dom Camillo68",
@@ -42,7 +31,7 @@ const classificacaoSerieA = {
       "totalCartola": 72.7,
       "cartolaSofrido": 57.45,
       "saldoCartola": 15.25,
-      "posicao": 4
+      "posicao": 3
     },
     {
       "nome": "Texas Club 2026",
@@ -53,7 +42,7 @@ const classificacaoSerieA = {
       "totalCartola": 68.06,
       "cartolaSofrido": 60.16,
       "saldoCartola": 7.900000000000006,
-      "posicao": 5
+      "posicao": 4
     },
     {
       "nome": "Tatols Beants F.C",
@@ -64,6 +53,17 @@ const classificacaoSerieA = {
       "totalCartola": 66.86,
       "cartolaSofrido": 53.66,
       "saldoCartola": 13.200000000000005,
+      "posicao": 5
+    },
+    {
+      "nome": "Fedato Futebol Clube",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 63.9,
+      "cartolaSofrido": 0.0,
+      "saldoCartola": 63.9,
       "posicao": 6
     },
     {
@@ -111,17 +111,6 @@ const classificacaoSerieA = {
       "posicao": 10
     },
     {
-      "nome": "Fedato Futebol Clube",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 63.9,
-      "cartolaSofrido": 73.76,
-      "saldoCartola": -9.860000000000008,
-      "posicao": 11
-    },
-    {
       "nome": "seralex",
       "pontos": 0,
       "vitorias": 0,
@@ -130,7 +119,7 @@ const classificacaoSerieA = {
       "totalCartola": 60.16,
       "cartolaSofrido": 68.06,
       "saldoCartola": -7.900000000000006,
-      "posicao": 12
+      "posicao": 11
     },
     {
       "nome": "TEAM LOPES 99",
@@ -141,7 +130,7 @@ const classificacaoSerieA = {
       "totalCartola": 58.96,
       "cartolaSofrido": 62.56,
       "saldoCartola": -3.6000000000000014,
-      "posicao": 13
+      "posicao": 12
     },
     {
       "nome": "Gremiomaniasm",
@@ -152,7 +141,7 @@ const classificacaoSerieA = {
       "totalCartola": 57.45,
       "cartolaSofrido": 72.7,
       "saldoCartola": -15.25,
-      "posicao": 14
+      "posicao": 13
     },
     {
       "nome": "VASCO MARTINS FC",
@@ -163,7 +152,7 @@ const classificacaoSerieA = {
       "totalCartola": 55.9,
       "cartolaSofrido": 84.26,
       "saldoCartola": -28.360000000000007,
-      "posicao": 15
+      "posicao": 14
     },
     {
       "nome": "FBC Colorado",
@@ -174,18 +163,7 @@ const classificacaoSerieA = {
       "totalCartola": 53.66,
       "cartolaSofrido": 66.86,
       "saldoCartola": -13.200000000000005,
-      "posicao": 16
-    },
-    {
-      "nome": "Atlético Colorado 2021",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 53.26,
-      "cartolaSofrido": 73.96,
-      "saldoCartola": -20.7,
-      "posicao": 17
+      "posicao": 15
     },
     {
       "nome": "TIGRE LEON",
@@ -196,7 +174,7 @@ const classificacaoSerieA = {
       "totalCartola": 51.26,
       "cartolaSofrido": 59.25,
       "saldoCartola": -7.990000000000002,
-      "posicao": 18
+      "posicao": 16
     },
     {
       "nome": "pura bucha/internacional",
@@ -207,7 +185,7 @@ const classificacaoSerieA = {
       "totalCartola": 50.26,
       "cartolaSofrido": 61.56,
       "saldoCartola": -11.300000000000004,
-      "posicao": 19
+      "posicao": 17
     },
     {
       "nome": "JV5 Tricolor Gaúcho",
@@ -218,6 +196,28 @@ const classificacaoSerieA = {
       "totalCartola": 47.86,
       "cartolaSofrido": 58.51,
       "saldoCartola": -10.65,
+      "posicao": 18
+    },
+    {
+      "nome": "TORRESMO COM PINGA PRO26.2",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 0.0,
+      "cartolaSofrido": 63.9,
+      "saldoCartola": -63.9,
+      "posicao": 19
+    },
+    {
+      "nome": "Atlético Colorado 2021",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 0.0,
+      "cartolaSofrido": 73.96,
+      "saldoCartola": -73.96,
       "posicao": 20
     }
   ]

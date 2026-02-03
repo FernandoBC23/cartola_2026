@@ -20,7 +20,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Atlético Colorado 2021",
-      "pontos": 53.26
+      "pontos": null
     }
   },
   {
@@ -52,7 +52,7 @@ const resultadosFase1 = [
     "rodada": 1,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": 73.76
+      "pontos": null
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
@@ -240,4 +240,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieAMeta = {"rodada_parcial": 1, "parcial_disponivel": true};
+window.ligaSerieAMeta = {"rodada_parcial": null, "parcial_disponivel": false};
