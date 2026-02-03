@@ -115,8 +115,8 @@ const resultadosFase1 = [
       "pontos": 60.16
     },
     "visitante": {
-      "nome": "Rolo Compressor ZN",
-      "pontos": 59.25
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
     }
   },
   {
@@ -235,9 +235,2049 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "Rolo Compressor ZN",
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 3,
+    "mandante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Pity10",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 4,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Pity10",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 5,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 6,
+    "mandante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 7,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 8,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 9,
+    "mandante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Pity10",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 10,
+    "mandante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 11,
+    "mandante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 12,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 13,
+    "mandante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 14,
+    "mandante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 15,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Pity10",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 16,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Pity10",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 17,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "seralex",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 18,
+    "mandante": {
+      "nome": "Mau Humor F.C.",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "PUXE FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "FBC Colorado",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Sport Clube PAIM",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "Pity10",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "CAFÉ AMARGO PRO26.2",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "TEAM LOPES 99",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "cartola scheuer17",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "pura bucha/internacional",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "TIGRE LEON",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "Paulo Virgili FC",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Tatols Beants F.C",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "lsauer fc",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Dom Camillo68",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "Texas Club 2026",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Gremiomaniasm",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Fedato Futebol Clube",
+      "pontos": null
+    }
+  },
+  {
+    "grupo": "Série B",
+    "rodada": 19,
+    "mandante": {
+      "nome": "seralex",
+      "pontos": null
+    },
+    "visitante": {
+      "nome": "Mau Humor F.C.",
       "pontos": null
     }
   }
 ];
-window.ligaSerieBMeta = {"rodada_parcial": 1, "parcial_disponivel": true};
+window.ligaSerieBMeta = {"rodada_parcial": null, "parcial_disponivel": false};
