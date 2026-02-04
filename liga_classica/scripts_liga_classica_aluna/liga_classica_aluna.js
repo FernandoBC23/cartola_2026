@@ -20,6 +20,13 @@ function getParcialPayload() {
     : { rodada: null, times: {} };
 }
 
+function getRodadaSemJogos() {
+  const payload = getParcialPayload();
+  if (!payload || !Number.isFinite(payload.rodada)) return null;
+  const times = payload.times || {};
+  return Object.keys(times).length === 0 ? payload.rodada : null;
+}
+
 function getParcialRodada() {
   const payload = getParcialPayload();
   if (!payload || !payload.rodada || !payload.times) return null;
@@ -93,6 +100,9 @@ function getRodadaEmAndamento() {
   const metaRodada = window.ligaClassicaMeta?.rodada_atual ?? window.rodada_atual ?? window.rodadaAtual;
   if (Number.isFinite(metaRodada)) return metaRodada;
 
+  const rodadaSemJogos = getRodadaSemJogos();
+  if (Number.isFinite(rodadaSemJogos)) return rodadaSemJogos;
+
   const geral = classificacaoLigaClassica?.geral;
   if (!geral) return null;
 
@@ -137,6 +147,7 @@ function obterRodadaAtual() {
 function calcularTurnoPeloGeral(inicio, fim) {
   const geral = classificacaoLigaClassica?.geral || {};
   const resultado = {};
+  const rodadaIgnorada = getRodadaSemJogos();
 
   for (const time in geral) {
     const rodadasObj = geral[time] || {};
@@ -145,6 +156,7 @@ function calcularTurnoPeloGeral(inicio, fim) {
     for (const chaveRodada in rodadasObj) {
       const n = parseInt(chaveRodada.match(/\d+/)?.[0], 10);
       if (!isNaN(n) && n >= inicio && n <= fim) {
+        if (n === rodadaIgnorada) continue;
         soma += Number(rodadasObj[chaveRodada]) || 0;
       }
     }
@@ -161,6 +173,7 @@ function calcularTurnoPeloGeral(inicio, fim) {
 function exibirClassificacaoPor(tipo, chave) {
   let dados = [];
   const rodadaAtual = obterRodadaAtual();
+  const rodadaIgnorada = getRodadaSemJogos();
 
   const infoDiv = document.getElementById("info-atualizacao");
   const hoje = new Date();
@@ -183,7 +196,11 @@ function exibirClassificacaoPor(tipo, chave) {
     const geral = classificacaoLigaClassica?.geral || {};
     for (const time in geral) {
       const rodadas = geral[time] || {};
-      const totalPontos = Object.values(rodadas).reduce((acc, val) => acc + (Number(val) || 0), 0);
+      const totalPontos = Object.entries(rodadas).reduce((acc, [rodadaKey, val]) => {
+        const n = parseInt(rodadaKey.match(/\d+/)?.[0], 10);
+        if (!isNaN(n) && n === rodadaIgnorada) return acc;
+        return acc + (Number(val) || 0);
+      }, 0);
       dados.push({ time, totalPontos });
     }
   } else if (tipo === "turnos") {
