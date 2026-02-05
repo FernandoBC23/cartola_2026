@@ -167,98 +167,98 @@ window.copaDados = {
       {
         "casaId": 25811332,
         "foraId": 14124559,
-        "casaPts": 49.0,
-        "foraPts": 84.259765625
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 28741323,
         "foraId": 51010813,
-        "casaPts": 61.9599609375,
-        "foraPts": 47.860107421875
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 29228373,
         "foraId": 49180400,
-        "casaPts": 60.159912109375,
-        "foraPts": 64.2001953125
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 3447341,
         "foraId": 212042,
-        "casaPts": 64.56005859375,
-        "foraPts": 66.85986328125
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 13913874,
         "foraId": 3424598,
-        "casaPts": 74.06005859375,
-        "foraPts": 51.260009765625
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 117598,
         "foraId": 18344271,
-        "casaPts": 68.06005859375,
-        "foraPts": 54.159912109375
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 48498051,
         "foraId": 3708025,
-        "casaPts": 64.56005859375,
-        "foraPts": 44.260009765625
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 25565675,
         "foraId": 18223508,
-        "casaPts": 44.06005859375,
-        "foraPts": 59.25
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 24468241,
         "foraId": 13951133,
-        "casaPts": 57.60009765625,
-        "foraPts": 54.60009765625
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 24856400,
         "foraId": 1747619,
-        "casaPts": 64.7001953125,
-        "foraPts": 47.860107421875
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 20696550,
         "foraId": 528730,
-        "casaPts": 72.7001953125,
-        "foraPts": 57.449951171875
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 335716,
         "foraId": 5823700,
-        "casaPts": 70.0,
-        "foraPts": 84.85986328125
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 18661583,
         "foraId": 186283,
-        "casaPts": 50.260009765625,
-        "foraPts": 53.659912109375
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 13707047,
         "foraId": 18642587,
-        "casaPts": 42.9599609375,
-        "foraPts": 63.89990234375
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 3851966,
         "foraId": 18346776,
-        "casaPts": 61.56005859375,
-        "foraPts": 38.260009765625
+        "casaPts": null,
+        "foraPts": null
       },
       {
         "casaId": 479510,
         "foraId": 19033717,
-        "casaPts": 58.9599609375,
-        "foraPts": 73.9599609375
+        "casaPts": null,
+        "foraPts": null
       }
     ],
     "oitavas": [],
@@ -269,5 +269,5 @@ window.copaDados = {
   }
 };window.copaMeta = {
   "rodada": 2,
-  "parcial_disponivel": false
+  "parcial_disponivel": true
 };
