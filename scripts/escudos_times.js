@@ -46,6 +46,7 @@ window.escudosTimes = {
   "Luis lemes inter": "../imagens/1_luis_lemes_inter.png",
   "Máquina Laranjja": "../imagens/1_maquina_laranjja.png",
   "Rolo Compressor ZN": "../imagens/1_rolo_compressor_zn.png",
+  "Rolo Compressor  ZN": "../imagens/1_rolo_compressor_zn.png",
   "Super Vasco f.c": "../imagens/1_super_vasco_fc.png",
   "SUPER VASCÃO F.C": "../imagens/1_super_vascao_fc.png",
   "Tabajara de Inhaua PB1": "../imagens/1_tabajara_de_inhaua_pb1.png",

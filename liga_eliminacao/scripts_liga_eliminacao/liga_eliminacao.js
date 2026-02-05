@@ -215,6 +215,19 @@ function getEliminadosRodada(rodadaAtual) {
     };
   }
 
+  const parcialAtual = getParcialRodada(rodadaAtual);
+  if (parcialAtual) {
+    const limite = Math.min(rodadaAtual, RODADA_FIM - 1);
+    const { eliminados, ativos } = calcularEliminadosDinamico(limite);
+    const lista = eliminados[rodadaAtual] || eliminados[String(rodadaAtual)] || [];
+    return {
+      eliminadosRodada: Array.isArray(lista) ? lista.map((id) => String(id)) : [],
+      eliminadosFonte: eliminados,
+      ativos,
+      usarDinamico: true,
+    };
+  }
+
   const eliminadosFonte = getFonteEliminados();
   if (temEliminacaoManual(eliminadosFonte)) {
     const lista = eliminadosFonte[rodadaAtual] || eliminadosFonte[String(rodadaAtual)] || [];
@@ -393,6 +406,7 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   const aguardando = rodadaAguardandoConfrontos(rodadaAtual);
   avisoContainer.classList.toggle("aviso-parcial", usandoParcial);
   const pontuacoesRodada = montarListaRodada(rodadaAtual);
+  const mapaPontuacoes = new Map(pontuacoesRodada.map((item) => [String(item.id), item]));
   if (pontuacoesRodada.length > 0 && pontuacoesRodada.every((item) => item.pontosRodada === 0)) {
     const mensagemAguardando = rodadaAtual === RODADA_INICIO
       ? "Aguardando inicio do campeonato"
@@ -415,6 +429,15 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   }
 
   const eliminadosDetalhe = eliminadosRodada.map((id) => {
+    const key = String(id);
+    const item = mapaPontuacoes.get(key);
+    if (item) {
+      return {
+        nome: item.nome,
+        pontosRodada: Number.isFinite(item.pontosRodada) ? item.pontosRodada : 0,
+        totalTurno: Number.isFinite(item.totalTurno) ? item.totalTurno : 0,
+      };
+    }
     const row = (typeof pontuacoesPorRodada === "object" && pontuacoesPorRodada) ? (pontuacoesPorRodada[id] || {}) : {};
     const nome = row.Time || id;
     const pontosRodada = row[`Rodada ${rodadaAtual}`];

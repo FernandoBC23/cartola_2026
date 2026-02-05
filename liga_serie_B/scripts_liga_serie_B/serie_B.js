@@ -94,6 +94,14 @@
       const metaRodada = window.ligaSerieBMeta?.rodada_atual ?? window.rodada_atual ?? window.rodadaAtual;
       if (Number.isFinite(metaRodada)) return metaRodada;
 
+      const rodadaParcialMeta = window.ligaSerieBMeta?.rodada_parcial;
+      if (Number.isFinite(rodadaParcialMeta)) return rodadaParcialMeta;
+
+      const rodadaParcialGlobal = Number.isFinite(window.pontuacaoParcialRodadaAtual?.rodada)
+        ? Number(window.pontuacaoParcialRodadaAtual.rodada)
+        : null;
+      if (Number.isFinite(rodadaParcialGlobal)) return rodadaParcialGlobal;
+
       const completos = (resultadosFase1 || [])
         .filter(r => Number.isFinite(r?.mandante?.pontos) && Number.isFinite(r?.visitante?.pontos))
         .map(r => +r.rodada || 0)
@@ -107,12 +115,19 @@
     }
 
     function isParcial(rodadaReal) {
-      const rodadaEmAndamento = getRodadaEmAndamento();
-      if (Number.isFinite(rodadaEmAndamento) && rodadaReal !== rodadaEmAndamento) return false;
-
       const rodadaParcial = window.ligaSerieBMeta?.rodada_parcial;
       if (Number.isFinite(rodadaParcial)) return rodadaReal === rodadaParcial;
-      if (window.ligaSerieBMeta?.parcial_disponivel === true) return true;
+
+      const rodadaParcialGlobal = Number.isFinite(window.pontuacaoParcialRodadaAtual?.rodada)
+        ? Number(window.pontuacaoParcialRodadaAtual.rodada)
+        : null;
+      if (Number.isFinite(rodadaParcialGlobal)) return rodadaReal === rodadaParcialGlobal;
+
+      const rodadaEmAndamento = getRodadaEmAndamento();
+      if (window.ligaSerieBMeta?.parcial_disponivel === true) {
+        return Number.isFinite(rodadaEmAndamento) ? rodadaReal === rodadaEmAndamento : false;
+      }
+      if (Number.isFinite(rodadaEmAndamento) && rodadaReal !== rodadaEmAndamento) return false;
 
       const resultadosRodada = (resultadosFase1 || []).filter(r => +r.rodada === +rodadaReal);
       const temAlgum = resultadosRodada.some(r =>

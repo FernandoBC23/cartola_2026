@@ -185,6 +185,19 @@ function getEliminadosRodada(rodadaAtual) {
     };
   }
 
+  const parcialAtual = getParcialRodada(rodadaAtual);
+  if (parcialAtual) {
+    const limite = Math.min(rodadaAtual, RODADA_FIM - 1);
+    const { eliminados, ativos } = calcularEliminadosDinamico(limite, rodadaAtual, parcialAtual);
+    const lista = eliminados[rodadaAtual] || eliminados[String(rodadaAtual)] || [];
+    return {
+      eliminadosRodada: Array.isArray(lista) ? lista.map((id) => String(id)) : [],
+      eliminadosFonte: eliminados,
+      ativos,
+      usarDinamico: true,
+    };
+  }
+
   const eliminadosFonte = getFonteEliminados();
   if (temEliminacaoManual(eliminadosFonte)) {
     const lista = eliminadosFonte[rodadaAtual] || eliminadosFonte[String(rodadaAtual)] || [];
@@ -424,6 +437,7 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   avisoContainer.classList.toggle("aviso-parcial", usandoParcial);
 
   const pontuacoesRodada = coletarPontuacoesExibicao(rodadaAtual).lista;
+  const mapaPontuacoes = new Map(pontuacoesRodada.map((item) => [String(item.id), item]));
   const temPontuacao = pontuacoesRodada.some((item) => item.pontosRodada !== 0);
   if (pontuacoesRodada.length > 0 && !temPontuacao) {
     const mensagemAguardando = rodadaAtual === RODADA_INICIO
@@ -457,6 +471,15 @@ function exibirUltimoColocadoRodada(rodadaAtual) {
   }
 
   const eliminadosDetalhe = eliminadosRodada.map((id) => {
+    const key = String(id);
+    const item = mapaPontuacoes.get(key);
+    if (item) {
+      return {
+        nome: item.nome,
+        pontosRodada: Number.isFinite(item.pontosRodada) ? item.pontosRodada : 0,
+        totalTurno: Number.isFinite(item.totalTurno) ? item.totalTurno : 0,
+      };
+    }
     const row = getFontePontuacoes()?.[id] || {};
     const nome = row.Time || id;
     const pontosRodada = row[`Rodada ${rodadaAtual}`];
