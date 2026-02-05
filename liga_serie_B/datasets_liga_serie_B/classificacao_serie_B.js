@@ -1,6 +1,17 @@
 const classificacaoSerieB = {
   "Série B": [
     {
+      "nome": "Pity10",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 143.31005859375,
+      "cartolaSofrido": 107.160009765625,
+      "saldoCartola": 36.150048828124994,
+      "posicao": 1
+    },
+    {
       "nome": "Mau Humor F.C.",
       "pontos": 6,
       "vitorias": 2,
@@ -9,17 +20,6 @@ const classificacaoSerieB = {
       "totalCartola": 139.3599609375,
       "cartolaSofrido": 107.749951171875,
       "saldoCartola": 31.61000976562501,
-      "posicao": 1
-    },
-    {
-      "nome": "Pity10",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 138.81005859375,
-      "cartolaSofrido": 107.160009765625,
-      "saldoCartola": 31.650048828124994,
       "posicao": 2
     },
     {
@@ -106,8 +106,8 @@ const classificacaoSerieB = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 118.46005859375,
-      "cartolaSofrido": 124.510009765625,
-      "saldoCartola": -6.049951171874994,
+      "cartolaSofrido": 129.010009765625,
+      "saldoCartola": -10.549951171874994,
       "posicao": 10
     },
     {
@@ -116,9 +116,9 @@ const classificacaoSerieB = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 100.660107421875,
+      "totalCartola": 104.060107421875,
       "cartolaSofrido": 103.36005859375,
-      "saldoCartola": -2.699951171875,
+      "saldoCartola": 0.7000488281250057,
       "posicao": 11
     },
     {
@@ -194,8 +194,8 @@ const classificacaoSerieB = {
       "empates": 0,
       "derrotas": 2,
       "totalCartola": 97.7599609375,
-      "cartolaSofrido": 114.459912109375,
-      "saldoCartola": -16.699951171875,
+      "cartolaSofrido": 117.859912109375,
+      "saldoCartola": -20.09995117187501,
       "posicao": 18
     },
     {

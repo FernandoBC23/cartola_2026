@@ -42,7 +42,7 @@ const classificacaoLigaClassica = {
     },
     "JV5 Tricolor Gaúcho": {
       "Rodada 1": 47.860107421875,
-      "Rodada 2": 52.8
+      "Rodada 2": 56.2
     },
     "La Primeira Patada Es Nuestra": {
       "Rodada 1": 55.659912109375,
@@ -136,9 +136,9 @@ const classificacaoLigaClassica = {
       "SC 100 Sono": 62.35,
       "Pontaç0 F.C.": 57.65,
       "GE Bebum": 57.25,
+      "JV5 Tricolor Gaúcho": 56.2,
       "lsauer fc": 55.9,
       "GaúchoDaFronteira F.C": 53.6,
-      "JV5 Tricolor Gaúcho": 52.8,
       "Grêmio_Campeão_LA_27": 51.15,
       "FBC Colorado": 49.8,
       "Pepe Leal FC": 48.95,
@@ -253,7 +253,7 @@ const pontuacaoParcialRodadaAtual = {
     "16411206": 57.25,
     "14933455": 41.7,
     "47775950": 51.15,
-    "1747619": 52.8,
+    "1747619": 56.2,
     "32966": 38.9,
     "44810918": 55.9,
     "1867254": 18.8,

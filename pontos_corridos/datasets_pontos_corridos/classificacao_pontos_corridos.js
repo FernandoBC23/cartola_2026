@@ -40,8 +40,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 118.809912109375,
-      "cartolaSofrido": 108.459912109375,
-      "saldoCartola": 10.350000000000009,
+      "cartolaSofrido": 111.859912109375,
+      "saldoCartola": 6.950000000000003,
       "posicao": 4
     },
     {
@@ -177,6 +177,17 @@ const classificacaoSerieA = {
       "posicao": 16
     },
     {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 2,
+      "totalCartola": 104.060107421875,
+      "cartolaSofrido": 120.21005859375,
+      "saldoCartola": -16.149951171875003,
+      "posicao": 17
+    },
+    {
       "nome": "GrioTeam",
       "pontos": 0,
       "vitorias": 0,
@@ -185,17 +196,6 @@ const classificacaoSerieA = {
       "totalCartola": 103.26005859375,
       "cartolaSofrido": 117.86005859375,
       "saldoCartola": -14.599999999999994,
-      "posicao": 17
-    },
-    {
-      "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 100.660107421875,
-      "cartolaSofrido": 120.21005859375,
-      "saldoCartola": -19.54995117187501,
       "posicao": 18
     },
     {

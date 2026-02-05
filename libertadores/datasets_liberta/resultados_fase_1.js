@@ -225,7 +225,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 52.8
+      "pontos": 56.2
     },
     "visitante": {
       "nome": "JUV. KP",
@@ -255,7 +255,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "LISI GREMISTA",
-      "pontos": 49.4
+      "pontos": 52.8
     },
     "vencedor": "visitante"
   },
@@ -1251,12 +1251,12 @@ const resultadosFase1 = [
   "rodada": 2,
   "times": {
     "212042": 50.35,
-    "1747619": 52.8,
+    "1747619": 56.2,
     "13951133": 69.2,
     "25811332": 10.0,
     "20696550": 15.7,
     "30267301": 38.7,
-    "51010813": 49.4,
+    "51010813": 52.8,
     "5823700": 45.15,
     "3851966": 41.7,
     "7017989": 46.95,

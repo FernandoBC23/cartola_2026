@@ -25,7 +25,7 @@ window.pontuacoesPorRodada = {
   },
   "JV5 Tricolor Gaúcho": {
     "Rodada 1": 47.860107421875,
-    "Rodada 2": 52.8
+    "Rodada 2": 56.2
   },
   "lsauer fc": {
     "Rodada 1": 62.56005859375,
@@ -41,7 +41,7 @@ window.pontuacoesPorRodada = {
   },
   "Pity10": {
     "Rodada 1": 64.56005859375,
-    "Rodada 2": 74.25
+    "Rodada 2": 78.75
   },
   "pura bucha/internacional": {
     "Rodada 1": 50.260009765625,

@@ -90,11 +90,11 @@ const classificacaoLigaClassica = {
     },
     "JV5 Tricolor Gaúcho": {
       "Rodada 1": 47.860107421875,
-      "Rodada 2": 52.8
+      "Rodada 2": 56.2
     },
     "LISI GREMISTA": {
       "Rodada 1": 47.860107421875,
-      "Rodada 2": 49.4
+      "Rodada 2": 52.8
     },
     "lsauer fc": {
       "Rodada 1": 62.56005859375,
@@ -106,7 +106,7 @@ const classificacaoLigaClassica = {
     },
     "MAFRA MARTINS FC": {
       "Rodada 1": 58.510009765625,
-      "Rodada 2": 46.25
+      "Rodada 2": 54.3
     },
     "Mau Humor F.C.": {
       "Rodada 1": 73.9599609375,
@@ -130,7 +130,7 @@ const classificacaoLigaClassica = {
     },
     "Pity10": {
       "Rodada 1": 64.56005859375,
-      "Rodada 2": 74.25
+      "Rodada 2": 78.75
     },
     "pra sempre imortal fc": {
       "Rodada 1": 43.510009765625,
@@ -323,9 +323,9 @@ const classificacaoLigaClassica = {
     "Fevereiro": {
       "Bandoleros FCS": 83.55,
       "Grêmio imortal 37": 79.6,
+      "Pity10": 78.75,
       "FBC Colorado II": 75.15,
       "FIGUEIRA DA ILHA": 75.05,
-      "Pity10": 74.25,
       "TIGRE LEON": 71.65,
       "JUV. KP": 69.2,
       "Time do S.A.P.O": 68.65,
@@ -341,18 +341,18 @@ const classificacaoLigaClassica = {
       "FÚRIA LEON": 59.95,
       "Profit Soccer": 59.1,
       "A Lenda Super Vasco F.c": 58.3,
+      "JV5 Tricolor Gaúcho": 56.2,
       "lsauer fc": 55.9,
+      "MAFRA MARTINS FC": 54.3,
       "CARTOLEIRO DO VALLE PRO26.5": 53.9,
-      "JV5 Tricolor Gaúcho": 52.8,
+      "LISI GREMISTA": 52.8,
       "pra sempre imortal fc": 51.48,
       "Tatols Beants F.C": 50.35,
       "Paulo Virgili FC": 50.3,
       "FBC Colorado": 49.8,
-      "LISI GREMISTA": 49.4,
       "dasdoresfc": 46.95,
       "FC Los Castilho": 46.65,
       "NaoVaiDescer!": 46.35,
-      "MAFRA MARTINS FC": 46.25,
       "DM Studio": 45.9,
       "S.E.R. GRILLO": 45.15,
       "Luis lemes inter": 44.05,
@@ -617,17 +617,17 @@ const pontuacaoParcialRodadaAtual = {
     "528730": 35.75,
     "24468241": 79.6,
     "13951133": 69.2,
-    "1747619": 52.8,
-    "51010813": 49.4,
+    "1747619": 56.2,
+    "51010813": 52.8,
     "44810918": 55.9,
     "20340994": 44.05,
-    "4911779": 46.25,
+    "4911779": 54.3,
     "19033717": 65.4,
     "25401606": 27.55,
     "30267301": 38.7,
     "3708025": 46.35,
     "14124559": 50.3,
-    "48498051": 74.25,
+    "48498051": 78.75,
     "25313333": 51.48,
     "9823692": 59.1,
     "3447341": 62.25,

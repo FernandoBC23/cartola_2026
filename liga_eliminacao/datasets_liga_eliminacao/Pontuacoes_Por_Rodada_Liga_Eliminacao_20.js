@@ -181,7 +181,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 52.8
+    "Parcial Rodada 2": 56.2
   },
   "1867254": {
     "Time": "Medonho´s F.C. ",
@@ -480,7 +480,7 @@ const pontuacaoParcialRodadaAtual = {
     "1273719": 41.7,
     "1326835": 48.95,
     "1488983": 67.25,
-    "1747619": 52.8,
+    "1747619": 56.2,
     "1867254": 18.8,
     "2371918": 53.6,
     "2916559": 83.5,

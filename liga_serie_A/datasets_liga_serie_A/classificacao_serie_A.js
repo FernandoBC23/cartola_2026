@@ -45,14 +45,14 @@ const classificacaoSerieA = {
       "posicao": 4
     },
     {
-      "nome": "Tatols Beants F.C",
+      "nome": "MAFRA MARTINS FC",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 117.20986328125,
-      "cartolaSofrido": 99.909912109375,
-      "saldoCartola": 17.299951171874994,
+      "totalCartola": 112.810009765625,
+      "cartolaSofrido": 98.210107421875,
+      "saldoCartola": 14.599902343750005,
       "posicao": 5
     },
     {
@@ -89,6 +89,17 @@ const classificacaoSerieA = {
       "posicao": 8
     },
     {
+      "nome": "Tatols Beants F.C",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 117.20986328125,
+      "cartolaSofrido": 107.959912109375,
+      "saldoCartola": 9.249951171874995,
+      "posicao": 9
+    },
+    {
       "nome": "Texas Club 2026",
       "pontos": 3,
       "vitorias": 1,
@@ -97,18 +108,18 @@ const classificacaoSerieA = {
       "totalCartola": 109.76005859375,
       "cartolaSofrido": 109.959912109375,
       "saldoCartola": -0.1998535156249943,
-      "posicao": 9
+      "posicao": 10
     },
     {
-      "nome": "MAFRA MARTINS FC",
+      "nome": "JV5 Tricolor Gaúcho",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 104.760009765625,
-      "cartolaSofrido": 98.210107421875,
-      "saldoCartola": 6.549902343750006,
-      "posicao": 10
+      "totalCartola": 104.060107421875,
+      "cartolaSofrido": 98.160009765625,
+      "saldoCartola": 5.900097656249997,
+      "posicao": 11
     },
     {
       "nome": "FBC Colorado",
@@ -119,7 +130,7 @@ const classificacaoSerieA = {
       "totalCartola": 103.459912109375,
       "cartolaSofrido": 108.55986328125,
       "saldoCartola": -5.099951171875006,
-      "posicao": 11
+      "posicao": 12
     },
     {
       "nome": "cartola scheuer17",
@@ -130,17 +141,6 @@ const classificacaoSerieA = {
       "totalCartola": 103.26005859375,
       "cartolaSofrido": 113.810009765625,
       "saldoCartola": -10.549951171874994,
-      "posicao": 12
-    },
-    {
-      "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 100.660107421875,
-      "cartolaSofrido": 98.160009765625,
-      "saldoCartola": 2.5000976562499915,
       "posicao": 13
     },
     {
@@ -183,8 +183,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 2,
       "totalCartola": 92.910009765625,
-      "cartolaSofrido": 126.7599609375,
-      "saldoCartola": -33.84995117187499,
+      "cartolaSofrido": 130.1599609375,
+      "saldoCartola": -37.24995117187498,
       "posicao": 17
     },
     {

@@ -181,7 +181,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 52.8
+    "Parcial Rodada 2": 56.2
   },
   "3447341": {
     "Time": "PUXE FC",
@@ -710,7 +710,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 74.25
+    "Parcial Rodada 2": 78.75
   },
   "51010813": {
     "Time": "LISI GREMISTA",
@@ -733,7 +733,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 49.4
+    "Parcial Rodada 2": 52.8
   }
 };
 
@@ -756,7 +756,7 @@ const pontuacaoParcialRodadaAtual = {
     "479510": 38.8,
     "528730": 35.75,
     "1273719": 41.7,
-    "1747619": 52.8,
+    "1747619": 56.2,
     "3447341": 62.25,
     "3708025": 46.35,
     "3851966": 41.7,
@@ -779,7 +779,7 @@ const pontuacaoParcialRodadaAtual = {
     "29228373": 26.1,
     "44810918": 55.9,
     "47544767": 53.9,
-    "48498051": 74.25,
-    "51010813": 49.4
+    "48498051": 78.75,
+    "51010813": 52.8
   }
 };

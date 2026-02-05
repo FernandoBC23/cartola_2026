@@ -148,7 +148,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 52.8
+      "pontos": 56.2
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
@@ -176,7 +176,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Pity10",
-      "pontos": 74.25
+      "pontos": 78.75
     }
   },
   {

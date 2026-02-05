@@ -152,7 +152,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 52.8
+      "pontos": 56.2
     }
   },
   {
@@ -176,7 +176,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "MAFRA MARTINS FC",
-      "pontos": 46.25
+      "pontos": 54.3
     }
   },
   {

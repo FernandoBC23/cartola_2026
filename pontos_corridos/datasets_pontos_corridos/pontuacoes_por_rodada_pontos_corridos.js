@@ -41,7 +41,7 @@ window.pontuacoesPorRodada = {
   },
   "JV5 Tricolor Gaúcho": {
     "Rodada 1": 47.860107421875,
-    "Rodada 2": 52.8
+    "Rodada 2": 56.2
   },
   "La Primeira Patada Es Nuestra": {
     "Rodada 1": 55.659912109375,

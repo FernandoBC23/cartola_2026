@@ -25,7 +25,7 @@ window.pontuacoesPorRodada = {
   },
   "JV5 Tricolor Gaúcho": {
     "Rodada 1": 47.860107421875,
-    "Rodada 2": 52.8
+    "Rodada 2": 56.2
   },
   "lsauer fc": {
     "Rodada 1": 62.56005859375,
@@ -33,7 +33,7 @@ window.pontuacoesPorRodada = {
   },
   "MAFRA MARTINS FC": {
     "Rodada 1": 58.510009765625,
-    "Rodada 2": 46.25
+    "Rodada 2": 54.3
   },
   "Mau Humor F.C.": {
     "Rodada 1": 73.9599609375,
