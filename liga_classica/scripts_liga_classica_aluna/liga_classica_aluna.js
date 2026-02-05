@@ -97,7 +97,10 @@ function criarAbas() {
 // RODADA ATUAL (inteligente)
 // =========================
 function getRodadaEmAndamento() {
-  const metaRodada = window.ligaClassicaMeta?.rodada_atual ?? window.rodada_atual ?? window.rodadaAtual;
+  const metaRodada = window.ligaClassicaMeta?.rodada_atual
+    ?? window.ligaClassicaMeta?.rodada_parcial
+    ?? window.rodada_atual
+    ?? window.rodadaAtual;
   if (Number.isFinite(metaRodada)) return metaRodada;
 
   const rodadaSemJogos = getRodadaSemJogos();
