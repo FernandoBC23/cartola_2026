@@ -3,6 +3,14 @@
   "use strict";
 
   window.addEventListener("DOMContentLoaded", () => {
+    const getGlobal = (name) => {
+      try {
+        return Function(`return (typeof ${name} !== "undefined") ? ${name} : undefined;`)();
+      } catch (e) {
+        return undefined;
+      }
+    };
+
     window.renderCompeticao({
       nome: "Pontos Corridos",
       grupoPadrao: "Pontos Corridos",
@@ -12,10 +20,10 @@
       parcialGlobal: window.pontuacaoParcialRodadaAtual,
       turnoInicio: 1,
       turnoFim: 19,
-      confrontos: confrontosFase1,
-      resultados: resultadosFase1,
+      confrontos: getGlobal("confrontosFase1"),
+      resultados: getGlobal("resultadosFase1"),
       pontuacoesPorRodada: window.pontuacoesPorRodada,
-      classificacao: classificacaoPontosCorridos,
+      classificacao: getGlobal("classificacaoPontosCorridos") || getGlobal("classificacaoSerieA"),
       participantesFontes: [
         "participantesLigaSerieA",
         "participantesLiga_pontos_corridos",
