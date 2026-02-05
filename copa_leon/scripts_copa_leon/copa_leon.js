@@ -324,6 +324,50 @@ const renderMatch = (match, timesMap, isSecondary = false) => {
   return container;
 };
 
+const getPontuacoesParciais = (dados, meta) => {
+  const mapa =
+    (dados && typeof dados.pontuacoes_rodada === "object" && dados.pontuacoes_rodada) ||
+    (dados && typeof dados.pontuacoesRodada === "object" && dados.pontuacoesRodada) ||
+    null;
+  if (mapa) return mapa;
+
+  let payload = null;
+  if (typeof pontuacaoParcialRodadaAtual !== "undefined") {
+    payload = pontuacaoParcialRodadaAtual;
+  } else if (typeof window !== "undefined" && window.pontuacaoParcialRodadaAtual) {
+    payload = window.pontuacaoParcialRodadaAtual;
+  }
+  if (
+    payload &&
+    Number.isFinite(payload.rodada) &&
+    meta &&
+    Number.isFinite(meta.rodada) &&
+    payload.rodada === meta.rodada &&
+    typeof payload.times === "object" &&
+    payload.times
+  ) {
+    return payload.times;
+  }
+
+  return null;
+};
+
+const aplicarParciaisNaFase = (lista, parciais) => {
+  if (!Array.isArray(lista) || !parciais) return lista;
+  return lista.map((match) => {
+    const copia = { ...match };
+    if (copia.casaId != null && !Number.isFinite(copia.casaPts)) {
+      const val = parciais[String(copia.casaId)];
+      if (Number.isFinite(val)) copia.casaPts = val;
+    }
+    if (copia.foraId != null && !Number.isFinite(copia.foraPts)) {
+      const val = parciais[String(copia.foraId)];
+      if (Number.isFinite(val)) copia.foraPts = val;
+    }
+    return copia;
+  });
+};
+
 
 const garantirAvisoParcial = () => {
   const container = document.querySelector(".copa-container");
@@ -351,6 +395,12 @@ const renderBracket = () => {
   const dados = getCopaDados();
   const timesMap = criarMapaTimes(dados.times || []);
   const fases = construirFases(timesMap);
+  const meta = window.copaMeta || {};
+  const faseMeta = Number.isFinite(meta?.rodada) ? FASES_POR_RODADA[meta.rodada] : null;
+  const parciais = meta.parcial_disponivel === true ? getPontuacoesParciais(dados, meta) : null;
+  if (faseMeta && parciais && fases[faseMeta]) {
+    fases[faseMeta] = aplicarParciaisNaFase(fases[faseMeta], parciais);
+  }
   const container = document.getElementById("copa-bracket");
 
   if (!container) return;
