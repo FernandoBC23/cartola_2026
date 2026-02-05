@@ -325,6 +325,19 @@ const renderMatch = (match, timesMap, isSecondary = false) => {
 };
 
 const getPontuacoesParciais = (dados, meta) => {
+  const copaParciais = (typeof window !== "undefined" && window.copaParciais) ? window.copaParciais : null;
+  if (
+    copaParciais &&
+    Number.isFinite(copaParciais.rodada) &&
+    meta &&
+    Number.isFinite(meta.rodada) &&
+    copaParciais.rodada === meta.rodada &&
+    copaParciais.times &&
+    typeof copaParciais.times === "object"
+  ) {
+    return copaParciais.times;
+  }
+
   const mapa =
     (dados && typeof dados.pontuacoes_rodada === "object" && dados.pontuacoes_rodada) ||
     (dados && typeof dados.pontuacoesRodada === "object" && dados.pontuacoesRodada) ||
