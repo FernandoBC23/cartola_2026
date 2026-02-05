@@ -167,98 +167,98 @@ window.copaDados = {
       {
         "casaId": 25811332,
         "foraId": 14124559,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 49.0,
+        "foraPts": 84.259765625
       },
       {
         "casaId": 28741323,
         "foraId": 51010813,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 61.9599609375,
+        "foraPts": 47.860107421875
       },
       {
         "casaId": 29228373,
         "foraId": 49180400,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 60.159912109375,
+        "foraPts": 64.2001953125
       },
       {
         "casaId": 3447341,
         "foraId": 212042,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 64.56005859375,
+        "foraPts": 66.85986328125
       },
       {
         "casaId": 13913874,
         "foraId": 3424598,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 74.06005859375,
+        "foraPts": 51.260009765625
       },
       {
         "casaId": 117598,
         "foraId": 18344271,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 68.06005859375,
+        "foraPts": 54.159912109375
       },
       {
         "casaId": 48498051,
         "foraId": 3708025,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 64.56005859375,
+        "foraPts": 44.260009765625
       },
       {
         "casaId": 25565675,
         "foraId": 18223508,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 44.06005859375,
+        "foraPts": 59.25
       },
       {
         "casaId": 24468241,
         "foraId": 13951133,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 57.60009765625,
+        "foraPts": 54.60009765625
       },
       {
         "casaId": 24856400,
         "foraId": 1747619,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 64.7001953125,
+        "foraPts": 47.860107421875
       },
       {
         "casaId": 20696550,
         "foraId": 528730,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 72.7001953125,
+        "foraPts": 57.449951171875
       },
       {
         "casaId": 335716,
         "foraId": 5823700,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 70.0,
+        "foraPts": 84.85986328125
       },
       {
         "casaId": 18661583,
         "foraId": 186283,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 50.260009765625,
+        "foraPts": 53.659912109375
       },
       {
         "casaId": 13707047,
         "foraId": 18642587,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 42.9599609375,
+        "foraPts": 63.89990234375
       },
       {
         "casaId": 3851966,
         "foraId": 18346776,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 61.56005859375,
+        "foraPts": 38.260009765625
       },
       {
         "casaId": 479510,
         "foraId": 19033717,
-        "casaPts": null,
-        "foraPts": null
+        "casaPts": 58.9599609375,
+        "foraPts": 73.9599609375
       }
     ],
     "oitavas": [],
@@ -270,4 +270,40 @@ window.copaDados = {
 };window.copaMeta = {
   "rodada": 2,
   "parcial_disponivel": true
+};window.copaParciais = {
+  "rodada": 2,
+  "times": {
+    "25811332": 10.0,
+    "14124559": 50.3,
+    "28741323": 42.5,
+    "51010813": 49.4,
+    "29228373": 26.1,
+    "49180400": 65.8,
+    "3447341": 62.25,
+    "212042": 50.35,
+    "13913874": 83.55,
+    "3424598": 71.65,
+    "117598": 58.3,
+    "18344271": 59.95,
+    "48498051": 74.25,
+    "3708025": 46.35,
+    "25565675": 75.05,
+    "18223508": 37.8,
+    "24468241": 79.6,
+    "13951133": 69.2,
+    "24856400": 35.7,
+    "1747619": 52.8,
+    "20696550": 15.7,
+    "528730": 35.75,
+    "335716": 63.25,
+    "5823700": 45.15,
+    "18661583": 37.55,
+    "186283": 49.8,
+    "13707047": 62.4,
+    "18642587": 63.55,
+    "3851966": 41.7,
+    "18346776": 66.55,
+    "479510": 38.8,
+    "19033717": 65.4
+  }
 };
