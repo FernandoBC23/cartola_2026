@@ -124,11 +124,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 65.4
+      "pontos": 69.7
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 49.8
+      "pontos": 61.41
     }
   },
   {
@@ -136,11 +136,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "Dom Camillo68",
-      "pontos": 15.7
+      "pontos": 39.71
     },
     "visitante": {
       "nome": "TIGRE LEON",
-      "pontos": 71.65
+      "pontos": 74.75
     }
   },
   {
@@ -148,11 +148,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 41.7
+      "pontos": 59.81
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 38.8
+      "pontos": 56.91
     }
   },
   {
@@ -160,11 +160,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "mercearia Estrela",
-      "pontos": 27.55
+      "pontos": 52.95
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 63.55
+      "pontos": 75.16
     }
   },
   {
@@ -172,11 +172,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "Paulo Virgili FC",
-      "pontos": 50.3
+      "pontos": 77.52
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 50.35
+      "pontos": 65.15
     }
   },
   {
@@ -184,11 +184,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": 53.9
+      "pontos": 58.2
     },
     "visitante": {
       "nome": "pura bucha/internacional",
-      "pontos": 37.55
+      "pontos": 48.25
     }
   },
   {
@@ -196,7 +196,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "cartola scheuer17",
-      "pontos": 41.7
+      "pontos": 59.81
     },
     "visitante": {
       "nome": "Rolo Compressor  ZN",
@@ -208,11 +208,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "TATITTA FC",
-      "pontos": 65.8
+      "pontos": 73.71
     },
     "visitante": {
       "nome": "pra sempre imortal fc",
-      "pontos": 51.48
+      "pontos": 55.88
     }
   },
   {
@@ -220,11 +220,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "seralex",
-      "pontos": 26.1
+      "pontos": 48.01
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": 55.9
+      "pontos": 74.01
     }
   },
   {
@@ -232,11 +232,11 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 58.3
+      "pontos": 59.2
     },
     "visitante": {
       "nome": "Gremiomaniasm",
-      "pontos": 35.75
+      "pontos": 49.15
     }
   },
   {

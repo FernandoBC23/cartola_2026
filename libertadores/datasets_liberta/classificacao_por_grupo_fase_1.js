@@ -7,9 +7,9 @@ const classificacaoFase1 = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 117.20986328125,
-      "cartolaSofrido": 64.60009765625,
-      "saldoCartola": 52.609765624999994
+      "totalCartola": 132.00986328125,
+      "cartolaSofrido": 94.81009765625001,
+      "saldoCartola": 37.199765625
     },
     {
       "posicao": 2,
@@ -18,9 +18,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 123.80009765625,
-      "cartolaSofrido": 123.05986328125,
-      "saldoCartola": 0.740234375
+      "totalCartola": 128.31009765624998,
+      "cartolaSofrido": 128.76986328125,
+      "saldoCartola": -0.45976562500001705
     },
     {
       "posicao": 3,
@@ -29,9 +29,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 59.0,
-      "cartolaSofrido": 98.210107421875,
-      "saldoCartola": -39.210107421874994
+      "totalCartola": 89.21000000000001,
+      "cartolaSofrido": 113.010107421875,
+      "saldoCartola": -23.800107421874998
     },
     {
       "posicao": 4,
@@ -40,9 +40,9 @@ const classificacaoFase1 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 104.060107421875,
-      "cartolaSofrido": 118.2,
-      "saldoCartola": -14.139892578125
+      "totalCartola": 109.770107421875,
+      "cartolaSofrido": 122.71,
+      "saldoCartola": -12.939892578124997
     }
   ],
   "Grupo B": [
@@ -53,31 +53,31 @@ const classificacaoFase1 = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 130.00986328125,
-      "cartolaSofrido": 65.460009765625,
-      "saldoCartola": 64.549853515625
+      "totalCartola": 146.80986328125,
+      "cartolaSofrido": 89.47000976562501,
+      "saldoCartola": 57.33985351562498
     },
     {
       "posicao": 2,
-      "nome": "LISI GREMISTA",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 100.660107421875,
-      "cartolaSofrido": 111.4001953125,
-      "saldoCartola": -10.740087890625006
-    },
-    {
-      "posicao": 3,
       "nome": "Dom Camillo68",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 88.4001953125,
-      "cartolaSofrido": 93.010107421875,
-      "saldoCartola": -4.609912109375003
+      "totalCartola": 112.41019531250001,
+      "cartolaSofrido": 109.810107421875,
+      "saldoCartola": 2.600087890625005
+    },
+    {
+      "posicao": 3,
+      "nome": "LISI GREMISTA",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 109.770107421875,
+      "cartolaSofrido": 128.5101953125,
+      "saldoCartola": -18.740087890625006
     },
     {
       "posicao": 4,
@@ -86,9 +86,9 @@ const classificacaoFase1 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 88.460009765625,
-      "cartolaSofrido": 137.65986328125,
-      "saldoCartola": -49.19985351562501
+      "totalCartola": 105.570009765625,
+      "cartolaSofrido": 146.76986328125,
+      "saldoCartola": -41.199853515624994
     }
   ],
   "Grupo C": [
@@ -99,9 +99,9 @@ const classificacaoFase1 = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 157.61005859375,
-      "cartolaSofrido": 108.51005859375,
-      "saldoCartola": 49.10000000000001
+      "totalCartola": 162.42005859375,
+      "cartolaSofrido": 112.11005859375,
+      "saldoCartola": 50.31000000000002
     },
     {
       "posicao": 2,
@@ -110,9 +110,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 119.80986328125,
-      "cartolaSofrido": 143.709912109375,
-      "saldoCartola": -23.90004882812501
+      "totalCartola": 123.40986328125,
+      "cartolaSofrido": 148.519912109375,
+      "saldoCartola": -25.110048828125016
     },
     {
       "posicao": 3,
@@ -121,9 +121,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 103.26005859375,
-      "cartolaSofrido": 100.16005859375,
-      "saldoCartola": 3.1000000000000085
+      "totalCartola": 121.37005859375,
+      "cartolaSofrido": 122.07005859374999,
+      "saldoCartola": -0.6999999999999886
     },
     {
       "posicao": 4,
@@ -132,9 +132,9 @@ const classificacaoFase1 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 86.259912109375,
-      "cartolaSofrido": 114.55986328125,
-      "saldoCartola": -28.29995117187501
+      "totalCartola": 108.16991210937499,
+      "cartolaSofrido": 132.66986328125,
+      "saldoCartola": -24.49995117187501
     }
   ],
   "Grupo D": [
@@ -145,9 +145,9 @@ const classificacaoFase1 = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 139.3599609375,
-      "cartolaSofrido": 111.959912109375,
-      "saldoCartola": 27.40004882812501
+      "totalCartola": 143.6599609375,
+      "cartolaSofrido": 112.859912109375,
+      "saldoCartola": 30.800048828124986
     },
     {
       "posicao": 2,
@@ -156,9 +156,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 126.36005859375,
-      "cartolaSofrido": 130.1001953125,
-      "saldoCartola": -3.7401367187500085
+      "totalCartola": 127.26005859375,
+      "cartolaSofrido": 134.4001953125,
+      "saldoCartola": -7.140136718749986
     },
     {
       "posicao": 3,
@@ -167,9 +167,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 103.459912109375,
-      "cartolaSofrido": 109.6599609375,
-      "saldoCartola": -6.200048828125006
+      "totalCartola": 115.069912109375,
+      "cartolaSofrido": 121.9599609375,
+      "saldoCartola": -6.890048828125003
     },
     {
       "posicao": 4,
@@ -178,22 +178,22 @@ const classificacaoFase1 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 100.4001953125,
-      "cartolaSofrido": 117.86005859375,
-      "saldoCartola": -17.459863281249994
+      "totalCartola": 112.7001953125,
+      "cartolaSofrido": 129.47005859375,
+      "saldoCartola": -16.769863281249997
     }
   ],
   "Grupo E": [
     {
       "posicao": 1,
       "nome": "Paulo Virgili FC",
-      "pontos": 3,
-      "vitorias": 1,
+      "pontos": 6,
+      "vitorias": 2,
       "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 134.559765625,
-      "cartolaSofrido": 123.84990234375,
-      "saldoCartola": 10.709863281250009
+      "derrotas": 0,
+      "totalCartola": 161.77976562499998,
+      "cartolaSofrido": 127.84990234375,
+      "saldoCartola": 33.92986328124998
     },
     {
       "posicao": 2,
@@ -202,9 +202,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 127.44990234375,
-      "cartolaSofrido": 136.159765625,
-      "saldoCartola": -8.709863281250009
+      "totalCartola": 139.05990234375,
+      "cartolaSofrido": 145.269765625,
+      "saldoCartola": -6.209863281249994
     },
     {
       "posicao": 3,
@@ -213,20 +213,20 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 124.3501953125,
-      "cartolaSofrido": 117.709912109375,
-      "saldoCartola": 6.6402832031250085
+      "totalCartola": 133.4601953125,
+      "cartolaSofrido": 129.319912109375,
+      "saldoCartola": 4.140283203124994
     },
     {
       "posicao": 4,
       "nome": "FÚRIA LEON",
-      "pontos": 3,
-      "vitorias": 1,
+      "pontos": 0,
+      "vitorias": 0,
       "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 114.109912109375,
-      "cartolaSofrido": 122.7501953125,
-      "saldoCartola": -8.640283203124994
+      "derrotas": 2,
+      "totalCartola": 118.109912109375,
+      "cartolaSofrido": 149.97019531249998,
+      "saldoCartola": -31.86028320312498
     }
   ],
   "Grupo F": [
@@ -237,9 +237,9 @@ const classificacaoFase1 = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 118.46005859375,
-      "cartolaSofrido": 84.160009765625,
-      "saldoCartola": 34.300048828125
+      "totalCartola": 136.57005859375,
+      "cartolaSofrido": 104.370009765625,
+      "saldoCartola": 32.20004882812499
     },
     {
       "posicao": 2,
@@ -248,9 +248,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 106.099951171875,
-      "cartolaSofrido": 115.15,
-      "saldoCartola": -9.050048828125
+      "totalCartola": 126.309951171875,
+      "cartolaSofrido": 133.26,
+      "saldoCartola": -6.9500488281249915
     },
     {
       "posicao": 3,
@@ -259,9 +259,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 104.810009765625,
-      "cartolaSofrido": 100.36005859375,
-      "saldoCartola": 4.449951171875
+      "totalCartola": 117.110009765625,
+      "cartolaSofrido": 115.67005859375,
+      "saldoCartola": 1.4399511718749949
     },
     {
       "posicao": 4,
@@ -270,9 +270,9 @@ const classificacaoFase1 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 97.05,
-      "cartolaSofrido": 126.749951171875,
-      "saldoCartola": -29.699951171875
+      "totalCartola": 112.36,
+      "cartolaSofrido": 139.049951171875,
+      "saldoCartola": -26.689951171874995
     }
   ],
   "Grupo G": [
@@ -283,9 +283,9 @@ const classificacaoFase1 = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 127.659765625,
-      "cartolaSofrido": 100.10009765625,
-      "saldoCartola": 27.559667968750006
+      "totalCartola": 131.959765625,
+      "cartolaSofrido": 111.61009765624999,
+      "saldoCartola": 20.349667968749998
     },
     {
       "posicao": 2,
@@ -295,8 +295,8 @@ const classificacaoFase1 = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 137.20009765625,
-      "cartolaSofrido": 139.259765625,
-      "saldoCartola": -2.0596679687500057
+      "cartolaSofrido": 140.159765625,
+      "saldoCartola": -2.9596679687500114
     },
     {
       "posicao": 3,
@@ -305,9 +305,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 104.4599609375,
-      "cartolaSofrido": 108.00009765625,
-      "saldoCartola": -3.5401367187500057
+      "totalCartola": 115.96996093749999,
+      "cartolaSofrido": 112.30009765625,
+      "saldoCartola": 3.669863281249988
     },
     {
       "posicao": 4,
@@ -316,9 +316,9 @@ const classificacaoFase1 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 119.60009765625,
+      "totalCartola": 120.50009765625,
       "cartolaSofrido": 141.5599609375,
-      "saldoCartola": -21.959863281249994
+      "saldoCartola": -21.05986328124999
     }
   ],
   "Grupo H": [
@@ -329,9 +329,9 @@ const classificacaoFase1 = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 109.76005859375,
-      "cartolaSofrido": 94.7099609375,
-      "saldoCartola": 15.050097656250003
+      "totalCartola": 127.87005859375,
+      "cartolaSofrido": 108.1099609375,
+      "saldoCartola": 19.760097656249997
     },
     {
       "posicao": 2,
@@ -340,9 +340,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 105.3599609375,
-      "cartolaSofrido": 96.249951171875,
-      "saldoCartola": 9.110009765625009
+      "totalCartola": 114.4699609375,
+      "cartolaSofrido": 114.359951171875,
+      "saldoCartola": 0.11000976562500853
     },
     {
       "posicao": 3,
@@ -351,9 +351,9 @@ const classificacaoFase1 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 93.199951171875,
-      "cartolaSofrido": 84.6599609375,
-      "saldoCartola": 8.539990234374997
+      "totalCartola": 106.599951171875,
+      "cartolaSofrido": 102.7699609375,
+      "saldoCartola": 3.8299902343750034
     },
     {
       "posicao": 4,
@@ -362,9 +362,9 @@ const classificacaoFase1 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 97.7599609375,
-      "cartolaSofrido": 130.46005859375,
-      "saldoCartola": -32.70009765625001
+      "totalCartola": 115.8699609375,
+      "cartolaSofrido": 139.57005859375,
+      "saldoCartola": -23.700097656249994
     }
   ]
 };
