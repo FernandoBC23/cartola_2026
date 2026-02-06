@@ -167,7 +167,7 @@ const getTurnoPts = (id, timesMap) => {
   return Number.isFinite(time?.turnoPts) ? time.turnoPts : null;
 };
 
-const vencedorDoMatch = (match, timesMap) => {
+const vencedorDoMatch = (match, timesMap, participantesProxFase) => {
   if (match.casaPts == null || match.foraPts == null) return null;
   if (match.casaPts !== match.foraPts) {
     return match.casaPts > match.foraPts ? match.casaId : match.foraId;
@@ -180,7 +180,7 @@ const vencedorDoMatch = (match, timesMap) => {
   return casaTurno > foraTurno ? match.casaId : match.foraId;
 };
 
-const perdedorDoMatch = (match, timesMap) => {
+const perdedorDoMatch = (match, timesMap, participantesProxFase) => {
   if (match.casaPts == null || match.foraPts == null) return null;
   if (match.casaPts !== match.foraPts) {
     return match.casaPts > match.foraPts ? match.foraId : match.casaId;
@@ -193,46 +193,117 @@ const perdedorDoMatch = (match, timesMap) => {
   return casaTurno > foraTurno ? match.foraId : match.casaId;
 };
 
-const coletarVencedores = (lista, timesMap) =>
-  lista.map((match) => vencedorDoMatch(match, timesMap)).filter((id) => id);
+const coletarVencedores = (lista, timesMap, participantesProxFase) =>
+  lista
+    .map((match) => {
+      const direto = vencedorDoMatch(match, timesMap);
+      if (direto) return direto;
+      if (!participantesProxFase || !match) return null;
+      if (participantesProxFase.has(match.casaId)) return match.casaId;
+      if (participantesProxFase.has(match.foraId)) return match.foraId;
+      return null;
+    })
+    .filter((id) => id);
 
-const coletarPerdedores = (lista, timesMap) =>
-  lista.map((match) => perdedorDoMatch(match, timesMap)).filter((id) => id);
+const coletarPerdedores = (lista, timesMap, participantesProxFase) =>
+  lista
+    .map((match) => {
+      const direto = perdedorDoMatch(match, timesMap);
+      if (direto) return direto;
+      if (!participantesProxFase || !match) return null;
+      if (participantesProxFase.has(match.casaId)) return match.foraId;
+      if (participantesProxFase.has(match.foraId)) return match.casaId;
+      return null;
+    })
+    .filter((id) => id);
+
+const aplicarParciaisNaFase = (lista, parciais) => {
+  if (!Array.isArray(lista) || !parciais) return lista;
+  return lista.map((match) => {
+    const copia = { ...match };
+    if (copia.casaId != null && !Number.isFinite(copia.casaPts)) {
+      const val = parciais[String(copia.casaId)];
+      if (Number.isFinite(val)) copia.casaPts = val;
+    }
+    if (copia.foraId != null && !Number.isFinite(copia.foraPts)) {
+      const val = parciais[String(copia.foraId)];
+      if (Number.isFinite(val)) copia.foraPts = val;
+    }
+    return copia;
+  });
+};
 
 const construirFases = (timesMap) => {
   const dados = getCopaDados();
   const fases = mesclarFasesComCache(dados.fases || {});
+  const pontuacoesPorFase = (dados && typeof dados.pontuacoes_por_fase === "object")
+    ? dados.pontuacoes_por_fase
+    : null;
+  const participantesPorFase = {};
+  if (pontuacoesPorFase) {
+    Object.keys(pontuacoesPorFase).forEach((faseKey) => {
+      const mapa = pontuacoesPorFase[faseKey];
+      if (mapa && typeof mapa === "object") {
+        participantesPorFase[faseKey] = new Set(
+          Object.keys(mapa).map((id) => Number(id)).filter((id) => Number.isFinite(id))
+        );
+      }
+    });
+  }
 
-  const primeiraFase = garantirLista(fases.primeira_fase, 16);
-  const oitavas = garantirLista(fases.oitavas, 8);
+  let primeiraFase = garantirLista(fases.primeira_fase, 16);
+  let oitavas = garantirLista(fases.oitavas, 8);
   let quartas = garantirLista(fases.quartas, 4);
   let semi = garantirLista(fases.semi, 2);
   let final = garantirLista(fases.final, 1);
   let terceiro = garantirLista(fases.terceiro, 1);
 
-  const winnersPrimeira = coletarVencedores(primeiraFase, timesMap);
-  const winnersOitavas = coletarVencedores(oitavas, timesMap);
-  const winnersQuartas = coletarVencedores(quartas, timesMap);
-  const winnersSemis = coletarVencedores(semi, timesMap);
-  const losersSemis = coletarPerdedores(semi, timesMap);
+  if (pontuacoesPorFase?.primeira_fase) {
+    primeiraFase = aplicarParciaisNaFase(primeiraFase, pontuacoesPorFase.primeira_fase);
+  }
+
+  const winnersPrimeira = coletarVencedores(primeiraFase, timesMap, participantesPorFase.oitavas);
 
   if (winnersPrimeira.length) {
-    const oitavasDefinidas = definirTimesPorResultado(oitavas, winnersPrimeira);
-    for (let i = 0; i < oitavas.length; i += 1) {
-      oitavas[i] = oitavasDefinidas[i];
-    }
+    oitavas = definirTimesPorResultado(oitavas, winnersPrimeira);
   }
+  if (pontuacoesPorFase?.oitavas) {
+    oitavas = aplicarParciaisNaFase(oitavas, pontuacoesPorFase.oitavas);
+  }
+
+  const winnersOitavas = coletarVencedores(oitavas, timesMap, participantesPorFase.quartas);
+
   if (winnersOitavas.length) {
     quartas = definirTimesPorResultado(quartas, winnersOitavas);
   }
+  if (pontuacoesPorFase?.quartas) {
+    quartas = aplicarParciaisNaFase(quartas, pontuacoesPorFase.quartas);
+  }
+
+  const winnersQuartas = coletarVencedores(quartas, timesMap, participantesPorFase.semi);
+
   if (winnersQuartas.length) {
     semi = definirTimesPorResultado(semi, winnersQuartas);
   }
+  if (pontuacoesPorFase?.semi) {
+    semi = aplicarParciaisNaFase(semi, pontuacoesPorFase.semi);
+  }
+
+  const winnersSemis = coletarVencedores(semi, timesMap, participantesPorFase.final);
+  const losersSemis = coletarPerdedores(semi, timesMap, participantesPorFase.final);
+
   if (winnersSemis.length) {
     final = definirTimesPorResultado(final, winnersSemis);
   }
+  if (pontuacoesPorFase?.final) {
+    final = aplicarParciaisNaFase(final, pontuacoesPorFase.final);
+  }
+
   if (losersSemis.length) {
     terceiro = definirTimesPorResultado(terceiro, losersSemis);
+  }
+  if (pontuacoesPorFase?.terceiro) {
+    terceiro = aplicarParciaisNaFase(terceiro, pontuacoesPorFase.terceiro);
   }
 
   const fasesMontadas = { primeiraFase, oitavas, quartas, semi, final, terceiro };
@@ -325,13 +396,13 @@ const renderMatch = (match, timesMap, isSecondary = false) => {
 };
 
 const getPontuacoesParciais = (dados, meta) => {
+  const rodadaMeta = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
   const copaParciais = (typeof window !== "undefined" && window.copaParciais) ? window.copaParciais : null;
   if (
     copaParciais &&
-    Number.isFinite(copaParciais.rodada) &&
-    meta &&
-    Number.isFinite(meta.rodada) &&
-    copaParciais.rodada === meta.rodada &&
+    Number.isFinite(copaParciais.rodada_copa ?? copaParciais.rodada) &&
+    Number.isFinite(rodadaMeta) &&
+    (copaParciais.rodada_copa ?? copaParciais.rodada) === rodadaMeta &&
     copaParciais.times &&
     typeof copaParciais.times === "object"
   ) {
@@ -353,9 +424,8 @@ const getPontuacoesParciais = (dados, meta) => {
   if (
     payload &&
     Number.isFinite(payload.rodada) &&
-    meta &&
-    Number.isFinite(meta.rodada) &&
-    payload.rodada === meta.rodada &&
+    Number.isFinite(rodadaMeta) &&
+    payload.rodada === rodadaMeta &&
     typeof payload.times === "object" &&
     payload.times
   ) {
@@ -363,22 +433,6 @@ const getPontuacoesParciais = (dados, meta) => {
   }
 
   return null;
-};
-
-const aplicarParciaisNaFase = (lista, parciais) => {
-  if (!Array.isArray(lista) || !parciais) return lista;
-  return lista.map((match) => {
-    const copia = { ...match };
-    if (copia.casaId != null && !Number.isFinite(copia.casaPts)) {
-      const val = parciais[String(copia.casaId)];
-      if (Number.isFinite(val)) copia.casaPts = val;
-    }
-    if (copia.foraId != null && !Number.isFinite(copia.foraPts)) {
-      const val = parciais[String(copia.foraId)];
-      if (Number.isFinite(val)) copia.foraPts = val;
-    }
-    return copia;
-  });
 };
 
 
@@ -400,6 +454,7 @@ const garantirAvisoParcial = () => {
 const getRodadaEmAndamento = (meta) => {
   const rodadaGlobal = window.rodada_atual ?? window.rodadaAtual;
   if (Number.isFinite(rodadaGlobal)) return rodadaGlobal;
+  if (Number.isFinite(meta?.rodada_copa)) return meta.rodada_copa;
   if (Number.isFinite(meta?.rodada)) return meta.rodada;
   return null;
 };
@@ -409,7 +464,18 @@ const renderBracket = () => {
   const timesMap = criarMapaTimes(dados.times || []);
   const fases = construirFases(timesMap);
   const meta = window.copaMeta || {};
-  const faseMeta = Number.isFinite(meta?.rodada) ? FASES_POR_RODADA[meta.rodada] : null;
+  const rodadaCopa = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
+  const faseMeta = Number.isFinite(rodadaCopa) ? FASES_POR_RODADA[rodadaCopa] : null;
+  const pontuacoesPorFase = (dados && typeof dados.pontuacoes_por_fase === "object")
+    ? dados.pontuacoes_por_fase
+    : null;
+  if (pontuacoesPorFase) {
+    Object.keys(pontuacoesPorFase).forEach((faseKey) => {
+      if (fases[faseKey]) {
+        fases[faseKey] = aplicarParciaisNaFase(fases[faseKey], pontuacoesPorFase[faseKey]);
+      }
+    });
+  }
   const parciais = meta.parcial_disponivel === true ? getPontuacoesParciais(dados, meta) : null;
   if (faseMeta && parciais && fases[faseMeta]) {
     fases[faseMeta] = aplicarParciaisNaFase(fases[faseMeta], parciais);
@@ -469,12 +535,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const avisoParcial = garantirAvisoParcial();
   const meta = window.copaMeta || {};
   const rodadaEmAndamento = getRodadaEmAndamento(meta);
-  const parcialAtiva = meta.parcial_disponivel === true && Number.isFinite(meta.rodada);
+  const rodadaCopaAtual = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
+  const parcialAtiva = meta.parcial_disponivel === true && Number.isFinite(rodadaCopaAtual);
   const mostrarAviso = parcialAtiva
-    && (!Number.isFinite(rodadaEmAndamento) || meta.rodada === rodadaEmAndamento);
+    && (!Number.isFinite(rodadaEmAndamento) || rodadaCopaAtual === rodadaEmAndamento);
   if (avisoParcial) {
     if (mostrarAviso) {
-      const rodadaTxt = Number.isFinite(meta.rodada) ? meta.rodada : "";
+      const rodadaTxt = Number.isFinite(meta.rodada_copa) ? meta.rodada_copa : (Number.isFinite(meta.rodada) ? meta.rodada : "");
       avisoParcial.textContent = `Rodada ${rodadaTxt} em andamento: pontuacoes parciais (nao definitivas).`;
       avisoParcial.style.display = "block";
     } else {
@@ -483,7 +550,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   renderBracket();
   const hash = window.location.hash.replace("#", "");
-  const faseMeta = Number.isFinite(meta?.rodada) ? FASES_POR_RODADA[meta.rodada] : null;
+  const rodadaCopa = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
+  const faseMeta = Number.isFinite(rodadaCopa) ? FASES_POR_RODADA[rodadaCopa] : null;
   const faseInicial = LABEL_FASES[hash] ? hash : (faseMeta || "primeira_fase");
   atualizarFaseAtiva(faseInicial, { atualizarHash: false });
 
