@@ -184,7 +184,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "GE Bebum",
-      "pontos": 70.3
+      "pontos": 70.44
     },
     "visitante": {
       "nome": "bugredasmissões",
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.pontosCorridosMeta = {"rodada_parcial": 2, "parcial_disponivel": true};
+window.pontosCorridosMeta = {"rodada_parcial": null, "parcial_disponivel": false};

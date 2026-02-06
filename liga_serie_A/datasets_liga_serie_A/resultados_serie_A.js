@@ -140,7 +140,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 92.76
+      "pontos": 92.9
     }
   },
   {
@@ -160,7 +160,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": 81.26
+      "pontos": 81.4
     },
     "visitante": {
       "nome": "Gremiomaniasm",
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieAMeta = {"rodada_parcial": 2, "parcial_disponivel": true};
+window.ligaSerieAMeta = {"rodada_parcial": null, "parcial_disponivel": false};

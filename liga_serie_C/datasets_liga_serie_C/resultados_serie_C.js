@@ -124,7 +124,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 92.76
+      "pontos": 92.9
     },
     "visitante": {
       "nome": "FBC Colorado",
@@ -184,7 +184,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": 81.26
+      "pontos": 81.4
     },
     "visitante": {
       "nome": "pura bucha/internacional",
@@ -232,7 +232,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 72.56
+      "pontos": 72.7
     },
     "visitante": {
       "nome": "Gremiomaniasm",
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieCMeta = {"rodada_parcial": 2, "parcial_disponivel": true};
+window.ligaSerieCMeta = {"rodada_parcial": null, "parcial_disponivel": false};

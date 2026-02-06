@@ -136,7 +136,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": 81.26
+      "pontos": 81.4
     },
     "visitante": {
       "nome": "PUXE FC",
@@ -208,7 +208,7 @@ const resultadosFase1 = [
     "rodada": 2,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 92.76
+      "pontos": 92.9
     },
     "visitante": {
       "nome": "Paulo Virgili FC",
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieBMeta = {"rodada_parcial": 2, "parcial_disponivel": true};
+window.ligaSerieBMeta = {"rodada_parcial": null, "parcial_disponivel": false};

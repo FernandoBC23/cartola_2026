@@ -6,9 +6,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 166.7199609375,
-      "cartolaSofrido": 140.43996093750002,
-      "saldoCartola": 26.279999999999973,
+      "totalCartola": 166.85986328125,
+      "cartolaSofrido": 140.43994140625,
+      "saldoCartola": 26.419921875,
       "posicao": 1
     },
     {
@@ -17,9 +17,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 159.55986328125,
-      "cartolaSofrido": 146.50990234375,
-      "saldoCartola": 13.049960937499977,
+      "totalCartola": 159.56005859375,
+      "cartolaSofrido": 146.509765625,
+      "saldoCartola": 13.05029296875,
       "posicao": 2
     },
     {
@@ -28,9 +28,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 159.04005859375002,
-      "cartolaSofrido": 126.14005859375,
-      "saldoCartola": 32.90000000000002,
+      "totalCartola": 159.0400390625,
+      "cartolaSofrido": 126.14013671875,
+      "saldoCartola": 32.89990234375,
       "posicao": 3
     },
     {
@@ -39,9 +39,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 155.019765625,
-      "cartolaSofrido": 121.7501953125,
-      "saldoCartola": 33.269570312499994,
+      "totalCartola": 155.15966796875,
+      "cartolaSofrido": 121.750244140625,
+      "saldoCartola": 33.409423828125,
       "posicao": 4
     },
     {
@@ -50,9 +50,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 150.24005859375,
-      "cartolaSofrido": 130.540009765625,
-      "saldoCartola": 19.70004882812501,
+      "totalCartola": 150.240234375,
+      "cartolaSofrido": 130.539794921875,
+      "saldoCartola": 19.700439453125,
       "posicao": 5
     },
     {
@@ -61,9 +61,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 140.649951171875,
-      "cartolaSofrido": 116.070009765625,
-      "saldoCartola": 24.579941406249983,
+      "totalCartola": 140.650146484375,
+      "cartolaSofrido": 116.210205078125,
+      "saldoCartola": 24.43994140625,
       "posicao": 6
     },
     {
@@ -72,9 +72,9 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 166.869765625,
-      "cartolaSofrido": 151.95,
-      "saldoCartola": 14.919765625000023,
+      "totalCartola": 166.86962890625,
+      "cartolaSofrido": 151.9501953125,
+      "saldoCartola": 14.91943359375,
       "posicao": 7
     },
     {
@@ -83,8 +83,8 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 159.5801953125,
-      "cartolaSofrido": 134.639765625,
+      "totalCartola": 159.580078125,
+      "cartolaSofrido": 134.6396484375,
       "saldoCartola": 24.9404296875,
       "posicao": 8
     },
@@ -94,9 +94,9 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 156.67990234375,
-      "cartolaSofrido": 130.25986328125,
-      "saldoCartola": 26.420039062499995,
+      "totalCartola": 156.6796875,
+      "cartolaSofrido": 130.259765625,
+      "saldoCartola": 26.419921875,
       "posicao": 9
     },
     {
@@ -106,8 +106,8 @@ const classificacaoSerieC = {
       "empates": 0,
       "derrotas": 1,
       "totalCartola": 146.760009765625,
-      "cartolaSofrido": 132.64005859374998,
-      "saldoCartola": 14.119951171875016,
+      "cartolaSofrido": 132.64013671875,
+      "saldoCartola": 14.119873046875,
       "posicao": 10
     },
     {
@@ -116,9 +116,9 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 143.74005859375,
-      "cartolaSofrido": 136.34005859375,
-      "saldoCartola": 7.400000000000006,
+      "totalCartola": 143.740234375,
+      "cartolaSofrido": 136.33984375,
+      "saldoCartola": 7.400390625,
       "posicao": 11
     },
     {
@@ -127,9 +127,9 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 140.62005859375,
-      "cartolaSofrido": 143.359912109375,
-      "saldoCartola": -2.7398535156249864,
+      "totalCartola": 140.76025390625,
+      "cartolaSofrido": 143.360107421875,
+      "saldoCartola": -2.599853515625,
       "posicao": 12
     },
     {
@@ -138,9 +138,9 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 137.28019531249998,
+      "totalCartola": 137.2802734375,
       "cartolaSofrido": 147.06005859375,
-      "saldoCartola": -9.779863281250016,
+      "saldoCartola": -9.77978515625,
       "posicao": 13
     },
     {
@@ -149,9 +149,9 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 135.13991210937502,
-      "cartolaSofrido": 143.020009765625,
-      "saldoCartola": -7.880097656249973,
+      "totalCartola": 135.139892578125,
+      "cartolaSofrido": 143.159912109375,
+      "saldoCartola": -8.02001953125,
       "posicao": 14
     },
     {
@@ -160,9 +160,9 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 138.2399609375,
-      "cartolaSofrido": 156.1399609375,
-      "saldoCartola": -17.900000000000006,
+      "totalCartola": 138.23974609375,
+      "cartolaSofrido": 156.14013671875,
+      "saldoCartola": -17.900390625,
       "posicao": 15
     },
     {
@@ -171,9 +171,9 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 133.03,
-      "cartolaSofrido": 166.439765625,
-      "saldoCartola": -33.409765625000006,
+      "totalCartola": 133.02978515625,
+      "cartolaSofrido": 166.43994140625,
+      "saldoCartola": -33.41015625,
       "posicao": 16
     },
     {
@@ -182,9 +182,9 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 124.739912109375,
-      "cartolaSofrido": 164.54005859375002,
-      "saldoCartola": -39.80014648437502,
+      "totalCartola": 124.739990234375,
+      "cartolaSofrido": 164.5400390625,
+      "saldoCartola": -39.800048828125,
       "posicao": 17
     },
     {
@@ -193,9 +193,9 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 114.96005859375,
-      "cartolaSofrido": 165.4801953125,
-      "saldoCartola": -50.52013671875,
+      "totalCartola": 114.9599609375,
+      "cartolaSofrido": 165.47998046875,
+      "saldoCartola": -50.52001953125,
       "posicao": 18
     },
     {
@@ -204,9 +204,9 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 107.810009765625,
-      "cartolaSofrido": 134.919912109375,
-      "saldoCartola": -27.109902343749997,
+      "totalCartola": 107.81005859375,
+      "cartolaSofrido": 135.059814453125,
+      "saldoCartola": -27.249755859375,
       "posicao": 19
     },
     {
@@ -215,8 +215,8 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 104.390009765625,
-      "cartolaSofrido": 152.829951171875,
+      "totalCartola": 104.389892578125,
+      "cartolaSofrido": 152.829833984375,
       "saldoCartola": -48.43994140625,
       "posicao": 20
     }
