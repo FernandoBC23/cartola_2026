@@ -20,7 +20,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 59.2
+    "Parcial Rodada 2": 72.56
   },
   "186283": {
     "Time": "FBC Colorado",
@@ -43,7 +43,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 61.41
+    "Parcial Rodada 2": 81.48
   },
   "212042": {
     "Time": "Tatols Beants F.C",
@@ -66,7 +66,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 65.15
+    "Parcial Rodada 2": 92.7
   },
   "335716": {
     "Time": "teves_futsal20 f.c",
@@ -89,7 +89,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 73.75
+    "Parcial Rodada 2": 87.5
   },
   "479510": {
     "Time": "TEAM LOPES 99",
@@ -112,7 +112,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 56.91
+    "Parcial Rodada 2": 79.28
   },
   "528730": {
     "Time": "Gremiomaniasm",
@@ -135,7 +135,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 49.15
+    "Parcial Rodada 2": 83.2
   },
   "1273719": {
     "Time": "Texas Club 2026",
@@ -158,7 +158,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 59.81
+    "Parcial Rodada 2": 82.18
   },
   "1747619": {
     "Time": "JV5 Tricolor Gaúcho",
@@ -181,7 +181,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 61.91
+    "Parcial Rodada 2": 72.18
   },
   "3447341": {
     "Time": "PUXE FC",
@@ -204,7 +204,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 66.25
+    "Parcial Rodada 2": 86.6
   },
   "3708025": {
     "Time": "NaoVaiDescer!",
@@ -227,7 +227,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 87.5
+    "Parcial Rodada 2": 90.0
   },
   "3851966": {
     "Time": "cartola scheuer17",
@@ -250,7 +250,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 59.81
+    "Parcial Rodada 2": 82.18
   },
   "5823700": {
     "Time": "S.E.R. GRILLO",
@@ -273,7 +273,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 61.95
+    "Parcial Rodada 2": 79.45
   },
   "13707047": {
     "Time": "Super Vasco f.c",
@@ -296,7 +296,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 71.51
+    "Parcial Rodada 2": 91.48
   },
   "13913874": {
     "Time": "Bandoleros FCS",
@@ -319,7 +319,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 88.36
+    "Parcial Rodada 2": 93.78
   },
   "13951133": {
     "Time": "JUV. KP",
@@ -342,7 +342,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 73.71
+    "Parcial Rodada 2": 85.58
   },
   "14124559": {
     "Time": "Paulo Virgili FC",
@@ -365,7 +365,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 77.52
+    "Parcial Rodada 2": 82.61
   },
   "18223508": {
     "Time": "Rolo Compressor  ZN",
@@ -388,7 +388,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 53.11
+    "Parcial Rodada 2": 73.78
   },
   "18344271": {
     "Time": "FÚRIA LEON",
@@ -411,7 +411,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 63.95
+    "Parcial Rodada 2": 86.7
   },
   "18642587": {
     "Time": "Fedato Futebol Clube",
@@ -434,7 +434,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 75.16
+    "Parcial Rodada 2": 92.78
   },
   "18661583": {
     "Time": "pura bucha/internacional",
@@ -457,7 +457,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 48.25
+    "Parcial Rodada 2": 57.55
   },
   "19033717": {
     "Time": "Mau Humor F.C.",
@@ -480,7 +480,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 69.7
+    "Parcial Rodada 2": 92.76
   },
   "20696550": {
     "Time": "Dom Camillo68",
@@ -503,7 +503,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 39.71
+    "Parcial Rodada 2": 64.58
   },
   "24468241": {
     "Time": "Grêmio imortal 37",
@@ -526,7 +526,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 79.6
+    "Parcial Rodada 2": 84.5
   },
   "24856400": {
     "Time": "Grêmio imortal 36",
@@ -549,7 +549,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 48.0
+    "Parcial Rodada 2": 60.7
   },
   "25565675": {
     "Time": "FIGUEIRA DA ILHA",
@@ -572,7 +572,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 74.75
+    "Parcial Rodada 2": 85.7
   },
   "25811332": {
     "Time": "SERGRILLO",
@@ -595,7 +595,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 40.21
+    "Parcial Rodada 2": 36.43
   },
   "28741323": {
     "Time": "Tabajara de Inhaua PB1",
@@ -618,7 +618,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 54.01
+    "Parcial Rodada 2": 84.48
   },
   "29228373": {
     "Time": "seralex",
@@ -641,7 +641,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 48.01
+    "Parcial Rodada 2": 64.58
   },
   "44810918": {
     "Time": "lsauer fc",
@@ -664,7 +664,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 74.01
+    "Parcial Rodada 2": 96.48
   },
   "47544767": {
     "Time": "TORRESMO COM PINGA PRO26.1 ",
@@ -687,7 +687,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 58.2
+    "Parcial Rodada 2": 81.26
   },
   "48498051": {
     "Time": "Pity10",
@@ -710,7 +710,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 82.75
+    "Parcial Rodada 2": 105.5
   },
   "51010813": {
     "Time": "LISI GREMISTA",
@@ -733,7 +733,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 2": 61.91
+    "Parcial Rodada 2": 81.88
   }
 };
 
@@ -749,37 +749,37 @@ const eliminadosPorRodada = {
 const pontuacaoParcialRodadaAtual = {
   "rodada": 2,
   "times": {
-    "117598": 59.2,
-    "186283": 61.41,
-    "212042": 65.15,
-    "335716": 73.75,
-    "479510": 56.91,
-    "528730": 49.15,
-    "1273719": 59.81,
-    "1747619": 61.91,
-    "3447341": 66.25,
-    "3708025": 87.5,
-    "3851966": 59.81,
-    "5823700": 61.95,
-    "13707047": 71.51,
-    "13913874": 88.36,
-    "13951133": 73.71,
-    "14124559": 77.52,
-    "18223508": 53.11,
-    "18344271": 63.95,
-    "18642587": 75.16,
-    "18661583": 48.25,
-    "19033717": 69.7,
-    "20696550": 39.71,
-    "24468241": 79.6,
-    "24856400": 48.0,
-    "25565675": 74.75,
-    "25811332": 40.21,
-    "28741323": 54.01,
-    "29228373": 48.01,
-    "44810918": 74.01,
-    "47544767": 58.2,
-    "48498051": 82.75,
-    "51010813": 61.91
+    "117598": 72.56,
+    "186283": 81.48,
+    "212042": 92.7,
+    "335716": 87.5,
+    "479510": 79.28,
+    "528730": 83.2,
+    "1273719": 82.18,
+    "1747619": 72.18,
+    "3447341": 86.6,
+    "3708025": 90.0,
+    "3851966": 82.18,
+    "5823700": 79.45,
+    "13707047": 91.48,
+    "13913874": 93.78,
+    "13951133": 85.58,
+    "14124559": 82.61,
+    "18223508": 73.78,
+    "18344271": 86.7,
+    "18642587": 92.78,
+    "18661583": 57.55,
+    "19033717": 92.76,
+    "20696550": 64.58,
+    "24468241": 84.5,
+    "24856400": 60.7,
+    "25565675": 85.7,
+    "25811332": 36.43,
+    "28741323": 84.48,
+    "29228373": 64.58,
+    "44810918": 96.48,
+    "47544767": 81.26,
+    "48498051": 105.5,
+    "51010813": 81.88
   }
 };

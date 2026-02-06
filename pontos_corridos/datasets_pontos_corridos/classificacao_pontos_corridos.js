@@ -1,14 +1,14 @@
 const classificacaoSerieA = {
   "Pontos Corridos": [
     {
-      "nome": "SC 100 Sono",
+      "nome": "Esquadrão Gazembrino",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 149.71015625,
-      "cartolaSofrido": 115.760048828125,
-      "saldoCartola": 33.950107421875,
+      "totalCartola": 181.9001953125,
+      "cartolaSofrido": 150.30990234375,
+      "saldoCartola": 31.590292968749992,
       "posicao": 1
     },
     {
@@ -17,10 +17,21 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 136.57005859375,
-      "cartolaSofrido": 119.410107421875,
-      "saldoCartola": 17.159951171874994,
+      "totalCartola": 159.04005859375002,
+      "cartolaSofrido": 138.460107421875,
+      "saldoCartola": 20.579951171875024,
       "posicao": 2
+    },
+    {
+      "nome": "SC 100 Sono",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 153.61015625,
+      "cartolaSofrido": 129.730048828125,
+      "saldoCartola": 23.880107421874985,
+      "posicao": 3
     },
     {
       "nome": "Texas Club 2026",
@@ -28,32 +39,10 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 127.87005859375,
-      "cartolaSofrido": 95.97005859375,
-      "saldoCartola": 31.90000000000001,
-      "posicao": 3
-    },
-    {
-      "nome": "Pontaç0 F.C.",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 124.519912109375,
-      "cartolaSofrido": 117.569912109375,
-      "saldoCartola": 6.950000000000003,
+      "totalCartola": 150.24005859375,
+      "cartolaSofrido": 106.24005859375,
+      "saldoCartola": 44.0,
       "posicao": 4
-    },
-    {
-      "nome": "Esquadrão Gazembrino",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 170.1001953125,
-      "cartolaSofrido": 149.36990234375,
-      "saldoCartola": 20.730292968750007,
-      "posicao": 5
     },
     {
       "nome": "bugredasmissões",
@@ -61,32 +50,21 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 149.46005859375,
-      "cartolaSofrido": 130.75,
-      "saldoCartola": 18.71005859375001,
+      "totalCartola": 164.06005859375,
+      "cartolaSofrido": 134.8,
+      "saldoCartola": 29.26005859374999,
+      "posicao": 5
+    },
+    {
+      "nome": "GrioTeam",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 145.04005859375002,
+      "cartolaSofrido": 149.54005859375002,
+      "saldoCartola": -4.5,
       "posicao": 6
-    },
-    {
-      "nome": "Pepe Leal FC",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 134.76009765625,
-      "cartolaSofrido": 101.7699609375,
-      "saldoCartola": 32.990136718749994,
-      "posicao": 7
-    },
-    {
-      "nome": "GaúchoDaFronteira F.C",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 130.3699609375,
-      "cartolaSofrido": 129.45009765625,
-      "saldoCartola": 0.9198632812500024,
-      "posicao": 8
     },
     {
       "nome": "Arran Katoko FC",
@@ -94,10 +72,10 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 126.21,
-      "cartolaSofrido": 146.11005859375,
-      "saldoCartola": -19.900058593750003,
-      "posicao": 9
+      "totalCartola": 140.18,
+      "cartolaSofrido": 150.01005859375,
+      "saldoCartola": -9.830058593749982,
+      "posicao": 7
     },
     {
       "nome": "Grêmio_Campeão_LA_27",
@@ -105,10 +83,54 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 122.900048828125,
-      "cartolaSofrido": 125.57015625,
-      "saldoCartola": -2.6701074218750023,
+      "totalCartola": 139.750048828125,
+      "cartolaSofrido": 133.84015625,
+      "saldoCartola": 5.909892578124982,
+      "posicao": 8
+    },
+    {
+      "nome": "GaúchoDaFronteira F.C",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 138.6399609375,
+      "cartolaSofrido": 146.30009765625,
+      "saldoCartola": -7.660136718749982,
+      "posicao": 9
+    },
+    {
+      "nome": "Pepe Leal FC",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 136.48009765625,
+      "cartolaSofrido": 127.7399609375,
+      "saldoCartola": 8.740136718749994,
       "posicao": 10
+    },
+    {
+      "nome": "SC ÉoINTER!",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 132.49990234375,
+      "cartolaSofrido": 156.8001953125,
+      "saldoCartola": -24.30029296875,
+      "posicao": 11
+    },
+    {
+      "nome": "Pontaç0 F.C.",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 132.339912109375,
+      "cartolaSofrido": 127.839912109375,
+      "saldoCartola": 4.5,
+      "posicao": 12
     },
     {
       "nome": "GE Bebum",
@@ -116,54 +138,21 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 122.300048828125,
-      "cartolaSofrido": 139.559912109375,
-      "saldoCartola": -17.259863281250006,
-      "posicao": 11
-    },
-    {
-      "nome": "La Primeira Patada Es Nuestra",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 115.259912109375,
-      "cartolaSofrido": 112.809912109375,
-      "saldoCartola": 2.4499999999999886,
-      "posicao": 12
-    },
-    {
-      "nome": "FBC Colorado",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 115.069912109375,
-      "cartolaSofrido": 106.860048828125,
-      "saldoCartola": 8.209863281249994,
+      "totalCartola": 126.350048828125,
+      "cartolaSofrido": 154.159912109375,
+      "saldoCartola": -27.809863281250003,
       "posicao": 13
     },
     {
-      "nome": "Doug Leal F.C",
+      "nome": "JV5 Tricolor Gaúcho",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 100.7801171875,
-      "cartolaSofrido": 59.81,
-      "saldoCartola": 40.9701171875,
+      "totalCartola": 120.040107421875,
+      "cartolaSofrido": 133.74005859375,
+      "saldoCartola": -13.699951171875,
       "posicao": 14
-    },
-    {
-      "nome": "NHU PORÃ SAF.",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 94.47,
-      "cartolaSofrido": 153.2701171875,
-      "saldoCartola": -58.80011718750001,
-      "posicao": 15
     },
     {
       "nome": "Medonho´s F.C.",
@@ -171,9 +160,20 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 85.469912109375,
-      "cartolaSofrido": 122.020107421875,
-      "saldoCartola": -36.5501953125,
+      "totalCartola": 111.439912109375,
+      "cartolaSofrido": 123.740107421875,
+      "saldoCartola": -12.300195312499994,
+      "posicao": 15
+    },
+    {
+      "nome": "Doug Leal F.C",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 111.0501171875,
+      "cartolaSofrido": 82.18,
+      "saldoCartola": 28.8701171875,
       "posicao": 16
     },
     {
@@ -182,42 +182,42 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 119.410107421875,
-      "cartolaSofrido": 129.669912109375,
-      "saldoCartola": -10.259804687499994,
+      "totalCartola": 138.460107421875,
+      "cartolaSofrido": 152.13991210937502,
+      "saldoCartola": -13.679804687500024,
       "posicao": 17
     },
     {
-      "nome": "GrioTeam",
+      "nome": "FBC Colorado",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 112.37005859375,
-      "cartolaSofrido": 129.47005859375,
-      "saldoCartola": -17.099999999999994,
+      "totalCartola": 135.13991210937502,
+      "cartolaSofrido": 139.53004882812502,
+      "saldoCartola": -4.39013671875,
       "posicao": 18
     },
     {
-      "nome": "JV5 Tricolor Gaúcho",
+      "nome": "La Primeira Patada Es Nuestra",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 109.770107421875,
-      "cartolaSofrido": 125.92005859375,
-      "saldoCartola": -16.149951171875003,
+      "totalCartola": 129.259912109375,
+      "cartolaSofrido": 138.759912109375,
+      "saldoCartola": -9.5,
       "posicao": 19
     },
     {
-      "nome": "SC ÉoINTER!",
+      "nome": "NHU PORÃ SAF.",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 106.54990234375,
-      "cartolaSofrido": 142.8001953125,
-      "saldoCartola": -36.25029296874999,
+      "totalCartola": 95.41,
+      "cartolaSofrido": 165.0701171875,
+      "saldoCartola": -69.66011718749999,
       "posicao": 20
     }
   ]

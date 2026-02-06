@@ -1,25 +1,25 @@
 const classificacaoSerieC = {
   "Série C": [
     {
-      "nome": "Paulo Virgili FC",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 161.77976562499998,
-      "cartolaSofrido": 124.4,
-      "saldoCartola": 37.379765624999976,
-      "posicao": 1
-    },
-    {
       "nome": "Mau Humor F.C.",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 143.6599609375,
-      "cartolaSofrido": 120.3699609375,
-      "saldoCartola": 23.289999999999992,
+      "totalCartola": 166.7199609375,
+      "cartolaSofrido": 140.43996093750002,
+      "saldoCartola": 26.279999999999973,
+      "posicao": 1
+    },
+    {
+      "nome": "Tatols Beants F.C",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 159.55986328125,
+      "cartolaSofrido": 146.50990234375,
+      "saldoCartola": 13.049960937499977,
       "posicao": 2
     },
     {
@@ -28,9 +28,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 136.57005859375,
-      "cartolaSofrido": 109.57005859375,
-      "saldoCartola": 27.0,
+      "totalCartola": 159.04005859375002,
+      "cartolaSofrido": 126.14005859375,
+      "saldoCartola": 32.90000000000002,
       "posicao": 3
     },
     {
@@ -39,9 +39,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 131.959765625,
-      "cartolaSofrido": 112.4501953125,
-      "saldoCartola": 19.50957031249999,
+      "totalCartola": 155.019765625,
+      "cartolaSofrido": 121.7501953125,
+      "saldoCartola": 33.269570312499994,
       "posicao": 4
     },
     {
@@ -50,31 +50,31 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 127.87005859375,
-      "cartolaSofrido": 108.170009765625,
+      "totalCartola": 150.24005859375,
+      "cartolaSofrido": 130.540009765625,
       "saldoCartola": 19.70004882812501,
       "posicao": 5
     },
     {
-      "nome": "A Lenda Super Vasco F.c",
+      "nome": "Gremiomaniasm",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 127.26005859375,
-      "cartolaSofrido": 109.309912109375,
-      "saldoCartola": 17.950146484374997,
+      "totalCartola": 140.649951171875,
+      "cartolaSofrido": 116.070009765625,
+      "saldoCartola": 24.579941406249983,
       "posicao": 6
     },
     {
-      "nome": "Fedato Futebol Clube",
+      "nome": "Paulo Virgili FC",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 139.05990234375,
-      "cartolaSofrido": 119.80986328125,
-      "saldoCartola": 19.250039062499997,
+      "totalCartola": 166.869765625,
+      "cartolaSofrido": 151.95,
+      "saldoCartola": 14.919765625000023,
       "posicao": 7
     },
     {
@@ -83,20 +83,20 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 137.91019531249998,
-      "cartolaSofrido": 129.639765625,
-      "saldoCartola": 8.270429687499984,
+      "totalCartola": 159.5801953125,
+      "cartolaSofrido": 134.639765625,
+      "saldoCartola": 24.9404296875,
       "posicao": 8
     },
     {
-      "nome": "Tatols Beants F.C",
+      "nome": "Fedato Futebol Clube",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 132.00986328125,
-      "cartolaSofrido": 141.41990234374998,
-      "saldoCartola": -9.410039062499976,
+      "totalCartola": 156.67990234375,
+      "cartolaSofrido": 130.25986328125,
+      "saldoCartola": 26.420039062499995,
       "posicao": 9
     },
     {
@@ -105,9 +105,9 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 126.010009765625,
-      "cartolaSofrido": 107.77005859375,
-      "saldoCartola": 18.239951171874992,
+      "totalCartola": 146.760009765625,
+      "cartolaSofrido": 132.64005859374998,
+      "saldoCartola": 14.119951171875016,
       "posicao": 10
     },
     {
@@ -116,20 +116,20 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 121.37005859375,
-      "cartolaSofrido": 115.67005859375,
-      "saldoCartola": 5.700000000000003,
+      "totalCartola": 143.74005859375,
+      "cartolaSofrido": 136.34005859375,
+      "saldoCartola": 7.400000000000006,
       "posicao": 11
     },
     {
-      "nome": "FBC Colorado",
+      "nome": "A Lenda Super Vasco F.c",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 115.069912109375,
-      "cartolaSofrido": 119.960009765625,
-      "saldoCartola": -4.890097656250006,
+      "totalCartola": 140.62005859375,
+      "cartolaSofrido": 143.359912109375,
+      "saldoCartola": -2.7398535156249864,
       "posicao": 12
     },
     {
@@ -138,20 +138,20 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 112.4101953125,
-      "cartolaSofrido": 126.31005859375,
-      "saldoCartola": -13.899863281249992,
+      "totalCartola": 137.28019531249998,
+      "cartolaSofrido": 147.06005859375,
+      "saldoCartola": -9.779863281250016,
       "posicao": 13
     },
     {
-      "nome": "Gremiomaniasm",
+      "nome": "FBC Colorado",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 106.599951171875,
-      "cartolaSofrido": 102.710009765625,
-      "saldoCartola": 3.889941406250003,
+      "totalCartola": 135.13991210937502,
+      "cartolaSofrido": 143.020009765625,
+      "saldoCartola": -7.880097656249973,
       "posicao": 14
     },
     {
@@ -160,8 +160,8 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 115.8699609375,
-      "cartolaSofrido": 133.7699609375,
+      "totalCartola": 138.2399609375,
+      "cartolaSofrido": 156.1399609375,
       "saldoCartola": -17.900000000000006,
       "posicao": 15
     },
@@ -171,9 +171,9 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 112.36,
-      "cartolaSofrido": 144.069765625,
-      "saldoCartola": -31.709765625000003,
+      "totalCartola": 133.03,
+      "cartolaSofrido": 166.439765625,
+      "saldoCartola": -33.409765625000006,
       "posicao": 16
     },
     {
@@ -182,9 +182,9 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 108.169912109375,
-      "cartolaSofrido": 142.07005859375,
-      "saldoCartola": -33.900146484375,
+      "totalCartola": 124.739912109375,
+      "cartolaSofrido": 164.54005859375002,
+      "saldoCartola": -39.80014648437502,
       "posicao": 17
     },
     {
@@ -193,21 +193,10 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 104.51005859375,
-      "cartolaSofrido": 147.8601953125,
-      "saldoCartola": -43.35013671875,
+      "totalCartola": 114.96005859375,
+      "cartolaSofrido": 165.4801953125,
+      "saldoCartola": -50.52013671875,
       "posicao": 18
-    },
-    {
-      "nome": "pra sempre imortal fc",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 99.390009765625,
-      "cartolaSofrido": 131.15995117187498,
-      "saldoCartola": -31.769941406249984,
-      "posicao": 19
     },
     {
       "nome": "pura bucha/internacional",
@@ -215,9 +204,20 @@ const classificacaoSerieC = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 98.510009765625,
-      "cartolaSofrido": 111.859912109375,
-      "saldoCartola": -13.349902343750005,
+      "totalCartola": 107.810009765625,
+      "cartolaSofrido": 134.919912109375,
+      "saldoCartola": -27.109902343749997,
+      "posicao": 19
+    },
+    {
+      "nome": "pra sempre imortal fc",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 2,
+      "totalCartola": 104.390009765625,
+      "cartolaSofrido": 152.829951171875,
+      "saldoCartola": -48.43994140625,
       "posicao": 20
     }
   ]
