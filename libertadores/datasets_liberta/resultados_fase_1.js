@@ -420,208 +420,208 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "SERGRILLO",
-      "pontos": null
+      "pontos": 17.5
     },
     "visitante": {
       "nome": "JUV. KP",
-      "pontos": null
+      "pontos": 58.37
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo A",
     "rodada": 3,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": null
+      "pontos": 62.8
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": null
+      "pontos": 55.19
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo B",
     "rodada": 3,
     "mandante": {
       "nome": "S.E.R. GRILLO",
-      "pontos": null
+      "pontos": 21.6
     },
     "visitante": {
       "nome": "LISI GREMISTA",
-      "pontos": null
+      "pontos": 69.27
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo B",
     "rodada": 3,
     "mandante": {
       "nome": "Máquina Laranjja",
-      "pontos": null
+      "pontos": 70.37
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": null
+      "pontos": 58.4
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo C",
     "rodada": 3,
     "mandante": {
       "nome": "seralex",
-      "pontos": null
+      "pontos": 57.47
     },
     "visitante": {
       "nome": "Bandoleros FCS",
-      "pontos": null
+      "pontos": 54.97
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo C",
     "rodada": 3,
     "mandante": {
       "nome": "dasdoresfc",
-      "pontos": null
+      "pontos": 42.46
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": null
+      "pontos": 45.17
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo D",
     "rodada": 3,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": null
+      "pontos": 47.57
     },
     "visitante": {
       "nome": "Grêmio imortal 36",
-      "pontos": null
+      "pontos": 40.17
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo D",
     "rodada": 3,
     "mandante": {
       "nome": "FBC Colorado",
-      "pontos": null
+      "pontos": 38.07
     },
     "visitante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": null
+      "pontos": 38.07
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "grupo": "Grupo E",
     "rodada": 3,
     "mandante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": null
+      "pontos": 40.6
     },
     "visitante": {
       "nome": "FÚRIA LEON",
-      "pontos": null
+      "pontos": 59.87
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo E",
     "rodada": 3,
     "mandante": {
       "nome": "Paulo Virgili FC",
-      "pontos": null
+      "pontos": 29.2
     },
     "visitante": {
       "nome": "KillerColorado",
-      "pontos": null
+      "pontos": 57.17
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo F",
     "rodada": 3,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": null
+      "pontos": 53.77
     },
     "visitante": {
       "nome": "Rolo Compressor ZN",
-      "pontos": null
+      "pontos": 54.27
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo F",
     "rodada": 3,
     "mandante": {
       "nome": "AZURRA82",
-      "pontos": null
+      "pontos": 67.27
     },
     "visitante": {
       "nome": "DM Studio",
-      "pontos": null
+      "pontos": 38.27
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo G",
     "rodada": 3,
     "mandante": {
       "nome": "A Lenda Super Vascão f.c",
-      "pontos": null
+      "pontos": 50.77
     },
     "visitante": {
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": null
+      "pontos": 40.57
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo G",
     "rodada": 3,
     "mandante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": null
+      "pontos": 35.5
     },
     "visitante": {
       "nome": "Grêmio imortal 37",
-      "pontos": null
+      "pontos": 39.87
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo H",
     "rodada": 3,
     "mandante": {
       "nome": "Super Vasco f.c",
-      "pontos": null
+      "pontos": 58.47
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": null
+      "pontos": 45.17
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo H",
     "rodada": 3,
     "mandante": {
       "nome": "Gremiomaniasm",
-      "pontos": null
+      "pontos": 27.9
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
-      "pontos": null
+      "pontos": 45.77
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo A",
@@ -1249,8 +1249,41 @@ const resultadosFase1 = [
   }
 ];const pontuacaoParcialRodadaAtual = {
   "rodada": 3,
-  "times": {}
+  "times": {
+    "212042": 55.19,
+    "1747619": 62.8,
+    "13951133": 58.37,
+    "25811332": 17.5,
+    "20696550": 58.4,
+    "30267301": 70.37,
+    "51010813": 69.27,
+    "5823700": 21.6,
+    "3851966": 45.17,
+    "7017989": 42.46,
+    "13913874": 54.97,
+    "29228373": 57.47,
+    "117598": 38.07,
+    "186283": 38.07,
+    "24856400": 40.17,
+    "19033717": 47.57,
+    "36359": 57.17,
+    "14124559": 29.2,
+    "18344271": 59.87,
+    "18642587": 40.6,
+    "387186": 38.27,
+    "18223508": 54.27,
+    "18346776": 67.27,
+    "44810918": 53.77,
+    "24468241": 39.87,
+    "28741323": 35.5,
+    "47544767": 40.57,
+    "49355335": 50.77,
+    "479510": 45.77,
+    "528730": 27.9,
+    "1273719": 45.17,
+    "13707047": 58.47
+  }
 };window.libertaMeta = {
   "rodada_atual": 3,
-  "parcial_disponivel": false
+  "parcial_disponivel": true
 };
