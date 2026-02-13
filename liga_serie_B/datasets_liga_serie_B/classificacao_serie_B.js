@@ -6,32 +6,10 @@ const classificacaoSerieB = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 220.83005859375,
-      "cartolaSofrido": 188.339990234375,
-      "saldoCartola": 32.490068359375016,
+      "totalCartola": 250.42005859375,
+      "cartolaSofrido": 226.139990234375,
+      "saldoCartola": 24.280068359375008,
       "posicao": 1
-    },
-    {
-      "nome": "Mau Humor F.C.",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 214.42986328125,
-      "cartolaSofrido": 185.22981445312504,
-      "saldoCartola": 29.200048828124977,
-      "posicao": 2
-    },
-    {
-      "nome": "PUXE FC",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 201.23015625,
-      "cartolaSofrido": 175.030009765625,
-      "saldoCartola": 26.200146484374983,
-      "posicao": 3
     },
     {
       "nome": "Dom Camillo68",
@@ -39,10 +17,10 @@ const classificacaoSerieB = {
       "vitorias": 2,
       "empates": 1,
       "derrotas": 0,
-      "totalCartola": 195.6802734375,
-      "cartolaSofrido": 156.37998046875,
-      "saldoCartola": 39.30029296875,
-      "posicao": 4
+      "totalCartola": 235.9302734375,
+      "cartolaSofrido": 199.27998046875,
+      "saldoCartola": 36.65029296875,
+      "posicao": 2
     },
     {
       "nome": "seralex",
@@ -50,21 +28,21 @@ const classificacaoSerieB = {
       "vitorias": 2,
       "empates": 1,
       "derrotas": 0,
-      "totalCartola": 182.209990234375,
-      "cartolaSofrido": 152.320078125,
-      "saldoCartola": 29.88991210937499,
-      "posicao": 5
+      "totalCartola": 213.499990234375,
+      "cartolaSofrido": 193.870078125,
+      "saldoCartola": 19.62991210937497,
+      "posicao": 3
     },
     {
-      "nome": "Tatols Beants F.C",
+      "nome": "Mau Humor F.C.",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 214.75005859375,
-      "cartolaSofrido": 193.86005859375,
-      "saldoCartola": 20.889999999999983,
-      "posicao": 6
+      "totalCartola": 248.61986328125,
+      "cartolaSofrido": 245.819814453125,
+      "saldoCartola": 2.800048828125,
+      "posicao": 4
     },
     {
       "nome": "lsauer fc",
@@ -72,21 +50,54 @@ const classificacaoSerieB = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 212.8100390625,
-      "cartolaSofrido": 193.830009765625,
-      "saldoCartola": 18.980029296875017,
-      "posicao": 7
+      "totalCartola": 246.5000390625,
+      "cartolaSofrido": 234.22000976562495,
+      "saldoCartola": 12.280029296875,
+      "posicao": 5
     },
     {
-      "nome": "TIGRE LEON",
+      "nome": "CAFÉ AMARGO PRO26.2",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 204.030009765625,
-      "cartolaSofrido": 186.6100390625,
-      "saldoCartola": 17.419970703125017,
+      "totalCartola": 235.71966796875,
+      "cartolaSofrido": 200.620009765625,
+      "saldoCartola": 35.09965820312499,
+      "posicao": 6
+    },
+    {
+      "nome": "Tatols Beants F.C",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 232.80005859375,
+      "cartolaSofrido": 228.46005859375,
+      "saldoCartola": 4.340000000000003,
+      "posicao": 7
+    },
+    {
+      "nome": "TEAM LOPES 99",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 224.89974609375,
+      "cartolaSofrido": 203.500087890625,
+      "saldoCartola": 21.399658203125,
       "posicao": 8
+    },
+    {
+      "nome": "PUXE FC",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 220.82015625,
+      "cartolaSofrido": 215.920009765625,
+      "saldoCartola": 4.900146484375,
+      "posicao": 9
     },
     {
       "nome": "Texas Club 2026",
@@ -94,21 +105,21 @@ const classificacaoSerieB = {
       "vitorias": 1,
       "empates": 1,
       "derrotas": 1,
-      "totalCartola": 195.410234375,
-      "cartolaSofrido": 202.79994140625,
-      "saldoCartola": -7.389707031249998,
-      "posicao": 9
+      "totalCartola": 256.000234375,
+      "cartolaSofrido": 251.29994140625,
+      "saldoCartola": 4.700292968749977,
+      "posicao": 10
     },
     {
-      "nome": "Fedato Futebol Clube",
-      "pontos": 3,
+      "nome": "cartola scheuer17",
+      "pontos": 4,
       "vitorias": 1,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 197.2796875,
-      "cartolaSofrido": 181.020244140625,
-      "saldoCartola": 16.259443359374984,
-      "posicao": 10
+      "empates": 1,
+      "derrotas": 1,
+      "totalCartola": 249.500234375,
+      "cartolaSofrido": 230.8000390625,
+      "saldoCartola": 18.7001953125,
+      "posicao": 11
     },
     {
       "nome": "Paulo Virgili FC",
@@ -116,21 +127,21 @@ const classificacaoSerieB = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 196.06962890625,
-      "cartolaSofrido": 215.2299609375,
-      "saldoCartola": -19.16033203125002,
-      "posicao": 11
+      "totalCartola": 248.11962890625,
+      "cartolaSofrido": 253.9199609375,
+      "saldoCartola": -5.80033203124998,
+      "posicao": 12
     },
     {
-      "nome": "CAFÉ AMARGO PRO26.2",
+      "nome": "Fedato Futebol Clube",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 195.72966796875,
-      "cartolaSofrido": 197.530009765625,
-      "saldoCartola": -1.800341796875017,
-      "posicao": 12
+      "totalCartola": 235.0796875,
+      "cartolaSofrido": 210.610244140625,
+      "saldoCartola": 24.469443359374992,
+      "posicao": 13
     },
     {
       "nome": "Rolo Compressor  ZN",
@@ -138,20 +149,9 @@ const classificacaoSerieB = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 187.29978515625,
-      "cartolaSofrido": 172.560107421875,
-      "saldoCartola": 14.739677734375022,
-      "posicao": 13
-    },
-    {
-      "nome": "TEAM LOPES 99",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 184.00974609375,
-      "cartolaSofrido": 183.910087890625,
-      "saldoCartola": 0.099658203125017,
+      "totalCartola": 225.98978515625,
+      "cartolaSofrido": 224.610107421875,
+      "saldoCartola": 1.3796777343749795,
       "posicao": 14
     },
     {
@@ -160,21 +160,10 @@ const classificacaoSerieB = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 182.840283203125,
-      "cartolaSofrido": 199.02984375,
-      "saldoCartola": -16.189560546874986,
+      "totalCartola": 217.440283203125,
+      "cartolaSofrido": 217.07984375,
+      "saldoCartola": 0.3604394531249966,
       "posicao": 15
-    },
-    {
-      "nome": "Gremiomaniasm",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 168.550146484375,
-      "cartolaSofrido": 206.13974609375,
-      "saldoCartola": -37.589599609375,
-      "posicao": 16
     },
     {
       "nome": "Sport Clube PAIM",
@@ -182,20 +171,31 @@ const classificacaoSerieB = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 167.519912109375,
-      "cartolaSofrido": 196.83015625,
-      "saldoCartola": -29.310244140625,
+      "totalCartola": 216.019912109375,
+      "cartolaSofrido": 257.42015625,
+      "saldoCartola": -41.40024414062498,
+      "posicao": 16
+    },
+    {
+      "nome": "Gremiomaniasm",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 2,
+      "totalCartola": 211.450146484375,
+      "cartolaSofrido": 246.38974609375,
+      "saldoCartola": -34.939599609374994,
       "posicao": 17
     },
     {
-      "nome": "cartola scheuer17",
-      "pontos": 1,
-      "vitorias": 0,
-      "empates": 1,
+      "nome": "TIGRE LEON",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
       "derrotas": 2,
-      "totalCartola": 188.910234375,
-      "cartolaSofrido": 196.6100390625,
-      "saldoCartola": -7.699804687499977,
+      "totalCartola": 207.120009765625,
+      "cartolaSofrido": 226.6000390625,
+      "saldoCartola": -19.48002929687499,
       "posicao": 18
     },
     {
@@ -204,9 +204,9 @@ const classificacaoSerieB = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 173.209892578125,
-      "cartolaSofrido": 223.029765625,
-      "saldoCartola": -49.81987304687502,
+      "totalCartola": 213.59989257812495,
+      "cartolaSofrido": 256.719765625,
+      "saldoCartola": -43.119873046875,
       "posicao": 19
     },
     {
@@ -215,9 +215,9 @@ const classificacaoSerieB = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 136.30005859375,
-      "cartolaSofrido": 212.80984375,
-      "saldoCartola": -76.50978515624999,
+      "totalCartola": 177.85005859375002,
+      "cartolaSofrido": 244.09984375,
+      "saldoCartola": -66.24978515624997,
       "posicao": 20
     }
   ]
