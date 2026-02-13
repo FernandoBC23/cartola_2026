@@ -244,7 +244,7 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "FBC Colorado",
-      "pontos": 78.46
+      "pontos": 79.26
     },
     "visitante": {
       "nome": "lsauer fc",
@@ -260,7 +260,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "PUXE FC",
-      "pontos": 69.66
+      "pontos": 70.36
     }
   },
   {
@@ -268,11 +268,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "TIGRE LEON",
-      "pontos": 60.36
+      "pontos": 61.16
     },
     "visitante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": 80.56
+      "pontos": 81.36
     }
   },
   {
@@ -280,7 +280,7 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 73.24
+      "pontos": 72.74
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
@@ -296,7 +296,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Sport Clube PAIM",
-      "pontos": 84.86
+      "pontos": 83.65
     }
   },
   {
@@ -304,7 +304,7 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "Pity10",
-      "pontos": 80.36
+      "pontos": 81.16
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
@@ -332,7 +332,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "pura bucha/internacional",
-      "pontos": 70.04
+      "pontos": 70.84
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieBMeta = {"rodada_parcial": 3, "parcial_disponivel": true};
+window.ligaSerieBMeta = {"rodada_parcial": null, "parcial_disponivel": false};

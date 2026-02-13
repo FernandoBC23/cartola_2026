@@ -6,9 +6,9 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 256.000234375,
-      "cartolaSofrido": 180.229892578125,
-      "saldoCartola": 75.77034179687499,
+      "totalCartola": 256.0,
+      "cartolaSofrido": 180.22998046875,
+      "saldoCartola": 75.77001953125,
       "posicao": 1
     },
     {
@@ -18,20 +18,9 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 0,
       "totalCartola": 248.11962890625,
-      "cartolaSofrido": 198.93998046875,
-      "saldoCartola": 49.17964843750002,
+      "cartolaSofrido": 199.73974609375,
+      "saldoCartola": 48.3798828125,
       "posicao": 2
-    },
-    {
-      "nome": "Tatols Beants F.C",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 232.80005859375,
-      "cartolaSofrido": 195.069716796875,
-      "saldoCartola": 37.730341796875,
-      "posicao": 3
     },
     {
       "nome": "Rolo Compressor  ZN",
@@ -39,10 +28,10 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 225.98978515625,
-      "cartolaSofrido": 187.21005859375,
-      "saldoCartola": 38.77972656249997,
-      "posicao": 4
+      "totalCartola": 226.78955078125,
+      "cartolaSofrido": 187.2099609375,
+      "saldoCartola": 39.57958984375,
+      "posicao": 3
     },
     {
       "nome": "cartola scheuer17",
@@ -50,10 +39,10 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 249.500234375,
-      "cartolaSofrido": 213.839794921875,
-      "saldoCartola": 35.66043945312498,
-      "posicao": 5
+      "totalCartola": 249.5,
+      "cartolaSofrido": 213.839599609375,
+      "saldoCartola": 35.660400390625,
+      "posicao": 4
     },
     {
       "nome": "Mau Humor F.C.",
@@ -61,10 +50,10 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 248.61986328125,
-      "cartolaSofrido": 215.240087890625,
-      "saldoCartola": 33.379775390624985,
-      "posicao": 6
+      "totalCartola": 248.61962890625,
+      "cartolaSofrido": 215.239990234375,
+      "saldoCartola": 33.379638671875,
+      "posicao": 5
     },
     {
       "nome": "lsauer fc",
@@ -72,10 +61,10 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 246.5000390625,
-      "cartolaSofrido": 225.09984375,
-      "saldoCartola": 21.40019531249999,
-      "posicao": 7
+      "totalCartola": 246.5,
+      "cartolaSofrido": 225.099609375,
+      "saldoCartola": 21.400390625,
+      "posicao": 6
     },
     {
       "nome": "Dom Camillo68",
@@ -83,9 +72,20 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 235.9302734375,
-      "cartolaSofrido": 230.909853515625,
-      "saldoCartola": 5.020419921875003,
+      "totalCartola": 235.93017578125,
+      "cartolaSofrido": 231.709716796875,
+      "saldoCartola": 4.220458984375,
+      "posicao": 7
+    },
+    {
+      "nome": "Tatols Beants F.C",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 232.30029296875,
+      "cartolaSofrido": 195.869873046875,
+      "saldoCartola": 36.430419921875,
       "posicao": 8
     },
     {
@@ -94,10 +94,21 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 207.120009765625,
-      "cartolaSofrido": 181.63978515625,
+      "totalCartola": 207.919921875,
+      "cartolaSofrido": 182.439697265625,
       "saldoCartola": 25.480224609375,
       "posicao": 9
+    },
+    {
+      "nome": "Atlético Colorado 2021",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 205.370361328125,
+      "cartolaSofrido": 218.88037109375,
+      "saldoCartola": -13.510009765625,
+      "posicao": 10
     },
     {
       "nome": "TORRESMO COM PINGA PRO26.2",
@@ -105,10 +116,10 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 235.71966796875,
-      "cartolaSofrido": 245.75009765625,
-      "saldoCartola": -10.030429687500003,
-      "posicao": 10
+      "totalCartola": 236.51953125,
+      "cartolaSofrido": 245.75,
+      "saldoCartola": -9.23046875,
+      "posicao": 11
     },
     {
       "nome": "Fedato Futebol Clube",
@@ -116,10 +127,10 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 235.0796875,
-      "cartolaSofrido": 248.89994140625,
-      "saldoCartola": -13.820253906249974,
-      "posicao": 11
+      "totalCartola": 235.07958984375,
+      "cartolaSofrido": 249.69970703125,
+      "saldoCartola": -14.6201171875,
+      "posicao": 12
     },
     {
       "nome": "TEAM LOPES 99",
@@ -127,10 +138,10 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 224.89974609375,
-      "cartolaSofrido": 228.10005859375,
-      "saldoCartola": -3.200312500000024,
-      "posicao": 12
+      "totalCartola": 224.89990234375,
+      "cartolaSofrido": 228.89990234375,
+      "saldoCartola": -4.0,
+      "posicao": 13
     },
     {
       "nome": "JV5 Tricolor Gaúcho",
@@ -138,10 +149,10 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 217.440283203125,
-      "cartolaSofrido": 218.470205078125,
-      "saldoCartola": -1.0299218749999852,
-      "posicao": 13
+      "totalCartola": 217.440185546875,
+      "cartolaSofrido": 218.469970703125,
+      "saldoCartola": -1.02978515625,
+      "posicao": 14
     },
     {
       "nome": "seralex",
@@ -149,10 +160,10 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 213.499990234375,
-      "cartolaSofrido": 238.129921875,
-      "saldoCartola": -24.62993164062499,
-      "posicao": 14
+      "totalCartola": 213.499755859375,
+      "cartolaSofrido": 238.1298828125,
+      "saldoCartola": -24.630126953125,
+      "posicao": 15
     },
     {
       "nome": "Gremiomaniasm",
@@ -160,20 +171,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 211.450146484375,
-      "cartolaSofrido": 259.86009765625,
-      "saldoCartola": -48.40995117187498,
-      "posicao": 15
-    },
-    {
-      "nome": "Atlético Colorado 2021",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 204.570205078125,
-      "cartolaSofrido": 219.38013671875,
-      "saldoCartola": -14.809931640624995,
+      "totalCartola": 211.449951171875,
+      "cartolaSofrido": 259.85986328125,
+      "saldoCartola": -48.409912109375,
       "posicao": 16
     },
     {
@@ -182,9 +182,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 165.399814453125,
-      "cartolaSofrido": 246.320302734375,
-      "saldoCartola": -80.92048828124999,
+      "totalCartola": 165.39990234375,
+      "cartolaSofrido": 246.320068359375,
+      "saldoCartola": -80.920166015625,
       "posicao": 17
     },
     {
@@ -193,9 +193,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 213.59989257812495,
+      "totalCartola": 214.399658203125,
       "cartolaSofrido": 230.2900390625,
-      "saldoCartola": -16.69014648437502,
+      "saldoCartola": -15.890380859375,
       "posicao": 18
     },
     {
@@ -204,9 +204,9 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 177.85005859375002,
-      "cartolaSofrido": 221.99984375,
-      "saldoCartola": -44.149785156249976,
+      "totalCartola": 178.64990234375,
+      "cartolaSofrido": 222.0,
+      "saldoCartola": -43.35009765625,
       "posicao": 19
     },
     {
@@ -215,8 +215,8 @@ const classificacaoSerieA = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 176.38978515625,
-      "cartolaSofrido": 241.09974609375,
+      "totalCartola": 177.189697265625,
+      "cartolaSofrido": 241.899658203125,
       "saldoCartola": -64.7099609375,
       "posicao": 20
     }

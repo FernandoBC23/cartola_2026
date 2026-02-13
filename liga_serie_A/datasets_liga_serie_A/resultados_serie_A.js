@@ -248,7 +248,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 78.46
+      "pontos": 79.26
     }
   },
   {
@@ -272,7 +272,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": 80.56
+      "pontos": 81.36
     }
   },
   {
@@ -280,11 +280,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 73.24
+      "pontos": 72.74
     },
     "visitante": {
       "nome": "Atlético Colorado 2021",
-      "pontos": 73.11
+      "pontos": 73.91
     }
   },
   {
@@ -332,7 +332,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "pura bucha/internacional",
-      "pontos": 70.04
+      "pontos": 70.84
     }
   },
   {
@@ -352,11 +352,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "VASCO MARTINS FC",
-      "pontos": 43.11
+      "pontos": 43.91
     },
     "visitante": {
       "nome": "TIGRE LEON",
-      "pontos": 60.36
+      "pontos": 61.16
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieAMeta = {"rodada_parcial": 3, "parcial_disponivel": true};
+window.ligaSerieAMeta = {"rodada_parcial": null, "parcial_disponivel": false};

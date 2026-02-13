@@ -244,11 +244,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "Doug Leal F.C",
-      "pontos": 81.04
+      "pontos": 79.74
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 78.46
+      "pontos": 79.26
     }
   },
   {
@@ -256,11 +256,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "Medonho´s F.C.",
-      "pontos": 88.14
+      "pontos": 88.94
     },
     "visitante": {
       "nome": "GaúchoDaFronteira F.C",
-      "pontos": 42.1
+      "pontos": 42.15
     }
   },
   {
@@ -292,11 +292,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "GE Bebum",
-      "pontos": 70.04
+      "pontos": 71.64
     },
     "visitante": {
       "nome": "SC 100 Sono",
-      "pontos": 63.56
+      "pontos": 64.36
     }
   },
   {
@@ -304,11 +304,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "C R Juvenal",
-      "pontos": 83.76
+      "pontos": 84.56
     },
     "visitante": {
       "nome": "Pontaç0 F.C.",
-      "pontos": 72.26
+      "pontos": 73.06
     }
   },
   {
@@ -328,7 +328,7 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "SC ÉoINTER!",
-      "pontos": 77.46
+      "pontos": 78.26
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
@@ -340,11 +340,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "NHU PORÃ SAF.",
-      "pontos": 56.24
+      "pontos": 57.04
     },
     "visitante": {
       "nome": "La Primeira Patada Es Nuestra",
-      "pontos": 99.26
+      "pontos": 100.06
     }
   },
   {
@@ -356,7 +356,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Esquadrão Gazembrino",
-      "pontos": 108.2
+      "pontos": 109.0
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.pontosCorridosMeta = {"rodada_parcial": 3, "parcial_disponivel": true};
+window.pontosCorridosMeta = {"rodada_parcial": null, "parcial_disponivel": false};

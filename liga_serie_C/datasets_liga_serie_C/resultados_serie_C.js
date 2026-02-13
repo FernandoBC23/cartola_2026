@@ -248,7 +248,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 78.46
+      "pontos": 79.26
     }
   },
   {
@@ -260,7 +260,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "TIGRE LEON",
-      "pontos": 60.36
+      "pontos": 61.16
     }
   },
   {
@@ -292,7 +292,7 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": 80.56
+      "pontos": 81.36
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
@@ -308,7 +308,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 73.24
+      "pontos": 72.74
     }
   },
   {
@@ -316,11 +316,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "pura bucha/internacional",
-      "pontos": 70.04
+      "pontos": 70.84
     },
     "visitante": {
       "nome": "pra sempre imortal fc",
-      "pontos": 77.46
+      "pontos": 78.26
     }
   },
   {
@@ -340,11 +340,11 @@ const resultadosFase1 = [
     "rodada": 3,
     "mandante": {
       "nome": "TATITTA FC",
-      "pontos": 56.16
+      "pontos": 56.96
     },
     "visitante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 79.06
+      "pontos": 79.86
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieCMeta = {"rodada_parcial": 3, "parcial_disponivel": true};
+window.ligaSerieCMeta = {"rodada_parcial": null, "parcial_disponivel": false};
