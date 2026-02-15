@@ -36,6 +36,7 @@ window.participantesLiga = [
   "Profit Soccer",
   "PUXE FC",
   "Rolo Compressor ZN",
+  "RS Expressões da Arte",
   "S.E.R. GRILLO",
   "seralex",
   "SERGRILLO",
