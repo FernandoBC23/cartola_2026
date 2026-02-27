@@ -6,9 +6,9 @@ const classificacaoSerieC = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 304.5,
-      "cartolaSofrido": 240.38994140625,
-      "saldoCartola": 64.11005859375001,
+      "totalCartola": 327.93,
+      "cartolaSofrido": 260.98994140625,
+      "saldoCartola": 66.94005859375,
       "posicao": 1
     },
     {
@@ -17,32 +17,10 @@ const classificacaoSerieC = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 302.65,
-      "cartolaSofrido": 255.649560546875,
-      "saldoCartola": 47.00043945312498,
+      "totalCartola": 321.15,
+      "cartolaSofrido": 274.849560546875,
+      "saldoCartola": 46.300439453124966,
       "posicao": 2
-    },
-    {
-      "nome": "Mau Humor F.C.",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 279.76962890625,
-      "cartolaSofrido": 303.0998046875,
-      "saldoCartola": -23.330175781250038,
-      "posicao": 3
-    },
-    {
-      "nome": "Gremiomaniasm",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 278.709951171875,
-      "cartolaSofrido": 251.25016601562496,
-      "saldoCartola": 27.459785156250007,
-      "posicao": 4
     },
     {
       "nome": "Dom Camillo68",
@@ -50,10 +28,43 @@ const classificacaoSerieC = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 274.43017578125,
-      "cartolaSofrido": 247.6099609375,
-      "saldoCartola": 26.820214843749994,
+      "totalCartola": 321.41017578125,
+      "cartolaSofrido": 271.1099609375,
+      "saldoCartola": 50.30021484375004,
+      "posicao": 3
+    },
+    {
+      "nome": "cartola scheuer17",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 314.65,
+      "cartolaSofrido": 266.890078125,
+      "saldoCartola": 47.759921874999975,
+      "posicao": 4
+    },
+    {
+      "nome": "Mau Humor F.C.",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 301.86962890625,
+      "cartolaSofrido": 321.5298046875,
+      "saldoCartola": -19.660175781250015,
       "posicao": 5
+    },
+    {
+      "nome": "Gremiomaniasm",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 288.709951171875,
+      "cartolaSofrido": 255.600166015625,
+      "saldoCartola": 33.109785156249984,
+      "posicao": 6
     },
     {
       "nome": "A Lenda Super Vasco F.c",
@@ -61,20 +72,9 @@ const classificacaoSerieC = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 257.7001171875,
+      "totalCartola": 279.3001171875,
       "cartolaSofrido": 227.750068359375,
-      "saldoCartola": 29.950048828124977,
-      "posicao": 6
-    },
-    {
-      "nome": "TEAM LOPES 99",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 303.55990234375,
-      "cartolaSofrido": 286.030048828125,
-      "saldoCartola": 17.52985351562495,
+      "saldoCartola": 51.550048828125,
       "posicao": 7
     },
     {
@@ -83,21 +83,10 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 299.12958984375,
-      "cartolaSofrido": 285.95966796875,
-      "saldoCartola": 13.169921875,
+      "totalCartola": 322.72958984375,
+      "cartolaSofrido": 296.65966796875,
+      "saldoCartola": 26.069921874999977,
       "posicao": 8
-    },
-    {
-      "nome": "cartola scheuer17",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 296.15,
-      "cartolaSofrido": 266.710078125,
-      "saldoCartola": 29.439921874999985,
-      "posicao": 9
     },
     {
       "nome": "CAFÉ AMARGO PRO26.2",
@@ -105,21 +94,21 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 282.36953125,
-      "cartolaSofrido": 250.160009765625,
-      "saldoCartola": 32.20952148437502,
-      "posicao": 10
+      "totalCartola": 301.56953125,
+      "cartolaSofrido": 268.660009765625,
+      "saldoCartola": 32.909521484375034,
+      "posicao": 9
     },
     {
-      "nome": "Tatols Beants F.C",
+      "nome": "FBC Colorado",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 278.24029296875,
-      "cartolaSofrido": 344.31953125,
-      "saldoCartola": -66.07923828125001,
-      "posicao": 11
+      "totalCartola": 300.829658203125,
+      "cartolaSofrido": 329.279677734375,
+      "saldoCartola": -28.450019531250007,
+      "posicao": 10
     },
     {
       "nome": "Paulo Virgili FC",
@@ -127,9 +116,20 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 270.26962890625,
-      "cartolaSofrido": 255.7099609375,
-      "saldoCartola": 14.559667968749975,
+      "totalCartola": 293.76962890625,
+      "cartolaSofrido": 302.6899609375,
+      "saldoCartola": -8.920332031250041,
+      "posicao": 11
+    },
+    {
+      "nome": "Tatols Beants F.C",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 2,
+      "totalCartola": 282.89029296875003,
+      "cartolaSofrido": 362.01953125,
+      "saldoCartola": -79.12923828124997,
       "posicao": 12
     },
     {
@@ -138,9 +138,9 @@ const classificacaoSerieC = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 263.949658203125,
-      "cartolaSofrido": 254.819677734375,
-      "saldoCartola": 9.129980468750006,
+      "totalCartola": 282.379658203125,
+      "cartolaSofrido": 276.919677734375,
+      "saldoCartola": 5.459980468750018,
       "posicao": 13
     },
     {
@@ -149,43 +149,21 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 305.549755859375,
-      "cartolaSofrido": 304.2398046875,
-      "saldoCartola": 1.3099511718750136,
+      "totalCartola": 323.249755859375,
+      "cartolaSofrido": 308.88980468750003,
+      "saldoCartola": 14.359951171874968,
       "posicao": 14
     },
     {
-      "nome": "FBC Colorado",
+      "nome": "TEAM LOPES 99",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 283.129658203125,
-      "cartolaSofrido": 327.57967773437497,
-      "saldoCartola": -44.45001953124995,
+      "totalCartola": 305.25990234375,
+      "cartolaSofrido": 303.730048828125,
+      "saldoCartola": 1.5298535156250068,
       "posicao": 15
-    },
-    {
-      "nome": "Rolo Compressor  ZN",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 274.36955078125,
-      "cartolaSofrido": 322.45970703125,
-      "saldoCartola": -48.09015625000001,
-      "posicao": 16
-    },
-    {
-      "nome": "TIGRE LEON",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 264.969921875,
-      "cartolaSofrido": 283.35029296875,
-      "saldoCartola": -18.38037109375,
-      "posicao": 17
     },
     {
       "nome": "TATITTA FC",
@@ -193,20 +171,42 @@ const classificacaoSerieC = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 259.9900390625,
-      "cartolaSofrido": 272.49951171875,
-      "saldoCartola": -12.509472656250011,
-      "posicao": 18
+      "totalCartola": 280.5900390625,
+      "cartolaSofrido": 295.92951171875,
+      "saldoCartola": -15.339472656249995,
+      "posicao": 16
     },
     {
-      "nome": "mercearia Estrela",
+      "nome": "Rolo Compressor  ZN",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 237.8497265625,
-      "cartolaSofrido": 293.37998046875,
-      "saldoCartola": -55.53025390624998,
+      "totalCartola": 278.71955078125,
+      "cartolaSofrido": 332.45970703125,
+      "saldoCartola": -53.740156249999984,
+      "posicao": 17
+    },
+    {
+      "nome": "TIGRE LEON",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 275.669921875,
+      "cartolaSofrido": 306.95029296875,
+      "saldoCartola": -31.280371093749977,
+      "posicao": 18
+    },
+    {
+      "nome": "mercearia Estrela",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 4,
+      "totalCartola": 238.0297265625,
+      "cartolaSofrido": 311.87998046875,
+      "saldoCartola": -73.85025390624997,
       "posicao": 19
     },
     {
@@ -216,8 +216,8 @@ const classificacaoSerieC = {
       "empates": 0,
       "derrotas": 4,
       "totalCartola": 206.07990234375,
-      "cartolaSofrido": 250.39958007812496,
-      "saldoCartola": -44.31967773437498,
+      "cartolaSofrido": 271.999580078125,
+      "saldoCartola": -65.919677734375,
       "posicao": 20
     }
   ]

@@ -4,121 +4,121 @@ const classificacaoLigaClassica = {
       "Rodada 1": 68.06005859375,
       "Rodada 2": 72.7001953125,
       "Rodada 3": 79.85986328125,
-      "Rodada 4": 37.08
+      "Rodada 4": 58.68
     },
     "A Lenda Super Vascão f.c": {
       "Rodada 1": 54.10009765625,
       "Rodada 2": 82.0,
       "Rodada 3": 72.9599609375,
-      "Rodada 4": 33.95
+      "Rodada 4": 57.25
     },
     "AZURRA82": {
       "Rodada 1": 38.260009765625,
       "Rodada 2": 99.5,
       "Rodada 3": 71.85986328125,
-      "Rodada 4": 42.95
+      "Rodada 4": 83.15
     },
     "Bandoleros FCS": {
       "Rodada 1": 74.06005859375,
       "Rodada 2": 93.77978515625,
       "Rodada 3": 94.259765625,
-      "Rodada 4": 55.75
+      "Rodada 4": 74.95
     },
     "BordonFC04": {
       "Rodada 1": 62.260009765625,
       "Rodada 2": 73.91015625,
       "Rodada 3": 85.10009765625,
-      "Rodada 4": 53.25
+      "Rodada 4": 82.45
     },
     "C.A. Charru@": {
       "Rodada 1": 71.7099609375,
       "Rodada 2": 57.0,
       "Rodada 3": 80.2001953125,
-      "Rodada 4": 40.7
+      "Rodada 4": 62.0
     },
     "cartola scheuer17": {
       "Rodada 1": 61.56005859375,
       "Rodada 2": 82.18017578125,
       "Rodada 3": 105.759765625,
-      "Rodada 4": 46.65
+      "Rodada 4": 65.15
     },
     "CARTOLEIRO DO VALLE PRO26.5": {
       "Rodada 1": 73.759765625,
       "Rodada 2": 81.39990234375,
       "Rodada 3": 81.35986328125,
-      "Rodada 4": 45.85
+      "Rodada 4": 65.05
     },
     "dasdoresfc": {
       "Rodada 1": 72.85986328125,
       "Rodada 2": 65.14990234375,
       "Rodada 3": 80.2998046875,
-      "Rodada 4": 67.05
+      "Rodada 4": 77.05
     },
     "DM Studio": {
       "Rodada 1": 60.199951171875,
       "Rodada 2": 92.330078125,
       "Rodada 3": 80.56005859375,
-      "Rodada 4": 47.25
+      "Rodada 4": 66.65
     },
     "Dom Camillo68": {
       "Rodada 1": 72.7001953125,
       "Rodada 2": 64.580078125,
       "Rodada 3": 98.64990234375,
-      "Rodada 4": 38.5
+      "Rodada 4": 85.48
     },
     "FBC Colorado": {
       "Rodada 1": 53.659912109375,
       "Rodada 2": 81.47998046875,
       "Rodada 3": 79.259765625,
-      "Rodada 4": 68.73
+      "Rodada 4": 86.43
     },
     "FBC Colorado II": {
       "Rodada 1": 56.9599609375,
       "Rodada 2": 96.0498046875,
       "Rodada 3": 71.56005859375,
-      "Rodada 4": 54.18
+      "Rodada 4": 71.18
     },
     "FC castelo Branco 2": {
       "Rodada 1": 37.820068359375,
       "Rodada 2": 64.02978515625,
       "Rodada 3": 78.990234375,
-      "Rodada 4": 36.38
+      "Rodada 4": 36.58
     },
     "FC Los Castilho": {
       "Rodada 1": 56.260009765625,
       "Rodada 2": 74.89990234375,
       "Rodada 3": 87.33984375,
-      "Rodada 4": 48.25
+      "Rodada 4": 69.65
     },
     "Fedato Futebol Clube": {
       "Rodada 1": 63.89990234375,
       "Rodada 2": 92.77978515625,
       "Rodada 3": 78.39990234375,
-      "Rodada 4": 64.05
+      "Rodada 4": 87.65
     },
     "FIGUEIRA DA ILHA": {
       "Rodada 1": 44.06005859375,
       "Rodada 2": 85.7001953125,
       "Rodada 3": 65.259765625,
-      "Rodada 4": 34.05
+      "Rodada 4": 74.25
     },
     "FÚRIA LEON": {
       "Rodada 1": 54.159912109375,
       "Rodada 2": 86.7001953125,
       "Rodada 3": 75.56005859375,
-      "Rodada 4": 62.15
+      "Rodada 4": 82.05
     },
     "Gig@ntte": {
       "Rodada 1": 40.60009765625,
       "Rodada 2": 67.8701171875,
       "Rodada 3": 73.64990234375,
-      "Rodada 4": 19.6
+      "Rodada 4": 74.03
     },
     "Gremiomaniasm": {
       "Rodada 1": 57.449951171875,
       "Rodada 2": 83.2001953125,
       "Rodada 3": 70.7998046875,
-      "Rodada 4": 67.26
+      "Rodada 4": 77.26
     },
     "Grêmio imortal 37": {
       "Rodada 1": 57.60009765625,
@@ -130,7 +130,7 @@ const classificacaoLigaClassica = {
       "Rodada 1": 54.60009765625,
       "Rodada 2": 85.580078125,
       "Rodada 3": 67.759765625,
-      "Rodada 4": 40.05
+      "Rodada 4": 52.25
     },
     "JV5 Tricolor Gaúcho": {
       "Rodada 1": 47.860107421875,
@@ -148,13 +148,13 @@ const classificacaoLigaClassica = {
       "Rodada 1": 62.56005859375,
       "Rodada 2": 96.47998046875,
       "Rodada 3": 87.4599609375,
-      "Rodada 4": 58.0
+      "Rodada 4": 81.43
     },
     "Luis lemes inter": {
       "Rodada 1": 65.009765625,
       "Rodada 2": 70.14990234375,
       "Rodada 3": 101.740234375,
-      "Rodada 4": 42.43
+      "Rodada 4": 63.13
     },
     "MAFRA MARTINS FC": {
       "Rodada 1": 58.510009765625,
@@ -166,43 +166,43 @@ const classificacaoLigaClassica = {
       "Rodada 1": 73.9599609375,
       "Rodada 2": 92.89990234375,
       "Rodada 3": 81.759765625,
-      "Rodada 4": 31.15
+      "Rodada 4": 53.25
     },
     "mercearia Estrela": {
       "Rodada 1": 51.56005859375,
       "Rodada 2": 63.39990234375,
       "Rodada 3": 65.259765625,
-      "Rodada 4": 57.63
+      "Rodada 4": 57.81
     },
     "Máquina Laranjja": {
       "Rodada 1": 49.760009765625,
       "Rodada 2": 77.47998046875,
       "Rodada 3": 81.259765625,
-      "Rodada 4": 47.68
+      "Rodada 4": 84.88
     },
     "NaoVaiDescer!": {
       "Rodada 1": 44.260009765625,
       "Rodada 2": 90.0,
       "Rodada 3": 68.9599609375,
-      "Rodada 4": 37.3
+      "Rodada 4": 73.23
     },
     "Paulo Virgili FC": {
       "Rodada 1": 84.259765625,
       "Rodada 2": 82.60986328125,
       "Rodada 3": 81.25,
-      "Rodada 4": 22.15
+      "Rodada 4": 45.65
     },
     "Pity10": {
       "Rodada 1": 64.56005859375,
       "Rodada 2": 105.5,
       "Rodada 3": 81.16015625,
-      "Rodada 4": 47.55
+      "Rodada 4": 66.75
     },
     "pra sempre imortal fc": {
       "Rodada 1": 43.510009765625,
       "Rodada 2": 60.8798828125,
       "Rodada 3": 78.259765625,
-      "Rodada 4": 81.3
+      "Rodada 4": 99.73
     },
     "Profit Soccer": {
       "Rodada 1": 57.4599609375,
@@ -214,37 +214,37 @@ const classificacaoLigaClassica = {
       "Rodada 1": 64.56005859375,
       "Rodada 2": 86.60009765625,
       "Rodada 3": 70.35986328125,
-      "Rodada 4": 35.6
+      "Rodada 4": 34.9
     },
     "Rolo Compressor ZN": {
       "Rodada 1": 59.25,
       "Rodada 2": 73.77978515625,
       "Rodada 3": 93.759765625,
-      "Rodada 4": 47.58
+      "Rodada 4": 51.93
     },
     "RS Expressões da Arte": {
       "Rodada 1": 58.25,
       "Rodada 2": 63.780029296875,
       "Rodada 3": 68.43994140625,
-      "Rodada 4": 66.08
+      "Rodada 4": 66.28
     },
     "S.E.R. GRILLO": {
       "Rodada 1": 84.85986328125,
       "Rodada 2": 79.4501953125,
       "Rodada 3": 78.93994140625,
-      "Rodada 4": 44.63
+      "Rodada 4": 47.73
     },
     "seralex": {
       "Rodada 1": 60.159912109375,
       "Rodada 2": 64.580078125,
       "Rodada 3": 88.759765625,
-      "Rodada 4": 92.05
+      "Rodada 4": 109.75
     },
     "SERGRILLO": {
       "Rodada 1": 49.0,
       "Rodada 2": 36.429931640625,
       "Rodada 3": 54.35009765625,
-      "Rodada 4": 24.25
+      "Rodada 4": 29.85
     },
     "Sport Clube PAIM": {
       "Rodada 1": 61.659912109375,
@@ -256,7 +256,7 @@ const classificacaoLigaClassica = {
       "Rodada 1": 42.9599609375,
       "Rodada 2": 91.47998046875,
       "Rodada 3": 99.35986328125,
-      "Rodada 4": 45.75
+      "Rodada 4": 74.55
     },
     "SUPER VASCÃO F.C": {
       "Rodada 1": 54.10009765625,
@@ -274,49 +274,49 @@ const classificacaoLigaClassica = {
       "Rodada 1": 64.2001953125,
       "Rodada 2": 95.3798828125,
       "Rodada 3": 56.9599609375,
-      "Rodada 4": 43.45
+      "Rodada 4": 64.05
     },
     "Tatols Beants F.C": {
       "Rodada 1": 66.85986328125,
       "Rodada 2": 92.7001953125,
       "Rodada 3": 72.740234375,
-      "Rodada 4": 45.94
+      "Rodada 4": 50.59
     },
     "TEAM LOPES 99": {
       "Rodada 1": 58.9599609375,
       "Rodada 2": 79.27978515625,
       "Rodada 3": 86.66015625,
-      "Rodada 4": 78.66
+      "Rodada 4": 80.36
     },
     "teves_futsal20 f.c": {
       "Rodada 1": 70.0,
       "Rodada 2": 87.5,
       "Rodada 3": 88.06005859375,
-      "Rodada 4": 32.9
+      "Rodada 4": 58.53
     },
     "Texas Club 2026": {
       "Rodada 1": 68.06005859375,
       "Rodada 2": 82.18017578125,
       "Rodada 3": 105.759765625,
-      "Rodada 4": 46.65
+      "Rodada 4": 65.15
     },
     "TIGRE LEON": {
       "Rodada 1": 51.260009765625,
       "Rodada 2": 95.5,
       "Rodada 3": 61.159912109375,
-      "Rodada 4": 57.05
+      "Rodada 4": 67.75
     },
     "Time do S.A.P.O": {
       "Rodada 1": 72.16015625,
       "Rodada 2": 93.47998046875,
       "Rodada 3": 85.259765625,
-      "Rodada 4": 68.35
+      "Rodada 4": 103.05
     },
     "VASCO MARTINS FC": {
       "Rodada 1": 55.89990234375,
       "Rodada 2": 77.3798828125,
       "Rodada 3": 43.909912109375,
-      "Rodada 4": 31.4
+      "Rodada 4": 76.08
     }
   },
   "turnos": {
@@ -433,59 +433,59 @@ const classificacaoLigaClassica = {
       "FC castelo Branco 2": 37.820068359375
     },
     "Fevereiro": {
+      "Time do S.A.P.O": 281.78974609375,
+      "Super Vasco f.c": 265.38984375,
+      "lsauer fc": 265.36994140625,
+      "seralex": 263.08984375,
+      "Bandoleros FCS": 262.98955078125,
       "LISI GREMISTA": 261.2896484375,
+      "Fedato Futebol Clube": 258.8296875,
+      "AZURRA82": 254.50986328125,
+      "Pity10": 253.41015625,
+      "Texas Club 2026": 253.08994140625,
+      "cartola scheuer17": 253.08994140625,
       "JV5 Tricolor Gaúcho": 251.230078125,
       "Grêmio imortal 37": 249.33986328125002,
-      "Time do S.A.P.O": 247.08974609375,
-      "seralex": 245.38984375,
-      "TEAM LOPES 99": 244.59994140625,
-      "Bandoleros FCS": 243.78955078125,
-      "lsauer fc": 241.93994140625,
-      "Super Vasco f.c": 236.58984375,
-      "Fedato Futebol Clube": 235.2296875,
-      "Texas Club 2026": 234.58994140625,
-      "cartola scheuer17": 234.58994140625,
-      "Pity10": 234.21015625,
-      "FBC Colorado": 229.46974609375002,
+      "Dom Camillo68": 248.70998046875002,
+      "FBC Colorado": 247.16974609375,
+      "TEAM LOPES 99": 246.29994140625,
+      "FÚRIA LEON": 244.31025390625,
+      "Máquina Laranjja": 243.61974609375,
+      "BordonFC04": 241.46025390625,
+      "DM Studio": 239.54013671875,
+      "pra sempre imortal fc": 238.86964843750002,
+      "FBC Colorado II": 238.78986328125,
+      "Luis lemes inter": 235.02013671875,
+      "teves_futsal20 f.c": 234.09005859375,
+      "NaoVaiDescer!": 232.18996093750002,
+      "FC Los Castilho": 231.88974609375,
+      "Gremiomaniasm": 231.26,
+      "Mau Humor F.C.": 227.90966796875,
+      "CARTOLEIRO DO VALLE PRO26.5": 227.809765625,
+      "FIGUEIRA DA ILHA": 225.2099609375,
       "Tabajara de Inhaua PB1": 225.0298828125,
-      "FÚRIA LEON": 224.41025390625,
-      "FBC Colorado II": 221.78986328125,
-      "Gremiomaniasm": 221.26,
-      "pra sempre imortal fc": 220.4396484375,
-      "DM Studio": 220.14013671875,
+      "TIGRE LEON": 224.409912109375,
+      "dasdoresfc": 222.49970703125,
+      "Rolo Compressor ZN": 219.46955078125,
       "Profit Soccer": 218.41994140625,
-      "Rolo Compressor ZN": 215.11955078124998,
-      "Luis lemes inter": 214.32013671875,
-      "AZURRA82": 214.30986328125,
-      "TIGRE LEON": 213.709912109375,
-      "dasdoresfc": 212.49970703125,
-      "BordonFC04": 212.26025390625,
-      "Tatols Beants F.C": 211.3804296875,
-      "FC Los Castilho": 210.48974609375,
-      "CARTOLEIRO DO VALLE PRO26.5": 208.609765625,
-      "teves_futsal20 f.c": 208.46005859375,
-      "Máquina Laranjja": 206.41974609375,
-      "Mau Humor F.C.": 205.80966796875,
+      "TATITTA FC": 216.38984375,
+      "Tatols Beants F.C": 216.0304296875,
+      "Gig@ntte": 215.55001953125,
+      "A Lenda Super Vascão f.c": 212.2099609375,
+      "A Lenda Super Vasco F.c": 211.24005859375,
+      "Paulo Virgili FC": 209.50986328125,
+      "S.E.R. GRILLO": 206.12013671875,
+      "JUV. KP": 205.58984375,
       "Sport Clube PAIM": 204.87990234375,
-      "S.E.R. GRILLO": 203.02013671875,
-      "Dom Camillo68": 201.72998046875,
-      "RS Expressões da Arte": 198.29997070312498,
-      "NaoVaiDescer!": 196.2599609375,
-      "TATITTA FC": 195.78984375,
-      "JUV. KP": 193.38984375,
-      "PUXE FC": 192.5599609375,
-      "A Lenda Super Vasco F.c": 189.64005859374998,
-      "A Lenda Super Vascão f.c": 188.9099609375,
+      "C.A. Charru@": 199.2001953125,
+      "RS Expressões da Arte": 198.499970703125,
+      "VASCO MARTINS FC": 197.36979492187498,
+      "PUXE FC": 191.8599609375,
       "SUPER VASCÃO F.C": 187.64990234375,
-      "mercearia Estrela": 186.28966796875,
-      "Paulo Virgili FC": 186.00986328125,
-      "FIGUEIRA DA ILHA": 185.0099609375,
-      "FC castelo Branco 2": 179.40001953125,
-      "C.A. Charru@": 177.9001953125,
-      "Gig@ntte": 161.12001953125,
+      "mercearia Estrela": 186.46966796875,
+      "FC castelo Branco 2": 179.60001953124998,
       "MAFRA MARTINS FC": 159.439892578125,
-      "VASCO MARTINS FC": 152.689794921875,
-      "SERGRILLO": 115.030029296875
+      "SERGRILLO": 120.630029296875
     },
     "Marco": {
       "A Lenda Super Vasco F.c": 0.0,
@@ -712,58 +712,58 @@ const classificacaoLigaClassica = {
 const pontuacaoParcialRodadaAtual = {
   "rodada": 4,
   "times": {
-    "117598": 37.08,
-    "49355335": 33.95,
-    "18346776": 42.95,
-    "13913874": 55.75,
-    "50988641": 53.25,
-    "25748736": 40.7,
-    "3851966": 46.65,
-    "49243759": 45.85,
-    "7017989": 67.05,
-    "387186": 47.25,
-    "20696550": 38.5,
-    "186283": 68.73,
-    "1863710": 54.18,
-    "48279389": 36.38,
-    "25311459": 48.25,
-    "18642587": 64.05,
-    "25565675": 34.05,
-    "18344271": 62.15,
-    "18421230": 19.6,
-    "528730": 67.26,
+    "117598": 58.68,
+    "49355335": 57.25,
+    "18346776": 83.15,
+    "13913874": 74.95,
+    "50988641": 82.45,
+    "25748736": 62.0,
+    "3851966": 65.15,
+    "49243759": 65.05,
+    "7017989": 77.05,
+    "387186": 66.65,
+    "20696550": 85.48,
+    "186283": 86.43,
+    "1863710": 71.18,
+    "48279389": 36.58,
+    "25311459": 69.65,
+    "18642587": 87.65,
+    "25565675": 74.25,
+    "18344271": 82.05,
+    "18421230": 74.03,
+    "528730": 77.26,
     "24468241": 85.98,
-    "13951133": 40.05,
+    "13951133": 52.25,
     "1747619": 81.65,
     "51010813": 81.65,
-    "44810918": 58.0,
-    "20340994": 42.43,
+    "44810918": 81.43,
+    "20340994": 63.13,
     "4911779": 52.55,
-    "19033717": 31.15,
-    "25401606": 57.63,
-    "30267301": 47.68,
-    "3708025": 37.3,
-    "14124559": 22.15,
-    "48498051": 47.55,
-    "25313333": 81.3,
+    "19033717": 53.25,
+    "25401606": 57.81,
+    "30267301": 84.88,
+    "3708025": 73.23,
+    "14124559": 45.65,
+    "48498051": 66.75,
+    "25313333": 99.73,
     "9823692": 52.98,
-    "3447341": 35.6,
-    "18223508": 47.58,
-    "896842": 66.08,
-    "5823700": 44.63,
-    "29228373": 92.05,
-    "25811332": 24.25,
+    "3447341": 34.9,
+    "18223508": 51.93,
+    "896842": 66.28,
+    "5823700": 47.73,
+    "29228373": 109.75,
+    "25811332": 29.85,
     "1148959": 51.73,
-    "13707047": 45.75,
+    "13707047": 74.55,
     "4229593": 48.75,
     "28741323": 53.15,
-    "49180400": 43.45,
-    "212042": 45.94,
-    "479510": 78.66,
-    "335716": 32.9,
-    "1273719": 46.65,
-    "3424598": 57.05,
-    "2981301": 68.35,
-    "14696986": 31.4
+    "49180400": 64.05,
+    "212042": 50.59,
+    "479510": 80.36,
+    "335716": 58.53,
+    "1273719": 65.15,
+    "3424598": 67.75,
+    "2981301": 103.05,
+    "14696986": 76.08
   }
 };

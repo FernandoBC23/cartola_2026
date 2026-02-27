@@ -364,11 +364,11 @@ const resultadosFase1 = [
     "rodada": 4,
     "mandante": {
       "nome": "Esquadrão Gazembrino",
-      "pontos": 75.96
+      "pontos": 121.76
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 68.73
+      "pontos": 86.43
     }
   },
   {
@@ -380,7 +380,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Arran Katoko FC",
-      "pontos": 43.0
+      "pontos": 49.43
     }
   },
   {
@@ -388,7 +388,7 @@ const resultadosFase1 = [
     "rodada": 4,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": 58.0
+      "pontos": 81.43
     },
     "visitante": {
       "nome": "Medonho´s F.C.",
@@ -400,11 +400,11 @@ const resultadosFase1 = [
     "rodada": 4,
     "mandante": {
       "nome": "Grêmio_Campeão_LA_27",
-      "pontos": 47.9
+      "pontos": 49.45
     },
     "visitante": {
       "nome": "GE Bebum",
-      "pontos": 56.16
+      "pontos": 56.36
     }
   },
   {
@@ -416,7 +416,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Pepe Leal FC",
-      "pontos": 37.16
+      "pontos": 42.56
     }
   },
   {
@@ -424,7 +424,7 @@ const resultadosFase1 = [
     "rodada": 4,
     "mandante": {
       "nome": "GrioTeam",
-      "pontos": 56.68
+      "pontos": 76.06
     },
     "visitante": {
       "nome": "SC 100 Sono",
@@ -436,11 +436,11 @@ const resultadosFase1 = [
     "rodada": 4,
     "mandante": {
       "nome": "C R Juvenal",
-      "pontos": 47.5
+      "pontos": 55.0
     },
     "visitante": {
       "nome": "SC ÉoINTER!",
-      "pontos": 43.35
+      "pontos": 45.55
     }
   },
   {
@@ -448,11 +448,11 @@ const resultadosFase1 = [
     "rodada": 4,
     "mandante": {
       "nome": "Doug Leal F.C",
-      "pontos": 44.35
+      "pontos": 61.35
     },
     "visitante": {
       "nome": "bugredasmissões",
-      "pontos": 51.6
+      "pontos": 77.23
     }
   },
   {
@@ -464,7 +464,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "NHU PORÃ SAF.",
-      "pontos": 47.84
+      "pontos": 72.24
     }
   },
   {
@@ -472,11 +472,11 @@ const resultadosFase1 = [
     "rodada": 4,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 46.65
+      "pontos": 65.15
     },
     "visitante": {
       "nome": "La Primeira Patada Es Nuestra",
-      "pontos": 43.55
+      "pontos": 62.75
     }
   },
   {
