@@ -484,11 +484,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "TIGRE LEON",
-      "pontos": null
+      "pontos": 6.0
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": null
+      "pontos": 25.7
     }
   },
   {
@@ -496,11 +496,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": null
+      "pontos": 20.9
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": null
+      "pontos": 20.7
     }
   },
   {
@@ -508,11 +508,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": null
+      "pontos": 10.5
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": null
+      "pontos": 22.3
     }
   },
   {
@@ -520,11 +520,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": null
+      "pontos": 13.8
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": null
+      "pontos": 22.3
     }
   },
   {
@@ -536,7 +536,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": null
+      "pontos": 13.9
     }
   },
   {
@@ -544,11 +544,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "Atlético Colorado 2021",
-      "pontos": null
+      "pontos": 17.3
     },
     "visitante": {
       "nome": "Paulo Virgili FC",
-      "pontos": null
+      "pontos": 14.9
     }
   },
   {
@@ -556,11 +556,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": null
+      "pontos": 11.3
     },
     "visitante": {
       "nome": "Gremiomaniasm",
-      "pontos": null
+      "pontos": 20.17
     }
   },
   {
@@ -568,11 +568,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "MAFRA MARTINS FC",
-      "pontos": null
+      "pontos": 14.6
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": null
+      "pontos": 11.7
     }
   },
   {
@@ -580,11 +580,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "VASCO MARTINS FC",
-      "pontos": null
+      "pontos": 16.9
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": null
+      "pontos": 10.5
     }
   },
   {
@@ -592,11 +592,11 @@ const resultadosFase1 = [
     "rodada": 5,
     "mandante": {
       "nome": "pura bucha/internacional",
-      "pontos": null
+      "pontos": 18.74
     },
     "visitante": {
       "nome": "seralex",
-      "pontos": null
+      "pontos": 20.6
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieAMeta = {"rodada_parcial": null, "parcial_disponivel": false};
+window.ligaSerieAMeta = {"rodada_parcial": 5, "parcial_disponivel": true};
