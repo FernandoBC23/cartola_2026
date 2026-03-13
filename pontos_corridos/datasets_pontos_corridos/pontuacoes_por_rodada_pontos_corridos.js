@@ -48,6 +48,13 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 30.800048828125,
     "Rodada 5": 52.5400390625
   },
+  "GE Xavanchesteer": {
+    "Rodada 1": 56.050048828125,
+    "Rodada 2": 70.43994140625,
+    "Rodada 3": 71.64013671875,
+    "Rodada 4": 56.360107421875,
+    "Rodada 5": 88.240234375
+  },
   "GrioTeam": {
     "Rodada 1": 61.56005859375,
     "Rodada 2": 83.47998046875,

@@ -7,8 +7,8 @@ const resultadosFase1 = [
       "pontos": 53.66
     },
     "visitante": {
-      "nome": "GE Bebum",
-      "pontos": null
+      "nome": "GE Xavanchesteer",
+      "pontos": 56.05
     }
   },
   {
@@ -183,8 +183,8 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 2,
     "mandante": {
-      "nome": "GE Bebum",
-      "pontos": null
+      "nome": "GE Xavanchesteer",
+      "pontos": 70.44
     },
     "visitante": {
       "nome": "bugredasmissões",
@@ -291,8 +291,8 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 3,
     "mandante": {
-      "nome": "GE Bebum",
-      "pontos": null
+      "nome": "GE Xavanchesteer",
+      "pontos": 71.64
     },
     "visitante": {
       "nome": "SC 100 Sono",
@@ -403,8 +403,8 @@ const resultadosFase1 = [
       "pontos": 49.45
     },
     "visitante": {
-      "nome": "GE Bebum",
-      "pontos": null
+      "nome": "GE Xavanchesteer",
+      "pontos": 56.36
     }
   },
   {
@@ -511,8 +511,8 @@ const resultadosFase1 = [
       "pontos": 87.92
     },
     "visitante": {
-      "nome": "GE Bebum",
-      "pontos": null
+      "nome": "GE Xavanchesteer",
+      "pontos": 88.24
     }
   },
   {
@@ -615,7 +615,7 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 6,
     "mandante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     },
     "visitante": {
@@ -747,7 +747,7 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 7,
     "mandante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     },
     "visitante": {
@@ -883,7 +883,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },
@@ -1011,7 +1011,7 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 9,
     "mandante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     },
     "visitante": {
@@ -1147,7 +1147,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },
@@ -1267,7 +1267,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },
@@ -1395,7 +1395,7 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 12,
     "mandante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     },
     "visitante": {
@@ -1531,7 +1531,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },
@@ -1659,7 +1659,7 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 14,
     "mandante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     },
     "visitante": {
@@ -1795,7 +1795,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },
@@ -1915,7 +1915,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },
@@ -2023,7 +2023,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },
@@ -2127,7 +2127,7 @@ const resultadosFase1 = [
     "grupo": "Pontos Corridos",
     "rodada": 18,
     "mandante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     },
     "visitante": {
@@ -2239,7 +2239,7 @@ const resultadosFase1 = [
       "pontos": null
     },
     "visitante": {
-      "nome": "GE Bebum",
+      "nome": "GE Xavanchesteer",
       "pontos": null
     }
   },

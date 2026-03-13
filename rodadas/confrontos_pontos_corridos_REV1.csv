@@ -1,0 +1,191 @@
+Rodada,Confronto,Time A,Time B,ID A,ID B
+1,1,FBC Colorado,GE Xavanchesteer,186283,16411206
+1,2,GaúchoDaFronteira F.C,Pepe Leal FC,2371918,1326835
+1,3,Grêmio_Campeão_LA_27,SC 100 Sono,47775950,14709358
+1,4,Medonho´s F.C.,C R Juvenal,1867254,1488983
+1,5,bugredasmissões,Arran Katoko FC,19209079,19833277
+1,6,lsauer fc,JV5 Tricolor Gaúcho,44810918,1747619
+1,7,Pontaç0 F.C.,La Primeira Patada Es Nuestra,20651178,32966
+1,8,GrioTeam,Texas Club 2026,14933455,1273719
+1,9,Esquadrão Gazembrino,SC ÉoINTER!,2916559,184499
+1,10,Doug Leal F.C,NHU PORÃ SAF.,287965,4088673
+2,1,FBC Colorado,GrioTeam,186283,14933455
+2,2,Grêmio_Campeão_LA_27,GaúchoDaFronteira F.C,47775950,2371918
+2,3,Pepe Leal FC,Medonho´s F.C.,1326835,1867254
+2,4,SC 100 Sono,Arran Katoko FC,14709358,19833277
+2,5,C R Juvenal,lsauer fc,1488983,44810918
+2,6,GE Xavanchesteer,bugredasmissões,16411206,19209079
+2,7,JV5 Tricolor Gaúcho,Pontaç0 F.C.,1747619,20651178
+2,8,La Primeira Patada Es Nuestra,SC ÉoINTER!,32966,184499
+2,9,Texas Club 2026,Doug Leal F.C,1273719,287965
+2,10,Esquadrão Gazembrino,NHU PORÃ SAF.,2916559,4088673
+3,1,Doug Leal F.C,FBC Colorado,287965,186283
+3,2,Medonho´s F.C.,GaúchoDaFronteira F.C,1867254,2371918
+3,3,Grêmio_Campeão_LA_27,Arran Katoko FC,47775950,19833277
+3,4,lsauer fc,Pepe Leal FC,44810918,1326835
+3,5,GE Xavanchesteer,SC 100 Sono,16411206,14709358
+3,6,C R Juvenal,Pontaç0 F.C.,1488983,20651178
+3,7,GrioTeam,bugredasmissões,14933455,19209079
+3,8,SC ÉoINTER!,JV5 Tricolor Gaúcho,184499,1747619
+3,9,NHU PORÃ SAF.,La Primeira Patada Es Nuestra,4088673,32966
+3,10,Texas Club 2026,Esquadrão Gazembrino,1273719,2916559
+4,1,Esquadrão Gazembrino,FBC Colorado,2916559,186283
+4,2,GaúchoDaFronteira F.C,Arran Katoko FC,2371918,19833277
+4,3,lsauer fc,Medonho´s F.C.,44810918,1867254
+4,4,Grêmio_Campeão_LA_27,GE Xavanchesteer,47775950,16411206
+4,5,Pontaç0 F.C.,Pepe Leal FC,20651178,1326835
+4,6,GrioTeam,SC 100 Sono,14933455,14709358
+4,7,C R Juvenal,SC ÉoINTER!,1488983,184499
+4,8,Doug Leal F.C,bugredasmissões,287965,19209079
+4,9,JV5 Tricolor Gaúcho,NHU PORÃ SAF.,1747619,4088673
+4,10,Texas Club 2026,La Primeira Patada Es Nuestra,1273719,32966
+5,1,La Primeira Patada Es Nuestra,FBC Colorado,32966,186283
+5,2,GaúchoDaFronteira F.C,lsauer fc,2371918,44810918
+5,3,Arran Katoko FC,GE Xavanchesteer,19833277,16411206
+5,4,Medonho´s F.C.,Pontaç0 F.C.,1867254,20651178
+5,5,Grêmio_Campeão_LA_27,GrioTeam,47775950,14933455
+5,6,Pepe Leal FC,SC ÉoINTER!,1326835,184499
+5,7,SC 100 Sono,Doug Leal F.C,14709358,287965
+5,8,NHU PORÃ SAF.,C R Juvenal,4088673,1488983
+5,9,Esquadrão Gazembrino,bugredasmissões,2916559,19209079
+5,10,JV5 Tricolor Gaúcho,Texas Club 2026,1747619,1273719
+6,1,FBC Colorado,JV5 Tricolor Gaúcho,186283,1747619
+6,2,GE Xavanchesteer,GaúchoDaFronteira F.C,16411206,2371918
+6,3,Pontaç0 F.C.,lsauer fc,20651178,44810918
+6,4,GrioTeam,Arran Katoko FC,14933455,19833277
+6,5,Medonho´s F.C.,SC ÉoINTER!,1867254,184499
+6,6,Doug Leal F.C,Grêmio_Campeão_LA_27,287965,47775950
+6,7,Pepe Leal FC,NHU PORÃ SAF.,1326835,4088673
+6,8,SC 100 Sono,Esquadrão Gazembrino,14709358,2916559
+6,9,Texas Club 2026,C R Juvenal,1273719,1488983
+6,10,La Primeira Patada Es Nuestra,bugredasmissões,32966,19209079
+7,1,FBC Colorado,C R Juvenal,186283,1488983
+7,2,GaúchoDaFronteira F.C,Pontaç0 F.C.,2371918,20651178
+7,3,GE Xavanchesteer,GrioTeam,16411206,14933455
+7,4,lsauer fc,SC ÉoINTER!,44810918,184499
+7,5,Doug Leal F.C,Arran Katoko FC,287965,19833277
+7,6,Medonho´s F.C.,NHU PORÃ SAF.,1867254,4088673
+7,7,Grêmio_Campeão_LA_27,Esquadrão Gazembrino,47775950,2916559
+7,8,Texas Club 2026,Pepe Leal FC,1273719,1326835
+7,9,SC 100 Sono,La Primeira Patada Es Nuestra,14709358,32966
+7,10,bugredasmissões,JV5 Tricolor Gaúcho,19209079,1747619
+8,1,FBC Colorado,Pepe Leal FC,186283,1326835
+8,2,GrioTeam,GaúchoDaFronteira F.C,14933455,2371918
+8,3,Pontaç0 F.C.,SC ÉoINTER!,20651178,184499
+8,4,Doug Leal F.C,GE Xavanchesteer,287965,16411206
+8,5,NHU PORÃ SAF.,lsauer fc,4088673,44810918
+8,6,Arran Katoko FC,Esquadrão Gazembrino,19833277,2916559
+8,7,Texas Club 2026,Medonho´s F.C.,1273719,1867254
+8,8,La Primeira Patada Es Nuestra,Grêmio_Campeão_LA_27,32966,47775950
+8,9,JV5 Tricolor Gaúcho,SC 100 Sono,1747619,14709358
+8,10,bugredasmissões,C R Juvenal,19209079,1488983
+9,1,FBC Colorado,Medonho´s F.C.,186283,1867254
+9,2,SC ÉoINTER!,GaúchoDaFronteira F.C,184499,2371918
+9,3,Doug Leal F.C,GrioTeam,287965,14933455
+9,4,NHU PORÃ SAF.,Pontaç0 F.C.,4088673,20651178
+9,5,GE Xavanchesteer,Esquadrão Gazembrino,16411206,2916559
+9,6,lsauer fc,Texas Club 2026,44810918,1273719
+9,7,La Primeira Patada Es Nuestra,Arran Katoko FC,32966,19833277
+9,8,JV5 Tricolor Gaúcho,Grêmio_Campeão_LA_27,1747619,47775950
+9,9,Pepe Leal FC,bugredasmissões,1326835,19209079
+9,10,C R Juvenal,SC 100 Sono,1488983,14709358
+10,1,FBC Colorado,lsauer fc,186283,44810918
+10,2,GaúchoDaFronteira F.C,Doug Leal F.C,2371918,287965
+10,3,SC ÉoINTER!,NHU PORÃ SAF.,184499,4088673
+10,4,GrioTeam,Esquadrão Gazembrino,14933455,2916559
+10,5,Texas Club 2026,Pontaç0 F.C.,1273719,20651178
+10,6,La Primeira Patada Es Nuestra,GE Xavanchesteer,32966,16411206
+10,7,Arran Katoko FC,JV5 Tricolor Gaúcho,19833277,1747619
+10,8,bugredasmissões,Medonho´s F.C.,19209079,1867254
+10,9,Grêmio_Campeão_LA_27,C R Juvenal,47775950,1488983
+10,10,SC 100 Sono,Pepe Leal FC,14709358,1326835
+11,1,Pontaç0 F.C.,FBC Colorado,20651178,186283
+11,2,GaúchoDaFronteira F.C,NHU PORÃ SAF.,2371918,4088673
+11,3,Doug Leal F.C,Esquadrão Gazembrino,287965,2916559
+11,4,Texas Club 2026,SC ÉoINTER!,1273719,184499
+11,5,La Primeira Patada Es Nuestra,GrioTeam,32966,14933455
+11,6,JV5 Tricolor Gaúcho,GE Xavanchesteer,1747619,16411206
+11,7,bugredasmissões,lsauer fc,19209079,44810918
+11,8,Arran Katoko FC,C R Juvenal,19833277,1488983
+11,9,Medonho´s F.C.,SC 100 Sono,1867254,14709358
+11,10,Pepe Leal FC,Grêmio_Campeão_LA_27,1326835,47775950
+12,1,FBC Colorado,SC ÉoINTER!,186283,184499
+12,2,GaúchoDaFronteira F.C,Esquadrão Gazembrino,2371918,2916559
+12,3,NHU PORÃ SAF.,Texas Club 2026,4088673,1273719
+12,4,La Primeira Patada Es Nuestra,Doug Leal F.C,32966,287965
+12,5,GrioTeam,JV5 Tricolor Gaúcho,14933455,1747619
+12,6,Pontaç0 F.C.,bugredasmissões,20651178,19209079
+12,7,GE Xavanchesteer,C R Juvenal,16411206,1488983
+12,8,SC 100 Sono,lsauer fc,14709358,44810918
+12,9,Arran Katoko FC,Pepe Leal FC,19833277,1326835
+12,10,Medonho´s F.C.,Grêmio_Campeão_LA_27,1867254,47775950
+13,1,NHU PORÃ SAF.,FBC Colorado,4088673,186283
+13,2,GaúchoDaFronteira F.C,Texas Club 2026,2371918,1273719
+13,3,La Primeira Patada Es Nuestra,Esquadrão Gazembrino,32966,2916559
+13,4,JV5 Tricolor Gaúcho,Doug Leal F.C,1747619,287965
+13,5,SC ÉoINTER!,bugredasmissões,184499,19209079
+13,6,GrioTeam,C R Juvenal,14933455,1488983
+13,7,SC 100 Sono,Pontaç0 F.C.,14709358,20651178
+13,8,Pepe Leal FC,GE Xavanchesteer,1326835,16411206
+13,9,Grêmio_Campeão_LA_27,lsauer fc,47775950,44810918
+13,10,Arran Katoko FC,Medonho´s F.C.,19833277,1867254
+14,1,Texas Club 2026,FBC Colorado,1273719,186283
+14,2,GaúchoDaFronteira F.C,La Primeira Patada Es Nuestra,2371918,32966
+14,3,Esquadrão Gazembrino,JV5 Tricolor Gaúcho,2916559,1747619
+14,4,NHU PORÃ SAF.,bugredasmissões,4088673,19209079
+14,5,Doug Leal F.C,C R Juvenal,287965,1488983
+14,6,SC 100 Sono,SC ÉoINTER!,14709358,184499
+14,7,GrioTeam,Pepe Leal FC,14933455,1326835
+14,8,Pontaç0 F.C.,Grêmio_Campeão_LA_27,20651178,47775950
+14,9,GE Xavanchesteer,Medonho´s F.C.,16411206,1867254
+14,10,Arran Katoko FC,lsauer fc,19833277,44810918
+15,1,GaúchoDaFronteira F.C,FBC Colorado,2371918,186283
+15,2,La Primeira Patada Es Nuestra,JV5 Tricolor Gaúcho,32966,1747619
+15,3,bugredasmissões,Texas Club 2026,19209079,1273719
+15,4,Esquadrão Gazembrino,C R Juvenal,2916559,1488983
+15,5,SC 100 Sono,NHU PORÃ SAF.,14709358,4088673
+15,6,Doug Leal F.C,Pepe Leal FC,287965,1326835
+15,7,Grêmio_Campeão_LA_27,SC ÉoINTER!,47775950,184499
+15,8,Medonho´s F.C.,GrioTeam,1867254,14933455
+15,9,Arran Katoko FC,Pontaç0 F.C.,19833277,20651178
+15,10,lsauer fc,GE Xavanchesteer,44810918,16411206
+16,1,FBC Colorado,bugredasmissões,186283,19209079
+16,2,JV5 Tricolor Gaúcho,GaúchoDaFronteira F.C,1747619,2371918
+16,3,La Primeira Patada Es Nuestra,C R Juvenal,32966,1488983
+16,4,Texas Club 2026,SC 100 Sono,1273719,14709358
+16,5,Pepe Leal FC,Esquadrão Gazembrino,1326835,2916559
+16,6,NHU PORÃ SAF.,Grêmio_Campeão_LA_27,4088673,47775950
+16,7,Medonho´s F.C.,Doug Leal F.C,1867254,287965
+16,8,SC ÉoINTER!,Arran Katoko FC,184499,19833277
+16,9,GrioTeam,lsauer fc,14933455,44810918
+16,10,Pontaç0 F.C.,GE Xavanchesteer,20651178,16411206
+17,1,FBC Colorado,SC 100 Sono,186283,14709358
+17,2,bugredasmissões,GaúchoDaFronteira F.C,19209079,2371918
+17,3,JV5 Tricolor Gaúcho,C R Juvenal,1747619,1488983
+17,4,La Primeira Patada Es Nuestra,Pepe Leal FC,32966,1326835
+17,5,Grêmio_Campeão_LA_27,Texas Club 2026,47775950,1273719
+17,6,Medonho´s F.C.,Esquadrão Gazembrino,1867254,2916559
+17,7,Arran Katoko FC,NHU PORÃ SAF.,19833277,4088673
+17,8,lsauer fc,Doug Leal F.C,44810918,287965
+17,9,SC ÉoINTER!,GE Xavanchesteer,184499,16411206
+17,10,Pontaç0 F.C.,GrioTeam,20651178,14933455
+18,1,Grêmio_Campeão_LA_27,FBC Colorado,47775950,186283
+18,2,C R Juvenal,GaúchoDaFronteira F.C,1488983,2371918
+18,3,bugredasmissões,SC 100 Sono,19209079,14709358
+18,4,JV5 Tricolor Gaúcho,Pepe Leal FC,1747619,1326835
+18,5,Medonho´s F.C.,La Primeira Patada Es Nuestra,1867254,32966
+18,6,Texas Club 2026,Arran Katoko FC,1273719,19833277
+18,7,Esquadrão Gazembrino,lsauer fc,2916559,44810918
+18,8,GE Xavanchesteer,NHU PORÃ SAF.,16411206,4088673
+18,9,Doug Leal F.C,Pontaç0 F.C.,287965,20651178
+18,10,GrioTeam,SC ÉoINTER!,14933455,184499
+19,1,FBC Colorado,Arran Katoko FC,186283,19833277
+19,2,SC 100 Sono,GaúchoDaFronteira F.C,14709358,2371918
+19,3,C R Juvenal,Pepe Leal FC,1488983,1326835
+19,4,bugredasmissões,Grêmio_Campeão_LA_27,19209079,47775950
+19,5,Medonho´s F.C.,JV5 Tricolor Gaúcho,1867254,1747619
+19,6,La Primeira Patada Es Nuestra,lsauer fc,32966,44810918
+19,7,Texas Club 2026,GE Xavanchesteer,1273719,16411206
+19,8,Pontaç0 F.C.,Esquadrão Gazembrino,20651178,2916559
+19,9,GrioTeam,NHU PORÃ SAF.,14933455,4088673
+19,10,Doug Leal F.C,SC ÉoINTER!,287965,184499

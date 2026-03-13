@@ -34,14 +34,14 @@ const classificacaoSerieA = {
       "posicao": 3
     },
     {
-      "nome": "Arran Katoko FC",
+      "nome": "GE Xavanchesteer",
       "pontos": 12,
       "vitorias": 4,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 350.789794921875,
-      "cartolaSofrido": 246.470458984375,
-      "saldoCartola": 104.3193359375,
+      "totalCartola": 342.73046875,
+      "cartolaSofrido": 355.8896484375,
+      "saldoCartola": -13.1591796875,
       "posicao": 4
     },
     {
@@ -51,8 +51,8 @@ const classificacaoSerieA = {
       "empates": 0,
       "derrotas": 2,
       "totalCartola": 411.42041015625,
-      "cartolaSofrido": 309.3798828125,
-      "saldoCartola": 102.04052734375,
+      "cartolaSofrido": 379.81982421875,
+      "saldoCartola": 31.6005859375,
       "posicao": 5
     },
     {
@@ -67,14 +67,14 @@ const classificacaoSerieA = {
       "posicao": 6
     },
     {
-      "nome": "SC 100 Sono",
+      "nome": "Arran Katoko FC",
       "pontos": 9,
       "vitorias": 3,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 351.85986328125,
-      "cartolaSofrido": 288.110107421875,
-      "saldoCartola": 63.749755859375,
+      "totalCartola": 350.789794921875,
+      "cartolaSofrido": 334.710693359375,
+      "saldoCartola": 16.0791015625,
       "posicao": 7
     },
     {
@@ -89,17 +89,6 @@ const classificacaoSerieA = {
       "posicao": 8
     },
     {
-      "nome": "Grêmio_Campeão_LA_27",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 342.58056640625,
-      "cartolaSofrido": 248.27001953125,
-      "saldoCartola": 94.310546875,
-      "posicao": 9
-    },
-    {
       "nome": "Doug Leal F.C",
       "pontos": 9,
       "vitorias": 3,
@@ -108,18 +97,7 @@ const classificacaoSerieA = {
       "totalCartola": 334.460205078125,
       "cartolaSofrido": 311.4296875,
       "saldoCartola": 23.030517578125,
-      "posicao": 10
-    },
-    {
-      "nome": "FBC Colorado",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 387.249755859375,
-      "cartolaSofrido": 362.2001953125,
-      "saldoCartola": 25.049560546875,
-      "posicao": 11
+      "posicao": 9
     },
     {
       "nome": "GrioTeam",
@@ -130,6 +108,28 @@ const classificacaoSerieA = {
       "totalCartola": 352.72998046875,
       "cartolaSofrido": 390.05029296875,
       "saldoCartola": -37.3203125,
+      "posicao": 10
+    },
+    {
+      "nome": "SC 100 Sono",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 351.85986328125,
+      "cartolaSofrido": 359.750244140625,
+      "saldoCartola": -7.890380859375,
+      "posicao": 11
+    },
+    {
+      "nome": "Grêmio_Campeão_LA_27",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 342.58056640625,
+      "cartolaSofrido": 304.630126953125,
+      "saldoCartola": 37.950439453125,
       "posicao": 12
     },
     {
@@ -177,6 +177,17 @@ const classificacaoSerieA = {
       "posicao": 16
     },
     {
+      "nome": "FBC Colorado",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 4,
+      "totalCartola": 387.249755859375,
+      "cartolaSofrido": 418.250244140625,
+      "saldoCartola": -31.00048828125,
+      "posicao": 17
+    },
+    {
       "nome": "La Primeira Patada Es Nuestra",
       "pontos": 3,
       "vitorias": 1,
@@ -185,7 +196,7 @@ const classificacaoSerieA = {
       "totalCartola": 369.290283203125,
       "cartolaSofrido": 347.369873046875,
       "saldoCartola": 21.92041015625,
-      "posicao": 17
+      "posicao": 18
     },
     {
       "nome": "NHU PORÃ SAF.",
@@ -196,7 +207,7 @@ const classificacaoSerieA = {
       "totalCartola": 294.46044921875,
       "cartolaSofrido": 410.650390625,
       "saldoCartola": -116.18994140625,
-      "posicao": 18
+      "posicao": 19
     },
     {
       "nome": "GaúchoDaFronteira F.C",
@@ -207,17 +218,6 @@ const classificacaoSerieA = {
       "totalCartola": 264.130126953125,
       "cartolaSofrido": 370.340087890625,
       "saldoCartola": -106.2099609375,
-      "posicao": 19
-    },
-    {
-      "nome": "GE Bebum",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 5,
-      "totalCartola": 0.0,
-      "cartolaSofrido": 355.8896484375,
-      "saldoCartola": -355.8896484375,
       "posicao": 20
     }
   ]

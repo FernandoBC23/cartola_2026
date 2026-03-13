@@ -6,7 +6,7 @@ window.participantesLiga = [
   "Esquadrão Gazembrino",
   "FBC Colorado",
   "GaúchoDaFronteira F.C",
-  "GE Bebum",
+  "GE Xavanchesteer",
   "GrioTeam",
   "Grêmio_Campeão_LA_27",
   "JV5 Tricolor Gaúcho",

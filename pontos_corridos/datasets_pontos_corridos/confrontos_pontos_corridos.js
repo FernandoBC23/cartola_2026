@@ -9,7 +9,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -200,7 +200,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 19209079,
@@ -317,7 +317,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 14709358,
@@ -438,7 +438,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -555,7 +555,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -668,7 +668,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 2371918,
@@ -811,7 +811,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 14933455,
@@ -958,7 +958,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -1097,7 +1097,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 2916559,
@@ -1244,7 +1244,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -1374,7 +1374,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -1513,7 +1513,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 1488983,
@@ -1660,7 +1660,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -1799,7 +1799,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 1867254,
@@ -1946,7 +1946,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -2076,7 +2076,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -2193,7 +2193,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
@@ -2306,7 +2306,7 @@ const confrontosFase1 = [
     "grupo": "Pontos Corridos",
     "mandante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     },
     "visitante": {
       "id": 4088673,
@@ -2427,7 +2427,7 @@ const confrontosFase1 = [
     },
     "visitante": {
       "id": 16411206,
-      "nome": "GE Bebum"
+      "nome": "GE Xavanchesteer"
     }
   },
   {
