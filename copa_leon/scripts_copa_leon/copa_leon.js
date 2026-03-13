@@ -17,12 +17,11 @@ const ESCUDO_PLACEHOLDER =
   "</svg>";
 
 const FASES_POR_RODADA = {
-  1: "primeira_fase",
-  2: "oitavas",
-  3: "quartas",
-  4: "semi",
-  5: "final",
-  6: "terceiro",
+  1: ["primeira_fase"],
+  2: ["oitavas"],
+  3: ["quartas"],
+  4: ["semi"],
+  5: ["final", "terceiro"],
 };
 
 const DEFAULT_MATCH = () => ({
@@ -290,7 +289,7 @@ const construirFases = (timesMap) => {
   }
 
   const winnersSemis = coletarVencedores(semi, timesMap, participantesPorFase.final);
-  const losersSemis = coletarPerdedores(semi, timesMap, participantesPorFase.final);
+  const losersSemis = coletarPerdedores(semi, timesMap, participantesPorFase.terceiro);
 
   if (winnersSemis.length) {
     final = definirTimesPorResultado(final, winnersSemis);
@@ -302,8 +301,9 @@ const construirFases = (timesMap) => {
   if (losersSemis.length) {
     terceiro = definirTimesPorResultado(terceiro, losersSemis);
   }
-  if (pontuacoesPorFase?.terceiro) {
-    terceiro = aplicarParciaisNaFase(terceiro, pontuacoesPorFase.terceiro);
+  const pontuacaoTerceiro = pontuacoesPorFase?.terceiro || pontuacoesPorFase?.final;
+  if (pontuacaoTerceiro) {
+    terceiro = aplicarParciaisNaFase(terceiro, pontuacaoTerceiro);
   }
 
   const fasesMontadas = { primeiraFase, oitavas, quartas, semi, final, terceiro };
@@ -465,7 +465,7 @@ const renderBracket = () => {
   const fases = construirFases(timesMap);
   const meta = window.copaMeta || {};
   const rodadaCopa = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
-  const faseMeta = Number.isFinite(rodadaCopa) ? FASES_POR_RODADA[rodadaCopa] : null;
+  const fasesAtivas = Number.isFinite(rodadaCopa) ? (FASES_POR_RODADA[rodadaCopa] || []) : [];
   const pontuacoesPorFase = (dados && typeof dados.pontuacoes_por_fase === "object")
     ? dados.pontuacoes_por_fase
     : null;
@@ -475,11 +475,16 @@ const renderBracket = () => {
         fases[faseKey] = aplicarParciaisNaFase(fases[faseKey], pontuacoesPorFase[faseKey]);
       }
     });
+    if (fases.terceiro && pontuacoesPorFase.final && !pontuacoesPorFase.terceiro) {
+      fases.terceiro = aplicarParciaisNaFase(fases.terceiro, pontuacoesPorFase.final);
+    }
   }
   const parciais = meta.parcial_disponivel === true ? getPontuacoesParciais(dados, meta) : null;
-  if (faseMeta && parciais && fases[faseMeta]) {
-    fases[faseMeta] = aplicarParciaisNaFase(fases[faseMeta], parciais);
-  }
+  fasesAtivas.forEach((faseKey) => {
+    if (parciais && fases[faseKey]) {
+      fases[faseKey] = aplicarParciaisNaFase(fases[faseKey], parciais);
+    }
+  });
   const container = document.getElementById("copa-bracket");
 
   if (!container) return;
@@ -551,8 +556,8 @@ document.addEventListener("DOMContentLoaded", () => {
   renderBracket();
   const hash = window.location.hash.replace("#", "");
   const rodadaCopa = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
-  const faseMeta = Number.isFinite(rodadaCopa) ? FASES_POR_RODADA[rodadaCopa] : null;
-  const faseInicial = LABEL_FASES[hash] ? hash : (faseMeta || "primeira_fase");
+  const fasesAtivas = Number.isFinite(rodadaCopa) ? (FASES_POR_RODADA[rodadaCopa] || []) : [];
+  const faseInicial = LABEL_FASES[hash] ? hash : (fasesAtivas[0] || "primeira_fase");
   atualizarFaseAtiva(faseInicial, { atualizarHash: false });
 
   document.querySelectorAll("[data-round-link]").forEach((link) => {
