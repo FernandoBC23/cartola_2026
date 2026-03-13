@@ -406,11 +406,11 @@ window.copaDados = {
     "terceiro": []
   }
 };window.copaMeta = {
-  "rodada": 5,
-  "rodada_copa": 5,
+  "rodada": 6,
+  "rodada_copa": 6,
   "parcial_disponivel": false
 };window.copaParciais = {
-  "rodada": 5,
-  "rodada_copa": 5,
+  "rodada": 6,
+  "rodada_copa": 6,
   "times": {}
 };

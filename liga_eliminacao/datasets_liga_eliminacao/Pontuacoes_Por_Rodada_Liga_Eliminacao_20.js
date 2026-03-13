@@ -5,8 +5,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 73.60009765625,
     "Rodada 3": 100.06005859375,
     "Rodada 4": 62.75,
-    "Rodada 5": 62.75,
-    "Rodada 6": "",
+    "Rodada 5": 77.22021484375,
+    "Rodada 6": 77.22021484375,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -20,7 +20,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 6.7
+    "Parcial Rodada 6": ""
   },
   "184499": {
     "Time": "SC ÉoINTER! ",
@@ -28,8 +28,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 77.60009765625,
     "Rodada 3": 78.259765625,
     "Rodada 4": 45.550048828125,
-    "Rodada 5": 45.550048828125,
-    "Rodada 6": "",
+    "Rodada 5": 77.6201171875,
+    "Rodada 6": 77.6201171875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -43,7 +43,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 17.9
+    "Parcial Rodada 6": ""
   },
   "186283": {
     "Time": "FBC Colorado",
@@ -51,8 +51,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 81.47998046875,
     "Rodada 3": 79.259765625,
     "Rodada 4": 86.43017578125,
-    "Rodada 5": 86.43017578125,
-    "Rodada 6": "",
+    "Rodada 5": 86.419921875,
+    "Rodada 6": 86.419921875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -66,7 +66,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 25.7
+    "Parcial Rodada 6": ""
   },
   "287965": {
     "Time": "Doug Leal F.C",
@@ -89,7 +89,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 15.2
+    "Parcial Rodada 6": ""
   },
   "1273719": {
     "Time": "Texas Club 2026",
@@ -97,8 +97,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 82.18017578125,
     "Rodada 3": 105.759765625,
     "Rodada 4": 65.14990234375,
-    "Rodada 5": 65.14990234375,
-    "Rodada 6": "",
+    "Rodada 5": 93.02001953125,
+    "Rodada 6": 93.02001953125,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -112,7 +112,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 22.3
+    "Parcial Rodada 6": ""
   },
   "1326835": {
     "Time": "Pepe Leal FC",
@@ -120,8 +120,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 75.8798828125,
     "Rodada 3": 87.39013671875,
     "Rodada 4": 42.56005859375,
-    "Rodada 5": 42.56005859375,
-    "Rodada 6": "",
+    "Rodada 5": 49.77001953125,
+    "Rodada 6": 49.77001953125,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -135,7 +135,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 7.4
+    "Parcial Rodada 6": ""
   },
   "1488983": {
     "Time": "C R Juvenal",
@@ -143,8 +143,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 90.60009765625,
     "Rodada 3": 84.56005859375,
     "Rodada 4": 55.0,
-    "Rodada 5": 55.0,
-    "Rodada 6": "",
+    "Rodada 5": 63.8701171875,
+    "Rodada 6": 63.8701171875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -158,7 +158,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 17.6
+    "Parcial Rodada 6": ""
   },
   "1747619": {
     "Time": "JV5 Tricolor Gaúcho",
@@ -166,8 +166,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 72.18017578125,
     "Rodada 3": 97.39990234375,
     "Rodada 4": 81.64990234375,
-    "Rodada 5": 81.64990234375,
-    "Rodada 6": "",
+    "Rodada 5": 84.81982421875,
+    "Rodada 6": 84.81982421875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -181,7 +181,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 13.8
+    "Parcial Rodada 6": ""
   },
   "1867254": {
     "Time": "Medonho´s F.C. ",
@@ -189,8 +189,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 55.780029296875,
     "Rodada 3": 88.93994140625,
     "Rodada 4": 59.409912109375,
-    "Rodada 5": 59.409912109375,
-    "Rodada 6": "",
+    "Rodada 5": 84.6201171875,
+    "Rodada 6": 84.6201171875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -204,7 +204,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 10.7
+    "Parcial Rodada 6": ""
   },
   "2371918": {
     "Time": "GaúchoDaFronteira F.C",
@@ -227,7 +227,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 39.15
+    "Parcial Rodada 6": ""
   },
   "2916559": {
     "Time": "Esquadrão Gazembrino",
@@ -235,8 +235,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 98.7001953125,
     "Rodada 3": 109.0,
     "Rodada 4": 121.759765625,
-    "Rodada 5": 121.759765625,
-    "Rodada 6": "",
+    "Rodada 5": 93.06982421875,
+    "Rodada 6": 93.06982421875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -250,7 +250,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 27.6
+    "Parcial Rodada 6": ""
   },
   "4088673": {
     "Time": " NHU PORÃ SAF.",
@@ -273,7 +273,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 9.75
+    "Parcial Rodada 6": ""
   },
   "14709358": {
     "Time": "SC 100 Sono",
@@ -281,8 +281,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 86.4501953125,
     "Rodada 3": 64.35986328125,
     "Rodada 4": 61.1298828125,
-    "Rodada 5": 61.1298828125,
-    "Rodada 6": "",
+    "Rodada 5": 72.759765625,
+    "Rodada 6": 72.759765625,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -296,7 +296,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 25.9
+    "Parcial Rodada 6": ""
   },
   "14933455": {
     "Time": "GrioTeam",
@@ -304,7 +304,7 @@ const pontuacoesPorRodada = {
     "Rodada 2": 83.47998046875,
     "Rodada 3": 90.4599609375,
     "Rodada 4": 76.06005859375,
-    "Rodada 5": 76.06005859375,
+    "Rodada 5": 41.169921875,
     "Rodada 6": "",
     "Rodada 7": "",
     "Rodada 8": "",
@@ -319,7 +319,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 2.2
+    "Parcial Rodada 6": ""
   },
   "16411206": {
     "Time": "GE Xavanchesteer",
@@ -327,8 +327,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 70.43994140625,
     "Rodada 3": 71.64013671875,
     "Rodada 4": 56.360107421875,
-    "Rodada 5": 56.360107421875,
-    "Rodada 6": "",
+    "Rodada 5": 88.240234375,
+    "Rodada 6": 88.240234375,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -342,7 +342,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 28.89
+    "Parcial Rodada 6": ""
   },
   "19209079": {
     "Time": "bugredasmissões ",
@@ -350,8 +350,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 100.5,
     "Rodada 3": 91.66015625,
     "Rodada 4": 77.22998046875,
-    "Rodada 5": 77.22998046875,
-    "Rodada 6": "",
+    "Rodada 5": 78.47021484375,
+    "Rodada 6": 78.47021484375,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -365,7 +365,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 22.7
+    "Parcial Rodada 6": ""
   },
   "19833277": {
     "Time": "Arran Katoko FC",
@@ -373,8 +373,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 75.68017578125,
     "Rodada 3": 73.259765625,
     "Rodada 4": 49.429931640625,
-    "Rodada 5": 49.429931640625,
-    "Rodada 6": "",
+    "Rodada 5": 87.919921875,
+    "Rodada 6": 87.919921875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -388,7 +388,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 22.7
+    "Parcial Rodada 6": ""
   },
   "20651178": {
     "Time": "Pontaç0 F.C.",
@@ -411,7 +411,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 17.9
+    "Parcial Rodada 6": ""
   },
   "44810918": {
     "Time": "lsauer fc",
@@ -419,8 +419,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 96.47998046875,
     "Rodada 3": 87.4599609375,
     "Rodada 4": 81.43017578125,
-    "Rodada 5": 81.43017578125,
-    "Rodada 6": "",
+    "Rodada 5": 85.669921875,
+    "Rodada 6": 85.669921875,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -434,7 +434,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 11.7
+    "Parcial Rodada 6": ""
   },
   "47775950": {
     "Time": "Grêmio_Campeão_LA_27",
@@ -442,8 +442,8 @@ const pontuacoesPorRodada = {
     "Rodada 2": 85.7001953125,
     "Rodada 3": 65.66015625,
     "Rodada 4": 49.449951171875,
-    "Rodada 5": 49.449951171875,
-    "Rodada 6": "",
+    "Rodada 5": 87.72021484375,
+    "Rodada 6": 87.72021484375,
     "Rodada 7": "",
     "Rodada 8": "",
     "Rodada 9": "",
@@ -457,7 +457,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 5": 22.0
+    "Parcial Rodada 6": ""
   }
 };
 
@@ -475,32 +475,14 @@ const eliminadosPorRodada = {
     20651178
   ],
   "5": [
+    14933455
+  ],
+  "6": [
     1326835
   ]
 };
 
 const pontuacaoParcialRodadaAtual = {
-  "rodada": 5,
-  "times": {
-    "32966": 6.7,
-    "184499": 17.9,
-    "186283": 25.7,
-    "287965": 15.2,
-    "1273719": 22.3,
-    "1326835": 7.4,
-    "1488983": 17.6,
-    "1747619": 13.8,
-    "1867254": 10.7,
-    "2371918": 39.15,
-    "2916559": 27.6,
-    "4088673": 9.75,
-    "14709358": 25.9,
-    "14933455": 2.2,
-    "16411206": 28.89,
-    "19209079": 22.7,
-    "19833277": 22.7,
-    "20651178": 17.9,
-    "44810918": 11.7,
-    "47775950": 22.0
-  }
+  "rodada": 6,
+  "times": {}
 };
