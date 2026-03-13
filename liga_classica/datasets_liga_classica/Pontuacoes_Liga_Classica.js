@@ -813,6 +813,62 @@ const classificacaoLigaClassica = {
       "lsauer fc": 0.0,
       "VASCO MARTINS FC": 0.0
     }
+  },
+  "premiados_mensais": {
+    "Janeiro": [
+      {
+        "time": "S.E.R. GRILLO",
+        "posicao": 1,
+        "pontos": 84.85986328125
+      },
+      {
+        "time": "Paulo Virgili FC",
+        "posicao": 2,
+        "pontos": 84.259765625
+      },
+      {
+        "time": "Bandoleros FCS",
+        "posicao": 3,
+        "pontos": 74.06005859375
+      },
+      {
+        "time": "Mau Humor F.C.",
+        "posicao": 4,
+        "pontos": 73.9599609375
+      },
+      {
+        "time": "CARTOLEIRO DO VALLE PRO26.5",
+        "posicao": 5,
+        "pontos": 73.759765625
+      }
+    ],
+    "Fevereiro": [
+      {
+        "time": "Time do S.A.P.O",
+        "posicao": 1,
+        "pontos": 281.78955078125
+      },
+      {
+        "time": "Super Vasco f.c",
+        "posicao": 2,
+        "pontos": 265.3896484375
+      },
+      {
+        "time": "lsauer fc",
+        "posicao": 3,
+        "pontos": 265.3701171875
+      },
+      {
+        "time": "seralex",
+        "posicao": 4,
+        "pontos": 263.08984375
+      },
+      {
+        "time": "Bandoleros FCS",
+        "posicao": 5,
+        "pontos": 262.98974609375
+      }
+    ]
   }
 };window.ligaClassicaMeta = {"status_http": 1, "rodada_parcial": null};
 const pontuacaoParcialRodadaAtual = {

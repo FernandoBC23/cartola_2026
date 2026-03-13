@@ -8,10 +8,41 @@
   <link rel="stylesheet" href="../css/styles_global.css" />
   <link rel="stylesheet" href="../css/styles_classica.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .filtro-competicao {
+      margin: 24px 0 28px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .filtro-competicao label {
+      display: inline-block;
+      color: #ff7a1a;
+      font-size: 1.05rem;
+    }
+
+    .filtro-competicao select {
+      min-width: 240px;
+      height: 42px;
+      padding: 0 14px;
+      border: 2px solid #ff7a1a;
+      border-radius: 10px;
+      background: #f4f6f7;
+      color: #1f2529;
+      font-weight: 700;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    }
+
+    .filtro-competicao select:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(255, 122, 26, 0.25);
+    }
+  </style>
 </head>
 
 <body class="loaded">
-
   <header class="header">
     <div class="header-content container-central">
       <div class="logo-titulo">
@@ -20,7 +51,7 @@
       </div>
       <nav class="navbar">
         <ul>
-          <li><a href="../index.html">Painel Competições</a></li>
+          <li><a href="../portal-leon/index.html">Painel Competições</a></li>
           <li><a class="ativo" href="./ranking_campeoes.html">Ranking Campeões</a></li>
         </ul>
       </nav>
@@ -28,7 +59,7 @@
   </header>
 
   <main class="container-central">
-    <section>
+    <section class="filtro-competicao">
       <label for="select-competicao"><strong>Escolha a competição:</strong></label>
       <select id="select-competicao"></select>
     </section>
@@ -55,7 +86,6 @@
     </div>
   </footer>
 
-  <!-- Scripts -->
   <script src="../transicoes.js"></script>
   <script src="./datasets_campeoes/ranking_top5_mensal.js"></script>
   <script src="../scripts/escudos_times.js"></script>
