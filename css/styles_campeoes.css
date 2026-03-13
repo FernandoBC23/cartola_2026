@@ -88,11 +88,46 @@
   font-weight: 700;
 }
 
+.tabela-campeoes-wrap {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   .filtro-competicao {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .tabela-campeoes-wrap {
+    width: 95%;
+    margin: 0 auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tabela-campeoes-wrap .tabela-classificacao {
+    font-size: 12px;
+    width: 100%;
+    min-width: 520px;
+    margin: 20px auto;
+  }
+
+  .tabela-campeoes-wrap .tabela-classificacao th,
+  .tabela-campeoes-wrap .tabela-classificacao td {
+    padding: 8px;
+  }
+
+  .time-info {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .escudo {
+    width: 20%;
+    height: 20%;
   }
 
   .card-pontuacao {

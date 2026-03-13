@@ -26,6 +26,21 @@ const PONTOS_COPA_LEON = {
 
 const PONTOS_CAMPEAO_TURNO = 100;
 
+const MESES_ABREVIADOS = {
+  Janeiro: "Jan",
+  Fevereiro: "Fev",
+  Marco: "Mar",
+  Abril: "Abr",
+  Maio: "Mai",
+  Junho: "Jun",
+  Julho: "Jul",
+  Agosto: "Ago",
+  Setembro: "Set",
+  Outubro: "Out",
+  Novembro: "Nov",
+  Dezembro: "Dez",
+};
+
 function calcularPontuacaoRanking(posicoes) {
   if (!Array.isArray(posicoes)) return 0;
   return posicoes.reduce((total, item) => total + (PONTOS_LIGA_CLASSICA[item.posicao] || 0), 0);
@@ -157,6 +172,10 @@ function ordenarRanking(ranking) {
   });
 }
 
+function abreviarMes(nomeMes) {
+  return MESES_ABREVIADOS[nomeMes] || nomeMes;
+}
+
 const COMPETICOES = [
   {
     id: "liga_classica",
@@ -170,7 +189,7 @@ const COMPETICOES = [
         if (detalhe.tipo === "turno") {
           return `${detalhe.nome || "Campe\u00E3o do Turno"} (1&ordm;)`;
         }
-        return `${detalhe.mes} (${detalhe.posicao}&ordm;)`;
+        return `${abreviarMes(detalhe.mes)} (${detalhe.posicao}&ordm;)`;
       }).join(", ") || "-",
     cardPontuacaoHtml: `
       <h3>Liga Cl&aacute;ssica</h3>
@@ -254,6 +273,7 @@ function montarCompeticoesDisponiveis() {
 function renderCabecalhoTabela(competicao) {
   const head = document.querySelector(".tabela-classificacao thead");
   if (!head) return;
+  const isMobile = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(max-width: 768px)").matches;
 
   const ultimaColuna = competicao.tipo === "geral"
     ? "Competi\u00E7\u00F5es"
@@ -261,10 +281,11 @@ function renderCabecalhoTabela(competicao) {
   const penultimaColuna = competicao.tipo === "geral"
     ? "Premia\u00E7\u00F5es"
     : (competicao.rotuloPremiacoes || "Premia\u00E7\u00F5es");
+  const primeiraColuna = isMobile ? "Pos" : "Posi\u00E7\u00E3o";
 
   head.innerHTML = `
     <tr>
-      <th>Posi\u00E7\u00E3o</th>
+      <th>${primeiraColuna}</th>
       <th>Time</th>
       <th>Pontos</th>
       <th>${penultimaColuna}</th>
