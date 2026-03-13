@@ -3,56 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ranking de Campeões</title>
+  <title>Ranking de Campe&otilde;es</title>
   <link rel="stylesheet" href="../css/reset.css" />
   <link rel="stylesheet" href="../css/styles_global.css" />
   <link rel="stylesheet" href="../css/styles_classica.css" />
+  <link rel="stylesheet" href="../css/styles_campeoes.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    .filtro-competicao {
-      margin: 24px 0 28px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-
-    .filtro-competicao label {
-      display: inline-block;
-      color: #ff7a1a;
-      font-size: 1.05rem;
-    }
-
-    .filtro-competicao select {
-      min-width: 240px;
-      height: 42px;
-      padding: 0 14px;
-      border: 2px solid #ff7a1a;
-      border-radius: 10px;
-      background: #f4f6f7;
-      color: #1f2529;
-      font-weight: 700;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
-    }
-
-    .filtro-competicao select:focus {
-      outline: none;
-      box-shadow: 0 0 0 3px rgba(255, 122, 26, 0.25);
-    }
-  </style>
 </head>
 
 <body class="loaded">
   <header class="header">
     <div class="header-content container-central">
       <div class="logo-titulo">
-        <img src="../imagens/logo-ranking-campeoes.png" alt="Logo" class="logo" />
-        <h1>Ranking de Campeões</h1>
+        <img src="../imagens/logo_campeoes.png" alt="Logo" class="logo" />
+        <h1>Ranking de Campe&otilde;es</h1>
       </div>
       <nav class="navbar">
         <ul>
-          <li><a href="../portal-leon/index.html">Painel Competições</a></li>
-          <li><a class="ativo" href="./ranking_campeoes.html">Ranking Campeões</a></li>
+          <li><a href="../portal-leon/index.html">Painel Competi&ccedil;&otilde;es</a></li>
+          <li><a class="ativo" href="./ranking_campeoes.html">Ranking Campe&otilde;es</a></li>
         </ul>
       </nav>
     </div>
@@ -60,7 +29,7 @@
 
   <main class="container-central">
     <section class="filtro-competicao">
-      <label for="select-competicao"><strong>Escolha a competição:</strong></label>
+      <label for="select-competicao"><strong>Escolha a competi&ccedil;&atilde;o:</strong></label>
       <select id="select-competicao"></select>
     </section>
 
@@ -68,26 +37,31 @@
       <table class="tabela-classificacao">
         <thead>
           <tr>
-            <th>Posição</th>
+            <th>Posi&ccedil;&atilde;o</th>
             <th>Time</th>
             <th>Pontos</th>
-            <th>Aparições</th>
+            <th>Premia&ccedil;&otilde;es</th>
             <th>Meses</th>
           </tr>
         </thead>
         <tbody id="corpo-ranking-campeoes"></tbody>
       </table>
     </section>
+
+    <section id="card-pontuacao" class="card-pontuacao" hidden>
+      <div id="card-pontuacao-conteudo"></div>
+    </section>
   </main>
 
   <footer class="footer">
     <div class="footer-content container-central">
-      <p>© 2025 Ranking de Campeões | Desenvolvido por Fernando Chagas</p>
+      <p>&copy; 2025 Ranking de Campe&otilde;es | Desenvolvido por Fernando Chagas</p>
     </div>
   </footer>
 
   <script src="../transicoes.js"></script>
-  <script src="./datasets_campeoes/ranking_top5_mensal.js"></script>
+  <script src="./datasets_campeoes/ranking_top5_mensal_2026_01.js"></script>
+  <script src="./datasets_campeoes/campeoes_copa_leon_2026_01.js"></script>
   <script src="../scripts/escudos_times.js"></script>
   <script src="./scripts_campeoes/ranking_campeoes.js"></script>
 </body>

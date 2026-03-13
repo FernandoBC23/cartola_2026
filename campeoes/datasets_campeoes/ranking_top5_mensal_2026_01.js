@@ -1,4 +1,4 @@
-const rankingTop5Mensal = [
+const rankingTop5Mensal2026_01 = [
   {
     "time": "Bandoleros FCS",
     "pontos": 337.0498046875,
@@ -103,3 +103,14 @@ const rankingTop5Mensal = [
     ]
   }
 ];
+
+window.rankingCampeoesDatasets = window.rankingCampeoesDatasets || {};
+window.rankingCampeoesDatasets.liga_classica_2026_01 = {
+  id: "liga_classica_2026_01",
+  competicao: "Liga Classica",
+  temporada: 2026,
+  turno: "01",
+  tipo: "ranking_top5_mensal",
+  campeao_turno: null,
+  ranking: rankingTop5Mensal2026_01,
+};

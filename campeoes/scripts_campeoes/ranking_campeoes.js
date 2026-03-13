@@ -10,7 +10,7 @@ function escudoSrc(nome) {
   return `${base}${padrao}`;
 }
 
-const PONTOS_POR_POSICAO = {
+const PONTOS_LIGA_CLASSICA = {
   1: 50,
   2: 40,
   3: 30,
@@ -18,27 +18,100 @@ const PONTOS_POR_POSICAO = {
   5: 10,
 };
 
+const PONTOS_COPA_LEON = {
+  1: 100,
+  2: 60,
+  3: 40,
+};
+
+const PONTOS_CAMPEAO_TURNO = 100;
+
 function calcularPontuacaoRanking(posicoes) {
   if (!Array.isArray(posicoes)) return 0;
-  return posicoes.reduce((total, item) => total + (PONTOS_POR_POSICAO[item.posicao] || 0), 0);
+  return posicoes.reduce((total, item) => total + (PONTOS_LIGA_CLASSICA[item.posicao] || 0), 0);
 }
 
 function getRankingLigaClassicaRaw() {
+  const datasetVersionado = window.rankingCampeoesDatasets?.liga_classica_2026_01;
   return (
-    (typeof rankingTop5Mensal !== "undefined" && Array.isArray(rankingTop5Mensal) && rankingTop5Mensal)
+    (datasetVersionado && Array.isArray(datasetVersionado.ranking) && datasetVersionado.ranking)
+    || (typeof rankingTop5Mensal2026_01 !== "undefined" && Array.isArray(rankingTop5Mensal2026_01) && rankingTop5Mensal2026_01)
+    || (typeof rankingTop5Mensal !== "undefined" && Array.isArray(rankingTop5Mensal) && rankingTop5Mensal)
     || (Array.isArray(window.rankingTop5Mensal) && window.rankingTop5Mensal)
     || []
   );
 }
 
+function getRankingCopaLeonRaw() {
+  const datasetVersionado = window.rankingCampeoesDatasets?.copa_leon_2026_01;
+  return (
+    (datasetVersionado && Array.isArray(datasetVersionado.ranking) && datasetVersionado.ranking)
+    || (typeof campeoesCopaLeon2026_01 !== "undefined" && Array.isArray(campeoesCopaLeon2026_01) && campeoesCopaLeon2026_01)
+    || (typeof campeoesCopaLeon !== "undefined" && Array.isArray(campeoesCopaLeon) && campeoesCopaLeon)
+    || (Array.isArray(window.campeoesCopaLeon) && window.campeoesCopaLeon)
+    || []
+  );
+}
+
 function normalizarLigaClassica() {
-  return getRankingLigaClassicaRaw().map((time) => ({
+  const datasetVersionado = window.rankingCampeoesDatasets?.liga_classica_2026_01;
+  const rankingBase = getRankingLigaClassicaRaw().map((time) => ({
     time: time.time,
     pontuacao: calcularPontuacaoRanking(time.posicoes),
     premiacoes: Number(time.aparicoes || 0),
-    detalhes: Array.isArray(time.posicoes) ? time.posicoes : [],
-    competicoes: ["Liga Clássica"],
+    detalhes: Array.isArray(time.posicoes)
+      ? time.posicoes.map((item) => ({ ...item, tipo: "mensal" }))
+      : [],
+    competicoes: ["Liga Classica"],
   }));
+
+  const campeaoTurno = datasetVersionado?.campeao_turno;
+  if (campeaoTurno && campeaoTurno.time) {
+    const existente = rankingBase.find((item) => item.time === campeaoTurno.time);
+    if (existente) {
+      existente.pontuacao += PONTOS_CAMPEAO_TURNO;
+      existente.premiacoes += 1;
+      existente.detalhes.push({
+        tipo: "turno",
+        nome: campeaoTurno.nome || "Campeao Turno",
+        posicao: 1,
+      });
+    } else {
+      rankingBase.push({
+        time: campeaoTurno.time,
+        pontuacao: PONTOS_CAMPEAO_TURNO,
+        premiacoes: 1,
+        detalhes: [
+          {
+            tipo: "turno",
+            nome: campeaoTurno.nome || "Campeao Turno",
+            posicao: 1,
+          },
+        ],
+        competicoes: ["Liga Classica"],
+      });
+    }
+  }
+
+  return rankingBase;
+}
+
+function normalizarCopaLeon() {
+  return getRankingCopaLeonRaw()
+    .filter((item) => Number(item.posicao) >= 1 && Number(item.posicao) <= 3)
+    .map((item) => ({
+      time: item.time,
+      pontuacao: Number(PONTOS_COPA_LEON[item.posicao] || 0),
+      premiacoes: 1,
+      detalhes: [
+        {
+          titulo: item.titulo,
+          fase: item.fase,
+          adversario: item.adversario,
+        },
+      ],
+      competicoes: ["Copa Leon"],
+    }));
 }
 
 function agregarRankingGeral(rankingsPorCompeticao) {
@@ -87,9 +160,58 @@ function ordenarRanking(ranking) {
 const COMPETICOES = [
   {
     id: "liga_classica",
-    nome: "Liga Clássica",
+    nome: "Liga Cl\u00E1ssica",
     tipo: "competicao",
+    rotuloPremiacoes: "Premia\u00E7\u00F5es",
+    rotuloDetalhes: "Meses",
     obterRanking: normalizarLigaClassica,
+    formatarDetalhes: (item) =>
+      (item.detalhes || []).map((detalhe) => {
+        if (detalhe.tipo === "turno") {
+          return `${detalhe.nome || "Campe\u00E3o do Turno"} (1&ordm;)`;
+        }
+        return `${detalhe.mes} (${detalhe.posicao}&ordm;)`;
+      }).join(", ") || "-",
+    cardPontuacaoHtml: `
+      <h3>Liga Cl&aacute;ssica</h3>
+      <div class="card-pontuacao-secao">
+        <h4>Pontua&ccedil;&otilde;es dos Campe&otilde;es do M&ecirc;s</h4>
+        <ul>
+          <li>1&ordm; Lugar - 50 Pontos</li>
+          <li>2&ordm; Lugar - 40 Pontos</li>
+          <li>3&ordm; Lugar - 30 Pontos</li>
+          <li>4&ordm; Lugar - 20 Pontos</li>
+          <li>5&ordm; Lugar - 10 Pontos</li>
+        </ul>
+      </div>
+      <div class="card-pontuacao-secao">
+        <h4>Pontua&ccedil;&otilde;es do Campe&atilde;o do Turno</h4>
+        <ul>
+          <li>1&ordm; Lugar - 100 Pontos</li>
+        </ul>
+      </div>
+    `,
+  },
+  {
+    id: "copa_leon",
+    nome: "Copa Leon",
+    tipo: "competicao",
+    rotuloPremiacoes: "Premia\u00E7\u00F5es",
+    rotuloDetalhes: "Resultados",
+    obterRanking: normalizarCopaLeon,
+    formatarDetalhes: (item) =>
+      (item.detalhes || []).map((detalhe) => detalhe.titulo).join(", ") || "-",
+    cardPontuacaoHtml: `
+      <h3>Copa Leon</h3>
+      <div class="card-pontuacao-secao">
+        <h4>Pontua&ccedil;&otilde;es</h4>
+        <ul>
+          <li>1&ordm; Lugar - 100 Pontos</li>
+          <li>2&ordm; Lugar - 60 Pontos</li>
+          <li>3&ordm; Lugar - 40 Pontos</li>
+        </ul>
+      </div>
+    `,
   },
   {
     id: "geral",
@@ -129,16 +251,20 @@ function montarCompeticoesDisponiveis() {
   return competicoes;
 }
 
-function renderCabecalhoTabela(tipo) {
+function renderCabecalhoTabela(competicao) {
   const head = document.querySelector(".tabela-classificacao thead");
   if (!head) return;
 
-  const ultimaColuna = tipo === "geral" ? "Competições" : "Meses";
-  const penultimaColuna = tipo === "geral" ? "Premiações" : "Aparições";
+  const ultimaColuna = competicao.tipo === "geral"
+    ? "Competi\u00E7\u00F5es"
+    : (competicao.rotuloDetalhes || "Detalhes");
+  const penultimaColuna = competicao.tipo === "geral"
+    ? "Premia\u00E7\u00F5es"
+    : (competicao.rotuloPremiacoes || "Premia\u00E7\u00F5es");
 
   head.innerHTML = `
     <tr>
-      <th>Posição</th>
+      <th>Posi\u00E7\u00E3o</th>
       <th>Time</th>
       <th>Pontos</th>
       <th>${penultimaColuna}</th>
@@ -147,18 +273,22 @@ function renderCabecalhoTabela(tipo) {
   `;
 }
 
-function renderTabelaCompeticao(corpoTabela, ranking) {
+function renderTabelaCompeticao(corpoTabela, competicao) {
   corpoTabela.innerHTML = "";
+  const ranking = Array.isArray(competicao.ranking) ? competicao.ranking : [];
+  const formatarDetalhes = typeof competicao.formatarDetalhes === "function"
+    ? competicao.formatarDetalhes
+    : () => "-";
 
   ordenarRanking(ranking).forEach((time, index) => {
     const linha = document.createElement("tr");
 
     linha.innerHTML = `
-      <td>${index + 1}º</td>
+      <td>${index + 1}&ordm;</td>
       <td><span class="time-info"><img src="${escudoSrc(time.time)}" alt="Escudo" class="escudo"> ${time.time}</span></td>
       <td>${Number(time.pontuacao || 0)}</td>
       <td>${Number(time.premiacoes || 0)}</td>
-      <td>${(time.detalhes || []).map((item) => `${item.mes} (${item.posicao}º)`).join(", ") || "-"}</td>
+      <td>${formatarDetalhes(time)}</td>
     `;
 
     corpoTabela.appendChild(linha);
@@ -172,7 +302,7 @@ function renderTabelaGeral(corpoTabela, ranking) {
     const linha = document.createElement("tr");
 
     linha.innerHTML = `
-      <td>${index + 1}º</td>
+      <td>${index + 1}&ordm;</td>
       <td><span class="time-info"><img src="${escudoSrc(time.time)}" alt="Escudo" class="escudo"> ${time.time}</span></td>
       <td>${Number(time.pontuacao || 0)}</td>
       <td>${Number(time.premiacoes || 0)}</td>
@@ -181,6 +311,21 @@ function renderTabelaGeral(corpoTabela, ranking) {
 
     corpoTabela.appendChild(linha);
   });
+}
+
+function renderCardPontuacao(competicao) {
+  const card = document.getElementById("card-pontuacao");
+  const conteudo = document.getElementById("card-pontuacao-conteudo");
+  if (!card || !conteudo) return;
+
+  if (!competicao || !competicao.cardPontuacaoHtml) {
+    conteudo.innerHTML = "";
+    card.hidden = true;
+    return;
+  }
+
+  conteudo.innerHTML = competicao.cardPontuacaoHtml;
+  card.hidden = false;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -193,8 +338,8 @@ document.addEventListener("DOMContentLoaded", () => {
   selectCompeticao.innerHTML = "";
 
   if (!competicoes.length) {
-    renderCabecalhoTabela("competicao");
-    corpoTabela.innerHTML = `<tr><td colspan="5">Nenhum ranking de campeões disponível.</td></tr>`;
+    renderCabecalhoTabela({ tipo: "competicao", rotuloPremiacoes: "Premia\u00E7\u00F5es", rotuloDetalhes: "Detalhes" });
+    corpoTabela.innerHTML = `<tr><td colspan="5">Nenhum ranking de campe\u00F5es dispon\u00EDvel.</td></tr>`;
     return;
   }
 
@@ -209,12 +354,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const competicao = competicoes.find((item) => item.id === selectCompeticao.value);
     if (!competicao) return;
 
-    renderCabecalhoTabela(competicao.tipo);
+    renderCabecalhoTabela(competicao);
     if (competicao.tipo === "geral") {
       renderTabelaGeral(corpoTabela, competicao.ranking);
+      renderCardPontuacao(null);
       return;
     }
-    renderTabelaCompeticao(corpoTabela, competicao.ranking);
+    renderTabelaCompeticao(corpoTabela, competicao);
+    renderCardPontuacao(competicao);
   };
 
   selectCompeticao.addEventListener("change", atualizarCompeticao);

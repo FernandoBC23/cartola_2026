@@ -6,7 +6,7 @@ const LABEL_FASES = {
   quartas: "Quartas de Final",
   semi: "Semifinal",
   final: "Final",
-  terceiro: "Decisao do 3o Lugar",
+  terceiro: "Decisao do 3\u00BA Lugar",
 };
 
 const ESCUDO_PLACEHOLDER =
@@ -23,6 +23,8 @@ const FASES_POR_RODADA = {
   4: ["semi"],
   5: ["final", "terceiro"],
 };
+
+const RODADA_COPA_MAXIMA = Math.max(...Object.keys(FASES_POR_RODADA).map(Number));
 
 const DEFAULT_MATCH = () => ({
   casaId: null,
@@ -459,12 +461,20 @@ const getRodadaEmAndamento = (meta) => {
   return null;
 };
 
+const getRodadaCopaEfetiva = (meta) => {
+  const rodadaCopa = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
+  if (!Number.isFinite(rodadaCopa)) return null;
+  if (FASES_POR_RODADA[rodadaCopa]) return rodadaCopa;
+  if (rodadaCopa > RODADA_COPA_MAXIMA) return RODADA_COPA_MAXIMA;
+  return null;
+};
+
 const renderBracket = () => {
   const dados = getCopaDados();
   const timesMap = criarMapaTimes(dados.times || []);
   const fases = construirFases(timesMap);
   const meta = window.copaMeta || {};
-  const rodadaCopa = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
+  const rodadaCopa = getRodadaCopaEfetiva(meta);
   const fasesAtivas = Number.isFinite(rodadaCopa) ? (FASES_POR_RODADA[rodadaCopa] || []) : [];
   const pontuacoesPorFase = (dados && typeof dados.pontuacoes_por_fase === "object")
     ? dados.pontuacoes_por_fase
@@ -555,7 +565,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   renderBracket();
   const hash = window.location.hash.replace("#", "");
-  const rodadaCopa = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
+  const rodadaCopa = getRodadaCopaEfetiva(meta);
   const fasesAtivas = Number.isFinite(rodadaCopa) ? (FASES_POR_RODADA[rodadaCopa] || []) : [];
   const faseInicial = LABEL_FASES[hash] ? hash : (fasesAtivas[0] || "primeira_fase");
   atualizarFaseAtiva(faseInicial, { atualizarHash: false });

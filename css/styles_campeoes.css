@@ -1,0 +1,122 @@
+.filtro-competicao {
+  max-width: 960px;
+  width: 100%;
+  margin: 24px auto 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filtro-competicao label {
+  display: inline-block;
+  color: #ff7a1a;
+  font-size: 1.05rem;
+}
+
+.filtro-competicao select {
+  min-width: 240px;
+  height: 42px;
+  padding: 0 14px;
+  border: 2px solid #ff7a1a;
+  border-radius: 10px;
+  background: #f4f6f7;
+  color: #1f2529;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.filtro-competicao select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 122, 26, 0.25);
+}
+
+.card-pontuacao {
+  max-width: 960px;
+  width: 100%;
+  margin: 28px auto 12px;
+  padding: 22px 28px 20px;
+  border-left: 6px solid #c58a5c;
+  border-radius: 14px;
+  background: var(--bloco);
+  color: #f4f6f7;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+.card-pontuacao[hidden] {
+  display: none;
+}
+
+.card-pontuacao h3 {
+  margin-bottom: 10px;
+  color: #ff7a1a;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.card-pontuacao h4 {
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  color: #ff7a1a;
+  font-size: 0.95rem;
+  font-weight: 800;
+  border-bottom: 1px solid rgba(255, 199, 148, 0.55);
+}
+
+.card-pontuacao ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.card-pontuacao li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #f4f6f7;
+}
+
+.card-pontuacao .card-pontuacao-secao + .card-pontuacao-secao {
+  margin-top: 18px;
+}
+
+.card-pontuacao .card-pontuacao-intro {
+  margin-bottom: 18px;
+  color: #f4f6f7;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .filtro-competicao {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-pontuacao {
+    width: 95%;
+    margin: 22px auto 12px;
+    padding: 16px 18px 14px;
+    border-left-width: 5px;
+    border-radius: 12px;
+  }
+
+  .card-pontuacao h3 {
+    font-size: 1rem;
+  }
+
+  .card-pontuacao h4 {
+    font-size: 0.92rem;
+    margin-bottom: 10px;
+  }
+
+  .card-pontuacao li {
+    font-size: 0.8rem;
+  }
+
+  .card-pontuacao .card-pontuacao-intro {
+    font-size: 0.85rem;
+  }
+}
