@@ -3,24 +3,24 @@ const classificacaoFase1 = {
     {
       "posicao": 1,
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 9,
-      "vitorias": 3,
+      "pontos": 12,
+      "vitorias": 4,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 383.909912109375,
-      "cartolaSofrido": 340.740234375,
-      "saldoCartola": 43.169677734375
+      "totalCartola": 445.919912109375,
+      "cartolaSofrido": 388.940234375,
+      "saldoCartola": 56.979677734375
     },
     {
       "posicao": 2,
       "nome": "Tatols Beants F.C",
-      "pontos": 9,
-      "vitorias": 3,
+      "pontos": 12,
+      "vitorias": 4,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 364.060302734375,
-      "cartolaSofrido": 303.0997314453125,
-      "saldoCartola": 60.9605712890625
+      "totalCartola": 426.980302734375,
+      "cartolaSofrido": 357.3097314453125,
+      "saldoCartola": 69.67057128906254
     },
     {
       "posicao": 3,
@@ -28,10 +28,10 @@ const classificacaoFase1 = {
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 343.10986328125,
-      "cartolaSofrido": 358.4501953125,
-      "saldoCartola": -15.34033203125
+      "derrotas": 4,
+      "totalCartola": 397.31986328125,
+      "cartolaSofrido": 421.3701953125,
+      "saldoCartola": -24.050332031250036
     },
     {
       "posicao": 4,
@@ -39,23 +39,23 @@ const classificacaoFase1 = {
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 253.0401611328125,
-      "cartolaSofrido": 341.830078125,
-      "saldoCartola": -88.7899169921875
+      "derrotas": 4,
+      "totalCartola": 301.2401611328125,
+      "cartolaSofrido": 403.840078125,
+      "saldoCartola": -102.5999169921875
     }
   ],
   "Grupo B": [
     {
       "posicao": 1,
       "nome": "Dom Camillo68",
-      "pontos": 12,
-      "vitorias": 4,
+      "pontos": 15,
+      "vitorias": 5,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 406.02001953125,
-      "cartolaSofrido": 333.770263671875,
-      "saldoCartola": 72.249755859375
+      "totalCartola": 478.13001953125,
+      "cartolaSofrido": 398.130263671875,
+      "saldoCartola": 79.999755859375
     },
     {
       "posicao": 2,
@@ -63,45 +63,45 @@ const classificacaoFase1 = {
       "pontos": 9,
       "vitorias": 3,
       "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 383.469482421875,
-      "cartolaSofrido": 384.60009765625,
-      "saldoCartola": -1.130615234375
+      "derrotas": 3,
+      "totalCartola": 447.829482421875,
+      "cartolaSofrido": 456.71009765625,
+      "saldoCartola": -8.880615234375
     },
     {
       "posicao": 3,
+      "nome": "Máquina Laranjja",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 4,
+      "totalCartola": 434.969853515625,
+      "cartolaSofrido": 476.1594140625,
+      "saldoCartola": -41.189560546874986
+    },
+    {
+      "posicao": 4,
       "nome": "S.E.R. GRILLO",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 361.580078125,
-      "cartolaSofrido": 371.899658203125,
-      "saldoCartola": -10.319580078125
-    },
-    {
-      "posicao": 4,
-      "nome": "Máquina Laranjja",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
       "derrotas": 4,
-      "totalCartola": 370.849853515625,
-      "cartolaSofrido": 431.6494140625,
-      "saldoCartola": -60.799560546875
+      "totalCartola": 406.090078125,
+      "cartolaSofrido": 436.019658203125,
+      "saldoCartola": -29.929580078125014
     }
   ],
   "Grupo C": [
     {
       "posicao": 1,
       "nome": "Bandoleros FCS",
-      "pontos": 12,
-      "vitorias": 4,
+      "pontos": 15,
+      "vitorias": 5,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 440.9697265625,
-      "cartolaSofrido": 373.98974609375,
-      "saldoCartola": 66.97998046875
+      "totalCartola": 527.3897265625,
+      "cartolaSofrido": 456.98974609375,
+      "saldoCartola": 70.39998046874996
     },
     {
       "posicao": 2,
@@ -109,21 +109,21 @@ const classificacaoFase1 = {
       "pontos": 9,
       "vitorias": 3,
       "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 407.669921875,
-      "cartolaSofrido": 411.31005859375,
-      "saldoCartola": -3.64013671875
+      "derrotas": 3,
+      "totalCartola": 490.669921875,
+      "cartolaSofrido": 497.73005859375,
+      "saldoCartola": -7.060136718750016
     },
     {
       "posicao": 3,
       "nome": "dasdoresfc",
-      "pontos": 6,
-      "vitorias": 2,
+      "pontos": 9,
+      "vitorias": 3,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 377.9794921875,
-      "cartolaSofrido": 427.669677734375,
-      "saldoCartola": -49.690185546875
+      "totalCartola": 444.5894921875,
+      "cartolaSofrido": 484.069677734375,
+      "saldoCartola": -39.480185546874964
     },
     {
       "posicao": 4,
@@ -131,10 +131,10 @@ const classificacaoFase1 = {
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 404.719970703125,
-      "cartolaSofrido": 418.36962890625,
-      "saldoCartola": -13.649658203125
+      "derrotas": 5,
+      "totalCartola": 461.119970703125,
+      "cartolaSofrido": 484.97962890625,
+      "saldoCartola": -23.859658203125036
     }
   ],
   "Grupo D": [
@@ -144,56 +144,56 @@ const classificacaoFase1 = {
       "pontos": 12,
       "vitorias": 4,
       "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 373.920166015625,
-      "cartolaSofrido": 376.52978515625,
-      "saldoCartola": -2.609619140625
+      "derrotas": 2,
+      "totalCartola": 442.720166015625,
+      "cartolaSofrido": 448.61978515625003,
+      "saldoCartola": -5.8996191406250205
     },
     {
       "posicao": 2,
+      "nome": "Mau Humor F.C.",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 439.999453125,
+      "cartolaSofrido": 408.9603125,
+      "saldoCartola": 31.039140625000016
+    },
+    {
+      "posicao": 3,
+      "nome": "Grêmio imortal 36",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 435.28042968750003,
+      "cartolaSofrido": 469.8498046875,
+      "saldoCartola": -34.56937499999998
+    },
+    {
+      "posicao": 4,
       "nome": "FBC Colorado",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 387.249755859375,
-      "cartolaSofrido": 370.39990234375,
-      "saldoCartola": 16.849853515625
-    },
-    {
-      "posicao": 3,
-      "nome": "Mau Humor F.C.",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 385.189453125,
-      "cartolaSofrido": 361.5703125,
-      "saldoCartola": 23.619140625
-    },
-    {
-      "posicao": 4,
-      "nome": "Grêmio imortal 36",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 363.1904296875,
-      "cartolaSofrido": 401.0498046875,
-      "saldoCartola": -37.859375
+      "derrotas": 4,
+      "totalCartola": 434.639755859375,
+      "cartolaSofrido": 425.20990234375,
+      "saldoCartola": 9.429853515624984
     }
   ],
   "Grupo E": [
     {
       "posicao": 1,
       "nome": "Fedato Futebol Clube",
-      "pontos": 12,
-      "vitorias": 4,
+      "pontos": 15,
+      "vitorias": 5,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 411.74951171875,
-      "cartolaSofrido": 397.419921875,
-      "saldoCartola": 14.32958984375
+      "totalCartola": 474.55951171875,
+      "cartolaSofrido": 450.879921875,
+      "saldoCartola": 23.679589843750023
     },
     {
       "posicao": 2,
@@ -201,21 +201,21 @@ const classificacaoFase1 = {
       "pontos": 9,
       "vitorias": 3,
       "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 419.9599609375,
-      "cartolaSofrido": 388.109619140625,
-      "saldoCartola": 31.850341796875
+      "derrotas": 3,
+      "totalCartola": 485.8499609375,
+      "cartolaSofrido": 461.329619140625,
+      "saldoCartola": 24.52034179687496
     },
     {
       "posicao": 3,
       "nome": "FÚRIA LEON",
-      "pontos": 6,
-      "vitorias": 2,
+      "pontos": 9,
+      "vitorias": 3,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 376.389892578125,
-      "cartolaSofrido": 368.1298828125,
-      "saldoCartola": 8.260009765625
+      "totalCartola": 449.609892578125,
+      "cartolaSofrido": 434.0198828125,
+      "saldoCartola": 15.590009765625041
     },
     {
       "posicao": 4,
@@ -223,45 +223,45 @@ const classificacaoFase1 = {
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 366.03955078125,
-      "cartolaSofrido": 420.4794921875,
-      "saldoCartola": -54.43994140625
+      "derrotas": 5,
+      "totalCartola": 419.49955078125,
+      "cartolaSofrido": 483.2894921875,
+      "saldoCartola": -63.78994140625002
     }
   ],
   "Grupo F": [
     {
       "posicao": 1,
       "nome": "lsauer fc",
-      "pontos": 12,
-      "vitorias": 4,
+      "pontos": 15,
+      "vitorias": 5,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 413.60009765625,
-      "cartolaSofrido": 365.769775390625,
-      "saldoCartola": 47.830322265625
+      "totalCartola": 472.21009765625,
+      "cartolaSofrido": 420.389775390625,
+      "saldoCartola": 51.82032226562501
     },
     {
       "posicao": 2,
+      "nome": "DM Studio",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 436.039853515625,
+      "cartolaSofrido": 453.000234375,
+      "saldoCartola": -16.960380859374993
+    },
+    {
+      "posicao": 3,
       "nome": "AZURRA82",
       "pontos": 9,
       "vitorias": 3,
       "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 370.239990234375,
-      "cartolaSofrido": 337.939697265625,
-      "saldoCartola": 32.30029296875
-    },
-    {
-      "posicao": 3,
-      "nome": "DM Studio",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
       "derrotas": 3,
-      "totalCartola": 368.849853515625,
-      "cartolaSofrido": 386.490234375,
-      "saldoCartola": -17.640380859375
+      "totalCartola": 424.859990234375,
+      "cartolaSofrido": 396.549697265625,
+      "saldoCartola": 28.31029296874999
     },
     {
       "posicao": 4,
@@ -269,34 +269,34 @@ const classificacaoFase1 = {
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 353.489501953125,
-      "cartolaSofrido": 415.979736328125,
-      "saldoCartola": -62.490234375
+      "derrotas": 5,
+      "totalCartola": 419.999501953125,
+      "cartolaSofrido": 483.169736328125,
+      "saldoCartola": -63.17023437500001
     }
   ],
   "Grupo G": [
     {
       "posicao": 1,
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": 12,
-      "vitorias": 4,
+      "pontos": 15,
+      "vitorias": 5,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 397.189453125,
-      "cartolaSofrido": 347.7099609375,
-      "saldoCartola": 49.4794921875
+      "totalCartola": 466.609453125,
+      "cartolaSofrido": 409.8099609375,
+      "saldoCartola": 56.79949218749999
     },
     {
       "posicao": 2,
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": 12,
-      "vitorias": 4,
+      "pontos": 15,
+      "vitorias": 5,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 374.509765625,
-      "cartolaSofrido": 366.6298828125,
-      "saldoCartola": 7.8798828125
+      "totalCartola": 443.629765625,
+      "cartolaSofrido": 422.7398828125,
+      "saldoCartola": 20.88988281249999
     },
     {
       "posicao": 3,
@@ -304,10 +304,10 @@ const classificacaoFase1 = {
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 394.16015625,
-      "cartolaSofrido": 387.9296875,
-      "saldoCartola": 6.23046875
+      "derrotas": 4,
+      "totalCartola": 456.26015625,
+      "cartolaSofrido": 457.3496875,
+      "saldoCartola": -1.0895312499999932
     },
     {
       "posicao": 4,
@@ -315,56 +315,56 @@ const classificacaoFase1 = {
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
-      "derrotas": 5,
-      "totalCartola": 345.830078125,
-      "cartolaSofrido": 409.419921875,
-      "saldoCartola": -63.58984375
+      "derrotas": 6,
+      "totalCartola": 401.940078125,
+      "cartolaSofrido": 478.539921875,
+      "saldoCartola": -76.59984374999999
     }
   ],
   "Grupo H": [
     {
       "posicao": 1,
+      "nome": "Texas Club 2026",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 497.169921875,
+      "cartolaSofrido": 492.30990234374997,
+      "saldoCartola": 4.860019531250032
+    },
+    {
+      "posicao": 2,
       "nome": "TEAM LOPES 99",
       "pontos": 9,
       "vitorias": 3,
       "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 403.77978515625,
-      "cartolaSofrido": 374.259765625,
-      "saldoCartola": 29.52001953125
+      "derrotas": 3,
+      "totalCartola": 481.18978515624997,
+      "cartolaSofrido": 457.259765625,
+      "saldoCartola": 23.930019531249968
     },
     {
-      "posicao": 2,
+      "posicao": 3,
+      "nome": "Super Vasco f.c",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 470.1797265625,
+      "cartolaSofrido": 468.069384765625,
+      "saldoCartola": 2.110341796874991
+    },
+    {
+      "posicao": 4,
       "nome": "Gremiomaniasm",
       "pontos": 9,
       "vitorias": 3,
       "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 358.079833984375,
-      "cartolaSofrido": 375.47021484375,
-      "saldoCartola": -17.390380859375
-    },
-    {
-      "posicao": 3,
-      "nome": "Texas Club 2026",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
       "derrotas": 3,
-      "totalCartola": 414.169921875,
-      "cartolaSofrido": 414.89990234375,
-      "saldoCartola": -0.72998046875
-    },
-    {
-      "posicao": 4,
-      "nome": "Super Vasco f.c",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 404.4697265625,
-      "cartolaSofrido": 415.869384765625,
-      "saldoCartola": -11.399658203125
+      "totalCartola": 410.279833984375,
+      "cartolaSofrido": 441.18021484375,
+      "saldoCartola": -30.90038085937499
     }
   ]
 };

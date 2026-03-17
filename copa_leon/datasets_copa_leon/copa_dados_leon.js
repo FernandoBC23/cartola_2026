@@ -68,7 +68,7 @@ window.copaDados = {
     },
     {
       "id": 3708025,
-      "nome": "NaoVaiDescer!",
+      "nome": "VaiDescerkkkk!!!",
       "turnoPts": null
     },
     {
