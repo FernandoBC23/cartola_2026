@@ -3,8 +3,8 @@
 window.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('loaded');
 
-  const RODADA_MINIMA = 26;
-  const RODADA_MAXIMA = 31; // Define a rodada m?xima
+  const RODADA_MINIMA = 7;
+  const RODADA_MAXIMA = 12;
   const rodadasEncerradas = resultadosFase2
     .filter(r => {
       const p1 = r?.mandante?.pontos;
