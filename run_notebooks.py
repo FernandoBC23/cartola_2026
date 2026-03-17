@@ -19,9 +19,9 @@ DEFAULT_NOTEBOOKS = [
     r"liga_serie_A/datasets_liga_serie_A/busca_dados_liga_serie_A.ipynb",
     r"liga_serie_B/datasets_liga_serie_B/busca_dados_liga_serie_B.ipynb",
     r"liga_serie_C/datasets_liga_serie_C/busca_dados_liga_serie_C.ipynb",
-    r"libertadores/datasets_liberta/1_busca_dados_liberta_fase_1.ipynb",
+    # r"libertadores/datasets_liberta/1_busca_dados_liberta_fase_1.ipynb",
+    r"libertadores/datasets_liberta/2_busca_dados_liberta_fase_2.ipynb",
 
-    # r"libertadores/datasets_liberta/2_busca_dados_liberta_fase_2.ipynb",
     # r"libertadores/datasets_liberta/3_busca_dados_liberta_fase_3.ipynb",
     # r"libertadores/datasets_liberta/4_busca_dados_liberta_fase_4.ipynb",
     # r"libertadores/datasets_liberta/5_busca_dados_liberta_fase_5.ipynb",
@@ -30,7 +30,7 @@ DEFAULT_NOTEBOOKS = [
     # r"sulamericana/datasets_sula/3_busca_dados_sula_semi.ipynb",
     # r"sulamericana/datasets_sula/4_busca_dados_sula_final.ipynb",
 
-    r"copa_leon/datasets_copa_leon/busca_dados_copa_leon.ipynb",
+    # r"copa_leon/datasets_copa_leon/busca_dados_copa_leon.ipynb",
     # r"copa_aluna/datasets_copa_aluna/busca_dados_copa_aluna.ipynb",
 ]
 

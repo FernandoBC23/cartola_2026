@@ -16,5 +16,8 @@ const eliminadosPorRodada = {
   ],
   "6": [
     5823700
+  ],
+  "7": [
+    186283
   ]
 };
