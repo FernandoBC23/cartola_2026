@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Próximos Confrontos</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_scouts_confrontos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-titulo">
+        <img class="logo" src="../imagens/logo-brasileirao-a-256.png" alt="Próximos Confrontos" />
+        <h1>Próximos Confrontos</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index_scouts.html">Painel Scouts</a></li>
+          <li><a href="./proximos_confrontos.html" class="ativo">Próximos Confrontos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="confrontos-layout">
+    <section class="confrontos-intro">
+      <h2>Raio-X da Rodada</h2>
+      <p>Veja os jogos da próxima rodada com leitura rápida de favoritismo, força ofensiva, defesa, momento recente e sinais úteis para escalação.</p>
+    </section>
+
+    <section class="confrontos-panel">
+      <div class="confrontos-toolbar">
+        <div class="confrontos-meta">
+          <span id="rodada-atual" class="meta-chip">Rodada -</span>
+          <span id="jogos-atual" class="meta-chip">0 jogos</span>
+        </div>
+        <label class="confrontos-toggle">
+          <input type="checkbox" id="modo-pre-rodada" checked />
+          <span>Modo pré-rodada</span>
+        </label>
+      </div>
+      <div id="lista-confrontos" class="confrontos-grid"></div>
+    </section>
+  </main>
+
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_scouts/rodadas_local_data.js"></script>
+  <script src="./datasets_scouts/pesos_times.js"></script>
+  <script src="./datasets_scouts/media_gols_clubes.js"></script>
+  <script src="./datasets_scouts/desempenho_times.js"></script>
+  <script src="./datasets_scouts/eficiencia_mandante_visitante.js"></script>
+  <script src="./datasets_scouts/media_pontos_clubes.js"></script>
+  <script src="./scripts_scouts/proximos_confrontos.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      document.body.classList.add("loaded");
+    });
+  </script>
+</body>
+</html>

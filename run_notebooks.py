@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parent
 
 # Lista padrao: notebooks de competicoes (ajuste se quiser).
 DEFAULT_NOTEBOOKS = [
+    # r"scouts/datasets_scouts/busca_scouts.ipynb",
+
     r"liga_eliminacao/datasets_liga_eliminacao/busca_dados_liga_eliminacao.ipynb",
     r"liga_eliminacao/datasets_liga_eliminacao/busca_dados_liga_eliminacao_20.ipynb",
     r"liga_classica/datasets_liga_classica/busca_dados_liga_classica.ipynb",

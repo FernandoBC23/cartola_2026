@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escalação da Rodada</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_scouts_escalacao.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-titulo">
+        <img class="logo" src="../imagens/logo-brasileirao-a-256.png" alt="Scouts" />
+        <h1>Escalação da Rodada</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index_scouts.html">Painel Scouts</a></li>
+          <li><a href="./escalacao_rodada.html" class="ativo">Escalação da Rodada</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="scouts-layout">
+    <section class="scouts-intro">
+      <h2>Etapa 2 da Análise</h2>
+      <p>
+        Esta visualização consome a saída da etapa final do notebook dos scouts: compara as formações,
+        mostra o time titular e o banco de reservas da rodada com base nas regras de negócio atuais.
+      </p>
+    </section>
+
+    <section class="scouts-panel">
+      <div class="scouts-toolbar">
+        <div class="scouts-field">
+          <label for="select-formacao">Escolha a formação:</label>
+          <select id="select-formacao"></select>
+        </div>
+      </div>
+
+      <div id="ranking-formacoes" class="ranking-grid"></div>
+    </section>
+
+    <section class="scouts-panel">
+      <div id="resumo-formacao"></div>
+    </section>
+
+    <section class="scouts-panel">
+      <div class="section-title">
+        <h3>Time Titular</h3>
+        <small>Ordenado por posição</small>
+      </div>
+      <div id="tabela-titulares" class="table-scroll"></div>
+    </section>
+
+    <section class="scouts-panel">
+      <div class="section-title">
+        <h3>Banco de Reservas</h3>
+        <small>Dois nomes por posição</small>
+      </div>
+      <div id="tabela-banco" class="table-scroll"></div>
+    </section>
+
+    <section class="scouts-panel">
+      <div class="section-title">
+        <h3>Banco Econômico</h3>
+        <small>Reservas mais baratos que o titular mais barato da posição</small>
+      </div>
+      <div id="tabela-banco-economico" class="table-scroll"></div>
+    </section>
+
+    <section class="scouts-note">
+      <p>
+        Esta é a primeira versão da visualização. O próximo passo natural é ligar a exportação automática
+        do notebook para o arquivo JS da rodada, sem depender do output salvo manualmente.
+      </p>
+    </section>
+  </main>
+
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_scouts/escalacoes_rodada.js"></script>
+  <script src="./scripts_scouts/escalacao_rodada.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      document.body.classList.add("loaded");
+    });
+  </script>
+</body>
+</html>

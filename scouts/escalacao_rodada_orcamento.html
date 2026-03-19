@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escalação com Orçamento</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_scouts_escalacao.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-titulo">
+        <img class="logo" src="../imagens/logo-brasileirao-a-256.png" alt="Scouts" />
+        <h1>Escalação com Orçamento</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index_scouts.html">Painel Scouts</a></li>
+          <li><a href="./escalacao_rodada_orcamento.html" class="ativo">Escalação com Orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="scouts-layout">
+    <section class="scouts-intro">
+      <h2>Motor 2 da Análise</h2>
+      <p>
+        Esta visualização consome a saída do motor de escalação com orçamento: compara formações,
+        exibe o custo dos titulares, a sobra de cartoletas e o elenco ideal da rodada dentro do limite definido.
+      </p>
+    </section>
+
+    <section class="scouts-panel">
+      <div class="scouts-toolbar">
+        <div class="scouts-field">
+          <label for="select-formacao-orcamento">Escolha a formação:</label>
+          <select id="select-formacao-orcamento"></select>
+        </div>
+      </div>
+
+      <div id="ranking-formacoes-orcamento" class="ranking-grid"></div>
+    </section>
+
+    <section class="scouts-panel">
+      <div id="resumo-formacao-orcamento"></div>
+    </section>
+
+    <section class="scouts-panel">
+      <div class="section-title">
+        <h3>Time Titular</h3>
+        <small>Ordenado por posição</small>
+      </div>
+      <div id="tabela-titulares-orcamento" class="table-scroll"></div>
+    </section>
+
+    <section class="scouts-panel">
+      <div class="section-title">
+        <h3>Banco de Reservas</h3>
+        <small>Fora do orçamento</small>
+      </div>
+      <div id="tabela-banco-orcamento" class="table-scroll"></div>
+    </section>
+  </main>
+
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_scouts/escalacoes_rodada_orcamento.js"></script>
+  <script src="./scripts_scouts/escalacao_rodada_orcamento.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      document.body.classList.add("loaded");
+    });
+  </script>
+</body>
+</html>

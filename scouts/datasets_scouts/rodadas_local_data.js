@@ -415,8 +415,8 @@ const rodadasLocalData = [
     "Horário": "19:00",
     "Local": "Arena MRV",
     "Clube Casa": "CAM",
-    "Placar Casa": null,
-    "Placar Visitante": null,
+    "Placar Casa": 1,
+    "Placar Visitante": 0,
     "Clube Visitante": "INT"
   },
   {
@@ -435,8 +435,8 @@ const rodadasLocalData = [
     "Horário": "20:00",
     "Local": "Casa de Apostas Arena Fonte Nova",
     "Clube Casa": "BAH",
-    "Placar Casa": null,
-    "Placar Visitante": null,
+    "Placar Casa": 1,
+    "Placar Visitante": 1,
     "Clube Visitante": "VIT"
   },
   {
@@ -445,8 +445,8 @@ const rodadasLocalData = [
     "Horário": "21:30",
     "Local": "Maracanã",
     "Clube Casa": "FLA",
-    "Placar Casa": null,
-    "Placar Visitante": null,
+    "Placar Casa": 2,
+    "Placar Visitante": 0,
     "Clube Visitante": "CRU"
   },
   {
@@ -455,8 +455,8 @@ const rodadasLocalData = [
     "Horário": "21:30",
     "Local": "Neo Química Arena",
     "Clube Casa": "COR",
-    "Placar Casa": null,
-    "Placar Visitante": null,
+    "Placar Casa": 0,
+    "Placar Visitante": 2,
     "Clube Visitante": "CFC"
   },
   {
@@ -465,8 +465,8 @@ const rodadasLocalData = [
     "Horário": "19:00",
     "Local": "Mangueirão",
     "Clube Casa": "REM",
-    "Placar Casa": null,
-    "Placar Visitante": null,
+    "Placar Casa": 0,
+    "Placar Visitante": 2,
     "Clube Visitante": "FLU"
   },
   {
@@ -475,8 +475,8 @@ const rodadasLocalData = [
     "Horário": "19:30",
     "Local": "São Januário",
     "Clube Casa": "VAS",
-    "Placar Casa": null,
-    "Placar Visitante": null,
+    "Placar Casa": 2,
+    "Placar Visitante": 1,
     "Clube Visitante": "PAL"
   },
   {
@@ -485,8 +485,8 @@ const rodadasLocalData = [
     "Horário": "20:00",
     "Local": "Canindé",
     "Clube Casa": "SAO",
-    "Placar Casa": null,
-    "Placar Visitante": null,
+    "Placar Casa": 2,
+    "Placar Visitante": 0,
     "Clube Visitante": "CHA"
   },
   {
@@ -495,8 +495,208 @@ const rodadasLocalData = [
     "Horário": "21:30",
     "Local": "Arena do Grêmio",
     "Clube Casa": "GRE",
+    "Placar Casa": 1,
+    "Placar Visitante": 1,
+    "Clube Visitante": "RBB"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-14",
+    "Horário": "18:30",
+    "Local": "Barradão",
+    "Clube Casa": "VIT",
+    "Placar Casa": 2,
+    "Placar Visitante": 0,
+    "Clube Visitante": "CAM"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-14",
+    "Horário": "20:30",
+    "Local": "Nilton Santos (Engenhão)",
+    "Clube Casa": "BOT",
+    "Placar Casa": 0,
+    "Placar Visitante": 3,
+    "Clube Visitante": "FLA"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-15",
+    "Horário": "16:00",
+    "Local": "Maracanã",
+    "Clube Casa": "FLU",
+    "Placar Casa": 3,
+    "Placar Visitante": 2,
+    "Clube Visitante": "CAP"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-15",
+    "Horário": "16:00",
+    "Local": "Vila Belmiro",
+    "Clube Casa": "SAN",
+    "Placar Casa": 1,
+    "Placar Visitante": 1,
+    "Clube Visitante": "COR"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-15",
+    "Horário": "16:00",
+    "Local": "Beira-Rio",
+    "Clube Casa": "INT",
+    "Placar Casa": 0,
+    "Placar Visitante": 1,
+    "Clube Visitante": "BAH"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-15",
+    "Horário": "18:30",
+    "Local": "Allianz Parque",
+    "Clube Casa": "PAL",
+    "Placar Casa": 1,
+    "Placar Visitante": 0,
+    "Clube Visitante": "MIR"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-15",
+    "Horário": "18:30",
+    "Local": "Couto Pereira",
+    "Clube Casa": "CFC",
+    "Placar Casa": 1,
+    "Placar Visitante": 0,
+    "Clube Visitante": "REM"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-15",
+    "Horário": "20:30",
+    "Local": "Cícero de Souza Marques",
+    "Clube Casa": "RBB",
+    "Placar Casa": 1,
+    "Placar Visitante": 2,
+    "Clube Visitante": "SAO"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-15",
+    "Horário": "20:30",
+    "Local": "Mineirão",
+    "Clube Casa": "CRU",
+    "Placar Casa": 3,
+    "Placar Visitante": 3,
+    "Clube Visitante": "VAS"
+  },
+  {
+    "Rodada": 6,
+    "Data": "2026-03-16",
+    "Horário": "20:00",
+    "Local": "Arena Condá",
+    "Clube Casa": "CHA",
+    "Placar Casa": 1,
+    "Placar Visitante": 1,
+    "Clube Visitante": "GRE"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-18",
+    "Horário": "19:00",
+    "Local": "Allianz Parque",
+    "Clube Casa": "PAL",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "BOT"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-18",
+    "Horário": "19:00",
+    "Local": "Casa de Apostas Arena Fonte Nova",
+    "Clube Casa": "BAH",
     "Placar Casa": null,
     "Placar Visitante": null,
     "Clube Visitante": "RBB"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-18",
+    "Horário": "19:30",
+    "Local": "Arena da Baixada",
+    "Clube Casa": "CAP",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "CRU"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-18",
+    "Horário": "20:00",
+    "Local": "Maião",
+    "Clube Casa": "MIR",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "CFC"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-18",
+    "Horário": "20:00",
+    "Local": "Arena MRV",
+    "Clube Casa": "CAM",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "SAO"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-18",
+    "Horário": "21:30",
+    "Local": "Maracanã",
+    "Clube Casa": "VAS",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "FLU"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-18",
+    "Horário": "21:30",
+    "Local": "Vila Belmiro",
+    "Clube Casa": "SAN",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "INT"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-19",
+    "Horário": "19:00",
+    "Local": "Arena do Grêmio",
+    "Clube Casa": "GRE",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "VIT"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-19",
+    "Horário": "20:00",
+    "Local": "Maracanã",
+    "Clube Casa": "FLA",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "REM"
+  },
+  {
+    "Rodada": 7,
+    "Data": "2026-03-19",
+    "Horário": "21:30",
+    "Local": "Arena Condá",
+    "Clube Casa": "CHA",
+    "Placar Casa": null,
+    "Placar Visitante": null,
+    "Clube Visitante": "COR"
   }
 ];

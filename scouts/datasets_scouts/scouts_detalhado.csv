@@ -1191,3 +1191,617 @@ Rodada,ID,Nome,Clube,Posição,Mandante_Visitante,Adversário,Pontuação,Status
 4,99789,Brenner,VAS,Atacante,visitante,SAN,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 4,99815,Arias,PAL,Meia,mandante,FLU,2.7,0,1,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
 4,99889,Alan Franco,SAO,Zagueiro,visitante,CFC,5.2,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,100742,Matheus Henrique,CRU,Meia,visitante,FLA,3.0,0,0,1,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,100804,Tchamba,REM,Zagueiro,mandante,FLU,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,100842,Ruan,CAM,Zagueiro,mandante,INT,4.5,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101254,Alef Manga,REM,Atacante,mandante,FLU,1.0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101314,Ademir,BAH,Atacante,mandante,VIT,1.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101393,Eduardo Doma,CHA,Zagueiro,visitante,SAO,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101405,Wallisson,CFC,Meia,visitante,COR,2.5,0,0,2,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101574,Hugo Souza,COR,Goleiro,mandante,CFC,-1.7,0,1,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0
+5,101594,Hugo Moura,VAS,Meia,mandante,PAL,2.5,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101597,Ramon,VIT,Lateral,visitante,BAH,8.8,0,0,1,4,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,101715,Alerrandro,INT,Atacante,visitante,CAM,1.8,0,0,0,0,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101727,Matheuzinho,COR,Lateral,mandante,CFC,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101729,Fabinho,CFC,Atacante,visitante,COR,-1.6,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,101960,Vitinho,INT,Atacante,visitante,CAM,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,102318,Caio Paulista,GRE,Lateral,mandante,RBB,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,102340,Cacá,VIT,Zagueiro,visitante,BAH,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,102911,Zé Ricardo,REM,Meia,mandante,FLU,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,102928,Canobbio,FLU,Atacante,visitante,REM,14.2,0,0,2,2,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+5,103388,Emmanuel Martínez,VIT,Meia,visitante,BAH,4.5,0,0,3,5,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104027,Rafael Guanaes,MIR,Técnico,mandante,SAN,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104036,Labyad,COR,Meia,mandante,CFC,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104075,Sabino,SAO,Zagueiro,mandante,CHA,5.6,0,0,1,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104084,Carlos Miguel,PAL,Goleiro,visitante,VAS,3.2,0,0,0,0,0,0,0,0,0,0,0,4,2,0,0,0,0,0,0,0,0
+5,104085,Bruno Fuchs,PAL,Zagueiro,visitante,VAS,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104118,Lucas Arcanjo,VIT,Goleiro,visitante,BAH,10.5,0,1,0,0,0,0,0,0,0,0,0,5,1,1,0,0,0,0,0,1,0
+5,104134,Fabri,VIT,Atacante,visitante,BAH,1.5,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104257,João Lucas,REM,Lateral,mandante,FLU,6.2,0,0,4,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104470,Everton,CHA,Lateral,visitante,SAO,1.4,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,104502,Christian,CRU,Meia,visitante,FLA,3.9,0,0,1,1,1,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104519,Camilo,CHA,Meia,visitante,SAO,2.9,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104754,Juan Vojvoda,SAN,Técnico,visitante,MIR,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104783,Acevedo,BAH,Meia,mandante,VIT,1.8,0,0,1,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,104811,Sebastián Gómez,CFC,Meia,visitante,COR,1.1,0,0,1,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105048,Jajá,REM,Atacante,mandante,FLU,0.8,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,105068,Reinier,CAM,Meia,mandante,INT,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105175,Khellven,PAL,Lateral,visitante,VAS,4.4,0,0,3,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105373,Gabriel Xavier,BAH,Zagueiro,mandante,VIT,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105436,Carrascal,FLA,Meia,mandante,CRU,8.8,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,105531,Matheus Bidu,COR,Lateral,mandante,CFC,5.4,0,0,3,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105563,Carlos Vinícius,GRE,Atacante,mandante,RBB,12.7,0,0,0,2,0,1,0,0,1,2,0,0,0,0,0,1,0,0,0,0,0
+5,105584,Lucas Piton,VAS,Lateral,mandante,PAL,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105664,Walter Clar,CHA,Lateral,visitante,SAO,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105842,Edu,VIT,Zagueiro,visitante,BAH,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,105949,Rochet,INT,Goleiro,visitante,CAM,1.6,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+5,105990,Santiago Mingo,BAH,Zagueiro,mandante,VIT,-1.6,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,106104,Enamorado,GRE,Atacante,mandante,RBB,8.2,0,1,0,3,3,0,3,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+5,106202,Bruno Gomes,INT,Meia,visitante,CAM,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,106294,Marcos Antônio,SAO,Meia,mandante,CHA,8.7,0,0,1,3,0,1,4,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+5,106302,Preciado,CAM,Lateral,mandante,INT,7.5,0,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,106434,Eduardo Santos,RBB,Zagueiro,visitante,GRE,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,106593,Villalba,CRU,Zagueiro,visitante,FLA,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,106822,Rodrigo Nestor,BAH,Meia,mandante,VIT,5.2,0,0,2,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,107093,Luciano Juba,BAH,Lateral,mandante,VIT,2.4,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,107172,Patrick de Paula,REM,Meia,mandante,FLU,5.9,0,1,3,1,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,107173,Michel Araújo,BAH,Meia,mandante,VIT,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,107174,Bruno Tabata,INT,Meia,visitante,CAM,1.3,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,107873,Bobadilla,SAO,Meia,mandante,CHA,13.0,0,0,2,0,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0
+5,107989,Carbonero,INT,Atacante,visitante,CAM,8.5,0,0,1,0,3,0,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0
+5,108133,Isidro Pitta,RBB,Atacante,visitante,GRE,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,108162,Nardoni,GRE,Meia,mandante,RBB,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,109127,Tiago Cóser,CFC,Zagueiro,visitante,COR,4.7,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,109336,Rafael Carvalheira,CHA,Meia,visitante,SAO,-1.9,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,109401,Erick Pulga,BAH,Atacante,mandante,VIT,1.5,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+5,109573,Martinelli,FLU,Meia,visitante,REM,0.2,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,109966,Monsalve,GRE,Meia,mandante,RBB,0.5,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,110144,Spinelli,VAS,Atacante,mandante,PAL,0.9,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,110426,Bernabei,INT,Lateral,visitante,CAM,2.3,0,1,0,3,1,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+5,110506,Abel Ferreira,PAL,Técnico,visitante,VAS,4.32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,110510,Aguirre,INT,Lateral,visitante,CAM,2.2,0,0,1,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,110708,Pedro Rangel,CFC,Goleiro,visitante,COR,6.8,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+5,110715,Andrés Hurtado,RBB,Lateral,visitante,GRE,8.1,0,0,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,110750,Gustavo Marques,RBB,Zagueiro,visitante,GRE,5.0,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,110759,John Kennedy,FLU,Atacante,visitante,REM,13.9,0,0,1,1,1,2,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0
+5,111309,Gustavo Martins,GRE,Zagueiro,mandante,RBB,1.7,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,111466,Victor Gabriel,INT,Zagueiro,visitante,CAM,0.5,0,1,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,111682,Adson,VAS,Meia,mandante,PAL,3.1,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,111690,Matheus Cunha,CRU,Goleiro,visitante,FLA,0.3,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+5,111829,Kayky,INT,Atacante,visitante,CAM,3.2,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,111832,Jefté,PAL,Lateral,visitante,VAS,-0.6,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,112576,Vini Paulista,CFC,Meia,visitante,COR,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,112709,Kaiki Bruno,CRU,Lateral,visitante,FLA,4.7,0,0,3,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,112863,Ramón Sosa,PAL,Atacante,visitante,VAS,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,112886,Lucas Barbosa,RBB,Atacante,visitante,GRE,-0.2,0,1,0,7,1,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,113034,Freytes,FLU,Zagueiro,visitante,REM,6.2,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,113103,Flaco López,PAL,Atacante,visitante,VAS,8.0,0,0,0,3,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,113125,Picco,REM,Meia,mandante,FLU,0.5,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,113157,Nathan Mendes,VIT,Lateral,visitante,BAH,2.2,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,113359,Pablo Maia,SAO,Meia,mandante,CHA,-0.6,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,113397,Cristian Olivera,BAH,Atacante,mandante,VIT,1.4,0,0,0,2,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,114040,Minda,CAM,Atacante,mandante,INT,1.7,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,115479,Paulo Pezzolano,INT,Técnico,visitante,CAM,3.62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,116034,Victor Hugo,CAM,Meia,mandante,INT,3.5,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,116065,Cuiabano,VAS,Lateral,mandante,PAL,13.7,0,0,3,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+5,116066,Rubens,CHA,Atacante,visitante,SAO,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,116447,Hércules,FLU,Meia,visitante,REM,1.1,0,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,116461,Jamerson,VIT,Lateral,visitante,BAH,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,116706,Andrés Gómez,VAS,Atacante,mandante,PAL,11.5,0,0,3,0,2,0,6,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+5,117330,Robert Renan,VAS,Zagueiro,mandante,PAL,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,117632,Garro,COR,Meia,mandante,CFC,1.1,0,0,0,2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,117910,Breno Bidon,COR,Meia,mandante,CFC,1.7,0,0,0,2,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,117930,Lavega,CFC,Atacante,visitante,COR,3.4,0,0,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,117965,Martín Anselmi,BOT,Técnico,visitante,CAP,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,118563,Rodriguinho,RBB,Meia,visitante,GRE,7.6,0,1,0,1,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,118655,Saldivia,VAS,Zagueiro,mandante,PAL,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,122138,João Vitor,CHA,Meia,visitante,SAO,2.1,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,122394,Gustavinho,RBB,Meia,visitante,GRE,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,122485,Barros,VAS,Meia,mandante,PAL,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,122573,Wallace Yan,FLA,Atacante,mandante,CRU,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,122660,Japa,CRU,Meia,visitante,FLA,3.3,0,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,123360,Cauly,SAO,Meia,mandante,CHA,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,123625,Ítalo,CHA,Atacante,visitante,SAO,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,123648,Lucas Ronier,CFC,Atacante,visitante,COR,17.5,0,1,6,1,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,123738,Herrera,RBB,Atacante,visitante,GRE,7.1,0,0,3,1,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+5,123744,Alan Rodríguez,INT,Meia,visitante,CAM,3.0,0,0,1,2,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,124239,Henry Mosquera,RBB,Atacante,visitante,GRE,4.3,0,1,1,0,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,124424,Rodrigo Castillo,FLU,Atacante,visitante,REM,2.7,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,124526,Giay,PAL,Lateral,visitante,VAS,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,124661,Iván Román,CAM,Zagueiro,mandante,INT,8.6,0,0,3,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,125467,Viery,GRE,Zagueiro,mandante,RBB,1.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,126182,Paulinho,INT,Meia,visitante,CAM,8.2,0,0,4,2,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,126189,Tomás Pérez,CAM,Meia,mandante,INT,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,126977,Fernando Seabra,CFC,Técnico,visitante,COR,8.79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+5,128433,Johan Rojas,VAS,Meia,mandante,PAL,0.9,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,130048,Noriega,GRE,Zagueiro,mandante,RBB,3.2,0,0,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,130612,Luighi,PAL,Atacante,visitante,VAS,0.7,0,1,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,131516,JP Chermont,CFC,Lateral,visitante,COR,5.7,0,0,0,1,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,131617,André Silva,SAO,Atacante,mandante,CHA,1.0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,131967,Villarreal,CRU,Atacante,visitante,FLA,3.7,0,0,1,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,132071,Serna,FLU,Atacante,visitante,REM,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,132264,Arroyo,CRU,Atacante,visitante,FLA,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,132274,Ignacio Sosa,RBB,Meia,visitante,GRE,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,132553,Jemmes,FLU,Zagueiro,visitante,REM,9.2,0,0,3,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,133543,Gui Negão,COR,Atacante,mandante,CFC,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,136955,Sanabria,BAH,Atacante,mandante,VIT,3.0,0,0,0,0,1,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,140726,David Martins,BAH,Meia,mandante,VIT,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,141451,Allan,PAL,Meia,visitante,VAS,-0.1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,141595,Gabriel Mec,GRE,Atacante,mandante,RBB,4.3,0,0,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,141995,Dieguinho,COR,Meia,mandante,CFC,1.3,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,142279,Nuno Moreira,VAS,Meia,mandante,PAL,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,142593,Nicolás Ferreira,REM,Atacante,mandante,FLU,0.2,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,143173,Leonel Pérez,GRE,Meia,mandante,RBB,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,145404,Arthur,PAL,Lateral,visitante,VAS,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,145659,Nicolas,SAO,Lateral,mandante,CHA,5.0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,145744,André,COR,Meia,mandante,CFC,3.1,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,146040,João Pedro,REM,Atacante,mandante,FLU,-0.5,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,147546,Roger,GRE,Meia,mandante,RBB,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,147864,Rafael Monti,REM,Atacante,mandante,FLU,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,37457,Léo Condé,REM,Técnico,mandante,FLU,2.96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,37656,Fábio,FLU,Goleiro,visitante,REM,8.9,0,0,0,0,0,0,0,1,0,0,0,3,0,0,0,0,0,0,0,0,0
+5,39148,Hulk,CAM,Atacante,mandante,INT,8.2,0,0,0,3,0,1,6,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+5,39656,Alan Franco,CAM,Meia,mandante,INT,3.9,0,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,39850,Vagner Mancini,RBB,Técnico,visitante,GRE,4.79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,40990,Dorival Júnior,COR,Técnico,mandante,CFC,2.37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,41929,Renato Gaúcho,VAS,Técnico,mandante,PAL,6.95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+5,42234,Cássio,CRU,Goleiro,visitante,FLA,1.6,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+5,42500,Fagner,CRU,Lateral,visitante,FLA,-1.1,0,1,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,45125,Tite,CRU,Técnico,visitante,FLA,2.73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,61987,Alex Sandro,FLA,Lateral,mandante,CRU,4.9,0,0,0,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,68685,Alan Patrick,INT,Meia,visitante,CAM,2.2,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,68920,Dudu,CAM,Atacante,mandante,INT,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,68928,Rafael,SAO,Goleiro,mandante,CHA,6.3,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+5,68938,Giovanni Augusto,CHA,Meia,visitante,SAO,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,68952,Marinho,VIT,Atacante,visitante,BAH,3.6,0,0,1,1,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,68996,Willian José,BAH,Atacante,mandante,VIT,2.7,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+5,69208,Gabriel Paulista,COR,Zagueiro,mandante,CFC,5.5,0,0,3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,70164,Lucas Moura,SAO,Meia,mandante,CHA,1.8,0,0,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,70360,Eduardo Sasha,RBB,Atacante,visitante,GRE,2.8,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,70592,Felipe Anderson,PAL,Meia,visitante,VAS,5.4,0,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,70666,Marllon,REM,Zagueiro,mandante,FLU,3.2,0,0,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,70944,Bruno Henrique,INT,Meia,visitante,CAM,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,70958,Jean Carlos,CHA,Meia,visitante,SAO,2.5,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,71043,Léo Vieira,CHA,Goleiro,visitante,SAO,4.5,0,0,0,0,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,0
+5,71123,Thiago Mendes,VAS,Meia,mandante,PAL,10.8,0,1,2,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,71227,Maicon,CFC,Zagueiro,visitante,COR,7.0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,71631,Weverton,GRE,Goleiro,mandante,RBB,6.8,0,0,0,0,0,0,0,0,0,0,0,6,1,0,0,0,0,0,0,0,0
+5,71684,Gustavo Gómez,PAL,Zagueiro,visitante,VAS,1.7,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,72294,Everson,CAM,Goleiro,mandante,INT,15.9,0,0,0,0,0,0,1,1,0,0,0,8,0,0,0,0,0,0,0,0,0
+5,72605,Vitor Hugo,CAM,Zagueiro,mandante,INT,4.0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,73384,Samuel Xavier,FLU,Lateral,visitante,REM,9.6,0,0,2,1,0,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,73481,Gilmar Dal Pozzo,CHA,Técnico,visitante,SAO,1.73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,77485,Carrillo,COR,Meia,mandante,CFC,-1.6,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,78117,Everaldo,BAH,Atacante,mandante,VIT,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,78248,Gustavo Henrique,COR,Zagueiro,mandante,CFC,3.6,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,78435,Vitinho,COR,Atacante,mandante,CFC,1.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,78445,Renê,FLU,Lateral,visitante,REM,12.9,0,0,1,1,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+5,78605,Gabriel,RBB,Meia,visitante,GRE,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,78855,Thiago Santos,CFC,Zagueiro,visitante,COR,6.5,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,79437,Roger Machado,SAO,Técnico,mandante,CHA,9.87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+5,79701,Lucas Silva,CRU,Meia,visitante,FLA,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,80196,Yago Pikachu,REM,Meia,mandante,FLU,3.0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,80287,Luciano,SAO,Atacante,mandante,CHA,9.8,0,0,0,1,0,1,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+5,80570,Wendell,SAO,Lateral,mandante,CHA,7.4,0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,81845,Alisson,FLU,Meia,visitante,REM,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,82463,Otávio,FLU,Meia,visitante,REM,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,82627,Luiz Araújo,FLA,Atacante,mandante,CRU,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,82730,Marcelo Rangel,REM,Goleiro,mandante,FLU,4.5,0,0,0,0,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,0
+5,82775,Lucas Ramon,SAO,Lateral,mandante,CHA,11.2,0,0,3,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,83433,Patrick,REM,Meia,mandante,FLU,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,83528,Léo Pereira,FLA,Zagueiro,mandante,CRU,4.9,0,1,1,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,84339,Bruno Melo,CFC,Lateral,visitante,COR,5.5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,84626,Josué,CFC,Meia,visitante,COR,12.7,0,0,0,1,1,0,2,0,0,1,0,0,0,0,0,0,2,0,0,0,0
+5,84674,Lucas Evangelista,PAL,Meia,visitante,VAS,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,84735,Jorginho,FLA,Meia,mandante,CRU,2.4,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,84816,Varela,FLA,Lateral,mandante,CRU,5.0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,85048,Memphis Depay,COR,Atacante,mandante,CFC,-0.1,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,85403,Danielzinho,SAO,Meia,mandante,CHA,3.6,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,86292,Bolasie,CHA,Atacante,visitante,SAO,2.2,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,86686,Tchê Tchê,VAS,Meia,mandante,PAL,0.0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,86757,Everton,FLA,Atacante,mandante,CRU,2.0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,87008,Léo Jardim,VAS,Goleiro,mandante,PAL,1.6,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+5,87225,Pedro Henrique,RBB,Zagueiro,visitante,GRE,5.5,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,87258,Soteldo,FLU,Atacante,visitante,REM,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,87552,Vitor Bueno,REM,Meia,mandante,FLU,1.7,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,87863,Arrascaeta,FLA,Meia,mandante,CRU,9.3,0,0,2,0,2,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+5,87999,Gustavo Scarpa,CAM,Meia,mandante,INT,1.3,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,88037,Luís Castro,GRE,Técnico,mandante,RBB,4.42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,88293,Neto Pessoa,CHA,Atacante,visitante,SAO,2.8,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,88963,Leonardo Jardim,FLA,Técnico,mandante,CRU,9.46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+5,89256,Gerson,CRU,Meia,visitante,FLA,2.7,0,0,1,1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,89274,Andreas Pereira,PAL,Meia,visitante,VAS,4.4,0,0,2,2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,89837,Lucho Acosta,FLU,Meia,visitante,REM,6.4,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+5,89840,Calleri,SAO,Atacante,mandante,CHA,12.1,0,0,2,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+5,89883,Dodi,GRE,Meia,mandante,RBB,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,90302,Pedro Rocha,CFC,Atacante,visitante,COR,1.0,0,0,1,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,90309,David,VAS,Atacante,mandante,PAL,5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+5,90588,Caíque,VIT,Meia,visitante,BAH,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,90608,Chico da Costa,CRU,Atacante,visitante,FLA,0.9,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,90703,Matheuzinho,VIT,Meia,visitante,BAH,4.2,0,0,1,0,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,90768,Fabrício Bruno,CRU,Zagueiro,visitante,FLA,1.0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,91101,Ronaldo,BAH,Goleiro,mandante,VIT,0.3,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+5,91473,Erick Pulgar,FLA,Meia,mandante,CRU,2.1,0,1,1,2,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,91573,Arboleda,SAO,Zagueiro,mandante,CHA,6.5,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,91706,Marlon,GRE,Lateral,mandante,RBB,2.4,0,1,1,2,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,91908,Pavón,GRE,Atacante,mandante,RBB,3.0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,92180,Jair Ventura,VIT,Técnico,visitante,BAH,4.45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,92273,Odair Hellmann,CAP,Técnico,mandante,BOT,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,92696,Renato Kayzer,VIT,Atacante,visitante,BAH,-0.1,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,92747,Eduardo Domínguez,CAM,Técnico,mandante,INT,8.14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+5,92854,Borré,INT,Atacante,visitante,CAM,1.4,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,93411,Cantalapiedra,VIT,Meia,visitante,BAH,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,93478,Wanderson,CRU,Atacante,visitante,FLA,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,93716,Paulo Henrique,VAS,Lateral,mandante,PAL,9.7,0,0,2,1,0,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+5,93790,Marlon Freitas,PAL,Meia,visitante,VAS,8.0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+5,93882,Cleiton,RBB,Goleiro,visitante,GRE,2.9,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0
+5,93988,Breno Lopes,CFC,Atacante,visitante,COR,-0.1,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,94067,Matheus Fernandes,RBB,Meia,visitante,GRE,0.8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,94583,Pedro,FLA,Atacante,mandante,CRU,19.4,0,0,6,1,0,0,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+5,94930,Lucas Paquetá,FLA,Meia,mandante,CRU,6.3,0,0,3,5,1,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,94968,Juninho Capixaba,RBB,Lateral,visitante,GRE,7.2,0,1,2,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+5,95332,Marcinho,CHA,Atacante,visitante,SAO,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,95362,Cassierra,CAM,Atacante,mandante,INT,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,95555,Sávio,REM,Lateral,mandante,FLU,2.9,0,0,1,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,95620,Bruno Leonardo,CHA,Zagueiro,visitante,SAO,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,96591,Renan Lodi,CAM,Lateral,mandante,INT,7.7,0,0,0,2,1,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,96610,Matheus Pereira,CRU,Meia,visitante,FLA,4.6,0,0,1,4,2,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+5,96652,Allan,COR,Meia,mandante,CFC,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,96793,Camutanga,VIT,Zagueiro,visitante,BAH,0.8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,96870,Emerson Royal,FLA,Lateral,mandante,CRU,5.2,0,0,0,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,97341,Rogério Ceni,BAH,Técnico,mandante,VIT,3.85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,97432,Victor Caetano,CHA,Zagueiro,visitante,SAO,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,97642,Félix Torres,INT,Zagueiro,visitante,CAM,2.4,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,97810,Erick,VIT,Atacante,visitante,BAH,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,97867,Léo Ortiz,FLA,Zagueiro,mandante,CRU,7.7,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+5,97878,Jacy,CFC,Zagueiro,visitante,COR,13.0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,98022,Erick,BAH,Meia,mandante,VIT,9.2,0,0,1,2,1,0,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+5,98225,Pedro Raul,COR,Atacante,mandante,CFC,0.7,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,98517,Jean Lucas,BAH,Meia,mandante,VIT,11.9,0,0,1,2,1,0,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+5,98672,Savarino,FLU,Meia,visitante,REM,2.2,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,98720,Angileri,COR,Lateral,mandante,CFC,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,98873,Samuel Lino,FLA,Atacante,mandante,CRU,4.7,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+5,98909,Cuello,CAM,Atacante,mandante,INT,11.8,0,0,3,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+5,99366,Luis Zubeldía,FLU,Técnico,visitante,REM,9.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+5,99440,Baralhas,VIT,Meia,visitante,BAH,5.6,0,0,4,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,99552,Rossi,FLA,Goleiro,mandante,CRU,10.7,0,0,0,0,0,0,1,1,0,0,0,4,0,0,0,0,0,0,0,0,0
+5,99815,Arias,PAL,Meia,visitante,VAS,10.7,0,0,7,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,99889,Alan Franco,SAO,Zagueiro,mandante,CHA,6.2,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,100742,Matheus Henrique,CRU,Meia,mandante,VAS,4.3,0,0,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,100804,Tchamba,REM,Zagueiro,visitante,CFC,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,100842,Ruan,CAM,Zagueiro,visitante,VIT,2.7,0,1,2,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,100898,Vitinho,BOT,Lateral,mandante,FLA,4.7,0,0,3,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101002,Júnior Santos,BOT,Atacante,mandante,FLA,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101254,Alef Manga,REM,Atacante,visitante,CFC,1.6,0,0,0,1,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101290,Ferreira,SAO,Atacante,visitante,RBB,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101314,Ademir,BAH,Atacante,visitante,INT,0.4,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101393,Eduardo Doma,CHA,Zagueiro,mandante,GRE,1.8,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101405,Wallisson,CFC,Meia,mandante,REM,3.4,0,0,2,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101574,Hugo Souza,COR,Goleiro,visitante,SAN,4.2,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,0
+6,101594,Hugo Moura,VAS,Meia,visitante,CRU,2.3,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101597,Ramon,VIT,Lateral,mandante,CAM,7.9,0,0,2,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101715,Alerrandro,INT,Atacante,mandante,BAH,2.6,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101727,Matheuzinho,COR,Lateral,visitante,SAN,6.0,0,0,3,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101729,Fabinho,CFC,Atacante,mandante,REM,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101807,Oliva,SAN,Meia,mandante,COR,7.0,0,0,4,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101908,Willian Machado,MIR,Zagueiro,visitante,PAL,3.5,0,0,1,1,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,101960,Vitinho,INT,Atacante,mandante,BAH,1.4,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,102130,Piquerez,PAL,Lateral,mandante,MIR,5.5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,102256,Rollheiser,SAN,Meia,mandante,COR,-1.3,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,102318,Caio Paulista,GRE,Lateral,visitante,CHA,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,102340,Cacá,VIT,Zagueiro,mandante,CAM,6.5,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,102667,Nathan Fogaça,MIR,Atacante,visitante,PAL,1.7,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,102796,Julimar,CAP,Atacante,visitante,FLU,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,102911,Zé Ricardo,REM,Meia,visitante,CFC,7.0,0,0,4,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,102928,Canobbio,FLU,Atacante,mandante,CAP,10.4,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+6,103056,Gabriel Brazão,SAN,Goleiro,mandante,COR,2.9,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0
+6,103388,Emmanuel Martínez,VIT,Meia,mandante,CAM,6.7,0,0,3,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,103523,Ignácio,FLU,Zagueiro,mandante,CAP,9.3,0,0,3,0,1,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+6,103767,Gabriel Menino,SAN,Meia,mandante,COR,3.0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,103987,Higor Meritão,CHA,Meia,mandante,GRE,3.6,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104027,Rafael Guanaes,MIR,Técnico,visitante,PAL,1.93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104075,Sabino,SAO,Zagueiro,visitante,RBB,10.4,0,0,1,3,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,104084,Carlos Miguel,PAL,Goleiro,mandante,MIR,7.1,0,1,0,0,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0
+6,104085,Bruno Fuchs,PAL,Zagueiro,mandante,MIR,4.4,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104118,Lucas Arcanjo,VIT,Goleiro,mandante,CAM,8.9,0,0,0,0,0,0,0,1,0,0,0,3,0,0,0,0,0,0,0,0,0
+6,104134,Fabri,VIT,Atacante,mandante,CAM,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104191,Raul,BOT,Goleiro,mandante,FLA,0.9,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0
+6,104257,João Lucas,REM,Lateral,visitante,CFC,-0.8,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104470,Everton,CHA,Lateral,mandante,GRE,1.2,0,1,1,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104502,Christian,CRU,Meia,mandante,VAS,11.7,0,0,2,1,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,104693,Newton,BOT,Meia,mandante,FLA,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104754,Juan Vojvoda,SAN,Técnico,mandante,COR,3.98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104758,Enzo Díaz,SAO,Lateral,visitante,RBB,1.9,0,1,1,2,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104783,Acevedo,BAH,Meia,visitante,INT,4.9,0,0,3,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,104811,Sebastián Gómez,CFC,Meia,mandante,REM,4.3,0,1,2,3,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+6,105048,Jajá,REM,Atacante,visitante,CFC,6.1,0,1,2,1,3,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105068,Reinier,CAM,Meia,visitante,VIT,2.7,0,0,0,1,1,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,105089,Tetê,GRE,Atacante,visitante,CHA,6.8,0,0,0,0,2,0,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+6,105300,Ferraresi,BOT,Zagueiro,mandante,FLA,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105373,Gabriel Xavier,BAH,Zagueiro,visitante,INT,6.3,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105436,Carrascal,FLA,Meia,visitante,BOT,8.6,0,0,4,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105518,Renan Peixoto,CAP,Atacante,visitante,FLU,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105531,Matheus Bidu,COR,Lateral,visitante,SAN,0.9,0,0,0,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105563,Carlos Vinícius,GRE,Atacante,visitante,CHA,0.8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105584,Lucas Piton,VAS,Lateral,visitante,CRU,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105647,Maurício,PAL,Meia,mandante,MIR,6.6,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,105664,Walter Clar,CHA,Lateral,mandante,GRE,8.2,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,105903,Aldo Filho,MIR,Meia,visitante,PAL,1.4,0,0,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,105949,Rochet,INT,Goleiro,mandante,BAH,3.1,0,0,1,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+6,105990,Santiago Mingo,BAH,Zagueiro,visitante,INT,5.2,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106104,Enamorado,GRE,Atacante,visitante,CHA,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106202,Bruno Gomes,INT,Meia,mandante,BAH,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106294,Marcos Antônio,SAO,Meia,visitante,RBB,3.5,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106302,Preciado,CAM,Lateral,visitante,VIT,3.2,0,1,2,2,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106323,Caio Alexandre,BAH,Meia,visitante,INT,3.0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106593,Villalba,CRU,Zagueiro,mandante,VAS,0.5,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106708,Igor Formiga,MIR,Lateral,visitante,PAL,4.7,0,0,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,106822,Rodrigo Nestor,BAH,Meia,visitante,INT,1.2,0,0,0,2,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,107093,Luciano Juba,BAH,Lateral,visitante,INT,4.2,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,107173,Michel Araújo,BAH,Meia,visitante,INT,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,107231,Danilo,BOT,Meia,mandante,FLA,3.5,0,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,107873,Bobadilla,SAO,Meia,visitante,RBB,2.2,0,1,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,107985,Terán,CAP,Zagueiro,visitante,FLU,2.5,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,107989,Carbonero,INT,Atacante,mandante,BAH,2.1,0,0,0,1,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,108133,Isidro Pitta,RBB,Atacante,mandante,SAO,1.6,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,108162,Nardoni,GRE,Meia,visitante,CHA,11.0,0,0,1,0,0,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,108469,Adonis Frías,SAN,Zagueiro,mandante,COR,4.2,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,108683,Emiliano Martínez,PAL,Meia,mandante,MIR,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,109096,Plata,FLA,Atacante,visitante,BOT,1.2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,109127,Tiago Cóser,CFC,Zagueiro,mandante,REM,4.7,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,109336,Rafael Carvalheira,CHA,Meia,mandante,GRE,5.7,0,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,109401,Erick Pulga,BAH,Atacante,visitante,INT,3.9,0,0,2,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,109573,Martinelli,FLU,Meia,mandante,CAP,1.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,109966,Monsalve,GRE,Meia,visitante,CHA,-0.8,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,109987,Medina,BOT,Meia,mandante,FLA,2.9,0,0,1,3,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,110426,Bernabei,INT,Lateral,mandante,BAH,6.5,0,0,2,2,3,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,110506,Abel Ferreira,PAL,Técnico,mandante,MIR,7.57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+6,110510,Aguirre,INT,Lateral,mandante,BAH,1.4,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,110605,Vinícius Balieiro,CHA,Meia,mandante,GRE,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,110668,Esquivel,CAP,Lateral,visitante,FLU,8.5,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,110708,Pedro Rangel,CFC,Goleiro,mandante,REM,6.3,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+6,110715,Andrés Hurtado,RBB,Lateral,mandante,SAO,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,110750,Gustavo Marques,RBB,Zagueiro,mandante,SAO,1.2,0,0,0,2,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,110759,John Kennedy,FLU,Atacante,mandante,CAP,3.8,0,0,1,3,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+6,111246,Alix Vinicius,RBB,Zagueiro,mandante,SAO,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,111466,Victor Gabriel,INT,Zagueiro,mandante,BAH,-0.2,0,1,1,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,111690,Matheus Cunha,CRU,Goleiro,mandante,VAS,-0.4,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,0,0,0,0,0
+6,111831,Matheus Martins,BOT,Atacante,mandante,FLA,1.2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,111951,Renzo López,VIT,Atacante,mandante,CAM,-0.2,0,0,0,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,112017,Felipinho,CAP,Meia,visitante,FLU,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,112576,Vini Paulista,CFC,Meia,mandante,REM,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,112709,Kaiki Bruno,CRU,Lateral,mandante,VAS,12.0,0,0,4,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,112886,Lucas Barbosa,RBB,Atacante,mandante,SAO,2.6,0,1,2,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,113034,Freytes,FLU,Zagueiro,mandante,CAP,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,113103,Flaco López,PAL,Atacante,mandante,MIR,12.7,0,0,1,4,3,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,113113,Benavídez,CAP,Lateral,visitante,FLU,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,113125,Picco,REM,Meia,visitante,CFC,1.9,0,0,1,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,113157,Nathan Mendes,VIT,Lateral,mandante,CAM,8.9,0,0,3,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,113359,Pablo Maia,SAO,Meia,visitante,RBB,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,113397,Cristian Olivera,BAH,Atacante,visitante,INT,2.4,0,0,0,1,1,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,114040,Minda,CAM,Atacante,visitante,VIT,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,115141,Lucas Freitas,VAS,Zagueiro,visitante,CRU,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,115479,Paulo Pezzolano,INT,Técnico,mandante,BAH,2.74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,115914,Evertton Araújo,FLA,Meia,visitante,BOT,1.3,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,116034,Victor Hugo,CAM,Meia,visitante,VIT,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,116065,Cuiabano,VAS,Lateral,visitante,CRU,11.6,0,0,3,3,1,0,2,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+6,116447,Hércules,FLU,Meia,mandante,CAP,10.1,0,0,1,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+6,116706,Andrés Gómez,VAS,Atacante,visitante,CRU,4.7,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+6,117330,Robert Renan,VAS,Zagueiro,visitante,CRU,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,117632,Garro,COR,Meia,visitante,SAN,1.6,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,117910,Breno Bidon,COR,Meia,visitante,SAN,1.9,0,0,1,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,117930,Lavega,CFC,Atacante,mandante,REM,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,117965,Martín Anselmi,BOT,Técnico,mandante,FLA,1.82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,118563,Rodriguinho,RBB,Meia,mandante,SAO,0.4,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,118655,Saldivia,VAS,Zagueiro,visitante,CRU,1.3,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,118844,Kaio César,COR,Atacante,visitante,SAN,9.3,0,1,2,1,0,1,3,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+6,120433,Léo Derik,CAP,Lateral,visitante,FLU,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,121824,Kayke,COR,Atacante,visitante,SAN,2.5,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,122138,João Vitor,CHA,Meia,mandante,GRE,4.7,0,0,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,122394,Gustavinho,RBB,Meia,mandante,SAO,3.6,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,122441,Kayky Almeida,REM,Zagueiro,visitante,CFC,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,122485,Barros,VAS,Meia,visitante,CRU,13.4,0,0,0,2,0,0,2,0,2,0,0,0,0,0,0,0,0,0,1,0,0
+6,122660,Japa,CRU,Meia,mandante,VAS,8.0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,123360,Cauly,SAO,Meia,visitante,RBB,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,123625,Ítalo,CHA,Atacante,mandante,GRE,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,123648,Lucas Ronier,CFC,Atacante,mandante,REM,3.7,0,1,2,1,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,123738,Herrera,RBB,Atacante,mandante,SAO,8.0,0,1,1,4,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,123744,Alan Rodríguez,INT,Meia,mandante,BAH,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,123869,Aguirre,CAP,Zagueiro,visitante,FLU,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,124239,Henry Mosquera,RBB,Atacante,mandante,SAO,2.3,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,124424,Rodrigo Castillo,FLU,Atacante,mandante,CAP,1.7,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,124481,Mateo Ponte,BOT,Lateral,mandante,FLA,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,124526,Giay,PAL,Lateral,mandante,MIR,9.7,0,0,3,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,124661,Iván Román,CAM,Zagueiro,visitante,VIT,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,125467,Viery,GRE,Zagueiro,visitante,CHA,-1.6,0,1,0,2,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+6,125926,Zapelli,CAP,Meia,visitante,FLU,4.0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+6,126182,Paulinho,INT,Meia,mandante,BAH,-1.1,0,1,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,126189,Tomás Pérez,CAM,Meia,visitante,VIT,1.9,0,1,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,126471,Barreal,SAN,Meia,mandante,COR,4.1,0,1,2,3,1,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,126977,Fernando Seabra,CFC,Técnico,mandante,REM,7.16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+6,128433,Johan Rojas,VAS,Meia,visitante,CRU,-1.0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,129666,JP,VAS,Meia,visitante,CRU,0.9,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,130048,Noriega,GRE,Zagueiro,visitante,CHA,-1.5,0,1,0,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,130620,Edenílson,VIT,Meia,mandante,CAM,2.9,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,130843,Arthur Dias,CAP,Zagueiro,visitante,FLU,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,131516,JP Chermont,CFC,Lateral,mandante,REM,13.0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,131617,André Silva,SAO,Atacante,visitante,RBB,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,131832,Portilla,CAP,Meia,visitante,FLU,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,131967,Villarreal,CRU,Atacante,mandante,VAS,8.5,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,132071,Serna,FLU,Atacante,mandante,CAP,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,132264,Arroyo,CRU,Atacante,mandante,VAS,3.2,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,132553,Jemmes,FLU,Zagueiro,mandante,CAP,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,132580,Vinicinho,RBB,Atacante,mandante,SAO,2.5,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,136156,Larson,PAL,Meia,mandante,MIR,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,136955,Sanabria,BAH,Atacante,visitante,INT,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,140438,David,CHA,Meia,mandante,GRE,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,141451,Allan,PAL,Meia,mandante,MIR,3.2,0,0,1,1,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,141595,Gabriel Mec,GRE,Atacante,visitante,CHA,0.7,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,141754,Gabriel Bontempo,SAN,Meia,mandante,COR,2.4,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,141776,Gustavo Henrique,SAN,Meia,mandante,COR,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,141868,Vinicius Lira,SAN,Lateral,mandante,COR,0.9,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,142004,Amuzu,GRE,Atacante,visitante,CHA,4.4,0,0,1,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+6,142265,Dell,BAH,Atacante,visitante,INT,1.4,0,0,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,142279,Nuno Moreira,VAS,Meia,visitante,CRU,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,142484,Barrera,BOT,Meia,mandante,FLA,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,143193,Viveros,CAP,Atacante,visitante,FLU,-0.2,0,1,0,5,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,143600,Kauã Moraes,CRU,Lateral,mandante,VAS,5.8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,145404,Arthur,PAL,Lateral,mandante,MIR,7.0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,145744,André,COR,Meia,visitante,SAN,2.2,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,147268,Anderson Pato,VIT,Atacante,mandante,CAM,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,148125,Ryan Augusto,RBB,Lateral,mandante,SAO,2.4,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,37457,Léo Condé,REM,Técnico,visitante,CFC,2.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,37656,Fábio,FLU,Goleiro,mandante,CAP,-1.5,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+6,39148,Hulk,CAM,Atacante,visitante,VIT,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,39656,Alan Franco,CAM,Meia,visitante,VIT,2.4,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,39850,Vagner Mancini,RBB,Técnico,mandante,SAO,3.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,40990,Dorival Júnior,COR,Técnico,visitante,SAN,4.45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,41929,Renato Gaúcho,VAS,Técnico,visitante,CRU,4.83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,42135,Willian,GRE,Meia,visitante,CHA,1.3,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,45125,Tite,CRU,Técnico,mandante,VAS,6.7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,51413,Walter,MIR,Goleiro,visitante,PAL,2.9,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0
+6,61987,Alex Sandro,FLA,Lateral,visitante,BOT,11.2,0,0,4,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,62977,Ganso,FLU,Meia,mandante,CAP,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,63007,Neymar,SAN,Meia,mandante,COR,3.7,0,0,0,2,2,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,63289,Edenílson,BOT,Meia,mandante,FLA,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,68685,Alan Patrick,INT,Meia,mandante,BAH,2.5,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,68920,Dudu,CAM,Atacante,visitante,VIT,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,68928,Rafael,SAO,Goleiro,visitante,RBB,1.6,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+6,68938,Giovanni Augusto,CHA,Meia,mandante,GRE,2.5,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,68952,Marinho,VIT,Atacante,mandante,CAM,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,68996,Willian José,BAH,Atacante,visitante,INT,7.4,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,69012,Santos,CAP,Goleiro,visitante,FLU,6.1,0,0,0,0,0,0,0,0,0,0,0,7,3,0,0,0,0,0,0,0,0
+6,69140,Allan,BOT,Meia,mandante,FLA,2.9,0,1,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,69208,Gabriel Paulista,COR,Zagueiro,visitante,SAN,2.2,0,0,1,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,70164,Lucas Moura,SAO,Meia,visitante,RBB,1.6,0,0,0,2,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,70360,Eduardo Sasha,RBB,Atacante,mandante,SAO,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,70592,Felipe Anderson,PAL,Meia,mandante,MIR,1.7,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,70666,Marllon,REM,Zagueiro,visitante,CFC,0.5,0,1,0,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,70944,Bruno Henrique,INT,Meia,mandante,BAH,0.4,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,70958,Jean Carlos,CHA,Meia,mandante,GRE,2.0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,71043,Léo Vieira,CHA,Goleiro,mandante,GRE,3.4,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,0,0,0,0,0,0
+6,71227,Maicon,CFC,Zagueiro,mandante,REM,5.0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,71536,Luiz Gustavo,CAP,Meia,visitante,FLU,11.9,0,1,3,2,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,71631,Weverton,GRE,Goleiro,visitante,CHA,-1.0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+6,71684,Gustavo Gómez,PAL,Zagueiro,mandante,MIR,5.8,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,71898,Gabriel Pires,MIR,Meia,visitante,PAL,0.8,0,0,0,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,72294,Everson,CAM,Goleiro,visitante,VIT,0.6,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0
+6,72493,Alex Telles,BOT,Lateral,mandante,FLA,1.0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,72951,Mercado,INT,Zagueiro,mandante,BAH,3.5,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,73384,Samuel Xavier,FLU,Lateral,mandante,CAP,4.8,0,0,2,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,73481,Gilmar Dal Pozzo,CHA,Técnico,mandante,GRE,3.85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,77485,Carrillo,COR,Meia,visitante,SAN,3.3,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,78248,Gustavo Henrique,COR,Zagueiro,visitante,SAN,1.4,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,78478,Willian Arão,SAN,Meia,mandante,COR,1.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,78605,Gabriel,RBB,Meia,mandante,SAO,1.8,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,78850,Reinaldo,MIR,Lateral,visitante,PAL,-0.9,0,1,0,3,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,78855,Thiago Santos,CFC,Zagueiro,mandante,REM,5.0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,79437,Roger Machado,SAO,Técnico,visitante,RBB,4.96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+6,79701,Lucas Silva,CRU,Meia,mandante,VAS,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,80129,Jadson,CAP,Meia,visitante,FLU,1.2,0,1,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,80196,Yago Pikachu,REM,Meia,visitante,CFC,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,80287,Luciano,SAO,Atacante,visitante,RBB,1.2,0,1,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,81005,André Luis,MIR,Atacante,visitante,PAL,1.5,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,81952,Willian Oliveira,CFC,Meia,mandante,REM,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,82627,Luiz Araújo,FLA,Atacante,visitante,BOT,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,82730,Marcelo Rangel,REM,Goleiro,visitante,CFC,1.6,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+6,82775,Lucas Ramon,SAO,Lateral,visitante,RBB,6.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,83257,Gabriel,SAN,Atacante,mandante,COR,9.4,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,83433,Patrick,REM,Meia,visitante,CFC,3.7,0,0,2,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,83528,Léo Pereira,FLA,Zagueiro,visitante,BOT,17.4,0,0,2,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+6,84042,Tiquinho Soares,MIR,Atacante,visitante,PAL,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,84339,Bruno Melo,CFC,Lateral,mandante,REM,8.0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,84626,Josué,CFC,Meia,mandante,REM,1.2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,84674,Lucas Evangelista,PAL,Meia,mandante,MIR,1.0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,84735,Jorginho,FLA,Meia,visitante,BOT,4.0,0,1,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,84816,Varela,FLA,Lateral,visitante,BOT,9.9,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,84847,Luan Peres,SAN,Zagueiro,mandante,COR,-2.9,0,0,0,3,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+6,85048,Memphis Depay,COR,Atacante,visitante,SAN,9.3,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,85403,Danielzinho,SAO,Meia,visitante,RBB,5.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,86292,Bolasie,CHA,Atacante,mandante,GRE,0.9,0,1,0,3,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+6,86410,Victor Luis,MIR,Lateral,visitante,PAL,1.3,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,86686,Tchê Tchê,VAS,Meia,visitante,CRU,1.2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,86859,José Welison,REM,Meia,visitante,CFC,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,87008,Léo Jardim,VAS,Goleiro,visitante,CRU,2.7,0,0,0,0,0,0,1,0,0,0,0,4,3,0,0,0,0,0,0,0,0
+6,87228,Guilherme Arana,FLU,Lateral,mandante,CAP,9.1,0,1,1,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+6,87258,Soteldo,FLU,Atacante,mandante,CAP,0.8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,87470,Thaciano,SAN,Meia,mandante,COR,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,87552,Vitor Bueno,REM,Meia,visitante,CFC,2.0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,87742,Neto Moura,MIR,Meia,visitante,PAL,-1.6,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,87887,Balbuena,GRE,Zagueiro,visitante,CHA,-0.1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,87999,Gustavo Scarpa,CAM,Meia,visitante,VIT,1.2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,88037,Luís Castro,GRE,Técnico,visitante,CHA,2.15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,88312,Junior Alonso,CAM,Zagueiro,visitante,VIT,2.7,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,88393,Ayrton Lucas,FLA,Lateral,visitante,BOT,5.9,0,0,1,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,88963,Leonardo Jardim,FLA,Técnico,visitante,BOT,11.41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+6,89256,Gerson,CRU,Meia,mandante,VAS,2.2,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,89274,Andreas Pereira,PAL,Meia,mandante,MIR,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,89275,William,CRU,Lateral,mandante,VAS,5.7,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,89837,Lucho Acosta,FLU,Meia,mandante,CAP,6.3,0,0,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,89840,Calleri,SAO,Atacante,visitante,RBB,8.8,0,1,1,2,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,90031,Mendoza,CAP,Atacante,visitante,FLU,9.5,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,90302,Pedro Rocha,CFC,Atacante,mandante,REM,8.9,0,0,0,1,0,3,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,90309,David,VAS,Atacante,visitante,CRU,0.4,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,90588,Caíque,VIT,Meia,mandante,CAM,0.2,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,90608,Chico da Costa,CRU,Atacante,mandante,VAS,7.1,0,0,1,2,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+6,90703,Matheuzinho,VIT,Meia,mandante,CAM,1.8,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,90768,Fabrício Bruno,CRU,Zagueiro,mandante,VAS,1.3,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,90917,Carlos Eduardo,MIR,Atacante,visitante,PAL,0.5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,91101,Ronaldo,BAH,Goleiro,visitante,INT,7.1,0,1,0,0,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0
+6,91473,Erick Pulgar,FLA,Meia,visitante,BOT,-0.1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,91573,Arboleda,SAO,Zagueiro,visitante,RBB,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,91607,Rony,SAN,Atacante,mandante,COR,3.5,0,1,3,5,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,91866,Zé Ivaldo,SAN,Zagueiro,mandante,COR,3.2,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,91908,Pavón,GRE,Atacante,visitante,CHA,1.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,92171,Arthur Cabral,BOT,Atacante,mandante,FLA,0.7,0,0,0,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,92180,Jair Ventura,VIT,Técnico,mandante,CAM,8.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+6,92273,Odair Hellmann,CAP,Técnico,visitante,FLU,4.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,92696,Renato Kayzer,VIT,Atacante,mandante,CAM,6.9,0,0,0,3,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,92747,Eduardo Domínguez,CAM,Técnico,visitante,VIT,2.55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,92854,Borré,INT,Atacante,mandante,BAH,2.1,0,0,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,92981,Ronaldo,INT,Meia,mandante,BAH,3.4,0,0,2,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,93478,Wanderson,CRU,Atacante,mandante,VAS,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,93716,Paulo Henrique,VAS,Lateral,visitante,CRU,0.6,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,93790,Marlon Freitas,PAL,Meia,mandante,MIR,1.5,0,0,1,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,93882,Cleiton,RBB,Goleiro,mandante,SAO,-0.7,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0
+6,93988,Breno Lopes,CFC,Atacante,mandante,REM,0.1,0,0,0,2,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,94067,Matheus Fernandes,RBB,Meia,mandante,SAO,3.8,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,94286,Perotti,CHA,Atacante,mandante,GRE,0.2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,94583,Pedro,FLA,Atacante,visitante,BOT,11.8,0,0,1,0,1,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,94930,Lucas Paquetá,FLA,Meia,visitante,BOT,6.8,0,0,2,0,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,94968,Juninho Capixaba,RBB,Lateral,mandante,SAO,3.6,0,1,2,2,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,95332,Marcinho,CHA,Atacante,mandante,GRE,4.2,0,0,2,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,95362,Cassierra,CAM,Atacante,visitante,VIT,0.8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,95555,Sávio,REM,Lateral,visitante,CFC,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,95556,Raniele,COR,Meia,visitante,SAN,4.2,0,0,2,1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,95620,Bruno Leonardo,CHA,Zagueiro,mandante,GRE,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,96591,Renan Lodi,CAM,Lateral,visitante,VIT,7.6,0,0,5,3,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,96610,Matheus Pereira,CRU,Meia,mandante,VAS,2.3,0,1,0,2,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,96652,Allan,COR,Meia,visitante,SAN,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,96793,Camutanga,VIT,Zagueiro,mandante,CAM,5.0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,97321,Alesson,MIR,Atacante,visitante,PAL,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,97341,Rogério Ceni,BAH,Técnico,visitante,INT,6.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+6,97460,João Victor,MIR,Zagueiro,visitante,PAL,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,97520,Shaylon,MIR,Meia,visitante,PAL,-0.3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,97795,Marcelinho,REM,Lateral,visitante,CFC,1.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,97810,Erick,VIT,Atacante,mandante,CAM,11.9,0,1,1,1,1,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0
+6,97867,Léo Ortiz,FLA,Zagueiro,visitante,BOT,8.2,0,0,2,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,97899,Matheus Bahia,INT,Lateral,mandante,BAH,1.7,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,97900,Vitão,FLA,Zagueiro,visitante,BOT,6.5,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,98022,Erick,BAH,Meia,visitante,INT,0.7,0,0,1,7,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,98224,Jáderson,REM,Meia,visitante,CFC,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,98225,Pedro Raul,COR,Atacante,visitante,SAN,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,98280,Bastos,BOT,Zagueiro,mandante,FLA,-0.1,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,98384,Negueba,MIR,Atacante,visitante,PAL,4.8,0,1,3,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,98517,Jean Lucas,BAH,Meia,visitante,INT,4.5,0,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,98672,Savarino,FLU,Meia,mandante,CAP,10.6,0,1,0,4,0,2,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0
+6,98873,Samuel Lino,FLA,Atacante,visitante,BOT,15.3,0,0,3,1,2,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,98909,Cuello,CAM,Atacante,visitante,VIT,1.1,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,99213,Puma Rodríguez,VAS,Lateral,visitante,CRU,5.8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,99274,Alexander Barboza,BOT,Zagueiro,mandante,FLA,-3.1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+6,99366,Luis Zubeldía,FLU,Técnico,mandante,CAP,7.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+6,99440,Baralhas,VIT,Meia,mandante,CAM,12.5,0,0,4,2,2,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+6,99552,Rossi,FLA,Goleiro,visitante,BOT,6.8,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+6,99789,Brenner,VAS,Atacante,visitante,CRU,8.0,0,1,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+6,99815,Arias,PAL,Meia,mandante,MIR,6.4,0,0,3,1,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,99889,Alan Franco,SAO,Zagueiro,visitante,RBB,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

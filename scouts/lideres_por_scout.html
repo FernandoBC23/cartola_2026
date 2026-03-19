@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Líderes por Scout</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/styles_global.css" />
+  <link rel="stylesheet" href="../css/styles_scouts_lideres.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-titulo">
+        <img class="logo" src="../imagens/logo-brasileirao-a-256.png" alt="Scouts" />
+        <h1>Líderes por Scout</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index_scouts.html">Painel Scouts</a></li>
+          <li><a href="./lideres_por_scout.html" class="ativo">Líderes por Scout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="lideres-layout">
+    <section class="lideres-intro">
+      <h2>Ranking por Fundamento</h2>
+      <p>
+        Esta tela usa o dataset consolidado de scouts totais e mostra os jogadores que lideram cada scout,
+        com filtros por scout, posição, tipo de fundamento e mando.
+      </p>
+    </section>
+
+    <section class="lideres-panel">
+      <div class="lideres-toolbar">
+        <div class="lideres-field">
+          <label for="select-scout">Scout:</label>
+          <select id="select-scout"></select>
+        </div>
+        <div class="lideres-field">
+          <label for="select-posicao">Posição:</label>
+          <select id="select-posicao"></select>
+        </div>
+        <div class="lideres-field">
+          <label for="select-mando">Mando:</label>
+          <select id="select-mando">
+            <option value="total">Total</option>
+            <option value="casa">Casa</option>
+            <option value="fora">Fora</option>
+          </select>
+        </div>
+        <div class="lideres-field">
+          <label for="select-tipo">Tipo:</label>
+          <select id="select-tipo">
+            <option value="todos">Todos</option>
+            <option value="positivos">Positivos</option>
+            <option value="negativos">Negativos</option>
+          </select>
+        </div>
+        <div class="lideres-field lideres-field-checkbox">
+          <label for="usar-local-proximo-jogo">Pr&oacute;x. jogo:</label>
+          <div class="lideres-checkbox-group">
+            <label class="lideres-checkbox">
+              <input type="checkbox" id="usar-local-proximo-jogo" />
+              <span>Usar scouts do local do pr&oacute;ximo jogo</span>
+            </label>
+            <label class="lideres-checkbox">
+              <input type="checkbox" id="somente-provaveis" />
+              <span>Somente prov&aacute;veis para a rodada</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div id="lideres-destaque" class="lideres-cards"></div>
+      <div id="lideres-tabela"></div>
+    </section>
+  </main>
+
+  <script src="../transicoes.js"></script>
+  <script src="./datasets_scouts/scouts_totais.js"></script>
+  <script src="./datasets_scouts/rodadas_local_data.js"></script>
+  <script src="./scripts_scouts/lideres_por_scout.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      document.body.classList.add("loaded");
+    });
+  </script>
+</body>
+</html>

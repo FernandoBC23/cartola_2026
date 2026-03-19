@@ -1,0 +1,369 @@
+:root {
+  --scouts-card-radius: 14px;
+}
+
+.scouts-layout {
+  max-width: 960px;
+  margin: 24px auto 40px;
+}
+
+.scouts-intro,
+.scouts-panel,
+.scouts-note {
+  background-color: var(--bloco);
+  border-radius: var(--scouts-card-radius);
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+.scouts-panel + .scouts-panel,
+.scouts-panel + .scouts-note {
+  margin-top: 20px;
+}
+
+.scouts-intro,
+.scouts-panel {
+  padding: 22px 24px;
+}
+
+.scouts-intro {
+  border-left: 6px solid var(--destaque);
+  margin-bottom: 20px;
+}
+
+.scouts-intro h2,
+.scouts-panel h2,
+.scouts-panel h3 {
+  color: var(--destaque);
+  margin: 0 0 12px;
+}
+
+.scouts-intro p,
+.scouts-note p {
+  margin: 0;
+  line-height: 1.5;
+  color: var(--texto);
+}
+
+.scouts-toolbar {
+  display: flex;
+  align-items: end;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.scouts-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.scouts-field label {
+  color: var(--destaque);
+  font-weight: 700;
+}
+
+.scouts-field select {
+  min-width: 220px;
+  height: 44px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 2px solid var(--destaque);
+  font-weight: 700;
+  color: var(--preto);
+}
+
+.ranking-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.ranking-card {
+  background: linear-gradient(180deg, rgba(255, 118, 4, 0.12), rgba(255, 118, 4, 0.02));
+  border: 1px solid rgba(255, 118, 4, 0.25);
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.ranking-card:hover,
+.ranking-card.ativo {
+  transform: translateY(-2px);
+  border-color: var(--destaque);
+}
+
+.ranking-card h3 {
+  margin: 0 0 8px;
+  color: var(--texto);
+}
+
+.ranking-metricas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  font-size: 13px;
+}
+
+.ranking-metricas strong {
+  color: var(--destaque);
+}
+
+.resumo-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.orcamento-kpis {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.restricoes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.restricoes-card {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 118, 4, 0.2);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.restricoes-card strong {
+  display: block;
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
+
+.restricoes-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.restricao-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background-color: rgba(255, 118, 4, 0.12);
+  border: 1px solid rgba(255, 118, 4, 0.2);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.restricao-tag small {
+  color: var(--texto);
+  opacity: 0.8;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.restricao-vazia {
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.resumo-badge {
+  background-color: rgba(255, 118, 4, 0.12);
+  border: 1px solid rgba(255, 118, 4, 0.2);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.resumo-badge strong {
+  color: var(--destaque);
+}
+
+.clubes-bloqueados {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.club-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background-color: #263133;
+  color: var(--texto);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--cinza-claro);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.player-table th {
+  background-color: var(--preto);
+  color: var(--texto);
+  padding: 12px 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.player-table td {
+  color: var(--preto);
+  padding: 10px 8px;
+  border-bottom: 1px solid rgba(44, 54, 57, 0.2);
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.player-identidade {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 180px;
+}
+
+.club-pill {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background-color: var(--bloco);
+  color: var(--texto);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.player-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.player-meta small {
+  color: #5f6b6c;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.local-tag,
+.context-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.local-tag.casa {
+  background-color: rgba(46, 204, 113, 0.18);
+  color: #1f7a45;
+}
+
+.local-tag.fora {
+  background-color: rgba(255, 118, 4, 0.16);
+  color: #b35600;
+}
+
+.context-tag.favoravel {
+  background-color: rgba(46, 204, 113, 0.18);
+  color: #1f7a45;
+}
+
+.context-tag.desfavoravel {
+  background-color: rgba(231, 76, 60, 0.18);
+  color: #a63424;
+}
+
+.context-tag.neutro {
+  background-color: rgba(63, 78, 79, 0.18);
+  color: #435556;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.section-title small {
+  color: var(--texto);
+  opacity: 0.8;
+}
+
+.scouts-note {
+  margin-top: 20px;
+  padding: 18px 20px;
+  border-left: 6px solid var(--destaque);
+}
+
+@media (max-width: 768px) {
+  .scouts-layout {
+    width: 95%;
+  }
+
+  .ranking-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .restricoes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .scouts-intro,
+  .scouts-panel,
+  .scouts-note {
+    padding: 18px;
+  }
+
+  .scouts-field,
+  .scouts-field select {
+    width: 100%;
+  }
+
+  .player-table th,
+  .player-table td {
+    font-size: 12px;
+    padding: 8px 6px;
+  }
+
+  .club-pill {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 11px;
+  }
+
+  .player-identidade {
+    min-width: 150px;
+  }
+}
