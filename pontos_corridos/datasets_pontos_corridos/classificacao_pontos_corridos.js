@@ -2,13 +2,13 @@ const classificacaoSerieA = {
   "Pontos Corridos": [
     {
       "nome": "Esquadrão Gazembrino",
-      "pontos": 18,
-      "vitorias": 6,
+      "pontos": 21,
+      "vitorias": 7,
       "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 611.33984375,
-      "cartolaSofrido": 517.510166015625,
-      "saldoCartola": 93.82967773437495,
+      "derrotas": 0,
+      "totalCartola": 681.33984375,
+      "cartolaSofrido": 540.110107421875,
+      "saldoCartola": 141.229736328125,
       "posicao": 1
     },
     {
@@ -17,9 +17,9 @@ const classificacaoSerieA = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 540.339921875,
-      "cartolaSofrido": 439.619873046875,
-      "saldoCartola": 100.72004882812496,
+      "totalCartola": 574.14013671875,
+      "cartolaSofrido": 489.489990234375,
+      "saldoCartola": 84.650146484375,
       "posicao": 2
     },
     {
@@ -28,9 +28,9 @@ const classificacaoSerieA = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 517.580205078125,
-      "cartolaSofrido": 446.66013671875,
-      "saldoCartola": 70.92006835937502,
+      "totalCartola": 553.780029296875,
+      "cartolaSofrido": 470.8603515625,
+      "saldoCartola": 82.919677734375,
       "posicao": 3
     },
     {
@@ -39,9 +39,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 433.620458984375,
-      "cartolaSofrido": 430.709697265625,
-      "saldoCartola": 2.9107617187499955,
+      "totalCartola": 453.1904296875,
+      "cartolaSofrido": 455.909912109375,
+      "saldoCartola": -2.719482421875,
       "posicao": 4
     },
     {
@@ -50,9 +50,9 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 510.83037109375,
-      "cartolaSofrido": 498.79978515625,
-      "saldoCartola": 12.030585937500009,
+      "totalCartola": 574.990234375,
+      "cartolaSofrido": 545.099609375,
+      "saldoCartola": 29.890625,
       "posicao": 5
     },
     {
@@ -61,9 +61,9 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 476.689921875,
-      "cartolaSofrido": 460.350146484375,
-      "saldoCartola": 16.339775390624993,
+      "totalCartola": 522.98974609375,
+      "cartolaSofrido": 524.510009765625,
+      "saldoCartola": -1.520263671875,
       "posicao": 6
     },
     {
@@ -72,9 +72,9 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 468.889970703125,
-      "cartolaSofrido": 421.239697265625,
-      "saldoCartola": 47.650273437500005,
+      "totalCartola": 503.440185546875,
+      "cartolaSofrido": 443.73974609375,
+      "saldoCartola": 59.700439453125,
       "posicao": 7
     },
     {
@@ -83,9 +83,9 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 464.00974609375,
-      "cartolaSofrido": 482.16025390625,
-      "saldoCartola": -18.150507812499995,
+      "totalCartola": 489.2099609375,
+      "cartolaSofrido": 501.730224609375,
+      "saldoCartola": -12.520263671875,
       "posicao": 8
     },
     {
@@ -94,20 +94,20 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 463.969755859375,
-      "cartolaSofrido": 437.520458984375,
-      "saldoCartola": 26.449296875000016,
+      "totalCartola": 484.819580078125,
+      "cartolaSofrido": 469.930419921875,
+      "saldoCartola": 14.88916015625,
       "posicao": 9
     },
     {
-      "nome": "Grêmio_Campeão_LA_27",
-      "pontos": 12,
-      "vitorias": 4,
-      "empates": 0,
+      "nome": "Pontaç0 F.C.",
+      "pontos": 10,
+      "vitorias": 3,
+      "empates": 1,
       "derrotas": 3,
-      "totalCartola": 455.72037109375,
-      "cartolaSofrido": 405.480224609375,
-      "saldoCartola": 50.24014648437503,
+      "totalCartola": 458.179931640625,
+      "cartolaSofrido": 459.6904296875,
+      "saldoCartola": -1.510498046875,
       "posicao": 10
     },
     {
@@ -116,9 +116,9 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 457.209814453125,
-      "cartolaSofrido": 463.310107421875,
-      "saldoCartola": -6.100292968750011,
+      "totalCartola": 482.659912109375,
+      "cartolaSofrido": 496.22021484375,
+      "saldoCartola": -13.560302734375,
       "posicao": 11
     },
     {
@@ -127,10 +127,21 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 454.209697265625,
-      "cartolaSofrido": 480.1502734375,
-      "saldoCartola": -25.940576171875023,
+      "totalCartola": 478.409912109375,
+      "cartolaSofrido": 516.35009765625,
+      "saldoCartola": -37.940185546875,
       "posicao": 12
+    },
+    {
+      "nome": "Grêmio_Campeão_LA_27",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 4,
+      "totalCartola": 478.3203125,
+      "cartolaSofrido": 475.480224609375,
+      "saldoCartola": 2.840087890625,
+      "posicao": 13
     },
     {
       "nome": "Doug Leal F.C",
@@ -138,20 +149,9 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 436.860302734375,
-      "cartolaSofrido": 439.1994921875,
-      "saldoCartola": -2.339189453125016,
-      "posicao": 13
-    },
-    {
-      "nome": "Pontaç0 F.C.",
-      "pontos": 7,
-      "vitorias": 2,
-      "empates": 1,
-      "derrotas": 4,
-      "totalCartola": 419.379912109375,
-      "cartolaSofrido": 447.6904296875,
-      "saldoCartola": -28.310517578124973,
+      "totalCartola": 469.270263671875,
+      "cartolaSofrido": 460.04931640625,
+      "saldoCartola": 9.220947265625,
       "posicao": 14
     },
     {
@@ -160,9 +160,9 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 1,
       "derrotas": 4,
-      "totalCartola": 383.580078125,
-      "cartolaSofrido": 426.5401171875,
-      "saldoCartola": -42.960039062500016,
+      "totalCartola": 433.4501953125,
+      "cartolaSofrido": 460.34033203125,
+      "saldoCartola": -26.89013671875,
       "posicao": 15
     },
     {
@@ -171,9 +171,9 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 485.700244140625,
-      "cartolaSofrido": 455.229833984375,
-      "saldoCartola": 30.47041015625001,
+      "totalCartola": 518.6103515625,
+      "cartolaSofrido": 480.679931640625,
+      "saldoCartola": 37.930419921875,
       "posicao": 16
     },
     {
@@ -182,9 +182,9 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 473.5096484375,
-      "cartolaSofrido": 509.53025390625,
-      "saldoCartola": -36.02060546874998,
+      "totalCartola": 501.90966796875,
+      "cartolaSofrido": 535.7802734375,
+      "saldoCartola": -33.87060546875,
       "posicao": 17
     },
     {
@@ -193,21 +193,10 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 435.970439453125,
-      "cartolaSofrido": 462.39001953125,
-      "saldoCartola": -26.419580078125023,
+      "totalCartola": 462.220458984375,
+      "cartolaSofrido": 490.7900390625,
+      "saldoCartola": -28.569580078125,
       "posicao": 18
-    },
-    {
-      "nome": "GaúchoDaFronteira F.C",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 5,
-      "totalCartola": 348.18017578125,
-      "cartolaSofrido": 465.300078125,
-      "saldoCartola": -117.11990234375004,
-      "posicao": 19
     },
     {
       "nome": "NHU PORÃ SAF.",
@@ -215,9 +204,20 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 366.500439453125,
-      "cartolaSofrido": 514.7002734375,
-      "saldoCartola": -148.19983398437495,
+      "totalCartola": 389.00048828125,
+      "cartolaSofrido": 549.25048828125,
+      "saldoCartola": -160.25,
+      "posicao": 19
+    },
+    {
+      "nome": "GaúchoDaFronteira F.C",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 6,
+      "totalCartola": 360.18017578125,
+      "cartolaSofrido": 504.10009765625,
+      "saldoCartola": -143.919921875,
       "posicao": 20
     }
   ]

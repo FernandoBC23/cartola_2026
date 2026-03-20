@@ -724,11 +724,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "FBC Colorado",
-      "pontos": 38.87
+      "pontos": 67.27
     },
     "visitante": {
       "nome": "C R Juvenal",
-      "pontos": 29.27
+      "pontos": 55.52
     }
   },
   {
@@ -736,11 +736,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "GaúchoDaFronteira F.C",
-      "pontos": 49.5
+      "pontos": 61.5
     },
     "visitante": {
       "nome": "Pontaç0 F.C.",
-      "pontos": 32.97
+      "pontos": 71.77
     }
   },
   {
@@ -748,11 +748,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "GE Xavanchesteer",
-      "pontos": 28.9
+      "pontos": 48.47
     },
     "visitante": {
       "nome": "GrioTeam",
-      "pontos": 40.27
+      "pontos": 65.47
     }
   },
   {
@@ -760,11 +760,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": 45.37
+      "pontos": 81.57
     },
     "visitante": {
       "nome": "SC ÉoINTER!",
-      "pontos": 41.27
+      "pontos": 65.47
     }
   },
   {
@@ -772,11 +772,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "Doug Leal F.C",
-      "pontos": 31.8
+      "pontos": 64.21
     },
     "visitante": {
       "nome": "Arran Katoko FC",
-      "pontos": 49.97
+      "pontos": 70.82
     }
   },
   {
@@ -784,11 +784,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "Medonho´s F.C.",
-      "pontos": 48.67
+      "pontos": 83.22
     },
     "visitante": {
       "nome": "NHU PORÃ SAF.",
-      "pontos": 24.05
+      "pontos": 46.55
     }
   },
   {
@@ -796,11 +796,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "Grêmio_Campeão_LA_27",
-      "pontos": 35.34
+      "pontos": 57.94
     },
     "visitante": {
       "nome": "Esquadrão Gazembrino",
-      "pontos": 30.25
+      "pontos": 100.25
     }
   },
   {
@@ -808,11 +808,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 43.17
+      "pontos": 76.97
     },
     "visitante": {
       "nome": "Pepe Leal FC",
-      "pontos": 12.0
+      "pontos": 61.87
     }
   },
   {
@@ -820,11 +820,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "SC 100 Sono",
-      "pontos": 44.15
+      "pontos": 69.6
     },
     "visitante": {
       "nome": "La Primeira Patada Es Nuestra",
-      "pontos": 28.2
+      "pontos": 61.11
     }
   },
   {
@@ -832,11 +832,11 @@ const resultadosFase1 = [
     "rodada": 7,
     "mandante": {
       "nome": "bugredasmissões",
-      "pontos": 35.7
+      "pontos": 99.86
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 30.77
+      "pontos": 77.07
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.pontosCorridosMeta = {"rodada_parcial": 7, "parcial_disponivel": true};
+window.pontosCorridosMeta = {"rodada_parcial": null, "parcial_disponivel": false};

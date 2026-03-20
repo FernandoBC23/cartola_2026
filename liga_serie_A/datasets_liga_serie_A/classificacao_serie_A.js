@@ -1,26 +1,37 @@
 const classificacaoSerieA = {
   "Série A": [
     {
-      "nome": "Texas Club 2026",
-      "pontos": 18,
-      "vitorias": 6,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 540.339921875,
-      "cartolaSofrido": 416.91951171875,
-      "saldoCartola": 123.42041015624994,
-      "posicao": 1
-    },
-    {
       "nome": "Fedato Futebol Clube",
       "pontos": 15,
       "vitorias": 5,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 544.5295703125,
-      "cartolaSofrido": 491.52966796875,
-      "saldoCartola": 52.99990234375002,
+      "totalCartola": 580.4296875,
+      "cartolaSofrido": 519.9296875,
+      "saldoCartola": 60.5,
+      "posicao": 1
+    },
+    {
+      "nome": "Texas Club 2026",
+      "pontos": 15,
+      "vitorias": 5,
+      "empates": 0,
+      "derrotas": 2,
+      "totalCartola": 574.14013671875,
+      "cartolaSofrido": 473.16943359375,
+      "saldoCartola": 100.970703125,
       "posicao": 2
+    },
+    {
+      "nome": "Dom Camillo68",
+      "pontos": 15,
+      "vitorias": 5,
+      "empates": 0,
+      "derrotas": 2,
+      "totalCartola": 565.25,
+      "cartolaSofrido": 516.379638671875,
+      "saldoCartola": 48.870361328125,
+      "posicao": 3
     },
     {
       "nome": "lsauer fc",
@@ -28,20 +39,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 517.580205078125,
-      "cartolaSofrido": 478.509990234375,
-      "saldoCartola": 39.07021484375002,
-      "posicao": 3
-    },
-    {
-      "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": 15,
-      "vitorias": 5,
-      "empates": 0,
-      "derrotas": 2,
-      "totalCartola": 507.279375,
-      "cartolaSofrido": 496.09978515625,
-      "saldoCartola": 11.179589843750025,
+      "totalCartola": 553.780029296875,
+      "cartolaSofrido": 524.809814453125,
+      "saldoCartola": 28.97021484375,
       "posicao": 4
     },
     {
@@ -50,21 +50,43 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 2,
-      "totalCartola": 455.83015625,
-      "cartolaSofrido": 444.680400390625,
-      "saldoCartola": 11.149755859375034,
+      "totalCartola": 480.63037109375,
+      "cartolaSofrido": 471.580322265625,
+      "saldoCartola": 9.050048828125,
       "posicao": 5
     },
     {
-      "nome": "Dom Camillo68",
+      "nome": "cartola scheuer17",
       "pontos": 12,
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 523.9998828125,
-      "cartolaSofrido": 505.479794921875,
-      "saldoCartola": 18.520087890625007,
+      "totalCartola": 576.64013671875,
+      "cartolaSofrido": 532.319580078125,
+      "saldoCartola": 44.320556640625,
       "posicao": 6
+    },
+    {
+      "nome": "TEAM LOPES 99",
+      "pontos": 12,
+      "vitorias": 4,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 552.56005859375,
+      "cartolaSofrido": 528.5,
+      "saldoCartola": 24.06005859375,
+      "posicao": 7
+    },
+    {
+      "nome": "TORRESMO COM PINGA PRO26.2",
+      "pontos": 12,
+      "vitorias": 4,
+      "empates": 0,
+      "derrotas": 3,
+      "totalCartola": 537.07958984375,
+      "cartolaSofrido": 529.89990234375,
+      "saldoCartola": 7.1796875,
+      "posicao": 8
     },
     {
       "nome": "seralex",
@@ -72,21 +94,21 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 497.419873046875,
-      "cartolaSofrido": 431.000029296875,
-      "saldoCartola": 66.41984374999998,
-      "posicao": 7
+      "totalCartola": 520.679931640625,
+      "cartolaSofrido": 448.0,
+      "saldoCartola": 72.679931640625,
+      "posicao": 9
     },
     {
-      "nome": "Rolo Compressor  ZN",
+      "nome": "Mau Humor F.C.",
       "pontos": 12,
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 490.169267578125,
-      "cartolaSofrido": 461.66951171875,
-      "saldoCartola": 28.499755859375,
-      "posicao": 8
+      "totalCartola": 519.91943359375,
+      "cartolaSofrido": 521.429931640625,
+      "saldoCartola": -1.510498046875,
+      "posicao": 10
     },
     {
       "nome": "MAFRA MARTINS FC",
@@ -94,31 +116,9 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 414.280029296875,
-      "cartolaSofrido": 460.619853515625,
-      "saldoCartola": -46.33982421874998,
-      "posicao": 9
-    },
-    {
-      "nome": "cartola scheuer17",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 533.839921875,
-      "cartolaSofrido": 519.919755859375,
-      "saldoCartola": 13.920166015625,
-      "posicao": 10
-    },
-    {
-      "nome": "TEAM LOPES 99",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 518.75994140625,
-      "cartolaSofrido": 498.69978515625,
-      "saldoCartola": 20.060156250000038,
+      "totalCartola": 460.690185546875,
+      "cartolaSofrido": 466.31982421875,
+      "saldoCartola": -5.629638671875,
       "posicao": 11
     },
     {
@@ -127,21 +127,10 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 476.689921875,
-      "cartolaSofrido": 460.9100390625,
-      "saldoCartola": 15.779882812499975,
+      "totalCartola": 522.98974609375,
+      "cartolaSofrido": 497.10986328125,
+      "saldoCartola": 25.8798828125,
       "posicao": 12
-    },
-    {
-      "nome": "Mau Humor F.C.",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 463.66951171875,
-      "cartolaSofrido": 487.629716796875,
-      "saldoCartola": -23.960205078125,
-      "posicao": 13
     },
     {
       "nome": "Tatols Beants F.C",
@@ -149,9 +138,20 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 462.780224609375,
-      "cartolaSofrido": 475.939599609375,
-      "saldoCartola": -13.159375000000011,
+      "totalCartola": 513.989990234375,
+      "cartolaSofrido": 502.509521484375,
+      "saldoCartola": 11.48046875,
+      "posicao": 13
+    },
+    {
+      "nome": "Rolo Compressor  ZN",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 4,
+      "totalCartola": 502.569091796875,
+      "cartolaSofrido": 504.4697265625,
+      "saldoCartola": -1.900634765625,
       "posicao": 14
     },
     {
@@ -160,21 +160,10 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 451.59951171875,
-      "cartolaSofrido": 424.61982421875,
-      "saldoCartola": 26.97968750000001,
+      "totalCartola": 478.16943359375,
+      "cartolaSofrido": 475.82958984375,
+      "saldoCartola": 2.33984375,
       "posicao": 15
-    },
-    {
-      "nome": "VASCO MARTINS FC",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 433.69,
-      "cartolaSofrido": 456.4196826171875,
-      "saldoCartola": -22.729682617187507,
-      "posicao": 16
     },
     {
       "nome": "FBC Colorado",
@@ -182,10 +171,10 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 473.5096484375,
-      "cartolaSofrido": 528.77029296875,
-      "saldoCartola": -55.26064453125002,
-      "posicao": 17
+      "totalCartola": 501.90966796875,
+      "cartolaSofrido": 564.67041015625,
+      "saldoCartola": -62.7607421875,
+      "posicao": 16
     },
     {
       "nome": "TIGRE LEON",
@@ -193,10 +182,10 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 435.0698046875,
-      "cartolaSofrido": 516.889482421875,
-      "saldoCartola": -81.81967773437498,
-      "posicao": 18
+      "totalCartola": 461.9697265625,
+      "cartolaSofrido": 541.689697265625,
+      "saldoCartola": -79.719970703125,
+      "posicao": 17
     },
     {
       "nome": "Gremiomaniasm",
@@ -204,9 +193,20 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 433.24978515625,
-      "cartolaSofrido": 504.38984375,
-      "saldoCartola": -71.14005859374998,
+      "totalCartola": 450.249755859375,
+      "cartolaSofrido": 527.64990234375,
+      "saldoCartola": -77.400146484375,
+      "posicao": 18
+    },
+    {
+      "nome": "VASCO MARTINS FC",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 5,
+      "totalCartola": 444.58984375,
+      "cartolaSofrido": 497.6697998046875,
+      "saldoCartola": -53.0799560546875,
       "posicao": 19
     },
     {
@@ -215,9 +215,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 345.8502001953125,
-      "cartolaSofrido": 459.440185546875,
-      "saldoCartola": -113.58998535156252,
+      "totalCartola": 351.5501708984375,
+      "cartolaSofrido": 505.850341796875,
+      "saldoCartola": -154.3001708984375,
       "posicao": 20
     }
   ]

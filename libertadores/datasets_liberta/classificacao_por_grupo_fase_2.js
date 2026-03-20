@@ -7,9 +7,9 @@ const classificacaoFase2 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 573.1596484375,
-      "cartolaSofrido": 23.67,
-      "saldoCartola": 549.4896484375
+      "totalCartola": 609.759765625,
+      "cartolaSofrido": 79.919921875,
+      "saldoCartola": 529.83984375
     },
     {
       "posicao": 2,
@@ -18,9 +18,9 @@ const classificacaoFase2 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 476.689921875,
-      "cartolaSofrido": 30.67,
-      "saldoCartola": 446.01992187499997
+      "totalCartola": 522.98974609375,
+      "cartolaSofrido": 76.97021484375,
+      "saldoCartola": 446.01953125
     },
     {
       "posicao": 3,
@@ -29,9 +29,9 @@ const classificacaoFase2 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 478.499345703125,
-      "cartolaSofrido": 30.77,
-      "saldoCartola": 447.72934570312503
+      "totalCartola": 524.799560546875,
+      "cartolaSofrido": 77.06982421875,
+      "saldoCartola": 447.729736328125
     },
     {
       "posicao": 4,
@@ -40,9 +40,9 @@ const classificacaoFase2 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 463.66951171875,
-      "cartolaSofrido": 45.77,
-      "saldoCartola": 417.89951171875003
+      "totalCartola": 519.91943359375,
+      "cartolaSofrido": 82.3701171875,
+      "saldoCartola": 437.54931640625
     }
   ],
   "Grupo J": [
@@ -53,9 +53,9 @@ const classificacaoFase2 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 533.839921875,
-      "cartolaSofrido": 35.87,
-      "saldoCartola": 497.96992187499995
+      "totalCartola": 576.64013671875,
+      "cartolaSofrido": 50.570068359375,
+      "saldoCartola": 526.070068359375
     },
     {
       "posicao": 2,
@@ -64,31 +64,31 @@ const classificacaoFase2 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 523.9998828125,
-      "cartolaSofrido": 35.8,
-      "saldoCartola": 488.1998828125
+      "totalCartola": 565.25,
+      "cartolaSofrido": 87.009765625,
+      "saldoCartola": 478.240234375
     },
     {
       "posicao": 3,
-      "nome": "A Lenda Super Vasco F.c",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 478.589970703125,
-      "cartolaSofrido": 43.17,
-      "saldoCartola": 435.419970703125
-    },
-    {
-      "posicao": 4,
       "nome": "Tatols Beants F.C",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 462.780224609375,
-      "cartolaSofrido": 45.87,
-      "saldoCartola": 416.910224609375
+      "totalCartola": 513.989990234375,
+      "cartolaSofrido": 87.1201171875,
+      "saldoCartola": 426.869873046875
+    },
+    {
+      "posicao": 4,
+      "nome": "A Lenda Super Vasco F.c",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 493.2900390625,
+      "cartolaSofrido": 85.97021484375,
+      "saldoCartola": 407.31982421875
     }
   ],
   "Grupo K": [
@@ -99,31 +99,31 @@ const classificacaoFase2 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 544.5295703125,
-      "cartolaSofrido": 25.77,
-      "saldoCartola": 518.7595703125
+      "totalCartola": 580.4296875,
+      "cartolaSofrido": 72.1201171875,
+      "saldoCartola": 508.3095703125
     },
     {
       "posicao": 2,
-      "nome": "TORRESMO COM PINGA PRO26.1",
+      "nome": "TEAM LOPES 99",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 507.279375,
-      "cartolaSofrido": 37.57,
-      "saldoCartola": 469.709375
+      "totalCartola": 552.56005859375,
+      "cartolaSofrido": 70.47021484375,
+      "saldoCartola": 482.08984375
     },
     {
       "posicao": 3,
-      "nome": "TEAM LOPES 99",
+      "nome": "TORRESMO COM PINGA PRO26.1",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 518.75994140625,
-      "cartolaSofrido": 40.67,
-      "saldoCartola": 478.08994140625003
+      "totalCartola": 537.07958984375,
+      "cartolaSofrido": 71.3701171875,
+      "saldoCartola": 465.70947265625
     },
     {
       "posicao": 4,
@@ -132,55 +132,55 @@ const classificacaoFase2 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 461.809794921875,
-      "cartolaSofrido": 69.97,
-      "saldoCartola": 391.83979492187495
+      "totalCartola": 508.159912109375,
+      "cartolaSofrido": 105.8701171875,
+      "saldoCartola": 402.289794921875
     }
   ],
   "Grupo L": [
     {
       "posicao": 1,
-      "nome": "Texas Club 2026",
-      "pontos": 3,
-      "vitorias": 1,
-      "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 540.339921875,
-      "cartolaSofrido": 39.17,
-      "saldoCartola": 501.16992187499994
-    },
-    {
-      "posicao": 2,
       "nome": "lsauer fc",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 517.580205078125,
-      "cartolaSofrido": 27.4,
-      "saldoCartola": 490.180205078125
+      "totalCartola": 553.780029296875,
+      "cartolaSofrido": 73.81982421875,
+      "saldoCartola": 479.960205078125
+    },
+    {
+      "posicao": 2,
+      "nome": "Tabajara de Inhaua PB1",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "totalCartola": 523.10009765625,
+      "cartolaSofrido": 76.97021484375,
+      "saldoCartola": 446.1298828125
     },
     {
       "posicao": 3,
+      "nome": "Texas Club 2026",
+      "pontos": 0,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 574.14013671875,
+      "cartolaSofrido": 79.47021484375,
+      "saldoCartola": 494.669921875
+    },
+    {
+      "posicao": 4,
       "nome": "KillerColorado",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 513.25009765625,
-      "cartolaSofrido": 45.37,
-      "saldoCartola": 467.88009765625
-    },
-    {
-      "posicao": 4,
-      "nome": "Tabajara de Inhaua PB1",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 482.7998828125,
-      "cartolaSofrido": 43.17,
-      "saldoCartola": 439.6298828125
+      "totalCartola": 559.669921875,
+      "cartolaSofrido": 81.56982421875,
+      "saldoCartola": 478.10009765625
     }
   ]
 };

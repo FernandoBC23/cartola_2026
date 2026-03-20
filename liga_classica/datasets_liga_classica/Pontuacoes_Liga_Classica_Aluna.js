@@ -7,7 +7,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 49.429931640625,
       "Rodada 5": 87.919921875,
       "Rodada 6": 63.2099609375,
-      "Rodada 7": 49.97
+      "Rodada 7": 70.81982421875,
+      "Rodada 8": 70.81982421875
     },
     "bugredasmissões": {
       "Rodada 1": 63.56005859375,
@@ -16,7 +17,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 77.22998046875,
       "Rodada 5": 78.47021484375,
       "Rodada 6": 63.7099609375,
-      "Rodada 7": 35.7
+      "Rodada 7": 99.85986328125,
+      "Rodada 8": 99.85986328125
     },
     "C R Juvenal": {
       "Rodada 1": 47.860107421875,
@@ -25,7 +27,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 55.0,
       "Rodada 5": 63.8701171875,
       "Rodada 6": 64.81005859375,
-      "Rodada 7": 29.27
+      "Rodada 7": 55.52001953125,
+      "Rodada 8": 55.52001953125
     },
     "Doug Leal F.C": {
       "Rodada 1": 66.3701171875,
@@ -34,7 +37,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 61.35009765625,
       "Rodada 5": 82.31982421875,
       "Rodada 6": 70.60009765625,
-      "Rodada 7": 31.8
+      "Rodada 7": 64.2099609375,
+      "Rodada 8": 64.2099609375
     },
     "Esquadrão Gazembrino": {
       "Rodada 1": 83.2001953125,
@@ -43,7 +47,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 121.759765625,
       "Rodada 5": 93.06982421875,
       "Rodada 6": 75.35986328125,
-      "Rodada 7": 30.25
+      "Rodada 7": 100.25,
+      "Rodada 8": 100.25
     },
     "FBC Colorado": {
       "Rodada 1": 53.659912109375,
@@ -52,7 +57,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 86.43017578125,
       "Rodada 5": 86.419921875,
       "Rodada 6": 47.389892578125,
-      "Rodada 7": 38.87
+      "Rodada 7": 67.27001953125,
+      "Rodada 8": 67.27001953125
     },
     "GaúchoDaFronteira F.C": {
       "Rodada 1": 71.9599609375,
@@ -61,7 +67,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 30.800048828125,
       "Rodada 5": 52.5400390625,
       "Rodada 6": 34.550048828125,
-      "Rodada 7": 49.5
+      "Rodada 7": 61.5,
+      "Rodada 8": 61.5
     },
     "GE Xavanchesteer": {
       "Rodada 1": 56.050048828125,
@@ -70,7 +77,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 56.360107421875,
       "Rodada 5": 88.240234375,
       "Rodada 6": 61.989990234375,
-      "Rodada 7": 28.9
+      "Rodada 7": 48.469970703125,
+      "Rodada 8": 48.469970703125
     },
     "GrioTeam": {
       "Rodada 1": 61.56005859375,
@@ -79,7 +87,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 76.06005859375,
       "Rodada 5": 41.169921875,
       "Rodada 6": 71.009765625,
-      "Rodada 7": 40.27
+      "Rodada 7": 65.47021484375,
+      "Rodada 8": 65.47021484375
     },
     "Grêmio_Campeão_LA_27": {
       "Rodada 1": 54.050048828125,
@@ -88,7 +97,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 49.449951171875,
       "Rodada 5": 87.72021484375,
       "Rodada 6": 77.7998046875,
-      "Rodada 7": 35.34
+      "Rodada 7": 57.93994140625,
+      "Rodada 8": 57.93994140625
     },
     "JV5 Tricolor Gaúcho": {
       "Rodada 1": 47.860107421875,
@@ -97,7 +107,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 81.64990234375,
       "Rodada 5": 84.81982421875,
       "Rodada 6": 62.010009765625,
-      "Rodada 7": 30.77
+      "Rodada 7": 77.06982421875,
+      "Rodada 8": 77.06982421875
     },
     "La Primeira Patada Es Nuestra": {
       "Rodada 1": 55.659912109375,
@@ -106,7 +117,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 62.75,
       "Rodada 5": 77.22021484375,
       "Rodada 6": 88.2099609375,
-      "Rodada 7": 28.2
+      "Rodada 7": 61.110107421875,
+      "Rodada 8": 61.110107421875
     },
     "lsauer fc": {
       "Rodada 1": 62.56005859375,
@@ -115,7 +127,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 81.43017578125,
       "Rodada 5": 85.669921875,
       "Rodada 6": 58.610107421875,
-      "Rodada 7": 45.37
+      "Rodada 7": 81.56982421875,
+      "Rodada 8": 81.56982421875
     },
     "Medonho´s F.C.": {
       "Rodada 1": 55.659912109375,
@@ -124,7 +137,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 59.409912109375,
       "Rodada 5": 84.6201171875,
       "Rodada 6": 75.81005859375,
-      "Rodada 7": 48.67
+      "Rodada 7": 83.22021484375,
+      "Rodada 8": 83.22021484375
     },
     "NHU PORÃ SAF.": {
       "Rodada 1": 0.0,
@@ -133,7 +147,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 72.240234375,
       "Rodada 5": 69.77001953125,
       "Rodada 6": 47.989990234375,
-      "Rodada 7": 24.05
+      "Rodada 7": 46.550048828125,
+      "Rodada 8": 46.550048828125
     },
     "Pepe Leal FC": {
       "Rodada 1": 60.60009765625,
@@ -142,7 +157,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 42.56005859375,
       "Rodada 5": 49.77001953125,
       "Rodada 6": 55.3798828125,
-      "Rodada 7": 12.0
+      "Rodada 7": 61.8701171875,
+      "Rodada 8": 61.8701171875
     },
     "Pontaç0 F.C.": {
       "Rodada 1": 61.159912109375,
@@ -151,7 +167,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 42.56005859375,
       "Rodada 5": 70.85986328125,
       "Rodada 6": 67.58984375,
-      "Rodada 7": 32.97
+      "Rodada 7": 71.77001953125,
+      "Rodada 8": 71.77001953125
     },
     "SC 100 Sono": {
       "Rodada 1": 67.16015625,
@@ -160,7 +177,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 61.1298828125,
       "Rodada 5": 72.759765625,
       "Rodada 6": 61.199951171875,
-      "Rodada 7": 44.15
+      "Rodada 7": 69.60009765625,
+      "Rodada 8": 69.60009765625
     },
     "SC ÉoINTER!": {
       "Rodada 1": 54.89990234375,
@@ -169,7 +187,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 45.550048828125,
       "Rodada 5": 77.6201171875,
       "Rodada 6": 79.009765625,
-      "Rodada 7": 41.27
+      "Rodada 7": 65.47021484375,
+      "Rodada 8": 65.47021484375
     },
     "Texas Club 2026": {
       "Rodada 1": 68.06005859375,
@@ -178,7 +197,8 @@ const classificacaoLigaClassica = {
       "Rodada 4": 65.14990234375,
       "Rodada 5": 93.02001953125,
       "Rodada 6": 83.0,
-      "Rodada 7": 43.17
+      "Rodada 7": 76.97021484375,
+      "Rodada 8": 76.97021484375
     }
   },
   "turnos": {
@@ -251,26 +271,26 @@ const classificacaoLigaClassica = {
       "GaúchoDaFronteira F.C": 139.630126953125
     },
     "Marco": {
-      "Texas Club 2026": 219.19001953125002,
-      "Medonho´s F.C.": 209.10017578125002,
-      "Arran Katoko FC": 201.0998828125,
-      "Grêmio_Campeão_LA_27": 200.86001953125,
-      "Esquadrão Gazembrino": 198.6796875,
-      "SC ÉoINTER!": 197.8998828125,
-      "La Primeira Patada Es Nuestra": 193.63017578125,
-      "lsauer fc": 189.650029296875,
-      "Doug Leal F.C": 184.719921875,
-      "GE Xavanchesteer": 179.130224609375,
-      "SC 100 Sono": 178.109716796875,
-      "bugredasmissões": 177.88017578125,
-      "JV5 Tricolor Gaúcho": 177.599833984375,
-      "FBC Colorado": 172.679814453125,
-      "Pontaç0 F.C.": 171.41970703125,
-      "C R Juvenal": 157.95017578125,
-      "GrioTeam": 152.4496875,
-      "NHU PORÃ SAF.": 141.810009765625,
-      "GaúchoDaFronteira F.C": 136.590087890625,
-      "Pepe Leal FC": 117.14990234375
+      "Esquadrão Gazembrino": 368.9296875,
+      "bugredasmissões": 341.89990234375,
+      "Texas Club 2026": 329.96044921875,
+      "Medonho´s F.C.": 326.87060546875,
+      "lsauer fc": 307.419677734375,
+      "JV5 Tricolor Gaúcho": 300.969482421875,
+      "Arran Katoko FC": 292.76953125,
+      "La Primeira Patada Es Nuestra": 287.650390625,
+      "SC ÉoINTER!": 287.5703125,
+      "Pontaç0 F.C.": 281.98974609375,
+      "Grêmio_Campeão_LA_27": 281.39990234375,
+      "Doug Leal F.C": 281.33984375,
+      "SC 100 Sono": 273.159912109375,
+      "FBC Colorado": 268.349853515625,
+      "GE Xavanchesteer": 247.170166015625,
+      "GrioTeam": 243.1201171875,
+      "C R Juvenal": 239.72021484375,
+      "Pepe Leal FC": 228.89013671875,
+      "NHU PORÃ SAF.": 210.860107421875,
+      "GaúchoDaFronteira F.C": 210.090087890625
     },
     "Abril": {
       "Arran Katoko FC": 0.0,
@@ -339,29 +359,8 @@ const classificacaoLigaClassica = {
       "Texas Club 2026": 0.0
     }
   }
-};window.ligaClassicaMeta = {"status_http": 2, "rodada_parcial": 7};
+};window.ligaClassicaMeta = {"status_http": 1, "rodada_parcial": null};
 const pontuacaoParcialRodadaAtual = {
-  "rodada": 7,
-  "times": {
-    "19833277": 49.97,
-    "19209079": 35.7,
-    "1488983": 29.27,
-    "287965": 31.8,
-    "2916559": 30.25,
-    "186283": 38.87,
-    "2371918": 49.5,
-    "16411206": 28.9,
-    "14933455": 40.27,
-    "47775950": 35.34,
-    "1747619": 30.77,
-    "32966": 28.2,
-    "44810918": 45.37,
-    "1867254": 48.67,
-    "4088673": 24.05,
-    "1326835": 12.0,
-    "20651178": 32.97,
-    "14709358": 44.15,
-    "184499": 41.27,
-    "1273719": 43.17
-  }
+  "rodada": 8,
+  "times": {}
 };
