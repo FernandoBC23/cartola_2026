@@ -42,54 +42,46 @@
   text-align: center;
 }
 
-.card-mito-header {
-  margin-bottom: 14px;
-}
-
-.card-mito-eyebrow {
-  margin: 0 0 6px;
-  color: #FF7604;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  font-size: 0.7rem;
-  font-weight: 700;
-}
-
-.card-mito-detalhe h2 {
-  text-align: left;
-  font-size: 1.25rem;
-  margin-bottom: 0;
-}
-
 .pagina-mito {
-  max-width: 1180px;
+  max-width: 960px;
+  width: 100%;
   margin: 0 auto;
-  padding: 32px 20px;
+  padding: 22px 0 10px;
 }
 
 .card-mito-detalhe {
-  background-color: #DCDCDC;
-  border-radius: 16px;
-  padding: 22px;
   color: #3F4E4F;
-  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
+  width: 100%;
+}
+
+.card-mito-header {
+  margin-bottom: 18px;
+}
+
+.mito-info-topo {
+  max-width: 960px;
+  width: 100%;
+  margin-bottom: 0;
 }
 
 .mito-dos-mitos {
-  margin-bottom: 16px;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto 20px;
 }
 
 .mvp-card {
-  background: linear-gradient(135deg, #3F4E4F, #2C3639);
+  background-color: #3F4E4F;
   color: #DCD7C9;
-  border-radius: 14px;
-  padding: 14px;
+  border-radius: 6px;
+  padding: 16px 18px;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.7);
 }
 
 .mvp-card-label {
-  margin: 0 0 10px;
+  margin: 0 0 14px;
   color: #FF7604;
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -98,62 +90,65 @@
 .mvp-card-conteudo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 18px;
 }
 
 .mvp-card-escudo {
-  width: 56px;
-  height: 56px;
+  width: 78px;
+  height: 78px;
   object-fit: contain;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
-  padding: 6px;
+  background: #DCD7C9;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .mvp-card-info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
 }
 
 .mvp-card-info strong {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
 }
 
 .mvp-card-info span {
-  font-size: 0.82rem;
+  font-size: 0.92rem;
 }
 
 .mito-tabela-wrapper {
-  border: 1px solid rgba(63, 78, 79, 0.14);
-  border-radius: 12px;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .mito-tabela {
   width: 100%;
-  border-collapse: collapse;
-  font-size: 0.82rem;
+  margin: 0 auto;
 }
 
-.mito-tabela th {
-  position: sticky;
-  top: 0;
-  background: #3F4E4F;
-  color: #DCD7C9;
-  text-align: left;
-  padding: 10px 12px;
-  font-size: 0.78rem;
+.mito-time-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.mito-tabela td {
-  padding: 9px 12px;
-  border-bottom: 1px solid rgba(63, 78, 79, 0.12);
-  color: #2C3639;
-  font-weight: 600;
+.mito-time-escudo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 4px;
 }
 
-.mito-tabela tbody tr:nth-child(even) {
-  background: rgba(63, 78, 79, 0.06);
+.mito-tabela td:first-child,
+.mito-tabela th:first-child {
+  width: 12%;
+}
+
+.mito-tabela td:last-child,
+.mito-tabela th:last-child {
+  width: 18%;
 }
 
 .lideres-rodada-vazio {
@@ -186,29 +181,46 @@
   }
 
   .pagina-mito {
-    padding: 20px;
+    width: min(95%, 960px);
+    padding: 14px 0 10px;
   }
 
   .card-mito-detalhe {
-    padding: 16px;
+    padding: 0;
+  }
+
+  .card-mito-header {
+    margin-bottom: 14px;
+  }
+
+  .mito-info-topo {
+    font-size: 10px;
+    gap: 10px;
+    padding: 8px;
   }
 
   .mvp-card-conteudo {
     align-items: flex-start;
+    gap: 12px;
   }
 
   .mvp-card-escudo {
-    width: 48px;
-    height: 48px;
+    width: 62px;
+    height: 62px;
   }
 
   .mito-tabela {
-    font-size: 0.76rem;
+    font-size: 12px;
   }
 
   .mito-tabela th,
   .mito-tabela td {
-    padding: 8px 9px;
+    padding: 8px;
+  }
+
+  .mito-time-escudo {
+    width: 20px;
+    height: 20px;
   }
 }
 

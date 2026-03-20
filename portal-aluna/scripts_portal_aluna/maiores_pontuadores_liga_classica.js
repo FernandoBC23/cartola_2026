@@ -72,6 +72,16 @@ function obterEscudoDoTime(time) {
   return window.escudosTimes?.[time] || `${window.ESCUDOS_BASE_PATH || "../imagens/"}${window.ESCUDO_PADRAO || "escudo_default.png"}`;
 }
 
+function renderizarTimeComEscudo(time) {
+  const escudo = obterEscudoDoTime(time);
+  return `
+    <div class="time-info mito-time-info">
+      <img src="${escudo}" alt="${time}" class="escudo mito-time-escudo" />
+      <span>${time}</span>
+    </div>
+  `;
+}
+
 function obterMitoDosMitos(lideres) {
   if (!lideres.length) return null;
 
@@ -117,7 +127,7 @@ function renderizarCardMaioresPontuadores() {
       return `
         <tr>
           <td>${numeroDaRodada(item.rodada)}</td>
-          <td>${item.time}</td>
+          <td>${renderizarTimeComEscudo(item.time)}</td>
           <td>${item.pontos.toFixed(2)}</td>
         </tr>
       `;
