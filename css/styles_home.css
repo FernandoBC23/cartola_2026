@@ -42,12 +42,6 @@
   text-align: center;
 }
 
-.card-mito-rodada {
-  width: 420px;
-  padding: 18px;
-  text-align: left;
-}
-
 .card-mito-header {
   margin-bottom: 14px;
 }
@@ -61,10 +55,24 @@
   font-weight: 700;
 }
 
-.card-mito-rodada h2 {
+.card-mito-detalhe h2 {
   text-align: left;
   font-size: 1.25rem;
   margin-bottom: 0;
+}
+
+.pagina-mito {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.card-mito-detalhe {
+  background-color: #DCDCDC;
+  border-radius: 16px;
+  padding: 22px;
+  color: #3F4E4F;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.9);
 }
 
 .mito-dos-mitos {
@@ -117,8 +125,6 @@
 }
 
 .mito-tabela-wrapper {
-  max-height: 230px;
-  overflow-y: auto;
   border: 1px solid rgba(63, 78, 79, 0.14);
   border-radius: 12px;
 }
@@ -179,9 +185,12 @@
     font-size: 0.9rem;
   }
 
-  .card-mito-rodada {
-    width: calc(80% + 16px);
-    max-width: 420px;
+  .pagina-mito {
+    padding: 20px;
+  }
+
+  .card-mito-detalhe {
+    padding: 16px;
   }
 
   .mvp-card-conteudo {

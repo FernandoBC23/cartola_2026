@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mito da Rodada | Portal Aluna</title>
+  <link rel="stylesheet" href="../css/reset.css"/>
+  <link rel="stylesheet" href="../css/styles_global.css"/>
+  <link rel="stylesheet" href="../css/styles_home.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="loaded">
+  <header class="header">
+    <div class="header-content container-central">
+      <div class="logo-titulo">
+        <img src="../imagens/trofeu_liga_classica.png" alt="Mito da Rodada" class="logo" />
+        <h1>Mito da Rodada</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index.html">Painel Competições</a></li>
+          <li><a class="ativo" href="./mito_da_rodada.html">Mito da Rodada</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pagina-mito">
+    <section class="card-mito-detalhe">
+      <div class="card-mito-header">
+        <!-- <p class="card-mito-eyebrow">Mito da Rodada</p> -->
+        <!-- <h2>Mito da Rodada</h2> -->
+      </div>
+
+      <div id="mito-dos-mitos" class="mito-dos-mitos"></div>
+
+      <div class="mito-tabela-wrapper">
+        <table class="mito-tabela">
+          <thead>
+            <tr>
+              <th>Rodada</th>
+              <th>Time</th>
+              <th>Pts</th>
+            </tr>
+          </thead>
+          <tbody id="mito-rodada-tabela"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 Painel Ligas | Desenvolvido por Fernando Chagas</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/escudos_times.js"></script>
+  <script src="../liga_classica/datasets_liga_classica/Pontuacoes_Liga_Classica_Aluna.js"></script>
+  <script src="./scripts_portal_aluna/maiores_pontuadores_liga_classica.js"></script>
+  <script src="../transicoes.js"></script>
+</body>
+</html>
