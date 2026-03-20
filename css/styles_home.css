@@ -34,13 +34,127 @@
     margin-bottom: 12px;
   }
   
-  .card-competicao h2 {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #3F4E4F;
-    text-align: center;
-  }
+.card-competicao h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3F4E4F;
+  text-align: center;
+}
+
+.card-mito-rodada {
+  width: 420px;
+  padding: 18px;
+  text-align: left;
+}
+
+.card-mito-header {
+  margin-bottom: 14px;
+}
+
+.card-mito-eyebrow {
+  margin: 0 0 6px;
+  color: #FF7604;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.card-mito-rodada h2 {
+  text-align: left;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.mito-dos-mitos {
+  margin-bottom: 16px;
+}
+
+.mvp-card {
+  background: linear-gradient(135deg, #3F4E4F, #2C3639);
+  color: #DCD7C9;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.mvp-card-label {
+  margin: 0 0 10px;
+  color: #FF7604;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.mvp-card-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mvp-card-escudo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.mvp-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mvp-card-info strong {
+  font-size: 0.95rem;
+}
+
+.mvp-card-info span {
+  font-size: 0.82rem;
+}
+
+.mito-tabela-wrapper {
+  max-height: 230px;
+  overflow-y: auto;
+  border: 1px solid rgba(63, 78, 79, 0.14);
+  border-radius: 12px;
+}
+
+.mito-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.mito-tabela th {
+  position: sticky;
+  top: 0;
+  background: #3F4E4F;
+  color: #DCD7C9;
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 0.78rem;
+}
+
+.mito-tabela td {
+  padding: 9px 12px;
+  border-bottom: 1px solid rgba(63, 78, 79, 0.12);
+  color: #2C3639;
+  font-weight: 600;
+}
+
+.mito-tabela tbody tr:nth-child(even) {
+  background: rgba(63, 78, 79, 0.06);
+}
+
+.lideres-rodada-vazio {
+  margin: 0;
+  color: #3F4E4F;
+  font-weight: 700;
+}
   
 
 /* ------------------------------------
@@ -61,9 +175,32 @@
       height: 80px;
     }
   
-    .card-competicao h2 {
-      font-size: 0.9rem;
-    }
-  }  
+  .card-competicao h2 {
+    font-size: 0.9rem;
+  }
+
+  .card-mito-rodada {
+    width: calc(80% + 16px);
+    max-width: 420px;
+  }
+
+  .mvp-card-conteudo {
+    align-items: flex-start;
+  }
+
+  .mvp-card-escudo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .mito-tabela {
+    font-size: 0.76rem;
+  }
+
+  .mito-tabela th,
+  .mito-tabela td {
+    padding: 8px 9px;
+  }
+}
 
   
