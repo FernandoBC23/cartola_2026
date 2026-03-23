@@ -6,7 +6,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 65.27978515625,
     "Rodada 5": 74.52001953125,
     "Rodada 6": 52.989990234375,
-    "Rodada 7": 82.47021484375
+    "Rodada 7": 82.47021484375,
+    "Rodada 8": 82.9501953125
   },
   "cartola scheuer17": {
     "Rodada 1": 61.56005859375,
@@ -15,7 +16,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 65.14990234375,
     "Rodada 5": 93.02001953125,
     "Rodada 6": 83.0,
-    "Rodada 7": 85.97021484375
+    "Rodada 7": 85.97021484375,
+    "Rodada 8": 76.4501953125
   },
   "Dom Camillo68": {
     "Rodada 1": 72.7001953125,
@@ -24,7 +26,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 85.47998046875,
     "Rodada 5": 84.60986328125,
     "Rodada 6": 72.10986328125,
-    "Rodada 7": 87.1201171875
+    "Rodada 7": 87.1201171875,
+    "Rodada 8": 55.0400390625
   },
   "FBC Colorado": {
     "Rodada 1": 53.659912109375,
@@ -33,7 +36,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 86.43017578125,
     "Rodada 5": 86.419921875,
     "Rodada 6": 47.389892578125,
-    "Rodada 7": 67.27001953125
+    "Rodada 7": 67.27001953125,
+    "Rodada 8": 75.75
   },
   "Fedato Futebol Clube": {
     "Rodada 1": 63.89990234375,
@@ -42,7 +46,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 87.64990234375,
     "Rodada 5": 89.02001953125,
     "Rodada 6": 62.81005859375,
-    "Rodada 7": 105.8701171875
+    "Rodada 7": 105.8701171875,
+    "Rodada 8": 76.89990234375
   },
   "Gremiomaniasm": {
     "Rodada 1": 57.449951171875,
@@ -51,7 +56,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 77.259765625,
     "Rodada 5": 69.3701171875,
     "Rodada 6": 52.199951171875,
-    "Rodada 7": 39.969970703125
+    "Rodada 7": 39.969970703125,
+    "Rodada 8": 60.5
   },
   "JV5 Tricolor Gaúcho": {
     "Rodada 1": 47.860107421875,
@@ -60,7 +66,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 81.64990234375,
     "Rodada 5": 84.81982421875,
     "Rodada 6": 62.010009765625,
-    "Rodada 7": 77.06982421875
+    "Rodada 7": 77.06982421875,
+    "Rodada 8": 80.0498046875
   },
   "lsauer fc": {
     "Rodada 1": 62.56005859375,
@@ -69,7 +76,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 81.43017578125,
     "Rodada 5": 85.669921875,
     "Rodada 6": 58.610107421875,
-    "Rodada 7": 81.56982421875
+    "Rodada 7": 81.56982421875,
+    "Rodada 8": 73.35009765625
   },
   "MAFRA MARTINS FC": {
     "Rodada 1": 58.510009765625,
@@ -78,7 +86,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 52.550048828125,
     "Rodada 5": 83.22021484375,
     "Rodada 6": 80.60986328125,
-    "Rodada 7": 78.91015625
+    "Rodada 7": 78.91015625,
+    "Rodada 8": 45.3701171875
   },
   "Mau Humor F.C.": {
     "Rodada 1": 73.9599609375,
@@ -87,7 +96,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 53.25,
     "Rodada 5": 83.31982421875,
     "Rodada 6": 54.81005859375,
-    "Rodada 7": 79.919921875
+    "Rodada 7": 79.919921875,
+    "Rodada 8": 72.25
   },
   "Paulo Virgili FC": {
     "Rodada 1": 84.259765625,
@@ -96,7 +106,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 45.64990234375,
     "Rodada 5": 72.27001953125,
     "Rodada 6": 53.4599609375,
-    "Rodada 7": 58.669921875
+    "Rodada 7": 58.669921875,
+    "Rodada 8": 45.699951171875
   },
   "pura bucha/internacional": {
     "Rodada 1": 50.260009765625,
@@ -105,7 +116,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 27.4300537109375,
     "Rodada 5": 39.340087890625,
     "Rodada 6": 71.66015625,
-    "Rodada 7": 34.469970703125
+    "Rodada 7": 34.469970703125,
+    "Rodada 8": 40.280029296875
   },
   "Rolo Compressor ZN": {
     "Rodada 1": 59.25,
@@ -114,7 +126,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 51.929931640625,
     "Rodada 5": 74.77001953125,
     "Rodada 6": 66.509765625,
-    "Rodada 7": 82.56982421875
+    "Rodada 7": 82.56982421875,
+    "Rodada 8": 76.25
   },
   "seralex": {
     "Rodada 1": 60.159912109375,
@@ -123,7 +136,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 109.75,
     "Rodada 5": 81.47021484375,
     "Rodada 6": 56.39990234375,
-    "Rodada 7": 59.56005859375
+    "Rodada 7": 59.56005859375,
+    "Rodada 8": 75.0498046875
   },
   "Tatols Beants F.C": {
     "Rodada 1": 66.85986328125,
@@ -132,7 +146,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 50.590087890625,
     "Rodada 5": 81.169921875,
     "Rodada 6": 62.919921875,
-    "Rodada 7": 87.009765625
+    "Rodada 7": 87.009765625,
+    "Rodada 8": 69.89990234375
   },
   "TEAM LOPES 99": {
     "Rodada 1": 58.9599609375,
@@ -141,7 +156,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 80.35986328125,
     "Rodada 5": 98.52001953125,
     "Rodada 6": 77.41015625,
-    "Rodada 7": 71.3701171875
+    "Rodada 7": 71.3701171875,
+    "Rodada 8": 80.75
   },
   "Texas Club 2026": {
     "Rodada 1": 68.06005859375,
@@ -150,7 +166,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 65.14990234375,
     "Rodada 5": 93.02001953125,
     "Rodada 6": 83.0,
-    "Rodada 7": 76.97021484375
+    "Rodada 7": 76.97021484375,
+    "Rodada 8": 76.4501953125
   },
   "TIGRE LEON": {
     "Rodada 1": 51.260009765625,
@@ -159,7 +176,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 67.75,
     "Rodada 5": 75.419921875,
     "Rodada 6": 54.2099609375,
-    "Rodada 7": 56.669921875
+    "Rodada 7": 56.669921875,
+    "Rodada 8": 67.64990234375
   },
   "TORRESMO COM PINGA PRO26.2": {
     "Rodada 1": 73.759765625,
@@ -168,7 +186,8 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 65.0498046875,
     "Rodada 5": 95.6201171875,
     "Rodada 6": 69.419921875,
-    "Rodada 7": 70.47021484375
+    "Rodada 7": 70.47021484375,
+    "Rodada 8": 74.9501953125
   },
   "VASCO MARTINS FC": {
     "Rodada 1": 55.89990234375,
@@ -177,6 +196,7 @@ window.pontuacoesPorRodada = {
     "Rodada 4": 76.080078125,
     "Rodada 5": 66.2001953125,
     "Rodada 6": 57.780029296875,
-    "Rodada 7": 67.33984375
+    "Rodada 7": 67.33984375,
+    "Rodada 8": 94.31982421875
   }
 };

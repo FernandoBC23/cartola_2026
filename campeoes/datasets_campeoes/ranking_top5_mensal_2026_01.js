@@ -1,7 +1,7 @@
 const rankingTop5Mensal2026_01 = [
   {
     "time": "Bandoleros FCS",
-    "pontos": 692.1298828125,
+    "pontos": 689.35986328125,
     "aparicoes": 3,
     "posicoes": [
       {
@@ -14,24 +14,13 @@ const rankingTop5Mensal2026_01 = [
       },
       {
         "mes": "Marco",
-        "posicao": 3
-      }
-    ]
-  },
-  {
-    "time": "Pity10",
-    "pontos": 368.91015625,
-    "aparicoes": 1,
-    "posicoes": [
-      {
-        "mes": "Marco",
         "posicao": 1
       }
     ]
   },
   {
-    "time": "Fedato Futebol Clube",
-    "pontos": 363.5703125,
+    "time": "Pity10",
+    "pontos": 348.08984375,
     "aparicoes": 1,
     "posicoes": [
       {
@@ -42,7 +31,18 @@ const rankingTop5Mensal2026_01 = [
   },
   {
     "time": "cartola scheuer17",
-    "pontos": 347.96044921875,
+    "pontos": 338.4404296875,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Marco",
+        "posicao": 3
+      }
+    ]
+  },
+  {
+    "time": "Fedato Futebol Clube",
+    "pontos": 334.60009765625,
     "aparicoes": 1,
     "posicoes": [
       {
@@ -52,8 +52,8 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
-    "time": "Dom Camillo68",
-    "pontos": 330.9599609375,
+    "time": "Texas Club 2026",
+    "pontos": 329.4404296875,
     "aparicoes": 1,
     "posicoes": [
       {
@@ -162,7 +162,7 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
   "ranking": [
     {
       "time": "Bandoleros FCS",
-      "pontos": 692.1298828125,
+      "pontos": 689.35986328125,
       "aparicoes": 3,
       "posicoes": [
         {
@@ -175,24 +175,13 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
         },
         {
           "mes": "Marco",
-          "posicao": 3
-        }
-      ]
-    },
-    {
-      "time": "Pity10",
-      "pontos": 368.91015625,
-      "aparicoes": 1,
-      "posicoes": [
-        {
-          "mes": "Marco",
           "posicao": 1
         }
       ]
     },
     {
-      "time": "Fedato Futebol Clube",
-      "pontos": 363.5703125,
+      "time": "Pity10",
+      "pontos": 348.08984375,
       "aparicoes": 1,
       "posicoes": [
         {
@@ -203,7 +192,18 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
     },
     {
       "time": "cartola scheuer17",
-      "pontos": 347.96044921875,
+      "pontos": 338.4404296875,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Marco",
+          "posicao": 3
+        }
+      ]
+    },
+    {
+      "time": "Fedato Futebol Clube",
+      "pontos": 334.60009765625,
       "aparicoes": 1,
       "posicoes": [
         {
@@ -213,8 +213,8 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
       ]
     },
     {
-      "time": "Dom Camillo68",
-      "pontos": 330.9599609375,
+      "time": "Texas Club 2026",
+      "pontos": 329.4404296875,
       "aparicoes": 1,
       "posicoes": [
         {
