@@ -908,7 +908,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "TIGRE LEON",
-      "pontos": 56.67
+      "pontos": 67.65
     }
   },
   {

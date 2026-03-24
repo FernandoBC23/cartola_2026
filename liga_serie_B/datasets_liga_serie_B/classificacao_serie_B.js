@@ -144,17 +144,6 @@ const classificacaoSerieB = {
       "posicao": 13
     },
     {
-      "nome": "Gremiomaniasm",
-      "pontos": 12,
-      "vitorias": 4,
-      "empates": 0,
-      "derrotas": 4,
-      "totalCartola": 510.749755859375,
-      "cartolaSofrido": 555.9097900390625,
-      "saldoCartola": -45.1600341796875,
-      "posicao": 14
-    },
-    {
       "nome": "Mau Humor F.C.",
       "pontos": 9,
       "vitorias": 3,
@@ -163,7 +152,7 @@ const classificacaoSerieB = {
       "totalCartola": 592.16943359375,
       "cartolaSofrido": 623.239501953125,
       "saldoCartola": -31.070068359375,
-      "posicao": 15
+      "posicao": 14
     },
     {
       "nome": "Tatols Beants F.C",
@@ -174,7 +163,29 @@ const classificacaoSerieB = {
       "totalCartola": 583.889892578125,
       "cartolaSofrido": 636.60986328125,
       "saldoCartola": -52.719970703125,
+      "posicao": 15
+    },
+    {
+      "nome": "TIGRE LEON",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 5,
+      "totalCartola": 529.61962890625,
+      "cartolaSofrido": 530.83984375,
+      "saldoCartola": -1.22021484375,
       "posicao": 16
+    },
+    {
+      "nome": "Gremiomaniasm",
+      "pontos": 9,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 5,
+      "totalCartola": 510.749755859375,
+      "cartolaSofrido": 566.8897705078125,
+      "saldoCartola": -56.1400146484375,
+      "posicao": 17
     },
     {
       "nome": "FBC Colorado",
@@ -185,7 +196,7 @@ const classificacaoSerieB = {
       "totalCartola": 577.65966796875,
       "cartolaSofrido": 613.159912109375,
       "saldoCartola": -35.500244140625,
-      "posicao": 17
+      "posicao": 18
     },
     {
       "nome": "Paulo Virgili FC",
@@ -196,17 +207,6 @@ const classificacaoSerieB = {
       "totalCartola": 523.869384765625,
       "cartolaSofrido": 593.369873046875,
       "saldoCartola": -69.50048828125,
-      "posicao": 18
-    },
-    {
-      "nome": "TIGRE LEON",
-      "pontos": 6,
-      "vitorias": 2,
-      "empates": 0,
-      "derrotas": 6,
-      "totalCartola": 518.6396484375,
-      "cartolaSofrido": 530.83984375,
-      "saldoCartola": -12.2001953125,
       "posicao": 19
     },
     {

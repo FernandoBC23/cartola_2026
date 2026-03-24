@@ -94,25 +94,25 @@ const classificacaoFase2 = {
   "Grupo K": [
     {
       "posicao": 1,
-      "nome": "Fedato Futebol Clube",
+      "nome": "TEAM LOPES 99",
       "pontos": 6,
       "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 686.2998046875,
-      "cartolaSofrido": 152.8701171875,
-      "saldoCartola": 533.4296875
+      "totalCartola": 633.31005859375,
+      "cartolaSofrido": 147.3701171875,
+      "saldoCartola": 485.93994140625
     },
     {
       "posicao": 2,
-      "nome": "TEAM LOPES 99",
+      "nome": "Fedato Futebol Clube",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 633.31005859375,
-      "cartolaSofrido": 176.34033203125,
-      "saldoCartola": 456.9697265625
+      "totalCartola": 657.32958984375,
+      "cartolaSofrido": 152.8701171875,
+      "saldoCartola": 504.45947265625
     },
     {
       "posicao": 3,

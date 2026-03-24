@@ -177,9 +177,9 @@ const resultadosFase2 = [
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 105.8701171875
+      "pontos": 76.89990234375
     },
-    "vencedor": "visitante"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo L",

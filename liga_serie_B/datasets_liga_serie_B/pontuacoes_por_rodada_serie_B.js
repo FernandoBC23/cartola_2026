@@ -197,6 +197,6 @@ window.pontuacoesPorRodada = {
     "Rodada 5": 75.419921875,
     "Rodada 6": 54.2099609375,
     "Rodada 7": 56.669921875,
-    "Rodada 8": 56.669921875
+    "Rodada 8": 67.64990234375
   }
 };
