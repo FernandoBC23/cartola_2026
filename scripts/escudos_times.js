@@ -67,7 +67,8 @@ window.escudosTimes = {
   "Super Vasco f.c": "../imagens/1_super_vasco_fc.png",
   "S.E.R. GRILLO": "../imagens/1_ser_grillo.png",
   "SERGRILLO": "../imagens/1_sergrillo.png",
-  "NaoVaiDescer!": "../imagens/1_naovaidescer.png",
+  // "NaoVaiDescer!": "../imagens/1_naovaidescer.png",
+  "VaiDescerkkkk!!!": "../imagens/1_naovaidescer.png",
   "Atlético Colorado 2021": "../imagens/1_atletico_colorado_2021.png",
   "BORGES CLIMA FUT F.C": "../imagens/1_borges_clima_fut_fc.png",
   "FC castelo Branco 2": "../imagens/1_fc_castelo_branco_2.png",
@@ -84,6 +85,7 @@ window.escudosTimes = {
   "Pepe Leal FC": "../imagens/1_pepe_leal_fc.png",  
   "Arran Katoko FC": "../imagens/1_arran_katoko_fc.png",
   "RS Expressões da Arte": "../imagens/1_rs_expressoes_da_arte.png",
+  "HVCARTOLA": "../imagens/1_hvcartola.png",
 };
 
 window.ESCUDO_PADRAO = "escudo_default.png";

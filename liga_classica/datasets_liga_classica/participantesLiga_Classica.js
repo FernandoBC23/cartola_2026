@@ -12,7 +12,6 @@ window.participantesLiga = [
   "Dom Camillo68",
   "FBC Colorado",
   "FBC Colorado II",
-  "FC castelo Branco 2",
   "FC Los Castilho",
   "Fedato Futebol Clube",
   "FIGUEIRA DA ILHA",
@@ -20,6 +19,7 @@ window.participantesLiga = [
   "Gig@ntte",
   "Gremiomaniasm",
   "Grêmio imortal 37",
+  "HVCARTOLA",
   "JUV. KP",
   "JV5 Tricolor Gaúcho",
   "LISI GREMISTA",
@@ -29,7 +29,6 @@ window.participantesLiga = [
   "Mau Humor F.C.",
   "mercearia Estrela",
   "Máquina Laranjja",
-  "NaoVaiDescer!",
   "Paulo Virgili FC",
   "Pity10",
   "pra sempre imortal fc",
@@ -51,5 +50,6 @@ window.participantesLiga = [
   "Texas Club 2026",
   "TIGRE LEON",
   "Time do S.A.P.O",
+  "VaiDescerkkkk!!!",
   "VASCO MARTINS FC"
 ];
