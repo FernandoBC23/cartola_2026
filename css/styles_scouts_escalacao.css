@@ -163,13 +163,6 @@
   font-weight: 700;
 }
 
-.restricao-tag small {
-  color: var(--texto);
-  opacity: 0.8;
-  font-size: 11px;
-  font-weight: 700;
-}
-
 .restricao-vazia {
   font-size: 12px;
   font-weight: 700;
@@ -238,6 +231,40 @@
   font-size: 13px;
 }
 
+.player-row {
+  --row-accent: rgba(44, 54, 57, 0.2);
+  --pos-bg: rgba(90, 102, 107, 0.1);
+  --pos-fg: #2c3639;
+}
+
+.player-row--def {
+  --row-accent: rgba(42, 91, 154, 0.36);
+  --pos-bg: rgba(64, 120, 192, 0.12);
+  --pos-fg: #1f4f84;
+}
+
+.player-row--mei {
+  --row-accent: rgba(171, 115, 18, 0.34);
+  --pos-bg: rgba(214, 153, 46, 0.14);
+  --pos-fg: #946114;
+}
+
+.player-row--ata {
+  --row-accent: rgba(168, 50, 25, 0.34);
+  --pos-bg: rgba(203, 78, 52, 0.13);
+  --pos-fg: #a03b22;
+}
+
+.pos-cell {
+  min-width: 52px;
+  letter-spacing: 0.04em;
+  color: var(--pos-fg);
+  font-weight: 800;
+  background:
+    linear-gradient(90deg, var(--pos-bg) 0, var(--pos-bg) 100%) center / calc(100% - 10px) calc(100% - 12px) no-repeat;
+  box-shadow: inset 3px 0 0 var(--row-accent);
+}
+
 .player-identidade {
   display: flex;
   align-items: center;
@@ -245,18 +272,34 @@
   min-width: 180px;
 }
 
-.club-pill {
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
-  background-color: var(--bloco);
-  color: var(--texto);
+.hist-club-flag {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  min-width: 42px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: var(--club-accent, var(--club-bg, #37474f));
+  color: var(--club-fg, #f5f6f7);
+  border: 1px solid var(--club-border, rgba(255, 255, 255, 0.2));
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.12);
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
+  line-height: 1;
   flex-shrink: 0;
+  text-shadow:
+    -0.6px -0.6px 0 var(--club-shadow, rgba(0, 0, 0, 0.7)),
+    0.6px -0.6px 0 var(--club-shadow, rgba(0, 0, 0, 0.7)),
+    -0.6px 0.6px 0 var(--club-shadow, rgba(0, 0, 0, 0.7)),
+    0.6px 0.6px 0 var(--club-shadow, rgba(0, 0, 0, 0.7));
+}
+
+.hist-club-flag.is-compact {
+  min-width: 34px;
+  height: 22px;
+  padding: 0 8px;
+  font-size: 11px;
 }
 
 .player-meta {
@@ -356,11 +399,18 @@
     padding: 8px 6px;
   }
 
-  .club-pill {
-    width: 32px;
-    height: 32px;
-    border-radius: 10px;
+  .hist-club-flag {
+    min-width: 36px;
+    height: 24px;
+    padding: 0 8px;
     font-size: 11px;
+  }
+
+  .hist-club-flag.is-compact {
+    min-width: 30px;
+    height: 20px;
+    padding: 0 6px;
+    font-size: 10px;
   }
 
   .player-identidade {
