@@ -968,7 +968,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Medonho´s F.C.",
-      "pontos": 68.44
+      "pontos": 66.94
     }
   },
   {
@@ -1016,7 +1016,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Esquadrão Gazembrino",
-      "pontos": 71.98
+      "pontos": 70.1
     }
   },
   {
@@ -1028,7 +1028,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": 86.43
+      "pontos": 85.85
     }
   },
   {
@@ -1036,7 +1036,7 @@ const resultadosFase1 = [
     "rodada": 9,
     "mandante": {
       "nome": "La Primeira Patada Es Nuestra",
-      "pontos": 87.44
+      "pontos": 85.94
     },
     "visitante": {
       "nome": "Arran Katoko FC",
@@ -1048,7 +1048,7 @@ const resultadosFase1 = [
     "rodada": 9,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 61.01
+      "pontos": 59.01
     },
     "visitante": {
       "nome": "Grêmio_Campeão_LA_27",
@@ -1064,7 +1064,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "bugredasmissões",
-      "pontos": 88.64
+      "pontos": 87.14
     }
   },
   {
@@ -1076,7 +1076,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "SC 100 Sono",
-      "pontos": 61.98
+      "pontos": 62.9
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.pontosCorridosMeta = {"rodada_parcial": 9, "parcial_disponivel": true};
+window.pontosCorridosMeta = {"rodada_parcial": null, "parcial_disponivel": false};

@@ -988,11 +988,11 @@ const resultadosFase1 = [
     "rodada": 9,
     "mandante": {
       "nome": "seralex",
-      "pontos": 97.78
+      "pontos": 96.28
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": 86.45
+      "pontos": 85.85
     }
   },
   {
@@ -1012,7 +1012,7 @@ const resultadosFase1 = [
     "rodada": 9,
     "mandante": {
       "nome": "Gremiomaniasm",
-      "pontos": 65.9
+      "pontos": 65.3
     },
     "visitante": {
       "nome": "Paulo Virgili FC",
@@ -1028,7 +1028,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 81.44
+      "pontos": 79.94
     }
   },
   {
@@ -1048,7 +1048,7 @@ const resultadosFase1 = [
     "rodada": 9,
     "mandante": {
       "nome": "pura bucha/internacional",
-      "pontos": 46.66
+      "pontos": 43.66
     },
     "visitante": {
       "nome": "Dom Camillo68",
@@ -1060,11 +1060,11 @@ const resultadosFase1 = [
     "rodada": 9,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 86.45
+      "pontos": 85.85
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 92.14
+      "pontos": 91.14
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieCMeta = {"rodada_parcial": 9, "parcial_disponivel": true};
+window.ligaSerieCMeta = {"rodada_parcial": null, "parcial_disponivel": false};
