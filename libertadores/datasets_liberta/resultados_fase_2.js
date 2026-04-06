@@ -316,104 +316,104 @@ const resultadosFase2 = [
     "rodada": 10,
     "mandante": {
       "nome": "LISI GREMISTA",
-      "pontos": null
+      "pontos": 58.47
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": null
+      "pontos": 60.57
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo I",
     "rodada": 10,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": null
+      "pontos": 66.67
     },
     "visitante": {
       "nome": "Bandoleros FCS",
-      "pontos": null
+      "pontos": 57.89
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo J",
     "rodada": 10,
     "mandante": {
       "nome": "Tatols Beants F.C",
-      "pontos": null
+      "pontos": 48.27
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": null
+      "pontos": 51.97
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo J",
     "rodada": 10,
     "mandante": {
       "nome": "cartola scheuer17",
-      "pontos": null
+      "pontos": 59.29
     },
     "visitante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": null
+      "pontos": 49.17
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo K",
     "rodada": 10,
     "mandante": {
       "nome": "DM Studio",
-      "pontos": null
+      "pontos": 54.78
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": null
+      "pontos": 55.19
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo K",
     "rodada": 10,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": null
+      "pontos": 68.47
     },
     "visitante": {
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": null
+      "pontos": 58.39
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo L",
     "rodada": 10,
     "mandante": {
       "nome": "KillerColorado",
-      "pontos": null
+      "pontos": 37.99
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": null
+      "pontos": 67.29
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "grupo": "Grupo L",
     "rodada": 10,
     "mandante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": null
+      "pontos": 64.69
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": null
+      "pontos": 59.29
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "grupo": "Grupo I",
@@ -625,8 +625,25 @@ const resultadosFase2 = [
   }
 ];const pontuacaoParcialRodadaAtual = {
   "rodada": 10,
-  "times": {}
+  "times": {
+    "1747619": 60.57,
+    "51010813": 58.47,
+    "13913874": 57.89,
+    "19033717": 66.67,
+    "20696550": 51.97,
+    "212042": 48.27,
+    "117598": 49.17,
+    "3851966": 59.29,
+    "18642587": 55.19,
+    "387186": 54.78,
+    "47544767": 58.39,
+    "479510": 68.47,
+    "44810918": 67.29,
+    "36359": 37.99,
+    "1273719": 59.29,
+    "28741323": 64.69
+  }
 };window.libertaMeta = {
   "rodada_atual": 10,
-  "parcial_disponivel": false
+  "parcial_disponivel": true
 };

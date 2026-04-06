@@ -8,7 +8,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 63.2099609375,
     "Rodada 7": 70.81982421875,
     "Rodada 8": 77.5498046875,
-    "Rodada 9": 73.68017578125
+    "Rodada 9": 73.68017578125,
+    "Rodada 10": 31.57
   },
   "bugredasmissões": {
     "Rodada 1": 63.56005859375,
@@ -19,7 +20,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 63.7099609375,
     "Rodada 7": 99.85986328125,
     "Rodada 8": 58.679931640625,
-    "Rodada 9": 87.14013671875
+    "Rodada 9": 87.14013671875,
+    "Rodada 10": 56.47
   },
   "C R Juvenal": {
     "Rodada 1": 47.860107421875,
@@ -30,7 +32,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 64.81005859375,
     "Rodada 7": 55.52001953125,
     "Rodada 8": 71.75,
-    "Rodada 9": 49.760009765625
+    "Rodada 9": 49.760009765625,
+    "Rodada 10": 39.58
   },
   "Doug Leal F.C": {
     "Rodada 1": 66.3701171875,
@@ -41,7 +44,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 70.60009765625,
     "Rodada 7": 64.2099609375,
     "Rodada 8": 83.0498046875,
-    "Rodada 9": 97.9599609375
+    "Rodada 9": 97.9599609375,
+    "Rodada 10": 69.07
   },
   "Esquadrão Gazembrino": {
     "Rodada 1": 83.2001953125,
@@ -52,7 +56,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 75.35986328125,
     "Rodada 7": 100.25,
     "Rodada 8": 75.52001953125,
-    "Rodada 9": 70.10009765625
+    "Rodada 9": 70.10009765625,
+    "Rodada 10": 42.89
   },
   "FBC Colorado": {
     "Rodada 1": 53.659912109375,
@@ -63,7 +68,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 47.389892578125,
     "Rodada 7": 67.27001953125,
     "Rodada 8": 75.75,
-    "Rodada 9": 85.9599609375
+    "Rodada 9": 85.9599609375,
+    "Rodada 10": 39.87
   },
   "GaúchoDaFronteira F.C": {
     "Rodada 1": 71.9599609375,
@@ -74,7 +80,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 34.550048828125,
     "Rodada 7": 61.5,
     "Rodada 8": 77.0,
-    "Rodada 9": 68.68017578125
+    "Rodada 9": 68.68017578125,
+    "Rodada 10": 19.4
   },
   "GE Xavanchesteer": {
     "Rodada 1": 56.050048828125,
@@ -85,7 +92,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 61.989990234375,
     "Rodada 7": 48.469970703125,
     "Rodada 8": 82.85009765625,
-    "Rodada 9": 85.52978515625
+    "Rodada 9": 85.52978515625,
+    "Rodada 10": 55.58
   },
   "GrioTeam": {
     "Rodada 1": 61.56005859375,
@@ -96,7 +104,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 71.009765625,
     "Rodada 7": 65.47021484375,
     "Rodada 8": 34.110107421875,
-    "Rodada 9": 70.740234375
+    "Rodada 9": 70.740234375,
+    "Rodada 10": 54.48
   },
   "Grêmio_Campeão_LA_27": {
     "Rodada 1": 54.050048828125,
@@ -107,7 +116,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 77.7998046875,
     "Rodada 7": 57.93994140625,
     "Rodada 8": 42.89990234375,
-    "Rodada 9": 97.68017578125
+    "Rodada 9": 97.68017578125,
+    "Rodada 10": 66.57
   },
   "JV5 Tricolor Gaúcho": {
     "Rodada 1": 47.860107421875,
@@ -118,7 +128,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 62.010009765625,
     "Rodada 7": 77.06982421875,
     "Rodada 8": 80.0498046875,
-    "Rodada 9": 59.010009765625
+    "Rodada 9": 59.010009765625,
+    "Rodada 10": 60.57
   },
   "La Primeira Patada Es Nuestra": {
     "Rodada 1": 55.659912109375,
@@ -129,7 +140,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 88.2099609375,
     "Rodada 7": 61.110107421875,
     "Rodada 8": 82.81982421875,
-    "Rodada 9": 85.93994140625
+    "Rodada 9": 85.93994140625,
+    "Rodada 10": 43.59
   },
   "lsauer fc": {
     "Rodada 1": 62.56005859375,
@@ -140,7 +152,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 58.610107421875,
     "Rodada 7": 81.56982421875,
     "Rodada 8": 73.35009765625,
-    "Rodada 9": 104.68017578125
+    "Rodada 9": 104.68017578125,
+    "Rodada 10": 67.29
   },
   "Medonho´s F.C.": {
     "Rodada 1": 55.659912109375,
@@ -151,7 +164,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 75.81005859375,
     "Rodada 7": 83.22021484375,
     "Rodada 8": 85.64990234375,
-    "Rodada 9": 66.93994140625
+    "Rodada 9": 66.93994140625,
+    "Rodada 10": 59.75
   },
   "NHU PORÃ SAF.": {
     "Rodada 2": 95.41015625,
@@ -161,7 +175,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 47.989990234375,
     "Rodada 7": 46.550048828125,
     "Rodada 8": 59.909912109375,
-    "Rodada 9": 70.47998046875
+    "Rodada 9": 70.47998046875,
+    "Rodada 10": 67.78
   },
   "Pepe Leal FC": {
     "Rodada 1": 60.60009765625,
@@ -172,7 +187,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 55.3798828125,
     "Rodada 7": 61.8701171875,
     "Rodada 8": 70.5400390625,
-    "Rodada 9": 39.699951171875
+    "Rodada 9": 39.699951171875,
+    "Rodada 10": 32.15
   },
   "Pontaç0 F.C.": {
     "Rodada 1": 61.159912109375,
@@ -183,7 +199,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 67.58984375,
     "Rodada 7": 71.77001953125,
     "Rodada 8": 68.25,
-    "Rodada 9": 80.33984375
+    "Rodada 9": 80.33984375,
+    "Rodada 10": 60.45
   },
   "SC 100 Sono": {
     "Rodada 1": 67.16015625,
@@ -194,7 +211,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 61.199951171875,
     "Rodada 7": 69.60009765625,
     "Rodada 8": 67.14990234375,
-    "Rodada 9": 62.89990234375
+    "Rodada 9": 62.89990234375,
+    "Rodada 10": 44.05
   },
   "SC ÉoINTER!": {
     "Rodada 1": 54.89990234375,
@@ -205,7 +223,8 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 79.009765625,
     "Rodada 7": 65.47021484375,
     "Rodada 8": 80.85009765625,
-    "Rodada 9": 94.27978515625
+    "Rodada 9": 94.27978515625,
+    "Rodada 10": 71.17
   },
   "Texas Club 2026": {
     "Rodada 1": 68.06005859375,
@@ -216,6 +235,7 @@ window.pontuacoesPorRodada = {
     "Rodada 6": 83.0,
     "Rodada 7": 76.97021484375,
     "Rodada 8": 76.4501953125,
-    "Rodada 9": 85.85009765625
+    "Rodada 9": 85.85009765625,
+    "Rodada 10": 59.29
   }
 };
