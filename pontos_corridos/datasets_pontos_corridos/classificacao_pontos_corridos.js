@@ -6,9 +6,9 @@ const classificacaoSerieA = {
       "vitorias": 9,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 799.100302734375,
-      "cartolaSofrido": 656.490361328125,
-      "saldoCartola": 142.60994140624996,
+      "totalCartola": 798.700439453125,
+      "cartolaSofrido": 656.09033203125,
+      "saldoCartola": 142.610107421875,
       "posicao": 1
     },
     {
@@ -17,9 +17,9 @@ const classificacaoSerieA = {
       "vitorias": 7,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 869.8499609375,
-      "cartolaSofrido": 757.669697265625,
-      "saldoCartola": 112.18026367187495,
+      "totalCartola": 869.050048828125,
+      "cartolaSofrido": 756.4697265625,
+      "saldoCartola": 112.580322265625,
       "posicao": 2
     },
     {
@@ -28,9 +28,9 @@ const classificacaoSerieA = {
       "vitorias": 7,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 677.1503125,
-      "cartolaSofrido": 652.649814453125,
-      "saldoCartola": 24.50049804687501,
+      "totalCartola": 676.750244140625,
+      "cartolaSofrido": 652.64990234375,
+      "saldoCartola": 24.100341796875,
       "posicao": 3
     },
     {
@@ -39,9 +39,9 @@ const classificacaoSerieA = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 795.7304296875,
-      "cartolaSofrido": 740.270068359375,
-      "saldoCartola": 55.46036132812492,
+      "totalCartola": 794.530517578125,
+      "cartolaSofrido": 739.8701171875,
+      "saldoCartola": 54.660400390625,
       "posicao": 4
     },
     {
@@ -50,9 +50,9 @@ const classificacaoSerieA = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 724.709794921875,
-      "cartolaSofrido": 721.0602734375,
-      "saldoCartola": 3.6495214843749855,
+      "totalCartola": 724.309814453125,
+      "cartolaSofrido": 719.8603515625,
+      "saldoCartola": 4.449462890625,
       "posicao": 5
     },
     {
@@ -61,9 +61,9 @@ const classificacaoSerieA = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 722.619560546875,
-      "cartolaSofrido": 720.910087890625,
-      "saldoCartola": 1.70947265625,
+      "totalCartola": 722.219482421875,
+      "cartolaSofrido": 719.7100830078125,
+      "saldoCartola": 2.5093994140625,
       "posicao": 6
     },
     {
@@ -72,9 +72,9 @@ const classificacaoSerieA = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 719.3500292968749,
-      "cartolaSofrido": 633.0396484375,
-      "saldoCartola": 86.31038085937496,
+      "totalCartola": 718.949951171875,
+      "cartolaSofrido": 633.0396728515625,
+      "saldoCartola": 85.9102783203125,
       "posicao": 7
     },
     {
@@ -83,9 +83,9 @@ const classificacaoSerieA = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 715.780029296875,
-      "cartolaSofrido": 662.61990234375,
-      "saldoCartola": 53.16012695312497,
+      "totalCartola": 714.97998046875,
+      "cartolaSofrido": 661.419921875,
+      "saldoCartola": 53.56005859375,
       "posicao": 8
     },
     {
@@ -94,9 +94,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 1,
       "derrotas": 4,
-      "totalCartola": 667.219775390625,
-      "cartolaSofrido": 670.3105078125,
-      "saldoCartola": -3.090732421874918,
+      "totalCartola": 666.81982421875,
+      "cartolaSofrido": 669.110595703125,
+      "saldoCartola": -2.290771484375,
       "posicao": 9
     },
     {
@@ -105,9 +105,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 777.280302734375,
-      "cartolaSofrido": 716.299560546875,
-      "saldoCartola": 60.98074218750003,
+      "totalCartola": 776.080322265625,
+      "cartolaSofrido": 715.49951171875,
+      "saldoCartola": 60.580810546875,
       "posicao": 10
     },
     {
@@ -116,9 +116,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 685.4703906249999,
-      "cartolaSofrido": 656.89005859375,
-      "saldoCartola": 28.580332031249892,
+      "totalCartola": 684.2705078125,
+      "cartolaSofrido": 656.090087890625,
+      "saldoCartola": 28.180419921875,
       "posicao": 11
     },
     {
@@ -127,9 +127,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 667.619560546875,
-      "cartolaSofrido": 691.960380859375,
-      "saldoCartola": -24.3408203125,
+      "totalCartola": 666.4195556640625,
+      "cartolaSofrido": 691.560302734375,
+      "saldoCartola": -25.1407470703125,
       "posicao": 12
     },
     {
@@ -138,9 +138,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 656.759716796875,
-      "cartolaSofrido": 658.180029296875,
-      "saldoCartola": -1.4203125000000227,
+      "totalCartola": 655.959716796875,
+      "cartolaSofrido": 657.780029296875,
+      "saldoCartola": -1.8203125,
       "posicao": 13
     },
     {
@@ -149,9 +149,9 @@ const classificacaoSerieA = {
       "vitorias": 5,
       "empates": 0,
       "derrotas": 5,
-      "totalCartola": 648.540302734375,
-      "cartolaSofrido": 719.580185546875,
-      "saldoCartola": -71.03988281249997,
+      "totalCartola": 647.34033203125,
+      "cartolaSofrido": 718.7802734375,
+      "saldoCartola": -71.43994140625,
       "posicao": 14
     },
     {
@@ -160,9 +160,9 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 730.9601171875,
-      "cartolaSofrido": 652.840009765625,
-      "saldoCartola": 78.12010742187499,
+      "totalCartola": 730.960205078125,
+      "cartolaSofrido": 652.43994140625,
+      "saldoCartola": 78.520263671875,
       "posicao": 15
     },
     {
@@ -171,9 +171,9 @@ const classificacaoSerieA = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 703.48962890625,
-      "cartolaSofrido": 740.55025390625,
-      "saldoCartola": -37.06062499999996,
+      "totalCartola": 703.089599609375,
+      "cartolaSofrido": 740.150390625,
+      "saldoCartola": -37.060791015625,
       "posicao": 16
     },
     {
@@ -182,9 +182,9 @@ const classificacaoSerieA = {
       "vitorias": 3,
       "empates": 0,
       "derrotas": 7,
-      "totalCartola": 623.31046875,
-      "cartolaSofrido": 678.9398730468749,
-      "saldoCartola": -55.629404296874895,
+      "totalCartola": 622.510498046875,
+      "cartolaSofrido": 677.739990234375,
+      "saldoCartola": -55.2294921875,
       "posicao": 17
     },
     {
@@ -193,9 +193,9 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 1,
       "derrotas": 7,
-      "totalCartola": 575.840185546875,
-      "cartolaSofrido": 667.28046875,
-      "saldoCartola": -91.44028320312498,
+      "totalCartola": 575.440185546875,
+      "cartolaSofrido": 666.48046875,
+      "saldoCartola": -91.040283203125,
       "posicao": 18
     },
     {
@@ -204,9 +204,9 @@ const classificacaoSerieA = {
       "vitorias": 2,
       "empates": 0,
       "derrotas": 8,
-      "totalCartola": 525.2603515625,
-      "cartolaSofrido": 701.5599902343749,
-      "saldoCartola": -176.29963867187496,
+      "totalCartola": 525.2603759765625,
+      "cartolaSofrido": 701.159912109375,
+      "saldoCartola": -175.8995361328125,
       "posicao": 19
     },
     {
@@ -215,9 +215,9 @@ const classificacaoSerieA = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 9,
-      "totalCartola": 587.170380859375,
-      "cartolaSofrido": 774.1104296875,
-      "saldoCartola": -186.940048828125,
+      "totalCartola": 585.970458984375,
+      "cartolaSofrido": 773.71044921875,
+      "saldoCartola": -187.739990234375,
       "posicao": 20
     }
   ]
