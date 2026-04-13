@@ -1204,11 +1204,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": null
+      "pontos": 94.06
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": null
+      "pontos": 85.16
     }
   },
   {
@@ -1220,7 +1220,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "PUXE FC",
-      "pontos": null
+      "pontos": 101.36
     }
   },
   {
@@ -1228,11 +1228,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "seralex",
-      "pontos": null
+      "pontos": 86.66
     },
     "visitante": {
       "nome": "Gremiomaniasm",
-      "pontos": null
+      "pontos": 71.36
     }
   },
   {
@@ -1240,11 +1240,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": null
+      "pontos": 105.96
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": null
+      "pontos": 79.58
     }
   },
   {
@@ -1252,11 +1252,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": null
+      "pontos": 91.28
     },
     "visitante": {
       "nome": "Paulo Virgili FC",
-      "pontos": null
+      "pontos": 53.03
     }
   },
   {
@@ -1264,11 +1264,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": null
+      "pontos": 88.76
     },
     "visitante": {
       "nome": "pura bucha/internacional",
-      "pontos": null
+      "pontos": 59.66
     }
   },
   {
@@ -1276,11 +1276,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": null
+      "pontos": 90.46
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": null
+      "pontos": 79.66
     }
   },
   {
@@ -1288,11 +1288,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "Pity10",
-      "pontos": null
+      "pontos": 69.25
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": null
+      "pontos": 83.48
     }
   },
   {
@@ -1300,11 +1300,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "Sport Clube PAIM",
-      "pontos": null
+      "pontos": 70.36
     },
     "visitante": {
       "nome": "TIGRE LEON",
-      "pontos": null
+      "pontos": 101.41
     }
   },
   {
@@ -1312,11 +1312,11 @@ const resultadosFase1 = [
     "rodada": 11,
     "mandante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": null
+      "pontos": 86.26
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": null
+      "pontos": 82.81
     }
   },
   {
