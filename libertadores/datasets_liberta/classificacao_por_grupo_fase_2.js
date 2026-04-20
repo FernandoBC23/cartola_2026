@@ -151,28 +151,17 @@ const classificacaoFase2 = {
     },
     {
       "posicao": 2,
-      "nome": "KillerColorado",
-      "pontos": 9,
-      "vitorias": 3,
+      "nome": "Tabajara de Inhaua PB1",
+      "pontos": 12,
+      "vitorias": 4,
       "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 986.1494140625,
-      "cartolaSofrido": 451.849853515625,
-      "saldoCartola": 534.299560546875
+      "derrotas": 2,
+      "totalCartola": 887.879638671875,
+      "cartolaSofrido": 447.600341796875,
+      "saldoCartola": 440.279296875
     },
     {
       "posicao": 3,
-      "nome": "Tabajara de Inhaua PB1",
-      "pontos": 9,
-      "vitorias": 3,
-      "empates": 0,
-      "derrotas": 3,
-      "totalCartola": 887.879638671875,
-      "cartolaSofrido": 498.380126953125,
-      "saldoCartola": 389.49951171875
-    },
-    {
-      "posicao": 4,
       "nome": "Texas Club 2026",
       "pontos": 6,
       "vitorias": 2,
@@ -181,6 +170,17 @@ const classificacaoFase2 = {
       "totalCartola": 969.950439453125,
       "cartolaSofrido": 522.6201171875,
       "saldoCartola": 447.330322265625
+    },
+    {
+      "posicao": 4,
+      "nome": "KillerColorado",
+      "pontos": 6,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 4,
+      "totalCartola": 935.36962890625,
+      "cartolaSofrido": 451.849853515625,
+      "saldoCartola": 483.519775390625
     }
   ]
 };

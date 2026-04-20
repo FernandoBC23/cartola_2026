@@ -101,14 +101,14 @@ const timesPrimeiroESegundoLugarFase2 = [
     "origem": "2o lugar fase 2",
     "grupo": "Grupo L",
     "posicao": 2,
-    "id": 36359,
-    "nome": "KillerColorado",
-    "pontos": 9,
-    "vitorias": 3,
+    "id": 28741323,
+    "nome": "Tabajara de Inhaua PB1",
+    "pontos": 12,
+    "vitorias": 4,
     "empates": 0,
-    "derrotas": 3,
-    "totalCartola": 986.1494140625,
-    "cartolaSofrido": 451.849853515625,
-    "saldoCartola": 534.299560546875
+    "derrotas": 2,
+    "totalCartola": 887.879638671875,
+    "cartolaSofrido": 447.600341796875,
+    "saldoCartola": 440.279296875
   }
 ];

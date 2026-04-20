@@ -87,20 +87,6 @@ const timesTerceiroEQuartoLugarFase2 = [
     "origem": "3o lugar fase 2",
     "grupo": "Grupo L",
     "posicao": 3,
-    "id": 28741323,
-    "nome": "Tabajara de Inhaua PB1",
-    "pontos": 9,
-    "vitorias": 3,
-    "empates": 0,
-    "derrotas": 3,
-    "totalCartola": 887.879638671875,
-    "cartolaSofrido": 498.380126953125,
-    "saldoCartola": 389.49951171875
-  },
-  {
-    "origem": "4o lugar fase 2",
-    "grupo": "Grupo L",
-    "posicao": 4,
     "id": 1273719,
     "nome": "Texas Club 2026",
     "pontos": 6,
@@ -110,5 +96,19 @@ const timesTerceiroEQuartoLugarFase2 = [
     "totalCartola": 969.950439453125,
     "cartolaSofrido": 522.6201171875,
     "saldoCartola": 447.330322265625
+  },
+  {
+    "origem": "4o lugar fase 2",
+    "grupo": "Grupo L",
+    "posicao": 4,
+    "id": 36359,
+    "nome": "KillerColorado",
+    "pontos": 6,
+    "vitorias": 2,
+    "empates": 0,
+    "derrotas": 4,
+    "totalCartola": 935.36962890625,
+    "cartolaSofrido": 451.849853515625,
+    "saldoCartola": 483.519775390625
   }
 ];

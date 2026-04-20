@@ -615,13 +615,13 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "KillerColorado",
-      "pontos": 115.259765625
+      "pontos": 64.47998046875
     },
     "visitante": {
       "nome": "Tabajara de Inhaua PB1",
       "pontos": 74.39990234375
     },
-    "vencedor": "mandante"
+    "vencedor": "visitante"
   }
 ];const pontuacaoParcialRodadaAtual = {
   "rodada": 13,
