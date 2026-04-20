@@ -3,104 +3,112 @@ const timesTerceiroEQuartoLugarFase2 = [
     "origem": "3o lugar fase 2",
     "grupo": "Grupo I",
     "posicao": 3,
+    "id": 19033717,
     "nome": "Mau Humor F.C.",
     "pontos": 9,
     "vitorias": 3,
     "empates": 0,
     "derrotas": 3,
-    "totalCartola": 846.21923828125,
+    "totalCartola": 901.029296875,
     "cartolaSofrido": 457.880029296875,
-    "saldoCartola": 388.339208984375
+    "saldoCartola": 443.149267578125
   },
   {
     "origem": "4o lugar fase 2",
     "grupo": "Grupo I",
     "posicao": 4,
+    "id": 1747619,
     "nome": "JV5 Tricolor Gaúcho",
     "pontos": 9,
     "vitorias": 3,
     "empates": 0,
     "derrotas": 3,
-    "totalCartola": 820.36953125,
+    "totalCartola": 882.379541015625,
     "cartolaSofrido": 468.000048828125,
-    "saldoCartola": 352.36948242187503
+    "saldoCartola": 414.37949218750003
   },
   {
     "origem": "3o lugar fase 2",
     "grupo": "Grupo J",
     "posicao": 3,
+    "id": 117598,
     "nome": "A Lenda Super Vasco F.c",
     "pontos": 6,
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 780.950146484375,
+    "totalCartola": 849.749951171875,
     "cartolaSofrido": 469.270068359375,
-    "saldoCartola": 311.68007812499997
+    "saldoCartola": 380.47988281249997
   },
   {
     "origem": "4o lugar fase 2",
     "grupo": "Grupo J",
     "posicao": 4,
+    "id": 212042,
     "nome": "Tatols Beants F.C",
     "pontos": 3,
     "vitorias": 1,
     "empates": 0,
     "derrotas": 5,
-    "totalCartola": 807.260205078125,
+    "totalCartola": 870.180126953125,
     "cartolaSofrido": 475.550146484375,
-    "saldoCartola": 331.71005859375
+    "saldoCartola": 394.62998046875
   },
   {
     "origem": "3o lugar fase 2",
     "grupo": "Grupo K",
     "posicao": 3,
+    "id": 47544767,
     "nome": "TORRESMO COM PINGA PRO26.1",
     "pontos": 6,
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 859.339453125,
+    "totalCartola": 928.759375,
     "cartolaSofrido": 475.4896484375,
-    "saldoCartola": 383.84980468749995
+    "saldoCartola": 453.26972656249995
   },
   {
     "origem": "4o lugar fase 2",
     "grupo": "Grupo K",
     "posicao": 4,
+    "id": 387186,
     "nome": "DM Studio",
     "pontos": 6,
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 825.869384765625,
+    "totalCartola": 893.059326171875,
     "cartolaSofrido": 490.409912109375,
-    "saldoCartola": 335.45947265625
+    "saldoCartola": 402.6494140625
   },
   {
     "origem": "3o lugar fase 2",
     "grupo": "Grupo L",
     "posicao": 3,
+    "id": 1273719,
     "nome": "Texas Club 2026",
     "pontos": 6,
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 886.950283203125,
+    "totalCartola": 969.950283203125,
     "cartolaSofrido": 522.62021484375,
-    "saldoCartola": 364.330068359375
+    "saldoCartola": 447.330068359375
   },
   {
     "origem": "4o lugar fase 2",
     "grupo": "Grupo L",
     "posicao": 4,
+    "id": 36359,
     "nome": "KillerColorado",
     "pontos": 6,
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 869.47951171875,
+    "totalCartola": 935.3696484375,
     "cartolaSofrido": 451.849951171875,
-    "saldoCartola": 417.62956054687504
+    "saldoCartola": 483.51969726562504
   }
 ];

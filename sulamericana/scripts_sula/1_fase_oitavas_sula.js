@@ -1,23 +1,23 @@
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
 
-  const RODADA_MINIMA = 15;
-  const RODADA_MAXIMA = 16;
+  const RODADA_MINIMA = 13;
+  const RODADA_MAXIMA = 14;
 
-  const painelGrupos = document.getElementById("painel-sula-quartas");
+  const painelGrupos = document.getElementById("painel-sula-oitavas");
   const aviso = document.getElementById("aviso-sula");
 
   const hasTimes = (() => {
     try {
-      return Object.keys(classificacao_quartas_sula || {}).length > 0;
+      return Object.keys(classificacao_oitavas_sula || {}).length > 0;
     } catch {
       return false;
     }
   })();
 
   const hasConfrontos =
-    Array.isArray(confrontos_quartas_sula) &&
-    confrontos_quartas_sula.some(j => {
+    Array.isArray(confrontos_oitavas_sula) &&
+    confrontos_oitavas_sula.some(j => {
       const rodada = Number(j?.rodada);
       return Number.isFinite(rodada) && rodada >= RODADA_MINIMA && rodada <= RODADA_MAXIMA;
     });
@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
   if (painelGrupos) painelGrupos.style.display = "";
 
   let rodadaAtual = (() => {
-    const rodadasComPontuacao = resultados_quartas_sula
+    const rodadasComPontuacao = resultados_oitavas_sula
       .filter(r => {
         const p1 = Number(r?.mandante?.pontos);
         const p2 = Number(r?.visitante?.pontos);
@@ -63,8 +63,8 @@ window.addEventListener("DOMContentLoaded", () => {
   function renderPainelCompleto(numeroRodada) {
     painelGrupos.innerHTML = "";
 
-    const confrontosRodada = confrontos_quartas_sula.filter(j => j.rodada === numeroRodada);
-    const resultadosRodada = resultados_quartas_sula.filter(j => j.rodada === numeroRodada);
+    const confrontosRodada = confrontos_oitavas_sula.filter(j => j.rodada === numeroRodada);
+    const resultadosRodada = resultados_oitavas_sula.filter(j => j.rodada === numeroRodada);
 
     const confrontosPorJogo = {};
     confrontosRodada.forEach(jogo => {
@@ -73,7 +73,7 @@ window.addEventListener("DOMContentLoaded", () => {
       confrontosPorJogo[chave].push(jogo);
     });
 
-    Object.entries(classificacao_quartas_sula).forEach(([jogo, times]) => {
+    Object.entries(classificacao_oitavas_sula).forEach(([jogo, times]) => {
       const linha = document.createElement("div");
       linha.className = "linha-grupo";
 
