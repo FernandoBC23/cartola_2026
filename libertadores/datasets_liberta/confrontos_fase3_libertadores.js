@@ -1,7 +1,7 @@
 const confrontosFase3 = [
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 32,
+    "rodada": 13,
     "mandante": {
       "id": 44810918,
       "nome": "lsauer fc"
@@ -13,7 +13,7 @@ const confrontosFase3 = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 32,
+    "rodada": 13,
     "mandante": {
       "id": 13913874,
       "nome": "Bandoleros FCS"
@@ -25,7 +25,7 @@ const confrontosFase3 = [
   },
   {
     "jogo": "Jogo 3 (JG3)",
-    "rodada": 32,
+    "rodada": 13,
     "mandante": {
       "id": 18642587,
       "nome": "Fedato Futebol Clube"
@@ -37,7 +37,7 @@ const confrontosFase3 = [
   },
   {
     "jogo": "Jogo 4 (JG4)",
-    "rodada": 32,
+    "rodada": 13,
     "mandante": {
       "id": 479510,
       "nome": "TEAM LOPES 99"
@@ -49,7 +49,7 @@ const confrontosFase3 = [
   },
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 33,
+    "rodada": 14,
     "mandante": {
       "id": 28741323,
       "nome": "Tabajara de Inhaua PB1"
@@ -61,7 +61,7 @@ const confrontosFase3 = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 33,
+    "rodada": 14,
     "mandante": {
       "id": 51010813,
       "nome": "LISI GREMISTA"
@@ -73,7 +73,7 @@ const confrontosFase3 = [
   },
   {
     "jogo": "Jogo 3 (JG3)",
-    "rodada": 33,
+    "rodada": 14,
     "mandante": {
       "id": 20696550,
       "nome": "Dom Camillo68"
@@ -85,7 +85,7 @@ const confrontosFase3 = [
   },
   {
     "jogo": "Jogo 4 (JG4)",
-    "rodada": 33,
+    "rodada": 14,
     "mandante": {
       "id": 3851966,
       "nome": "cartola scheuer17"

@@ -284,8 +284,8 @@
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
 
-  const RODADA_MINIMA = 32;
-  const RODADA_MAXIMA = 33;
+  const RODADA_MINIMA = 13;
+  const RODADA_MAXIMA = 14;
 
   const rodadasEncerradas = resultadosFase3
     .filter(r => {
