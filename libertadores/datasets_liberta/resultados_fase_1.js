@@ -1248,9 +1248,9 @@ const resultadosFase1 = [
     "vencedor": "visitante"
   }
 ];const pontuacaoParcialRodadaAtual = {
-  "rodada": 12,
+  "rodada": 13,
   "times": {}
 };window.libertaMeta = {
-  "rodada_atual": 12,
-  "parcial_disponivel": true
+  "rodada_atual": 13,
+  "parcial_disponivel": false
 };

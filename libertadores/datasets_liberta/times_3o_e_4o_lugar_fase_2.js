@@ -10,8 +10,8 @@ const timesTerceiroEQuartoLugarFase2 = [
     "empates": 0,
     "derrotas": 3,
     "totalCartola": 901.029296875,
-    "cartolaSofrido": 457.880029296875,
-    "saldoCartola": 443.149267578125
+    "cartolaSofrido": 457.880126953125,
+    "saldoCartola": 443.149169921875
   },
   {
     "origem": "4o lugar fase 2",
@@ -23,9 +23,9 @@ const timesTerceiroEQuartoLugarFase2 = [
     "vitorias": 3,
     "empates": 0,
     "derrotas": 3,
-    "totalCartola": 882.379541015625,
-    "cartolaSofrido": 468.000048828125,
-    "saldoCartola": 414.37949218750003
+    "totalCartola": 882.379638671875,
+    "cartolaSofrido": 468.000244140625,
+    "saldoCartola": 414.37939453125
   },
   {
     "origem": "3o lugar fase 2",
@@ -37,9 +37,9 @@ const timesTerceiroEQuartoLugarFase2 = [
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 849.749951171875,
-    "cartolaSofrido": 469.270068359375,
-    "saldoCartola": 380.47988281249997
+    "totalCartola": 849.749755859375,
+    "cartolaSofrido": 469.270263671875,
+    "saldoCartola": 380.4794921875
   },
   {
     "origem": "4o lugar fase 2",
@@ -51,9 +51,9 @@ const timesTerceiroEQuartoLugarFase2 = [
     "vitorias": 1,
     "empates": 0,
     "derrotas": 5,
-    "totalCartola": 870.180126953125,
-    "cartolaSofrido": 475.550146484375,
-    "saldoCartola": 394.62998046875
+    "totalCartola": 870.18017578125,
+    "cartolaSofrido": 475.550048828125,
+    "saldoCartola": 394.630126953125
   },
   {
     "origem": "3o lugar fase 2",
@@ -65,9 +65,9 @@ const timesTerceiroEQuartoLugarFase2 = [
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 928.759375,
-    "cartolaSofrido": 475.4896484375,
-    "saldoCartola": 453.26972656249995
+    "totalCartola": 928.75927734375,
+    "cartolaSofrido": 475.48974609375,
+    "saldoCartola": 453.26953125
   },
   {
     "origem": "4o lugar fase 2",
@@ -87,28 +87,28 @@ const timesTerceiroEQuartoLugarFase2 = [
     "origem": "3o lugar fase 2",
     "grupo": "Grupo L",
     "posicao": 3,
+    "id": 28741323,
+    "nome": "Tabajara de Inhaua PB1",
+    "pontos": 9,
+    "vitorias": 3,
+    "empates": 0,
+    "derrotas": 3,
+    "totalCartola": 887.879638671875,
+    "cartolaSofrido": 498.380126953125,
+    "saldoCartola": 389.49951171875
+  },
+  {
+    "origem": "4o lugar fase 2",
+    "grupo": "Grupo L",
+    "posicao": 4,
     "id": 1273719,
     "nome": "Texas Club 2026",
     "pontos": 6,
     "vitorias": 2,
     "empates": 0,
     "derrotas": 4,
-    "totalCartola": 969.950283203125,
-    "cartolaSofrido": 522.62021484375,
-    "saldoCartola": 447.330068359375
-  },
-  {
-    "origem": "4o lugar fase 2",
-    "grupo": "Grupo L",
-    "posicao": 4,
-    "id": 36359,
-    "nome": "KillerColorado",
-    "pontos": 6,
-    "vitorias": 2,
-    "empates": 0,
-    "derrotas": 4,
-    "totalCartola": 935.3696484375,
-    "cartolaSofrido": 451.849951171875,
-    "saldoCartola": 483.51969726562504
+    "totalCartola": 969.950439453125,
+    "cartolaSofrido": 522.6201171875,
+    "saldoCartola": 447.330322265625
   }
 ];

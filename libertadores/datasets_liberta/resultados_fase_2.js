@@ -524,11 +524,11 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "Bandoleros FCS",
-      "pontos": 83.7
+      "pontos": 83.7001953125
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 77.35
+      "pontos": 77.35009765625
     },
     "vencedor": "mandante"
   },
@@ -537,7 +537,7 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "LISI GREMISTA",
-      "pontos": 70.6
+      "pontos": 70.60009765625
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
@@ -550,11 +550,11 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 69.8
+      "pontos": 69.7998046875
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": 77.95
+      "pontos": 77.9501953125
     },
     "vencedor": "visitante"
   },
@@ -563,11 +563,11 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 63.8
+      "pontos": 63.800048828125
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": 84.4
+      "pontos": 84.39990234375
     },
     "vencedor": "visitante"
   },
@@ -576,11 +576,11 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": 82.9
+      "pontos": 82.89990234375
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 81.1
+      "pontos": 81.10009765625
     },
     "vencedor": "mandante"
   },
@@ -602,11 +602,11 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 86.66
+      "pontos": 86.66015625
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": 84.4
+      "pontos": 84.39990234375
     },
     "vencedor": "mandante"
   },
@@ -615,35 +615,18 @@ const resultadosFase2 = [
     "rodada": 12,
     "mandante": {
       "nome": "KillerColorado",
-      "pontos": 64.48
+      "pontos": 115.259765625
     },
     "visitante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": 74.4
+      "pontos": 74.39990234375
     },
-    "vencedor": "visitante"
+    "vencedor": "mandante"
   }
 ];const pontuacaoParcialRodadaAtual = {
-  "rodada": 12,
-  "times": {
-    "1747619": 77.35,
-    "51010813": 70.6,
-    "13913874": 83.7,
-    "19033717": 77.25,
-    "20696550": 77.95,
-    "212042": 63.8,
-    "117598": 69.8,
-    "3851966": 84.4,
-    "18642587": 81.1,
-    "387186": 76.75,
-    "47544767": 82.9,
-    "479510": 84.5,
-    "44810918": 84.4,
-    "36359": 64.48,
-    "1273719": 86.66,
-    "28741323": 74.4
-  }
+  "rodada": 13,
+  "times": {}
 };window.libertaMeta = {
-  "rodada_atual": 12,
-  "parcial_disponivel": true
+  "rodada_atual": 13,
+  "parcial_disponivel": false
 };
