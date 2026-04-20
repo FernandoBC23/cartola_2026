@@ -1044,213 +1044,213 @@ const resultadosFase1 = [
     "rodada": 6,
     "mandante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 62.919921875
+      "pontos": NaN
     },
     "visitante": {
       "nome": "JUV. KP",
-      "pontos": 54.2099609375
+      "pontos": NaN
     },
-    "vencedor": "mandante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo A",
     "rodada": 6,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 62.010009765625
+      "pontos": NaN
     },
     "visitante": {
       "nome": "SERGRILLO",
-      "pontos": 48.199951171875
+      "pontos": NaN
     },
-    "vencedor": "mandante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo B",
     "rodada": 6,
     "mandante": {
       "nome": "Dom Camillo68",
-      "pontos": 72.10986328125
+      "pontos": NaN
     },
     "visitante": {
       "nome": "LISI GREMISTA",
-      "pontos": 64.35986328125
+      "pontos": NaN
     },
-    "vencedor": "mandante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo B",
     "rodada": 6,
     "mandante": {
       "nome": "Máquina Laranjja",
-      "pontos": 64.1201171875
+      "pontos": NaN
     },
     "visitante": {
       "nome": "S.E.R. GRILLO",
-      "pontos": 44.510009765625
+      "pontos": NaN
     },
-    "vencedor": "mandante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo C",
     "rodada": 6,
     "mandante": {
       "nome": "cartola scheuer17",
-      "pontos": 83.0
+      "pontos": NaN
     },
     "visitante": {
       "nome": "Bandoleros FCS",
-      "pontos": 86.419921875
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo C",
     "rodada": 6,
     "mandante": {
       "nome": "dasdoresfc",
-      "pontos": 66.60986328125
+      "pontos": NaN
     },
     "visitante": {
       "nome": "seralex",
-      "pontos": 56.39990234375
+      "pontos": NaN
     },
-    "vencedor": "mandante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo D",
     "rodada": 6,
     "mandante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 68.7998046875
+      "pontos": NaN
     },
     "visitante": {
       "nome": "Grêmio imortal 36",
-      "pontos": 72.08984375
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo D",
     "rodada": 6,
     "mandante": {
       "nome": "FBC Colorado",
-      "pontos": 47.389892578125
+      "pontos": NaN
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 54.81005859375
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo E",
     "rodada": 6,
     "mandante": {
       "nome": "KillerColorado",
-      "pontos": 65.89013671875
+      "pontos": NaN
     },
     "visitante": {
       "nome": "FÚRIA LEON",
-      "pontos": 73.22021484375
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo E",
     "rodada": 6,
     "mandante": {
       "nome": "Paulo Virgili FC",
-      "pontos": 53.4599609375
+      "pontos": NaN
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 62.81005859375
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo F",
     "rodada": 6,
     "mandante": {
       "nome": "Rolo Compressor ZN",
-      "pontos": 66.509765625
+      "pontos": NaN
     },
     "visitante": {
       "nome": "DM Studio",
-      "pontos": 67.18994140625
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo F",
     "rodada": 6,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": 58.610107421875
+      "pontos": NaN
     },
     "visitante": {
       "nome": "AZURRA82",
-      "pontos": 54.6201171875
+      "pontos": NaN
     },
-    "vencedor": "mandante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo G",
     "rodada": 6,
     "mandante": {
       "nome": "Grêmio imortal 37",
-      "pontos": 62.10009765625
+      "pontos": NaN
     },
     "visitante": {
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": 69.419921875
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo G",
     "rodada": 6,
     "mandante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": 69.1201171875
+      "pontos": NaN
     },
     "visitante": {
       "nome": "A Lenda Super Vascão f.c",
-      "pontos": 56.110107421875
+      "pontos": NaN
     },
-    "vencedor": "mandante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo H",
     "rodada": 6,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 77.41015625
+      "pontos": NaN
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": 83.0
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   },
   {
     "grupo": "Grupo H",
     "rodada": 6,
     "mandante": {
       "nome": "Gremiomaniasm",
-      "pontos": 52.199951171875
+      "pontos": NaN
     },
     "visitante": {
       "nome": "Super Vasco f.c",
-      "pontos": 65.7099609375
+      "pontos": NaN
     },
-    "vencedor": "visitante"
+    "vencedor": "indefinido"
   }
 ];const pontuacaoParcialRodadaAtual = {
-  "rodada": 7,
+  "rodada": 12,
   "times": {}
 };window.libertaMeta = {
-  "rodada_atual": 7,
-  "parcial_disponivel": false
+  "rodada_atual": 12,
+  "parcial_disponivel": true
 };
