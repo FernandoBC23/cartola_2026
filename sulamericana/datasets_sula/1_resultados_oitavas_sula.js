@@ -4,11 +4,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "JUV. KP",
-      "pontos": 117.04
+      "pontos": 117.0400390625
     },
     "visitante": {
       "nome": "KillerColorado",
-      "pontos": 97.64
+      "pontos": 97.64013671875
     },
     "vencedor": "mandante"
   },
@@ -17,11 +17,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "Máquina Laranjja",
-      "pontos": 123.04
+      "pontos": 123.0400390625
     },
     "visitante": {
       "nome": "DM Studio",
-      "pontos": 104.29
+      "pontos": 104.2900390625
     },
     "vencedor": "mandante"
   },
@@ -30,11 +30,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "dasdoresfc",
-      "pontos": 119.54
+      "pontos": 119.5400390625
     },
     "visitante": {
       "nome": "Tatols Beants F.C",
-      "pontos": 110.35
+      "pontos": 110.35009765625
     },
     "vencedor": "mandante"
   },
@@ -43,11 +43,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "Grêmio imortal 36",
-      "pontos": 103.07
+      "pontos": 103.06982421875
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 115.44
+      "pontos": 115.43994140625
     },
     "vencedor": "visitante"
   },
@@ -56,11 +56,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "FÚRIA LEON",
-      "pontos": 116.79
+      "pontos": 116.7900390625
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": 106.39
+      "pontos": 106.39013671875
     },
     "vencedor": "mandante"
   },
@@ -69,11 +69,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "AZURRA82",
-      "pontos": 99.64
+      "pontos": 99.64013671875
     },
     "visitante": {
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": 104.29
+      "pontos": 104.2900390625
     },
     "vencedor": "visitante"
   },
@@ -82,11 +82,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "Grêmio imortal 37",
-      "pontos": 103.59
+      "pontos": 103.58984375
     },
     "visitante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 120.79
+      "pontos": 120.7900390625
     },
     "vencedor": "visitante"
   },
@@ -95,11 +95,11 @@ const resultados_oitavas_sula = [
     "rodada": 13,
     "mandante": {
       "nome": "Super Vasco f.c",
-      "pontos": 104.89
+      "pontos": 104.89013671875
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 122.49
+      "pontos": 122.490234375
     },
     "vencedor": "visitante"
   },
@@ -208,26 +208,9 @@ const resultados_oitavas_sula = [
     "vencedor": "indefinido"
   }
 ];const pontuacaoParcialRodadaAtual = {
-  "rodada": 13,
-  "times": {
-    "13951133": 117.04,
-    "30267301": 123.04,
-    "7017989": 119.54,
-    "24856400": 103.07,
-    "18344271": 116.79,
-    "18346776": 99.64,
-    "24468241": 103.59,
-    "13707047": 104.89,
-    "19033717": 122.49,
-    "117598": 120.79,
-    "47544767": 104.29,
-    "1273719": 106.39,
-    "1747619": 115.44,
-    "212042": 110.35,
-    "387186": 104.29,
-    "36359": 97.64
-  }
+  "rodada": 14,
+  "times": {}
 };window.sulaMeta = {
-  "rodada_atual": 13,
-  "parcial_disponivel": true
+  "rodada_atual": 14,
+  "parcial_disponivel": false
 };

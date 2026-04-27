@@ -19,6 +19,61 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
+    "time": "Gig@ntte",
+    "pontos": 499.96044921875,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Abril",
+        "posicao": 1
+      }
+    ]
+  },
+  {
+    "time": "FÚRIA LEON",
+    "pontos": 475.55029296875,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Abril",
+        "posicao": 2
+      }
+    ]
+  },
+  {
+    "time": "TIGRE LEON",
+    "pontos": 473.880126953125,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Abril",
+        "posicao": 3
+      }
+    ]
+  },
+  {
+    "time": "PUXE FC",
+    "pontos": 470.77978515625,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Abril",
+        "posicao": 4
+      }
+    ]
+  },
+  {
+    "time": "C.A. Charru@",
+    "pontos": 468.05029296875,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Abril",
+        "posicao": 5
+      }
+    ]
+  },
+  {
     "time": "Pity10",
     "pontos": 348.08984375,
     "aparicoes": 1,
@@ -176,6 +231,61 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
         {
           "mes": "Marco",
           "posicao": 1
+        }
+      ]
+    },
+    {
+      "time": "Gig@ntte",
+      "pontos": 499.96044921875,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Abril",
+          "posicao": 1
+        }
+      ]
+    },
+    {
+      "time": "FÚRIA LEON",
+      "pontos": 475.55029296875,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Abril",
+          "posicao": 2
+        }
+      ]
+    },
+    {
+      "time": "TIGRE LEON",
+      "pontos": 473.880126953125,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Abril",
+          "posicao": 3
+        }
+      ]
+    },
+    {
+      "time": "PUXE FC",
+      "pontos": 470.77978515625,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Abril",
+          "posicao": 4
+        }
+      ]
+    },
+    {
+      "time": "C.A. Charru@",
+      "pontos": 468.05029296875,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Abril",
+          "posicao": 5
         }
       ]
     },

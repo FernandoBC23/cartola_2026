@@ -1456,7 +1456,7 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "GaúchoDaFronteira F.C",
-      "pontos": 118.53
+      "pontos": 118.44
     },
     "visitante": {
       "nome": "Texas Club 2026",
@@ -1532,7 +1532,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "GE Xavanchesteer",
-      "pontos": 108.48
+      "pontos": 108.39
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.pontosCorridosMeta = {"rodada_parcial": 13, "parcial_disponivel": true};
+window.pontosCorridosMeta = {"rodada_parcial": null, "parcial_disponivel": false};

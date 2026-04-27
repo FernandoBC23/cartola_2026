@@ -1504,7 +1504,7 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "MAFRA MARTINS FC",
-      "pontos": 105.83
+      "pontos": 105.74
     },
     "visitante": {
       "nome": "Rolo Compressor  ZN",
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieAMeta = {"rodada_parcial": 13, "parcial_disponivel": true};
+window.ligaSerieAMeta = {"rodada_parcial": null, "parcial_disponivel": false};

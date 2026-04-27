@@ -7,9 +7,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 117.04,
-      "cartolaSofrido": 97.64,
-      "saldoCartola": 19.400000000000006
+      "totalCartola": 117.0400390625,
+      "cartolaSofrido": 97.64013671875,
+      "saldoCartola": 19.39990234375
     },
     {
       "posicao": 2,
@@ -18,9 +18,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 97.64,
-      "cartolaSofrido": 117.04,
-      "saldoCartola": -19.400000000000006
+      "totalCartola": 97.64013671875,
+      "cartolaSofrido": 117.0400390625,
+      "saldoCartola": -19.39990234375
     }
   ],
   "Jogo 2 (JG2)": [
@@ -31,8 +31,8 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 123.04,
-      "cartolaSofrido": 104.29,
+      "totalCartola": 123.0400390625,
+      "cartolaSofrido": 104.2900390625,
       "saldoCartola": 18.75
     },
     {
@@ -42,8 +42,8 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 104.29,
-      "cartolaSofrido": 123.04,
+      "totalCartola": 104.2900390625,
+      "cartolaSofrido": 123.0400390625,
       "saldoCartola": -18.75
     }
   ],
@@ -55,9 +55,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 119.54,
-      "cartolaSofrido": 110.35,
-      "saldoCartola": 9.190000000000012
+      "totalCartola": 119.5400390625,
+      "cartolaSofrido": 110.35009765625,
+      "saldoCartola": 9.18994140625
     },
     {
       "posicao": 2,
@@ -66,9 +66,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 110.35,
-      "cartolaSofrido": 119.54,
-      "saldoCartola": -9.190000000000012
+      "totalCartola": 110.35009765625,
+      "cartolaSofrido": 119.5400390625,
+      "saldoCartola": -9.18994140625
     }
   ],
   "Jogo 4 (JG4)": [
@@ -79,9 +79,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 115.44,
-      "cartolaSofrido": 103.07,
-      "saldoCartola": 12.370000000000005
+      "totalCartola": 115.43994140625,
+      "cartolaSofrido": 103.06982421875,
+      "saldoCartola": 12.3701171875
     },
     {
       "posicao": 2,
@@ -90,9 +90,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 103.07,
-      "cartolaSofrido": 115.44,
-      "saldoCartola": -12.370000000000005
+      "totalCartola": 103.06982421875,
+      "cartolaSofrido": 115.43994140625,
+      "saldoCartola": -12.3701171875
     }
   ],
   "Jogo 5 (JG5)": [
@@ -103,9 +103,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 116.79,
-      "cartolaSofrido": 106.39,
-      "saldoCartola": 10.400000000000006
+      "totalCartola": 116.7900390625,
+      "cartolaSofrido": 106.39013671875,
+      "saldoCartola": 10.39990234375
     },
     {
       "posicao": 2,
@@ -114,9 +114,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 106.39,
-      "cartolaSofrido": 116.79,
-      "saldoCartola": -10.400000000000006
+      "totalCartola": 106.39013671875,
+      "cartolaSofrido": 116.7900390625,
+      "saldoCartola": -10.39990234375
     }
   ],
   "Jogo 6 (JG6)": [
@@ -127,9 +127,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 104.29,
-      "cartolaSofrido": 99.64,
-      "saldoCartola": 4.650000000000006
+      "totalCartola": 104.2900390625,
+      "cartolaSofrido": 99.64013671875,
+      "saldoCartola": 4.64990234375
     },
     {
       "posicao": 2,
@@ -138,9 +138,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 99.64,
-      "cartolaSofrido": 104.29,
-      "saldoCartola": -4.650000000000006
+      "totalCartola": 99.64013671875,
+      "cartolaSofrido": 104.2900390625,
+      "saldoCartola": -4.64990234375
     }
   ],
   "Jogo 7 (JG7)": [
@@ -151,9 +151,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 120.79,
-      "cartolaSofrido": 103.59,
-      "saldoCartola": 17.200000000000003
+      "totalCartola": 120.7900390625,
+      "cartolaSofrido": 103.58984375,
+      "saldoCartola": 17.2001953125
     },
     {
       "posicao": 2,
@@ -162,9 +162,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 103.59,
-      "cartolaSofrido": 120.79,
-      "saldoCartola": -17.200000000000003
+      "totalCartola": 103.58984375,
+      "cartolaSofrido": 120.7900390625,
+      "saldoCartola": -17.2001953125
     }
   ],
   "Jogo 8 (JG8)": [
@@ -175,9 +175,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 122.49,
-      "cartolaSofrido": 104.89,
-      "saldoCartola": 17.599999999999994
+      "totalCartola": 122.490234375,
+      "cartolaSofrido": 104.89013671875,
+      "saldoCartola": 17.60009765625
     },
     {
       "posicao": 2,
@@ -186,9 +186,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 104.89,
-      "cartolaSofrido": 122.49,
-      "saldoCartola": -17.599999999999994
+      "totalCartola": 104.89013671875,
+      "cartolaSofrido": 122.490234375,
+      "saldoCartola": -17.60009765625
     }
   ]
 };

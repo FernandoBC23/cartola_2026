@@ -1520,7 +1520,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Sport Clube PAIM",
-      "pontos": 92.58
+      "pontos": 92.49
     }
   },
   {
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieBMeta = {"rodada_parcial": 13, "parcial_disponivel": true};
+window.ligaSerieBMeta = {"rodada_parcial": null, "parcial_disponivel": false};
