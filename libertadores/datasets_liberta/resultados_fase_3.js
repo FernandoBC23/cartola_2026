@@ -4,24 +4,24 @@ const resultadosFase3 = [
     "rodada": 13,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": 108.52
+      "pontos": 108.59
     },
     "visitante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": 105.72
+      "pontos": 113.79
     },
-    "vencedor": "mandante"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 2 (JG2)",
     "rodada": 13,
     "mandante": {
       "nome": "Bandoleros FCS",
-      "pontos": 92.62
+      "pontos": 93.89
     },
     "visitante": {
       "nome": "LISI GREMISTA",
-      "pontos": 94.47
+      "pontos": 117.54
     },
     "vencedor": "visitante"
   },
@@ -30,11 +30,11 @@ const resultadosFase3 = [
     "rodada": 13,
     "mandante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 136.52
+      "pontos": 136.59
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": 111.22
+      "pontos": 111.29
     },
     "vencedor": "mandante"
   },
@@ -43,11 +43,11 @@ const resultadosFase3 = [
     "rodada": 13,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 87.92
+      "pontos": 97.79
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": 97.62
+      "pontos": 106.39
     },
     "vencedor": "visitante"
   },
@@ -106,14 +106,14 @@ const resultadosFase3 = [
 ];const pontuacaoParcialRodadaAtual = {
   "rodada": 13,
   "times": {
-    "13913874": 92.62,
-    "51010813": 94.47,
-    "3851966": 97.62,
-    "20696550": 111.22,
-    "479510": 87.92,
-    "18642587": 136.52,
-    "44810918": 108.52,
-    "28741323": 105.72
+    "13913874": 93.89,
+    "51010813": 117.54,
+    "3851966": 106.39,
+    "20696550": 111.29,
+    "479510": 97.79,
+    "18642587": 136.59,
+    "44810918": 108.59,
+    "28741323": 113.79
   }
 };window.libertaMeta = {
   "rodada_atual": 13,

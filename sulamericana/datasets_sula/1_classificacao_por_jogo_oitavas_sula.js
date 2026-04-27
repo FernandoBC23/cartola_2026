@@ -7,9 +7,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 104.97,
-      "cartolaSofrido": 97.57,
-      "saldoCartola": 7.400000000000006
+      "totalCartola": 117.04,
+      "cartolaSofrido": 97.64,
+      "saldoCartola": 19.400000000000006
     },
     {
       "posicao": 2,
@@ -18,9 +18,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 97.57,
-      "cartolaSofrido": 104.97,
-      "saldoCartola": -7.400000000000006
+      "totalCartola": 97.64,
+      "cartolaSofrido": 117.04,
+      "saldoCartola": -19.400000000000006
     }
   ],
   "Jogo 2 (JG2)": [
@@ -31,9 +31,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 114.97,
-      "cartolaSofrido": 104.38,
-      "saldoCartola": 10.590000000000003
+      "totalCartola": 123.04,
+      "cartolaSofrido": 104.29,
+      "saldoCartola": 18.75
     },
     {
       "posicao": 2,
@@ -42,57 +42,57 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 104.38,
-      "cartolaSofrido": 114.97,
-      "saldoCartola": -10.590000000000003
+      "totalCartola": 104.29,
+      "cartolaSofrido": 123.04,
+      "saldoCartola": -18.75
     }
   ],
   "Jogo 3 (JG3)": [
     {
       "posicao": 1,
-      "nome": "Tatols Beants F.C",
+      "nome": "dasdoresfc",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 115.35,
-      "cartolaSofrido": 111.47,
-      "saldoCartola": 3.8799999999999955
+      "totalCartola": 119.54,
+      "cartolaSofrido": 110.35,
+      "saldoCartola": 9.190000000000012
     },
     {
       "posicao": 2,
-      "nome": "dasdoresfc",
+      "nome": "Tatols Beants F.C",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 111.47,
-      "cartolaSofrido": 115.35,
-      "saldoCartola": -3.8799999999999955
+      "totalCartola": 110.35,
+      "cartolaSofrido": 119.54,
+      "saldoCartola": -9.190000000000012
     }
   ],
   "Jogo 4 (JG4)": [
     {
       "posicao": 1,
-      "nome": "Grêmio imortal 36",
+      "nome": "JV5 Tricolor Gaúcho",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 101.87,
-      "cartolaSofrido": 95.37,
-      "saldoCartola": 6.5
+      "totalCartola": 115.44,
+      "cartolaSofrido": 103.07,
+      "saldoCartola": 12.370000000000005
     },
     {
       "posicao": 2,
-      "nome": "JV5 Tricolor Gaúcho",
+      "nome": "Grêmio imortal 36",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 95.37,
-      "cartolaSofrido": 101.87,
-      "saldoCartola": -6.5
+      "totalCartola": 103.07,
+      "cartolaSofrido": 115.44,
+      "saldoCartola": -12.370000000000005
     }
   ],
   "Jogo 5 (JG5)": [
@@ -103,9 +103,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 117.22,
-      "cartolaSofrido": 97.62,
-      "saldoCartola": 19.599999999999994
+      "totalCartola": 116.79,
+      "cartolaSofrido": 106.39,
+      "saldoCartola": 10.400000000000006
     },
     {
       "posicao": 2,
@@ -114,9 +114,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 97.62,
-      "cartolaSofrido": 117.22,
-      "saldoCartola": -19.599999999999994
+      "totalCartola": 106.39,
+      "cartolaSofrido": 116.79,
+      "saldoCartola": -10.400000000000006
     }
   ],
   "Jogo 6 (JG6)": [
@@ -127,9 +127,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 95.02,
-      "cartolaSofrido": 84.07,
-      "saldoCartola": 10.950000000000003
+      "totalCartola": 104.29,
+      "cartolaSofrido": 99.64,
+      "saldoCartola": 4.650000000000006
     },
     {
       "posicao": 2,
@@ -138,9 +138,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 84.07,
-      "cartolaSofrido": 95.02,
-      "saldoCartola": -10.950000000000003
+      "totalCartola": 99.64,
+      "cartolaSofrido": 104.29,
+      "saldoCartola": -4.650000000000006
     }
   ],
   "Jogo 7 (JG7)": [
@@ -151,9 +151,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 112.02,
-      "cartolaSofrido": 102.32,
-      "saldoCartola": 9.700000000000003
+      "totalCartola": 120.79,
+      "cartolaSofrido": 103.59,
+      "saldoCartola": 17.200000000000003
     },
     {
       "posicao": 2,
@@ -162,9 +162,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 102.32,
-      "cartolaSofrido": 112.02,
-      "saldoCartola": -9.700000000000003
+      "totalCartola": 103.59,
+      "cartolaSofrido": 120.79,
+      "saldoCartola": -17.200000000000003
     }
   ],
   "Jogo 8 (JG8)": [
@@ -175,9 +175,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 114.42,
-      "cartolaSofrido": 95.62,
-      "saldoCartola": 18.799999999999997
+      "totalCartola": 122.49,
+      "cartolaSofrido": 104.89,
+      "saldoCartola": 17.599999999999994
     },
     {
       "posicao": 2,
@@ -186,9 +186,9 @@ const classificacao_oitavas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 95.62,
-      "cartolaSofrido": 114.42,
-      "saldoCartola": -18.799999999999997
+      "totalCartola": 104.89,
+      "cartolaSofrido": 122.49,
+      "saldoCartola": -17.599999999999994
     }
   ]
 };

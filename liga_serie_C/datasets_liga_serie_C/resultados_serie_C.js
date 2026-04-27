@@ -1444,11 +1444,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "FBC Colorado",
-      "pontos": 113.22
+      "pontos": 113.29
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": 111.22
+      "pontos": 111.29
     }
   },
   {
@@ -1456,11 +1456,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": 108.52
+      "pontos": 108.59
     },
     "visitante": {
       "nome": "TIGRE LEON",
-      "pontos": 101.86
+      "pontos": 129.16
     }
   },
   {
@@ -1468,11 +1468,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Gremiomaniasm",
-      "pontos": 80.12
+      "pontos": 80.19
     },
     "visitante": {
       "nome": "TATITTA FC",
-      "pontos": 37.27
+      "pontos": 59.94
     }
   },
   {
@@ -1480,7 +1480,7 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": 112.02
+      "pontos": 120.79
     },
     "visitante": {
       "nome": "Rolo Compressor  ZN",
@@ -1496,7 +1496,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "seralex",
-      "pontos": 108.52
+      "pontos": 108.59
     }
   },
   {
@@ -1508,7 +1508,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "pra sempre imortal fc",
-      "pontos": 132.92
+      "pontos": 132.99
     }
   },
   {
@@ -1516,11 +1516,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 98.37
+      "pontos": 122.49
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": 97.62
+      "pontos": 106.39
     }
   },
   {
@@ -1532,7 +1532,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": 95.02
+      "pontos": 104.29
     }
   },
   {
@@ -1540,11 +1540,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Paulo Virgili FC",
-      "pontos": 71.95
+      "pontos": 90.15
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": 97.62
+      "pontos": 106.39
     }
   },
   {
@@ -1552,11 +1552,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 136.52
+      "pontos": 136.59
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 87.92
+      "pontos": 97.79
     }
   },
   {

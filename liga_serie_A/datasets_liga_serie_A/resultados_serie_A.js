@@ -1444,11 +1444,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 87.92
+      "pontos": 97.79
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 113.22
+      "pontos": 113.29
     }
   },
   {
@@ -1456,11 +1456,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "TIGRE LEON",
-      "pontos": 101.86
+      "pontos": 129.16
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 98.37
+      "pontos": 122.49
     }
   },
   {
@@ -1472,7 +1472,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "seralex",
-      "pontos": 108.52
+      "pontos": 108.59
     }
   },
   {
@@ -1484,7 +1484,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": 108.52
+      "pontos": 108.59
     }
   },
   {
@@ -1492,11 +1492,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Paulo Virgili FC",
-      "pontos": 71.95
+      "pontos": 90.15
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 136.52
+      "pontos": 136.59
     }
   },
   {
@@ -1516,11 +1516,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": 97.62
+      "pontos": 106.39
     },
     "visitante": {
       "nome": "Gremiomaniasm",
-      "pontos": 80.12
+      "pontos": 80.19
     }
   },
   {
@@ -1528,11 +1528,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Atlético Colorado 2021",
-      "pontos": 110.12
+      "pontos": 110.19
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": 97.62
+      "pontos": 106.39
     }
   },
   {
@@ -1544,7 +1544,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "Dom Camillo68",
-      "pontos": 111.22
+      "pontos": 111.29
     }
   },
   {
@@ -1552,11 +1552,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.2",
-      "pontos": 95.02
+      "pontos": 104.29
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 91.87
+      "pontos": 115.44
     }
   },
   {

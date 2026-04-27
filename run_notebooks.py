@@ -27,7 +27,7 @@ DEFAULT_NOTEBOOKS = [
 
     # r"libertadores/datasets_liberta/4_busca_dados_liberta_fase_4.ipynb",
     # r"libertadores/datasets_liberta/5_busca_dados_liberta_fase_5.ipynb",
-    # r"sulamericana/datasets_sula/1_busca_dados_sula_oitavas.ipynb",
+    r"sulamericana/datasets_sula/1_busca_dados_sula_oitavas.ipynb",
     # r"sulamericana/datasets_sula/2_busca_dados_sula_quartas.ipynb",
     # r"sulamericana/datasets_sula/3_busca_dados_sula_semi.ipynb",
     # r"sulamericana/datasets_sula/4_busca_dados_sula_final.ipynb",

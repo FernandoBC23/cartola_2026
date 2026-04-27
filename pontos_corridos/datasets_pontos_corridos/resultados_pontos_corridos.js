@@ -1448,7 +1448,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": 113.22
+      "pontos": 113.29
     }
   },
   {
@@ -1456,11 +1456,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "GaúchoDaFronteira F.C",
-      "pontos": 119.03
+      "pontos": 118.53
     },
     "visitante": {
       "nome": "Texas Club 2026",
-      "pontos": 97.62
+      "pontos": 106.39
     }
   },
   {
@@ -1468,11 +1468,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "La Primeira Patada Es Nuestra",
-      "pontos": 90.02
+      "pontos": 102.99
     },
     "visitante": {
       "nome": "Esquadrão Gazembrino",
-      "pontos": 92.52
+      "pontos": 100.59
     }
   },
   {
@@ -1480,11 +1480,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 91.87
+      "pontos": 115.44
     },
     "visitante": {
       "nome": "Doug Leal F.C",
-      "pontos": 102.42
+      "pontos": 112.29
     }
   },
   {
@@ -1492,11 +1492,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "SC ÉoINTER!",
-      "pontos": 114.52
+      "pontos": 114.09
     },
     "visitante": {
       "nome": "bugredasmissões",
-      "pontos": 88.47
+      "pontos": 88.04
     }
   },
   {
@@ -1504,11 +1504,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "GrioTeam",
-      "pontos": 99.97
+      "pontos": 118.24
     },
     "visitante": {
       "nome": "C R Juvenal",
-      "pontos": 90.37
+      "pontos": 98.44
     }
   },
   {
@@ -1516,11 +1516,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "SC 100 Sono",
-      "pontos": 96.77
+      "pontos": 96.84
     },
     "visitante": {
       "nome": "Pontaç0 F.C.",
-      "pontos": 92.22
+      "pontos": 113.19
     }
   },
   {
@@ -1532,7 +1532,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "GE Xavanchesteer",
-      "pontos": 108.98
+      "pontos": 108.48
     }
   },
   {
@@ -1540,11 +1540,11 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Grêmio_Campeão_LA_27",
-      "pontos": 108.52
+      "pontos": 108.59
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": 108.52
+      "pontos": 108.59
     }
   },
   {
@@ -1552,7 +1552,7 @@ const resultadosFase1 = [
     "rodada": 13,
     "mandante": {
       "nome": "Arran Katoko FC",
-      "pontos": 99.32
+      "pontos": 99.39
     },
     "visitante": {
       "nome": "Medonho´s F.C.",

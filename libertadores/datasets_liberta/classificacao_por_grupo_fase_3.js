@@ -2,25 +2,25 @@ const classificacaoFase3 = {
   "Jogo 1 (JG1)": [
     {
       "posicao": 1,
-      "nome": "lsauer fc",
+      "nome": "Tabajara de Inhaua PB1",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 108.52,
-      "cartolaSofrido": 105.72,
-      "saldoCartola": 2.799999999999997
+      "totalCartola": 113.79,
+      "cartolaSofrido": 108.59,
+      "saldoCartola": 5.200000000000003
     },
     {
       "posicao": 2,
-      "nome": "Tabajara de Inhaua PB1",
+      "nome": "lsauer fc",
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 105.72,
-      "cartolaSofrido": 108.52,
-      "saldoCartola": -2.799999999999997
+      "totalCartola": 108.59,
+      "cartolaSofrido": 113.79,
+      "saldoCartola": -5.200000000000003
     }
   ],
   "Jogo 2 (JG2)": [
@@ -31,9 +31,9 @@ const classificacaoFase3 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 94.47,
-      "cartolaSofrido": 92.62,
-      "saldoCartola": 1.8499999999999943
+      "totalCartola": 117.54,
+      "cartolaSofrido": 93.89,
+      "saldoCartola": 23.650000000000006
     },
     {
       "posicao": 2,
@@ -42,9 +42,9 @@ const classificacaoFase3 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 92.62,
-      "cartolaSofrido": 94.47,
-      "saldoCartola": -1.8499999999999943
+      "totalCartola": 93.89,
+      "cartolaSofrido": 117.54,
+      "saldoCartola": -23.650000000000006
     }
   ],
   "Jogo 3 (JG3)": [
@@ -55,9 +55,9 @@ const classificacaoFase3 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 136.52,
-      "cartolaSofrido": 111.22,
-      "saldoCartola": 25.30000000000001
+      "totalCartola": 136.59,
+      "cartolaSofrido": 111.29,
+      "saldoCartola": 25.299999999999997
     },
     {
       "posicao": 2,
@@ -66,9 +66,9 @@ const classificacaoFase3 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 111.22,
-      "cartolaSofrido": 136.52,
-      "saldoCartola": -25.30000000000001
+      "totalCartola": 111.29,
+      "cartolaSofrido": 136.59,
+      "saldoCartola": -25.299999999999997
     }
   ],
   "Jogo 4 (JG4)": [
@@ -79,9 +79,9 @@ const classificacaoFase3 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 97.62,
-      "cartolaSofrido": 87.92,
-      "saldoCartola": 9.700000000000003
+      "totalCartola": 106.39,
+      "cartolaSofrido": 97.79,
+      "saldoCartola": 8.599999999999994
     },
     {
       "posicao": 2,
@@ -90,9 +90,9 @@ const classificacaoFase3 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 87.92,
-      "cartolaSofrido": 97.62,
-      "saldoCartola": -9.700000000000003
+      "totalCartola": 97.79,
+      "cartolaSofrido": 106.39,
+      "saldoCartola": -8.599999999999994
     }
   ]
 };

@@ -6,9 +6,9 @@ const classificacaoSerieB = {
       "vitorias": 10,
       "empates": 0,
       "derrotas": 3,
-      "totalCartola": 1051.500078125,
-      "cartolaSofrido": 901.38001953125,
-      "saldoCartola": 150.12005859375006,
+      "totalCartola": 1061.370078125,
+      "cartolaSofrido": 928.68001953125,
+      "saldoCartola": 132.69005859375,
       "posicao": 1
     },
     {
@@ -17,9 +17,9 @@ const classificacaoSerieB = {
       "vitorias": 9,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 1031.27927734375,
+      "totalCartola": 1040.54927734375,
       "cartolaSofrido": 915.82021484375,
-      "saldoCartola": 115.45906249999996,
+      "saldoCartola": 124.72906249999994,
       "posicao": 2
     },
     {
@@ -28,9 +28,9 @@ const classificacaoSerieB = {
       "vitorias": 9,
       "empates": 0,
       "derrotas": 4,
-      "totalCartola": 1006.5600390625,
-      "cartolaSofrido": 985.18044921875,
-      "saldoCartola": 21.379589843749955,
+      "totalCartola": 1014.6300390625,
+      "cartolaSofrido": 985.25044921875,
+      "saldoCartola": 29.379589843750068,
       "posicao": 3
     },
     {
@@ -39,9 +39,9 @@ const classificacaoSerieB = {
       "vitorias": 8,
       "empates": 1,
       "derrotas": 4,
-      "totalCartola": 1067.570439453125,
-      "cartolaSofrido": 990.03982421875,
-      "saldoCartola": 77.53061523437486,
+      "totalCartola": 1076.340439453125,
+      "cartolaSofrido": 990.10982421875,
+      "saldoCartola": 86.23061523437514,
       "posicao": 4
     },
     {
@@ -50,21 +50,10 @@ const classificacaoSerieB = {
       "vitorias": 8,
       "empates": 1,
       "derrotas": 4,
-      "totalCartola": 1046.780009765625,
-      "cartolaSofrido": 962.06970703125,
-      "saldoCartola": 84.71030273437498,
+      "totalCartola": 1046.850009765625,
+      "cartolaSofrido": 970.83970703125,
+      "saldoCartola": 76.01030273437493,
       "posicao": 5
-    },
-    {
-      "nome": "lsauer fc",
-      "pontos": 24,
-      "vitorias": 8,
-      "empates": 0,
-      "derrotas": 5,
-      "totalCartola": 1082.080302734375,
-      "cartolaSofrido": 1007.79919921875,
-      "saldoCartola": 74.28110351562498,
-      "posicao": 6
     },
     {
       "nome": "Fedato Futebol Clube",
@@ -72,9 +61,20 @@ const classificacaoSerieB = {
       "vitorias": 7,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 1100.559306640625,
+      "totalCartola": 1100.629306640625,
       "cartolaSofrido": 993.67033203125,
-      "saldoCartola": 106.88897460937494,
+      "saldoCartola": 106.95897460937488,
+      "posicao": 6
+    },
+    {
+      "nome": "lsauer fc",
+      "pontos": 21,
+      "vitorias": 7,
+      "empates": 0,
+      "derrotas": 6,
+      "totalCartola": 1082.150302734375,
+      "cartolaSofrido": 1031.36919921875,
+      "saldoCartola": 50.781103515624864,
       "posicao": 7
     },
     {
@@ -83,9 +83,9 @@ const classificacaoSerieB = {
       "vitorias": 7,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 1051.680009765625,
-      "cartolaSofrido": 1014.33044921875,
-      "saldoCartola": 37.34956054687507,
+      "totalCartola": 1059.750009765625,
+      "cartolaSofrido": 1038.45044921875,
+      "saldoCartola": 21.299560546875,
       "posicao": 8
     },
     {
@@ -94,9 +94,9 @@ const classificacaoSerieB = {
       "vitorias": 7,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 999.399296875,
-      "cartolaSofrido": 1008.889482421875,
-      "saldoCartola": -9.490185546874956,
+      "totalCartola": 1023.519296875,
+      "cartolaSofrido": 1016.959482421875,
+      "saldoCartola": 6.559814453125,
       "posicao": 9
     },
     {
@@ -105,10 +105,21 @@ const classificacaoSerieB = {
       "vitorias": 7,
       "empates": 0,
       "derrotas": 6,
-      "totalCartola": 976.199599609375,
-      "cartolaSofrido": 893.899736328125,
-      "saldoCartola": 82.29986328125005,
+      "totalCartola": 1003.499599609375,
+      "cartolaSofrido": 903.769736328125,
+      "saldoCartola": 99.72986328125,
       "posicao": 10
+    },
+    {
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": 21,
+      "vitorias": 7,
+      "empates": 0,
+      "derrotas": 6,
+      "totalCartola": 997.819638671875,
+      "cartolaSofrido": 954.459140625,
+      "saldoCartola": 43.36049804687502,
+      "posicao": 11
     },
     {
       "nome": "cartola scheuer17",
@@ -116,20 +127,9 @@ const classificacaoSerieB = {
       "vitorias": 6,
       "empates": 1,
       "derrotas": 6,
-      "totalCartola": 1058.710576171875,
-      "cartolaSofrido": 1043.6498828125,
-      "saldoCartola": 15.060693359374907,
-      "posicao": 11
-    },
-    {
-      "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 18,
-      "vitorias": 6,
-      "empates": 0,
-      "derrotas": 7,
-      "totalCartola": 974.249638671875,
-      "cartolaSofrido": 954.389140625,
-      "saldoCartola": 19.860498046875023,
+      "totalCartola": 1067.480576171875,
+      "cartolaSofrido": 1043.7198828125,
+      "saldoCartola": 23.760693359375185,
       "posicao": 12
     },
     {
@@ -138,9 +138,9 @@ const classificacaoSerieB = {
       "vitorias": 6,
       "empates": 0,
       "derrotas": 7,
-      "totalCartola": 948.70935546875,
+      "totalCartola": 948.27935546875,
       "cartolaSofrido": 964.56009765625,
-      "saldoCartola": -15.850742187500032,
+      "saldoCartola": -16.280742187499982,
       "posicao": 13
     },
     {
@@ -150,8 +150,8 @@ const classificacaoSerieB = {
       "empates": 0,
       "derrotas": 7,
       "totalCartola": 914.1298046875,
-      "cartolaSofrido": 1031.549541015625,
-      "saldoCartola": -117.41973632812494,
+      "cartolaSofrido": 1031.619541015625,
+      "saldoCartola": -117.48973632812488,
       "posicao": 14
     },
     {
@@ -160,9 +160,9 @@ const classificacaoSerieB = {
       "vitorias": 5,
       "empates": 1,
       "derrotas": 7,
-      "totalCartola": 1034.490263671875,
-      "cartolaSofrido": 1033.019755859375,
-      "saldoCartola": 1.4705078125000457,
+      "totalCartola": 1034.560263671875,
+      "cartolaSofrido": 1041.089755859375,
+      "saldoCartola": -6.5294921874999545,
       "posicao": 15
     },
     {
@@ -172,19 +172,19 @@ const classificacaoSerieB = {
       "empates": 0,
       "derrotas": 8,
       "totalCartola": 980.53017578125,
-      "cartolaSofrido": 1031.33005859375,
-      "saldoCartola": -50.79988281249996,
+      "cartolaSofrido": 1040.60005859375,
+      "saldoCartola": -60.06988281249994,
       "posicao": 16
     },
     {
-      "nome": "Gremiomaniasm",
+      "nome": "Paulo Virgili FC",
       "pontos": 15,
       "vitorias": 5,
       "empates": 0,
       "derrotas": 8,
-      "totalCartola": 854.229619140625,
-      "cartolaSofrido": 948.7701904296875,
-      "saldoCartola": -94.54057128906254,
+      "totalCartola": 904.15927734375,
+      "cartolaSofrido": 1021.869931640625,
+      "saldoCartola": -117.71065429687508,
       "posicao": 17
     },
     {
@@ -193,20 +193,20 @@ const classificacaoSerieB = {
       "vitorias": 4,
       "empates": 0,
       "derrotas": 9,
-      "totalCartola": 982.919951171875,
-      "cartolaSofrido": 1018.84998046875,
-      "saldoCartola": -35.93002929687498,
+      "totalCartola": 982.989951171875,
+      "cartolaSofrido": 1027.61998046875,
+      "saldoCartola": -44.630029296875136,
       "posicao": 18
     },
     {
-      "nome": "Paulo Virgili FC",
+      "nome": "Gremiomaniasm",
       "pontos": 12,
       "vitorias": 4,
       "empates": 0,
       "derrotas": 9,
-      "totalCartola": 885.95927734375,
-      "cartolaSofrido": 1021.799931640625,
-      "saldoCartola": -135.84065429687496,
+      "totalCartola": 854.299619140625,
+      "cartolaSofrido": 966.9701904296876,
+      "saldoCartola": -112.67057128906242,
       "posicao": 19
     },
     {
@@ -216,8 +216,8 @@ const classificacaoSerieB = {
       "empates": 0,
       "derrotas": 12,
       "totalCartola": 677.5499658203125,
-      "cartolaSofrido": 1004.088994140625,
-      "saldoCartola": -326.53902832031247,
+      "cartolaSofrido": 1003.658994140625,
+      "saldoCartola": -326.1090283203125,
       "posicao": 20
     }
   ]
