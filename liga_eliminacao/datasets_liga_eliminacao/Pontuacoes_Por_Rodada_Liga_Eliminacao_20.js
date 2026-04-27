@@ -20,7 +20,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 90.02
   },
   "184499": {
     "Time": "SC ÉoINTER! ",
@@ -43,7 +43,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 114.52
   },
   "186283": {
     "Time": "FBC Colorado",
@@ -66,7 +66,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 113.22
   },
   "287965": {
     "Time": "Doug Leal F.C",
@@ -89,7 +89,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 102.42
   },
   "1273719": {
     "Time": "Texas Club 2026",
@@ -112,7 +112,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 97.62
   },
   "1326835": {
     "Time": "Pepe Leal FC",
@@ -135,7 +135,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 53.33
   },
   "1488983": {
     "Time": "C R Juvenal",
@@ -158,7 +158,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 90.37
   },
   "1747619": {
     "Time": "JV5 Tricolor Gaúcho",
@@ -181,7 +181,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 91.87
   },
   "1867254": {
     "Time": "Medonho´s F.C. ",
@@ -204,7 +204,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 85.94
   },
   "2371918": {
     "Time": "GaúchoDaFronteira F.C",
@@ -227,7 +227,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 119.03
   },
   "2916559": {
     "Time": "Esquadrão Gazembrino",
@@ -250,7 +250,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 92.52
   },
   "4088673": {
     "Time": " NHU PORÃ SAF.",
@@ -273,7 +273,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 31.05
   },
   "14709358": {
     "Time": "SC 100 Sono",
@@ -296,7 +296,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 96.77
   },
   "14933455": {
     "Time": "GrioTeam",
@@ -319,7 +319,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 99.97
   },
   "16411206": {
     "Time": "GE Xavanchesteer",
@@ -342,7 +342,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 108.98
   },
   "19209079": {
     "Time": "bugredasmissões ",
@@ -365,7 +365,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 88.47
   },
   "19833277": {
     "Time": "Arran Katoko FC",
@@ -388,7 +388,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 99.32
   },
   "20651178": {
     "Time": "Pontaç0 F.C.",
@@ -411,7 +411,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 92.22
   },
   "44810918": {
     "Time": "lsauer fc",
@@ -434,7 +434,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 108.52
   },
   "47775950": {
     "Time": "Grêmio_Campeão_LA_27",
@@ -457,7 +457,7 @@ const pontuacoesPorRodada = {
     "Rodada 17": "",
     "Rodada 18": "",
     "Rodada 19": "",
-    "Parcial Rodada 13": ""
+    "Parcial Rodada 13": 108.52
   }
 };
 
@@ -505,5 +505,26 @@ const eliminadosPorRodada = {
 
 const pontuacaoParcialRodadaAtual = {
   "rodada": 13,
-  "times": {}
+  "times": {
+    "32966": 90.02,
+    "184499": 114.52,
+    "186283": 113.22,
+    "287965": 102.42,
+    "1273719": 97.62,
+    "1326835": 53.33,
+    "1488983": 90.37,
+    "1747619": 91.87,
+    "1867254": 85.94,
+    "2371918": 119.03,
+    "2916559": 92.52,
+    "4088673": 31.05,
+    "14709358": 96.77,
+    "14933455": 99.97,
+    "16411206": 108.98,
+    "19209079": 88.47,
+    "19833277": 99.32,
+    "20651178": 92.22,
+    "44810918": 108.52,
+    "47775950": 108.52
+  }
 };

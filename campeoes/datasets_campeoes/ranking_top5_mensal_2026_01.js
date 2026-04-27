@@ -1,20 +1,5 @@
 const rankingTop5Mensal2026_01 = [
   {
-    "time": "lsauer fc",
-    "pontos": 696.2001953125,
-    "aparicoes": 2,
-    "posicoes": [
-      {
-        "mes": "Fevereiro",
-        "posicao": 3
-      },
-      {
-        "mes": "Abril",
-        "posicao": 4
-      }
-    ]
-  },
-  {
     "time": "Bandoleros FCS",
     "pontos": 689.35986328125,
     "aparicoes": 3,
@@ -30,54 +15,6 @@ const rankingTop5Mensal2026_01 = [
       {
         "mes": "Marco",
         "posicao": 1
-      }
-    ]
-  },
-  {
-    "time": "seralex",
-    "pontos": 686.3203125,
-    "aparicoes": 2,
-    "posicoes": [
-      {
-        "mes": "Fevereiro",
-        "posicao": 4
-      },
-      {
-        "mes": "Abril",
-        "posicao": 5
-      }
-    ]
-  },
-  {
-    "time": "C.A. Charru@",
-    "pontos": 453.41015625,
-    "aparicoes": 1,
-    "posicoes": [
-      {
-        "mes": "Abril",
-        "posicao": 1
-      }
-    ]
-  },
-  {
-    "time": "Gig@ntte",
-    "pontos": 452.97021484375,
-    "aparicoes": 1,
-    "posicoes": [
-      {
-        "mes": "Abril",
-        "posicao": 2
-      }
-    ]
-  },
-  {
-    "time": "FÚRIA LEON",
-    "pontos": 436.71044921875,
-    "aparicoes": 1,
-    "posicoes": [
-      {
-        "mes": "Abril",
-        "posicao": 3
       }
     ]
   },
@@ -148,6 +85,28 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
+    "time": "lsauer fc",
+    "pontos": 265.3701171875,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Fevereiro",
+        "posicao": 3
+      }
+    ]
+  },
+  {
+    "time": "seralex",
+    "pontos": 263.08984375,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Fevereiro",
+        "posicao": 4
+      }
+    ]
+  },
+  {
     "time": "S.E.R. GRILLO",
     "pontos": 84.85986328125,
     "aparicoes": 1,
@@ -202,21 +161,6 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
   "campeao_turno": null,
   "ranking": [
     {
-      "time": "lsauer fc",
-      "pontos": 696.2001953125,
-      "aparicoes": 2,
-      "posicoes": [
-        {
-          "mes": "Fevereiro",
-          "posicao": 3
-        },
-        {
-          "mes": "Abril",
-          "posicao": 4
-        }
-      ]
-    },
-    {
       "time": "Bandoleros FCS",
       "pontos": 689.35986328125,
       "aparicoes": 3,
@@ -232,54 +176,6 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
         {
           "mes": "Marco",
           "posicao": 1
-        }
-      ]
-    },
-    {
-      "time": "seralex",
-      "pontos": 686.3203125,
-      "aparicoes": 2,
-      "posicoes": [
-        {
-          "mes": "Fevereiro",
-          "posicao": 4
-        },
-        {
-          "mes": "Abril",
-          "posicao": 5
-        }
-      ]
-    },
-    {
-      "time": "C.A. Charru@",
-      "pontos": 453.41015625,
-      "aparicoes": 1,
-      "posicoes": [
-        {
-          "mes": "Abril",
-          "posicao": 1
-        }
-      ]
-    },
-    {
-      "time": "Gig@ntte",
-      "pontos": 452.97021484375,
-      "aparicoes": 1,
-      "posicoes": [
-        {
-          "mes": "Abril",
-          "posicao": 2
-        }
-      ]
-    },
-    {
-      "time": "FÚRIA LEON",
-      "pontos": 436.71044921875,
-      "aparicoes": 1,
-      "posicoes": [
-        {
-          "mes": "Abril",
-          "posicao": 3
         }
       ]
     },
@@ -346,6 +242,28 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
         {
           "mes": "Fevereiro",
           "posicao": 2
+        }
+      ]
+    },
+    {
+      "time": "lsauer fc",
+      "pontos": 265.3701171875,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Fevereiro",
+          "posicao": 3
+        }
+      ]
+    },
+    {
+      "time": "seralex",
+      "pontos": 263.08984375,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Fevereiro",
+          "posicao": 4
         }
       ]
     },

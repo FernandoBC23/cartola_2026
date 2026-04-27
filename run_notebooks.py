@@ -22,7 +22,7 @@ DEFAULT_NOTEBOOKS = [
     r"liga_serie_B/datasets_liga_serie_B/busca_dados_liga_serie_B.ipynb",
     r"liga_serie_C/datasets_liga_serie_C/busca_dados_liga_serie_C.ipynb",
     # r"libertadores/datasets_liberta/1_busca_dados_liberta_fase_1.ipynb",
-    r"libertadores/datasets_liberta/2_busca_dados_liberta_fase_2.ipynb",
+    # r"libertadores/datasets_liberta/2_busca_dados_liberta_fase_2.ipynb",
     r"libertadores/datasets_liberta/3_busca_dados_liberta_fase_3.ipynb",
 
     # r"libertadores/datasets_liberta/4_busca_dados_liberta_fase_4.ipynb",
