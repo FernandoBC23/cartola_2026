@@ -108,109 +108,109 @@ const resultados_oitavas_sula = [
     "rodada": 14,
     "mandante": {
       "nome": "KillerColorado",
-      "pontos": NaN
+      "pontos": 77.580078125
     },
     "visitante": {
       "nome": "JUV. KP",
-      "pontos": NaN
+      "pontos": 77.85009765625
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 2 (JG2)",
     "rodada": 14,
     "mandante": {
       "nome": "DM Studio",
-      "pontos": NaN
+      "pontos": 54.330078125
     },
     "visitante": {
       "nome": "Máquina Laranjja",
-      "pontos": NaN
+      "pontos": 74.75
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 3 (JG3)",
     "rodada": 14,
     "mandante": {
       "nome": "Tatols Beants F.C",
-      "pontos": NaN
+      "pontos": 51.080078125
     },
     "visitante": {
       "nome": "dasdoresfc",
-      "pontos": NaN
+      "pontos": 63.0400390625
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 4 (JG4)",
     "rodada": 14,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": NaN
+      "pontos": 57.72998046875
     },
     "visitante": {
       "nome": "Grêmio imortal 36",
-      "pontos": NaN
+      "pontos": 62.989990234375
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 5 (JG5)",
     "rodada": 14,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": NaN
+      "pontos": 53.780029296875
     },
     "visitante": {
       "nome": "FÚRIA LEON",
-      "pontos": NaN
+      "pontos": 76.47998046875
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 6 (JG6)",
     "rodada": 14,
     "mandante": {
       "nome": "TORRESMO COM PINGA PRO26.1",
-      "pontos": NaN
+      "pontos": 48.080078125
     },
     "visitante": {
       "nome": "AZURRA82",
-      "pontos": NaN
+      "pontos": 75.8798828125
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 7 (JG7)",
     "rodada": 14,
     "mandante": {
       "nome": "A Lenda Super Vasco F.c",
-      "pontos": NaN
+      "pontos": 41.949951171875
     },
     "visitante": {
       "nome": "Grêmio imortal 37",
-      "pontos": NaN
+      "pontos": 76.72998046875
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 8 (JG8)",
     "rodada": 14,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": NaN
+      "pontos": 53.47998046875
     },
     "visitante": {
       "nome": "Super Vasco f.c",
-      "pontos": NaN
+      "pontos": 50.25
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   }
 ];const pontuacaoParcialRodadaAtual = {
-  "rodada": 14,
+  "rodada": 15,
   "times": {}
 };window.sulaMeta = {
-  "rodada_atual": 14,
+  "rodada_atual": 15,
   "parcial_disponivel": false
 };

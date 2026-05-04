@@ -56,57 +56,57 @@ const resultadosFase3 = [
     "rodada": 14,
     "mandante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": NaN
+      "pontos": 76.9501953125
     },
     "visitante": {
       "nome": "lsauer fc",
-      "pontos": NaN
+      "pontos": 49.280029296875
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "jogo": "Jogo 2 (JG2)",
     "rodada": 14,
     "mandante": {
       "nome": "LISI GREMISTA",
-      "pontos": NaN
+      "pontos": 53.139892578125
     },
     "visitante": {
       "nome": "Bandoleros FCS",
-      "pontos": NaN
+      "pontos": 48.580078125
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "jogo": "Jogo 3 (JG3)",
     "rodada": 14,
     "mandante": {
       "nome": "Dom Camillo68",
-      "pontos": NaN
+      "pontos": 47.050048828125
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": NaN
+      "pontos": 46.050048828125
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "jogo": "Jogo 4 (JG4)",
     "rodada": 14,
     "mandante": {
       "nome": "cartola scheuer17",
-      "pontos": NaN
+      "pontos": 51.8798828125
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
-      "pontos": NaN
+      "pontos": 62.050048828125
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   }
 ];const pontuacaoParcialRodadaAtual = {
-  "rodada": 14,
+  "rodada": 15,
   "times": {}
 };window.libertaMeta = {
-  "rodada_atual": 14,
+  "rodada_atual": 15,
   "parcial_disponivel": false
 };

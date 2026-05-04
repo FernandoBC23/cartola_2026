@@ -1,0 +1,1 @@
+const classificados_quartas_sula = [];
