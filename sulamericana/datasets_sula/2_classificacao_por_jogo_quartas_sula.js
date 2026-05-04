@@ -1,7 +1,7 @@
 const classificacao_quartas_sula = {
   "Jogo 1 (JG1)": [
     {
-      "posicao": 0,
+      "posicao": 1,
       "nome": "JUV. KP",
       "pontos": 0,
       "vitorias": 0,
@@ -12,7 +12,7 @@ const classificacao_quartas_sula = {
       "saldoCartola": 0.0
     },
     {
-      "posicao": 0,
+      "posicao": 2,
       "nome": "Máquina Laranjja",
       "pontos": 0,
       "vitorias": 0,
@@ -25,7 +25,7 @@ const classificacao_quartas_sula = {
   ],
   "Jogo 2 (JG2)": [
     {
-      "posicao": 0,
+      "posicao": 1,
       "nome": "dasdoresfc",
       "pontos": 0,
       "vitorias": 0,
@@ -36,7 +36,7 @@ const classificacao_quartas_sula = {
       "saldoCartola": 0.0
     },
     {
-      "posicao": 0,
+      "posicao": 2,
       "nome": "JV5 Tricolor Gaúcho",
       "pontos": 0,
       "vitorias": 0,
@@ -49,7 +49,7 @@ const classificacao_quartas_sula = {
   ],
   "Jogo 3 (JG3)": [
     {
-      "posicao": 0,
+      "posicao": 1,
       "nome": "FÚRIA LEON",
       "pontos": 0,
       "vitorias": 0,
@@ -60,7 +60,7 @@ const classificacao_quartas_sula = {
       "saldoCartola": 0.0
     },
     {
-      "posicao": 0,
+      "posicao": 2,
       "nome": "AZURRA82",
       "pontos": 0,
       "vitorias": 0,
@@ -73,7 +73,7 @@ const classificacao_quartas_sula = {
   ],
   "Jogo 4 (JG4)": [
     {
-      "posicao": 0,
+      "posicao": 1,
       "nome": "Grêmio imortal 37",
       "pontos": 0,
       "vitorias": 0,
@@ -84,7 +84,7 @@ const classificacao_quartas_sula = {
       "saldoCartola": 0.0
     },
     {
-      "posicao": 0,
+      "posicao": 2,
       "nome": "Mau Humor F.C.",
       "pontos": 0,
       "vitorias": 0,

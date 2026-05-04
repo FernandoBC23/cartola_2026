@@ -1,7 +1,7 @@
 const confrontos_quartas_sula = [
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "id": 13951133,
       "nome": "JUV. KP"
@@ -13,7 +13,7 @@ const confrontos_quartas_sula = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "id": 7017989,
       "nome": "dasdoresfc"
@@ -25,7 +25,7 @@ const confrontos_quartas_sula = [
   },
   {
     "jogo": "Jogo 3 (JG3)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "id": 18344271,
       "nome": "FÚRIA LEON"
@@ -37,7 +37,7 @@ const confrontos_quartas_sula = [
   },
   {
     "jogo": "Jogo 4 (JG4)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "id": 24468241,
       "nome": "Grêmio imortal 37"
@@ -49,7 +49,7 @@ const confrontos_quartas_sula = [
   },
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "id": 30267301,
       "nome": "Máquina Laranjja"
@@ -61,7 +61,7 @@ const confrontos_quartas_sula = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "id": 1747619,
       "nome": "JV5 Tricolor Gaúcho"
@@ -73,7 +73,7 @@ const confrontos_quartas_sula = [
   },
   {
     "jogo": "Jogo 3 (JG3)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "id": 18346776,
       "nome": "AZURRA82"
@@ -85,7 +85,7 @@ const confrontos_quartas_sula = [
   },
   {
     "jogo": "Jogo 4 (JG4)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "id": 19033717,
       "nome": "Mau Humor F.C."

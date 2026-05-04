@@ -1,106 +1,106 @@
 const resultados_quartas_sula = [
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "nome": "JUV. KP",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "Máquina Laranjja",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "nome": "dasdoresfc",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "jogo": "Jogo 3 (JG3)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "nome": "FÚRIA LEON",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "AZURRA82",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "jogo": "Jogo 4 (JG4)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "nome": "Grêmio imortal 37",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "nome": "Máquina Laranjja",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "JUV. KP",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "dasdoresfc",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "jogo": "Jogo 3 (JG3)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "nome": "AZURRA82",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "FÚRIA LEON",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   },
   {
     "jogo": "Jogo 4 (JG4)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": null
+      "pontos": 0.0
     },
     "visitante": {
       "nome": "Grêmio imortal 37",
-      "pontos": null
+      "pontos": 0.0
     },
-    "vencedor": "indefinido"
+    "vencedor": "empate"
   }
 ];

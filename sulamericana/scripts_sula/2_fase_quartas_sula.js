@@ -1,11 +1,27 @@
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
 
-  const RODADA_MINIMA = 15;
-  const RODADA_MAXIMA = 16;
-
   const painelGrupos = document.getElementById("painel-sula-quartas");
   const aviso = document.getElementById("aviso-sula");
+  const avisoOriginal = aviso ? { html: aviso.innerHTML, className: aviso.className } : null;
+  const metaRodada = Number.isFinite(window.sulaMeta?.rodada_atual)
+    ? Number(window.sulaMeta.rodada_atual)
+    : null;
+  const parcialRodadaRaw = Number.isFinite(window.pontuacaoParcialRodadaAtual?.rodada)
+    ? Number(window.pontuacaoParcialRodadaAtual.rodada)
+    : metaRodada;
+  const parcialTimes = window.pontuacaoParcialRodadaAtual?.times || {};
+  const parcialRodadaExibida = Number.isFinite(parcialRodadaRaw)
+    ? parcialRodadaRaw
+    : null;
+  const rodadasDisponiveis = Array.from(
+    new Set([
+      ...(Array.isArray(confrontos_quartas_sula) ? confrontos_quartas_sula.map((j) => Number(j?.rodada)) : []),
+      ...(Array.isArray(resultados_quartas_sula) ? resultados_quartas_sula.map((j) => Number(j?.rodada)) : []),
+    ].filter(Number.isFinite))
+  ).sort((a, b) => a - b);
+  const RODADA_MINIMA = rodadasDisponiveis[0] ?? 34;
+  const RODADA_MAXIMA = rodadasDisponiveis[rodadasDisponiveis.length - 1] ?? RODADA_MINIMA;
 
   const hasTimes = (() => {
     try {
@@ -17,14 +33,18 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const hasConfrontos =
     Array.isArray(confrontos_quartas_sula) &&
-    confrontos_quartas_sula.some(j => {
+    confrontos_quartas_sula.some((j) => {
       const rodada = Number(j?.rodada);
       return Number.isFinite(rodada) && rodada >= RODADA_MINIMA && rodada <= RODADA_MAXIMA;
     });
 
   const temDados = hasTimes || hasConfrontos;
   if (!temDados) {
-    if (aviso) aviso.style.display = "block";
+    if (aviso && avisoOriginal) {
+      aviso.className = avisoOriginal.className;
+      aviso.innerHTML = avisoOriginal.html;
+      aviso.style.display = "block";
+    }
     if (painelGrupos) painelGrupos.style.display = "none";
     return;
   }
@@ -32,18 +52,39 @@ window.addEventListener("DOMContentLoaded", () => {
   if (aviso) aviso.style.display = "none";
   if (painelGrupos) painelGrupos.style.display = "";
 
-  let rodadaAtual = (() => {
-    const rodadasComPontuacao = resultados_quartas_sula
-      .filter(r => {
-        const p1 = Number(r?.mandante?.pontos);
-        const p2 = Number(r?.visitante?.pontos);
-        return Number.isFinite(p1) && Number.isFinite(p2) && (p1 + p2) > 0;
-      })
-      .map(r => r.rodada)
-      .filter(r => r >= RODADA_MINIMA && r <= RODADA_MAXIMA);
+  const rodadasEncerradas = resultados_quartas_sula
+    .filter((r) => {
+      const p1 = r?.mandante?.pontos;
+      const p2 = r?.visitante?.pontos;
+      const temPontos = (
+        p1 != null && p2 != null &&
+        Number.isFinite(Number(p1)) && Number.isFinite(Number(p2)) &&
+        (Number(p1) + Number(p2)) > 0
+      );
+      return r?.encerrado === true || temPontos;
+    })
+    .map((r) => r.rodada)
+    .filter((r) => r >= RODADA_MINIMA && r <= RODADA_MAXIMA);
 
-    return rodadasComPontuacao.length ? Math.max(...rodadasComPontuacao) : RODADA_MINIMA;
+  const rodadaEncerradaMax = rodadasEncerradas.length ? Math.max(...rodadasEncerradas) : null;
+  const rodadaEmAndamento = (() => {
+    if (metaRodada !== null && metaRodada >= RODADA_MINIMA && metaRodada <= RODADA_MAXIMA) {
+      return metaRodada;
+    }
+    if (rodadaEncerradaMax !== null) {
+      return Math.min(rodadaEncerradaMax + 1, RODADA_MAXIMA);
+    }
+    return RODADA_MINIMA;
   })();
+  const parcialDisponivel = (
+    (window.sulaMeta?.parcial_disponivel === true) ||
+    (Object.keys(parcialTimes).length > 0)
+  ) && parcialRodadaExibida !== null
+    && parcialRodadaExibida === rodadaEmAndamento
+    && parcialRodadaExibida >= RODADA_MINIMA
+    && parcialRodadaExibida <= RODADA_MAXIMA;
+  let rodadaAtual = rodadaEmAndamento;
+  rodadaAtual = Math.min(Math.max(rodadaAtual, RODADA_MINIMA), RODADA_MAXIMA);
 
   function escudoSrc(nome) {
     const base = window.ESCUDOS_BASE_PATH || "../imagens/";
@@ -62,12 +103,22 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function renderPainelCompleto(numeroRodada) {
     painelGrupos.innerHTML = "";
+    const rodadaEmAndamentoAtual = parcialDisponivel && parcialRodadaExibida === numeroRodada;
+    if (aviso) {
+      if (rodadaEmAndamentoAtual) {
+        aviso.className = "aviso-parcial";
+        aviso.textContent = `Rodada ${numeroRodada} em andamento: pontuacoes parciais (nao definitivas).`;
+        aviso.style.display = "block";
+      } else {
+        aviso.style.display = "none";
+      }
+    }
 
-    const confrontosRodada = confrontos_quartas_sula.filter(j => j.rodada === numeroRodada);
-    const resultadosRodada = resultados_quartas_sula.filter(j => j.rodada === numeroRodada);
+    const confrontosRodada = confrontos_quartas_sula.filter((j) => j.rodada === numeroRodada);
+    const resultadosRodada = resultados_quartas_sula.filter((j) => j.rodada === numeroRodada);
 
     const confrontosPorJogo = {};
-    confrontosRodada.forEach(jogo => {
+    confrontosRodada.forEach((jogo) => {
       const chave = jogo.jogo || "Outros";
       if (!confrontosPorJogo[chave]) confrontosPorJogo[chave] = [];
       confrontosPorJogo[chave].push(jogo);
@@ -140,7 +191,7 @@ window.addEventListener("DOMContentLoaded", () => {
         const grupoConfrontos = document.createElement("div");
         grupoConfrontos.className = "grupo-confronto";
 
-        confrontosPorJogo[jogo].forEach(confronto => {
+        confrontosPorJogo[jogo].forEach((confronto) => {
           const jogoDiv = document.createElement("div");
           jogoDiv.className = "jogo";
 
@@ -152,7 +203,7 @@ window.addEventListener("DOMContentLoaded", () => {
           time2.className = "time";
           time2.innerHTML = `<img src="${escudoSrc(confronto.visitante.nome)}" alt="${confronto.visitante.nome}">`;
 
-          const resultado = resultadosRodada.find(r =>
+          const resultado = resultadosRodada.find((r) =>
             r.mandante.nome === confronto.mandante.nome &&
             r.visitante.nome === confronto.visitante.nome
           );
@@ -180,6 +231,12 @@ window.addEventListener("DOMContentLoaded", () => {
             span.textContent = "⏰ Aguardando Confronto";
             span.style.backgroundColor = "#ffc107";
             span.style.color = "#000";
+          } else if (rodadaEmAndamentoAtual) {
+            span.textContent = (p1Num > p2Num)
+              ? `⏳ ${resultado.mandante.nome} está vencendo`
+              : (p1Num < p2Num)
+                ? `⏳ ${resultado.visitante.nome} está vencendo`
+                : "⏳ Parcial: empate";
           } else if (p1Num > p2Num) {
             span.textContent = `✅ ${resultado.mandante.nome} venceu`;
           } else if (p1Num < p2Num) {
