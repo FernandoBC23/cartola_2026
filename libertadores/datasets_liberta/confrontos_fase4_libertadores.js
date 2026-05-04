@@ -1,7 +1,7 @@
 const confrontosFase4 = [
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "id": 28741323,
       "nome": "Tabajara de Inhaua PB1"
@@ -13,7 +13,7 @@ const confrontosFase4 = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "id": 51010813,
       "nome": "LISI GREMISTA"
@@ -25,7 +25,7 @@ const confrontosFase4 = [
   },
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "id": 18642587,
       "nome": "Fedato Futebol Clube"
@@ -37,7 +37,7 @@ const confrontosFase4 = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "id": 479510,
       "nome": "TEAM LOPES 99"

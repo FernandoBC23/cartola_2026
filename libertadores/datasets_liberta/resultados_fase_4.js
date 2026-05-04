@@ -1,7 +1,7 @@
 const resultadosFase4 = [
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "nome": "Tabajara de Inhaua PB1",
       "pontos": 0.0
@@ -14,7 +14,7 @@ const resultadosFase4 = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 34,
+    "rodada": 15,
     "mandante": {
       "nome": "LISI GREMISTA",
       "pontos": 0.0
@@ -27,7 +27,7 @@ const resultadosFase4 = [
   },
   {
     "jogo": "Jogo 1 (JG1)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "nome": "Fedato Futebol Clube",
       "pontos": 0.0
@@ -40,7 +40,7 @@ const resultadosFase4 = [
   },
   {
     "jogo": "Jogo 2 (JG2)",
-    "rodada": 35,
+    "rodada": 16,
     "mandante": {
       "nome": "TEAM LOPES 99",
       "pontos": 0.0
