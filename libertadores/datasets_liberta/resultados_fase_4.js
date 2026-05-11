@@ -4,11 +4,11 @@ const resultadosFase4 = [
     "rodada": 15,
     "mandante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": 61.17
+      "pontos": 61.169921875
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 48.27
+      "pontos": 48.27001953125
     },
     "vencedor": "mandante"
   },
@@ -17,11 +17,11 @@ const resultadosFase4 = [
     "rodada": 15,
     "mandante": {
       "nome": "LISI GREMISTA",
-      "pontos": 39.22
+      "pontos": 39.219970703125
     },
     "visitante": {
       "nome": "TEAM LOPES 99",
-      "pontos": 58.27
+      "pontos": 58.27001953125
     },
     "vencedor": "visitante"
   },
@@ -54,15 +54,10 @@ const resultadosFase4 = [
 ];
 
 const pontuacaoParcialRodadaAtual = {
-  "rodada": 15,
-  "times": {
-    "28741323": 61.17,
-    "51010813": 39.22,
-    "18642587": 48.27,
-    "479510": 58.27
-  }
+  "rodada": 16,
+  "times": {}
 };
 window.libertaMeta = {
-  "rodada_atual": 15,
-  "parcial_disponivel": true
+  "rodada_atual": 16,
+  "parcial_disponivel": false
 };

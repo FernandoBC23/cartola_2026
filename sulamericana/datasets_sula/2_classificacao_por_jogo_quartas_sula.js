@@ -7,9 +7,9 @@ const classificacao_quartas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 55.05,
-      "cartolaSofrido": 37.83,
-      "saldoCartola": 17.22
+      "totalCartola": 55.050048828125,
+      "cartolaSofrido": 37.830078125,
+      "saldoCartola": 17.219970703125
     },
     {
       "posicao": 2,
@@ -18,9 +18,9 @@ const classificacao_quartas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 37.83,
-      "cartolaSofrido": 55.05,
-      "saldoCartola": -17.22
+      "totalCartola": 37.830078125,
+      "cartolaSofrido": 55.050048828125,
+      "saldoCartola": -17.219970703125
     }
   ],
   "Jogo 2 (JG2)": [
@@ -31,8 +31,8 @@ const classificacao_quartas_sula = {
       "vitorias": 0,
       "empates": 1,
       "derrotas": 0,
-      "totalCartola": 55.9,
-      "cartolaSofrido": 55.9,
+      "totalCartola": 55.89990234375,
+      "cartolaSofrido": 55.89990234375,
       "saldoCartola": 0.0
     },
     {
@@ -42,8 +42,8 @@ const classificacao_quartas_sula = {
       "vitorias": 0,
       "empates": 1,
       "derrotas": 0,
-      "totalCartola": 55.9,
-      "cartolaSofrido": 55.9,
+      "totalCartola": 55.89990234375,
+      "cartolaSofrido": 55.89990234375,
       "saldoCartola": 0.0
     }
   ],
@@ -55,9 +55,9 @@ const classificacao_quartas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 43.82,
-      "cartolaSofrido": 43.73,
-      "saldoCartola": 0.09000000000000341
+      "totalCartola": 43.820068359375,
+      "cartolaSofrido": 43.72998046875,
+      "saldoCartola": 0.090087890625
     },
     {
       "posicao": 2,
@@ -66,9 +66,9 @@ const classificacao_quartas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 43.73,
-      "cartolaSofrido": 43.82,
-      "saldoCartola": -0.09000000000000341
+      "totalCartola": 43.72998046875,
+      "cartolaSofrido": 43.820068359375,
+      "saldoCartola": -0.090087890625
     }
   ],
   "Jogo 4 (JG4)": [
@@ -79,9 +79,9 @@ const classificacao_quartas_sula = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 68.35,
-      "cartolaSofrido": 67.55,
-      "saldoCartola": 0.7999999999999972
+      "totalCartola": 68.35009765625,
+      "cartolaSofrido": 67.5498046875,
+      "saldoCartola": 0.80029296875
     },
     {
       "posicao": 2,
@@ -90,9 +90,9 @@ const classificacao_quartas_sula = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 67.55,
-      "cartolaSofrido": 68.35,
-      "saldoCartola": -0.7999999999999972
+      "totalCartola": 67.5498046875,
+      "cartolaSofrido": 68.35009765625,
+      "saldoCartola": -0.80029296875
     }
   ]
 };

@@ -1736,7 +1736,7 @@ const resultadosFase1 = [
     },
     "visitante": {
       "nome": "NHU PORÃ SAF.",
-      "pontos": 31.34
+      "pontos": 32.94
     }
   },
   {
@@ -1744,7 +1744,7 @@ const resultadosFase1 = [
     "rodada": 15,
     "mandante": {
       "nome": "Doug Leal F.C",
-      "pontos": 58.04
+      "pontos": 58.18
     },
     "visitante": {
       "nome": "Pepe Leal FC",
@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.pontosCorridosMeta = {"rodada_parcial": 15, "parcial_disponivel": true};
+window.pontosCorridosMeta = {"rodada_parcial": null, "parcial_disponivel": false};

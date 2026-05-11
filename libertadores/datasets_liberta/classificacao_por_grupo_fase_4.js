@@ -7,9 +7,9 @@ const classificacaoFase4 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 61.17,
-      "cartolaSofrido": 48.27,
-      "saldoCartola": 12.899999999999999
+      "totalCartola": 61.169921875,
+      "cartolaSofrido": 48.27001953125,
+      "saldoCartola": 12.89990234375
     },
     {
       "posicao": 2,
@@ -18,9 +18,9 @@ const classificacaoFase4 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 48.27,
-      "cartolaSofrido": 61.17,
-      "saldoCartola": -12.899999999999999
+      "totalCartola": 48.27001953125,
+      "cartolaSofrido": 61.169921875,
+      "saldoCartola": -12.89990234375
     }
   ],
   "Jogo 2 (JG2)": [
@@ -31,9 +31,9 @@ const classificacaoFase4 = {
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 58.27,
-      "cartolaSofrido": 39.22,
-      "saldoCartola": 19.050000000000004
+      "totalCartola": 58.27001953125,
+      "cartolaSofrido": 39.219970703125,
+      "saldoCartola": 19.050048828125
     },
     {
       "posicao": 2,
@@ -42,9 +42,9 @@ const classificacaoFase4 = {
       "vitorias": 0,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 39.22,
-      "cartolaSofrido": 58.27,
-      "saldoCartola": -19.050000000000004
+      "totalCartola": 39.219970703125,
+      "cartolaSofrido": 58.27001953125,
+      "saldoCartola": -19.050048828125
     }
   ]
 };
