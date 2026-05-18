@@ -506,7 +506,6 @@ const clubesTimes = {
           <td>
             <div class="time-info">
               <img src="${escudo}" class="escudo" alt="${time.nome}">
-              <span class="tag-clube">${clubesTimes[time.nome] || ""}</span>
               ${time.nome}
             </div>
           </td>
@@ -541,13 +540,11 @@ const clubesTimes = {
           time1.className = "time";
           time1.innerHTML = `
             <img src="${escudoSrc(jogo.mandante.nome)}" alt="${jogo.mandante.nome}">
-            <span class="tag-escudo">${clubesTimes[jogo.mandante.nome] || ""}</span>
           `;
 
           const time2 = document.createElement("div");
           time2.className = "time";
           time2.innerHTML = `
-            <span class="tag-escudo">${clubesTimes[jogo.visitante.nome] || ""}</span>
             <img src="${escudoSrc(jogo.visitante.nome)}" alt="${jogo.visitante.nome}">
           `;
 
