@@ -13,16 +13,16 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_NOTEBOOKS = [
     # r"scouts/datasets_scouts/busca_scouts.ipynb",
 
-    r"liga_eliminacao/datasets_liga_eliminacao/busca_dados_liga_eliminacao.ipynb",
-    r"liga_eliminacao/datasets_liga_eliminacao/busca_dados_liga_eliminacao_20.ipynb",
+    # r"liga_eliminacao/datasets_liga_eliminacao/busca_dados_liga_eliminacao.ipynb",
+    # r"liga_eliminacao/datasets_liga_eliminacao/busca_dados_liga_eliminacao_20.ipynb",
 
-    r"liga_classica/datasets_liga_classica/busca_dados_liga_classica.ipynb",
-    r"liga_classica/datasets_liga_classica/busca_dados_liga_classica_aluna.ipynb",
+    # r"liga_classica/datasets_liga_classica/busca_dados_liga_classica.ipynb",
+    # r"liga_classica/datasets_liga_classica/busca_dados_liga_classica_aluna.ipynb",
 
-    r"pontos_corridos/datasets_pontos_corridos/busca_dados_pontos_corridos.ipynb",
-    r"liga_serie_A/datasets_liga_serie_A/busca_dados_liga_serie_A.ipynb",
-    r"liga_serie_B/datasets_liga_serie_B/busca_dados_liga_serie_B.ipynb",
-    r"liga_serie_C/datasets_liga_serie_C/busca_dados_liga_serie_C.ipynb",
+    # r"pontos_corridos/datasets_pontos_corridos/busca_dados_pontos_corridos.ipynb",
+    # r"liga_serie_A/datasets_liga_serie_A/busca_dados_liga_serie_A.ipynb",
+    # r"liga_serie_B/datasets_liga_serie_B/busca_dados_liga_serie_B.ipynb",
+    # r"liga_serie_C/datasets_liga_serie_C/busca_dados_liga_serie_C.ipynb",
 
     # r"libertadores/datasets_liberta/1_busca_dados_liberta_fase_1.ipynb",
     # r"libertadores/datasets_liberta/2_busca_dados_liberta_fase_2.ipynb",    

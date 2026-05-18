@@ -56,11 +56,11 @@ const resultados_quartas_sula = [
     "rodada": 16,
     "mandante": {
       "nome": "Máquina Laranjja",
-      "pontos": 56.93
+      "pontos": 56.929931640625
     },
     "visitante": {
       "nome": "JUV. KP",
-      "pontos": 75.88
+      "pontos": 75.8798828125
     },
     "vencedor": "visitante"
   },
@@ -69,7 +69,7 @@ const resultados_quartas_sula = [
     "rodada": 16,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 103.39
+      "pontos": 103.39013671875
     },
     "visitante": {
       "nome": "dasdoresfc",
@@ -82,11 +82,11 @@ const resultados_quartas_sula = [
     "rodada": 16,
     "mandante": {
       "nome": "AZURRA82",
-      "pontos": 59.61
+      "pontos": 59.610107421875
     },
     "visitante": {
       "nome": "FÚRIA LEON",
-      "pontos": 66.58
+      "pontos": 66.580078125
     },
     "vencedor": "visitante"
   },
@@ -95,29 +95,20 @@ const resultados_quartas_sula = [
     "rodada": 16,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": 74.28
+      "pontos": 74.27978515625
     },
     "visitante": {
       "nome": "Grêmio imortal 37",
-      "pontos": 88.68
+      "pontos": 88.68017578125
     },
     "vencedor": "visitante"
   }
 ];
 const pontuacaoParcialRodadaAtual = {
-  "rodada": 16,
-  "times": {
-    "13951133": 75.88,
-    "30267301": 56.93,
-    "7017989": 82.25,
-    "1747619": 103.39,
-    "18344271": 66.58,
-    "18346776": 59.61,
-    "24468241": 88.68,
-    "19033717": 74.28
-  }
+  "rodada": 17,
+  "times": {}
 };
 window.sulaMeta = {
-  "rodada_atual": 16,
-  "parcial_disponivel": true
+  "rodada_atual": 17,
+  "parcial_disponivel": false
 };

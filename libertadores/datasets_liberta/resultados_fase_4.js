@@ -30,11 +30,11 @@ const resultadosFase4 = [
     "rodada": 16,
     "mandante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": 87.88
+      "pontos": 87.8798828125
     },
     "visitante": {
       "nome": "Tabajara de Inhaua PB1",
-      "pontos": 81.28
+      "pontos": 81.27978515625
     },
     "vencedor": "mandante"
   },
@@ -47,22 +47,17 @@ const resultadosFase4 = [
     },
     "visitante": {
       "nome": "LISI GREMISTA",
-      "pontos": 114.29
+      "pontos": 114.2900390625
     },
     "vencedor": "visitante"
   }
 ];
 
 const pontuacaoParcialRodadaAtual = {
-  "rodada": 16,
-  "times": {
-    "28741323": 81.28,
-    "51010813": 114.29,
-    "18642587": 87.88,
-    "479510": 83.5
-  }
+  "rodada": 17,
+  "times": {}
 };
 window.libertaMeta = {
-  "rodada_atual": 16,
-  "parcial_disponivel": true
+  "rodada_atual": 17,
+  "parcial_disponivel": false
 };

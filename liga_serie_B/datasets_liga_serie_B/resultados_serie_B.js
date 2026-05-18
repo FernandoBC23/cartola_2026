@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.ligaSerieBMeta = {"rodada_parcial": 16, "parcial_disponivel": true};
+window.ligaSerieBMeta = {"rodada_parcial": null, "parcial_disponivel": false};

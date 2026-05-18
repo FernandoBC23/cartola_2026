@@ -2280,4 +2280,4 @@ const resultadosFase1 = [
     }
   }
 ];
-window.pontosCorridosMeta = {"rodada_parcial": 16, "parcial_disponivel": true};
+window.pontosCorridosMeta = {"rodada_parcial": null, "parcial_disponivel": false};
