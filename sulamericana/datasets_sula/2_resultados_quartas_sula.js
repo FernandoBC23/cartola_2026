@@ -56,59 +56,68 @@ const resultados_quartas_sula = [
     "rodada": 16,
     "mandante": {
       "nome": "Máquina Laranjja",
-      "pontos": NaN
+      "pontos": 56.93
     },
     "visitante": {
       "nome": "JUV. KP",
-      "pontos": NaN
+      "pontos": 75.88
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 2 (JG2)",
     "rodada": 16,
     "mandante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": NaN
+      "pontos": 103.39
     },
     "visitante": {
       "nome": "dasdoresfc",
-      "pontos": NaN
+      "pontos": 82.25
     },
-    "vencedor": "indefinido"
+    "vencedor": "mandante"
   },
   {
     "jogo": "Jogo 3 (JG3)",
     "rodada": 16,
     "mandante": {
       "nome": "AZURRA82",
-      "pontos": NaN
+      "pontos": 59.61
     },
     "visitante": {
       "nome": "FÚRIA LEON",
-      "pontos": NaN
+      "pontos": 66.58
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   },
   {
     "jogo": "Jogo 4 (JG4)",
     "rodada": 16,
     "mandante": {
       "nome": "Mau Humor F.C.",
-      "pontos": NaN
+      "pontos": 74.28
     },
     "visitante": {
       "nome": "Grêmio imortal 37",
-      "pontos": NaN
+      "pontos": 88.68
     },
-    "vencedor": "indefinido"
+    "vencedor": "visitante"
   }
 ];
 const pontuacaoParcialRodadaAtual = {
   "rodada": 16,
-  "times": {}
+  "times": {
+    "13951133": 75.88,
+    "30267301": 56.93,
+    "7017989": 82.25,
+    "1747619": 103.39,
+    "18344271": 66.58,
+    "18346776": 59.61,
+    "24468241": 88.68,
+    "19033717": 74.28
+  }
 };
 window.sulaMeta = {
   "rodada_atual": 16,
-  "parcial_disponivel": false
+  "parcial_disponivel": true
 };

@@ -6,45 +6,45 @@ const classificacaoFase4 = {
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 61.169921875,
-      "cartolaSofrido": 48.27001953125,
-      "saldoCartola": 12.89990234375
+      "derrotas": 1,
+      "totalCartola": 142.449921875,
+      "cartolaSofrido": 136.15001953125,
+      "saldoCartola": 6.299902343750006
     },
     {
       "posicao": 2,
       "nome": "Fedato Futebol Clube",
-      "pontos": 0,
-      "vitorias": 0,
+      "pontos": 3,
+      "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "totalCartola": 48.27001953125,
-      "cartolaSofrido": 61.169921875,
-      "saldoCartola": -12.89990234375
+      "totalCartola": 136.15001953125,
+      "cartolaSofrido": 142.449921875,
+      "saldoCartola": -6.299902343750006
     }
   ],
   "Jogo 2 (JG2)": [
     {
       "posicao": 1,
+      "nome": "LISI GREMISTA",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 153.50997070312502,
+      "cartolaSofrido": 141.77001953125,
+      "saldoCartola": 11.73995117187502
+    },
+    {
+      "posicao": 2,
       "nome": "TEAM LOPES 99",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 58.27001953125,
-      "cartolaSofrido": 39.219970703125,
-      "saldoCartola": 19.050048828125
-    },
-    {
-      "posicao": 2,
-      "nome": "LISI GREMISTA",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
       "derrotas": 1,
-      "totalCartola": 39.219970703125,
-      "cartolaSofrido": 58.27001953125,
-      "saldoCartola": -19.050048828125
+      "totalCartola": 141.77001953125,
+      "cartolaSofrido": 153.50997070312502,
+      "saldoCartola": -11.73995117187502
     }
   ]
 };
