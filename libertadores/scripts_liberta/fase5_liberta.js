@@ -7,10 +7,10 @@
 //     const rodadasComPontuacao = resultadosFase5
 //       .filter(r => r.mandante?.pontos != null && r.visitante?.pontos != null)
 //       .map(r => r.rodada);
-//     return rodadasComPontuacao.length ? Math.max(...rodadasComPontuacao) : 36;
+//     return rodadasComPontuacao.length ? Math.max(...rodadasComPontuacao) : 17;
 //   })();
 
-//   const RODADA_MAXIMA = 36;
+//   const RODADA_MAXIMA = 17;
 
 //   const painelGrupos = document.getElementById("painel-fase5");
 
@@ -246,13 +246,84 @@
 // #########################################################################################################################
 // scripts/fase4_liberta.js 
 
+  const classificacaoFase5Data = (() => {
+    if (typeof classificacaoFase5 !== "undefined") return classificacaoFase5;
+    const classificados = typeof classificadosFase4 !== "undefined" ? classificadosFase4 : [];
+    const perdedores = typeof perdedoresFase4 !== "undefined" ? perdedoresFase4 : [];
+
+    const montarTabela = itens => itens.map((time, index) => ({
+      posicao: index + 1,
+      nome: time.nome,
+      pontos: 0,
+      vitorias: 0,
+      empates: 0,
+      derrotas: 0,
+      totalCartola: 0
+    }));
+
+    const finalistas = classificados.map(time => ({
+      id: time.classificado_id,
+      nome: time.classificado_nome
+    }));
+    const disputaTerceiro = perdedores.map(time => ({
+      id: time.perdedor_id,
+      nome: time.perdedor_nome
+    }));
+
+    const fallback = {};
+    if (finalistas.length === 2) fallback["Final"] = montarTabela(finalistas);
+    if (disputaTerceiro.length === 2) fallback["Decisão 3º Lugar"] = montarTabela(disputaTerceiro);
+    return fallback;
+  })();
+
+  const confrontosFase5Data = (() => {
+    if (typeof confrontosFase5 !== "undefined") return confrontosFase5;
+    const classificados = typeof classificadosFase4 !== "undefined" ? classificadosFase4 : [];
+    const perdedores = typeof perdedoresFase4 !== "undefined" ? perdedoresFase4 : [];
+    const fallback = [];
+
+    if (classificados.length >= 2) {
+      fallback.push({
+        jogo: "Final",
+        rodada: 17,
+        mandante: {
+          id: classificados[0].classificado_id,
+          nome: classificados[0].classificado_nome
+        },
+        visitante: {
+          id: classificados[1].classificado_id,
+          nome: classificados[1].classificado_nome
+        }
+      });
+    }
+
+    if (perdedores.length >= 2) {
+      fallback.push({
+        jogo: "Decisão 3º Lugar",
+        rodada: 17,
+        mandante: {
+          id: perdedores[0].perdedor_id,
+          nome: perdedores[0].perdedor_nome
+        },
+        visitante: {
+          id: perdedores[1].perdedor_id,
+          nome: perdedores[1].perdedor_nome
+        }
+      });
+    }
+
+    return fallback;
+  })();
+
+  const resultadosFase5Data = typeof resultadosFase5 !== "undefined" ? resultadosFase5 : [];
+
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
 
-  const RODADA_MINIMA = 36;
-  const RODADA_MAXIMA = 36;
+  const RODADA_MINIMA = 17;
+  const RODADA_MAXIMA = 17;
 
-  const rodadasEncerradas = resultadosFase5
+  const rodadasEncerradas = resultadosFase5Data
     .filter(r => {
       const p1 = r?.mandante?.pontos;
       const p2 = r?.visitante?.pontos;
@@ -300,14 +371,14 @@ window.addEventListener("DOMContentLoaded", () => {
   const faseNaoIniciou = rodadaSistema !== null && rodadaSistema < RODADA_MINIMA;
   const hasTimes = (() => {
     try {
-      return Object.keys(classificacaoFase5 || {}).length > 0;
+      return Object.keys(classificacaoFase5Data || {}).length > 0;
     } catch {
       return false;
     }
   })();
   const hasConfrontosNaFase =
-    Array.isArray(confrontosFase5) &&
-    confrontosFase5.some(j => {
+    Array.isArray(confrontosFase5Data) &&
+    confrontosFase5Data.some(j => {
       const r = Number(j?.rodada);
       return Number.isFinite(r) && r >= RODADA_MINIMA && r <= RODADA_MAXIMA;
     });
@@ -341,8 +412,8 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-    const confrontosRodada = confrontosFase5.filter(j => j.rodada === numeroRodada);
-    const resultadosRodada = resultadosFase5.filter(j => j.rodada === numeroRodada);
+    const confrontosRodada = confrontosFase5Data.filter(j => j.rodada === numeroRodada);
+    const resultadosRodada = resultadosFase5Data.filter(j => j.rodada === numeroRodada);
 
     const confrontosPorGrupo = {};
     confrontosRodada.forEach(jogo => {
@@ -351,7 +422,7 @@ window.addEventListener("DOMContentLoaded", () => {
       confrontosPorGrupo[grupo].push(jogo);
     });
 
-    Object.entries(classificacaoFase5).forEach(([grupo, times]) => {
+    Object.entries(classificacaoFase5Data).forEach(([grupo, times]) => {
       const linha = document.createElement("div");
       linha.className = "linha-grupo";
 

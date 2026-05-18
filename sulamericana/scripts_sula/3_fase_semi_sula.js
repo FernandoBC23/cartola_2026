@@ -278,6 +278,68 @@
 
 // scripts/3_fase_semi_sula.js
 
+const classificacaoSemiSulaData = (() => {
+  if (typeof classificacao_semi_sula !== "undefined") return classificacao_semi_sula;
+  const classificados = typeof classificados_quartas_sula !== "undefined" ? classificados_quartas_sula : [];
+  const montarTabela = itens => itens.map((time, index) => ({
+    posicao: index + 1,
+    nome: time.nome,
+    pontos: 0,
+    vitorias: 0,
+    empates: 0,
+    derrotas: 0,
+    totalCartola: 0
+  }));
+  const fallback = {};
+  if (classificados.length >= 2) {
+    fallback["Jogo 1 (JG1)"] = montarTabela([
+      { id: classificados[0].classificado_id, nome: classificados[0].classificado_nome },
+      { id: classificados[1].classificado_id, nome: classificados[1].classificado_nome }
+    ]);
+  }
+  if (classificados.length >= 4) {
+    fallback["Jogo 2 (JG2)"] = montarTabela([
+      { id: classificados[2].classificado_id, nome: classificados[2].classificado_nome },
+      { id: classificados[3].classificado_id, nome: classificados[3].classificado_nome }
+    ]);
+  }
+  return fallback;
+})();
+
+const confrontosSemiSulaData = (() => {
+  if (typeof confrontos_semi_sula !== "undefined") return confrontos_semi_sula;
+  const classificados = typeof classificados_quartas_sula !== "undefined" ? classificados_quartas_sula : [];
+  if (classificados.length < 4) return [];
+  return [
+    {
+      jogo: "Jogo 1 (JG1)",
+      rodada: 17,
+      mandante: { id: classificados[0].classificado_id, nome: classificados[0].classificado_nome },
+      visitante: { id: classificados[1].classificado_id, nome: classificados[1].classificado_nome }
+    },
+    {
+      jogo: "Jogo 2 (JG2)",
+      rodada: 17,
+      mandante: { id: classificados[2].classificado_id, nome: classificados[2].classificado_nome },
+      visitante: { id: classificados[3].classificado_id, nome: classificados[3].classificado_nome }
+    },
+    {
+      jogo: "Jogo 1 (JG1)",
+      rodada: 18,
+      mandante: { id: classificados[1].classificado_id, nome: classificados[1].classificado_nome },
+      visitante: { id: classificados[0].classificado_id, nome: classificados[0].classificado_nome }
+    },
+    {
+      jogo: "Jogo 2 (JG2)",
+      rodada: 18,
+      mandante: { id: classificados[3].classificado_id, nome: classificados[3].classificado_nome },
+      visitante: { id: classificados[2].classificado_id, nome: classificados[2].classificado_nome }
+    }
+  ];
+})();
+
+const resultadosSemiSulaData = typeof resultados_semi_sula !== "undefined" ? resultados_semi_sula : [];
+
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
 
@@ -286,7 +348,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // âœ… C?lculo da rodada atual (somente se houver pontua??o > 0)
   let rodadaAtual = (() => {
-    const rodadasComPontuacao = resultados_semi_sula
+    const rodadasComPontuacao = resultadosSemiSulaData
       .filter(
         r =>
           r.mandante?.pontos != null &&
@@ -302,12 +364,12 @@ window.addEventListener("DOMContentLoaded", () => {
   const aviso = document.getElementById("aviso-sula");
   const hasTimes = (() => {
     try {
-      return Object.keys(classificacao_semi_sula || {}).length > 0;
+      return Object.keys(classificacaoSemiSulaData || {}).length > 0;
     } catch {
       return false;
     }
   })();
-  const hasConfrontos = Array.isArray(confrontos_semi_sula) && confrontos_semi_sula.length > 0;
+  const hasConfrontos = Array.isArray(confrontosSemiSulaData) && confrontosSemiSulaData.length > 0;
   const temDados = hasTimes || hasConfrontos;
   if (!temDados) {
     if (aviso) aviso.style.display = "block";
@@ -388,8 +450,8 @@ const clubesTimes = {
   function renderPainelCompleto(numeroRodada) {
     painelGrupos.innerHTML = "";
 
-    const confrontosRodada = confrontos_semi_sula.filter(j => j.rodada === numeroRodada);
-    const resultadosRodada = resultados_semi_sula.filter(j => j.rodada === numeroRodada);
+    const confrontosRodada = confrontosSemiSulaData.filter(j => j.rodada === numeroRodada);
+    const resultadosRodada = resultadosSemiSulaData.filter(j => j.rodada === numeroRodada);
 
     const confrontosPorGrupo = {};
     confrontosRodada.forEach(jogo => {
@@ -398,7 +460,7 @@ const clubesTimes = {
       confrontosPorGrupo[grupo].push(jogo);
     });
 
-    Object.entries(classificacao_semi_sula).forEach(([grupo, times]) => {
+    Object.entries(classificacaoSemiSulaData).forEach(([grupo, times]) => {
       const linha = document.createElement("div");
       linha.className = "linha-grupo";
 
@@ -444,7 +506,7 @@ const clubesTimes = {
           <td>
             <div class="time-info">
               <img src="${escudo}" class="escudo" alt="${time.nome}">
-              <span class="tag-clube">${clubesTimes[time.nome] ? ""}</span>
+              <span class="tag-clube">${clubesTimes[time.nome] || ""}</span>
               ${time.nome}
             </div>
           </td>
@@ -479,13 +541,13 @@ const clubesTimes = {
           time1.className = "time";
           time1.innerHTML = `
             <img src="${escudoSrc(jogo.mandante.nome)}" alt="${jogo.mandante.nome}">
-            <span class="tag-escudo">${clubesTimes[jogo.mandante.nome] ? ""}</span>
+            <span class="tag-escudo">${clubesTimes[jogo.mandante.nome] || ""}</span>
           `;
 
           const time2 = document.createElement("div");
           time2.className = "time";
           time2.innerHTML = `
-            <span class="tag-escudo">${clubesTimes[jogo.visitante.nome] ? ""}</span>
+            <span class="tag-escudo">${clubesTimes[jogo.visitante.nome] || ""}</span>
             <img src="${escudoSrc(jogo.visitante.nome)}" alt="${jogo.visitante.nome}">
           `;
 
@@ -495,15 +557,20 @@ const clubesTimes = {
               r.visitante.nome === jogo.visitante.nome
           );
 
-          const p1 = resultado?.mandante?.pontos ? 0;
-          const p2 = resultado?.visitante?.pontos ? 0;
+          const p1Raw = resultado?.mandante?.pontos;
+          const p2Raw = resultado?.visitante?.pontos;
+          const p1Num = Number(p1Raw);
+          const p2Num = Number(p2Raw);
+          const temPontos = Number.isFinite(p1Num) && Number.isFinite(p2Num) && (p1Num + p2Num) > 0;
+          const p1 = temPontos ? p1Num.toFixed(2) : "0.00";
+          const p2 = temPontos ? p2Num.toFixed(2) : "0.00";
 
           const placar = document.createElement("div");
           placar.className = "placar";
           placar.innerHTML = `
-            <span class="placar-numero">${p1.toFixed(2)}</span>
+            <span class="placar-numero">${p1}</span>
             <span class="placar-x"> X </span>
-            <span class="placar-numero">${p2.toFixed(2)}</span>
+            <span class="placar-numero">${p2}</span>
           `;
 
           // --- Resultado do confronto (igual Fase 3 / S?rie A)
@@ -516,7 +583,7 @@ const clubesTimes = {
             resultado == null ||
             resultado.mandante.pontos == null ||
             resultado.visitante.pontos == null ||
-            (resultado.mandante.pontos === 0 && resultado.visitante.pontos === 0);
+            !temPontos;
 
           if (semPontuacao) {
             span.textContent = "🕒 Aguardando Confronto";
