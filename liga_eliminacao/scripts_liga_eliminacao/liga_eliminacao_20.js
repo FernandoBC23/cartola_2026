@@ -16,6 +16,11 @@ const temEliminacaoManual = (fonte) => Object.values(fonte).some(
   (lista) => Array.isArray(lista) && lista.length > 0
 );
 
+const getMaiorRodadaManual = (fonte) => Object.keys(fonte || {})
+  .map((k) => parseInt(k, 10))
+  .filter((n) => Number.isFinite(n))
+  .sort((a, b) => b - a)[0] ?? 0;
+
 const getParcialPayload = () => (
   (typeof pontuacaoParcialRodadaAtual === "object" && pontuacaoParcialRodadaAtual)
     ? pontuacaoParcialRodadaAtual
@@ -175,6 +180,63 @@ function calcularEliminadosDinamico(rodadaLimite, rodadaParcial = null, parcialT
   return { eliminados, ativos };
 }
 
+function calcularEliminadosComBase(eliminadosBase, rodadaLimite, rodadaParcial = null, parcialTimes = null) {
+  const eliminados = { ...(eliminadosBase || {}) };
+  const rodadaBaseMax = Math.min(getMaiorRodadaManual(eliminados), rodadaLimite);
+  const ativos = getAtivosAteRodada(rodadaBaseMax, eliminados);
+
+  for (let r = rodadaBaseMax + 1; r <= rodadaLimite && r < RODADA_FIM; r++) {
+    if (eliminados[r] || eliminados[String(r)]) continue;
+    const usarParcial = rodadaParcial === r ? parcialTimes : null;
+    const aguardando = rodadaAguardandoConfrontos(r);
+    const pontuacoes = coletarPontuacoesRodada(r, ativos, usarParcial, aguardando);
+    if (pontuacoes.length <= 1) continue;
+    const todosZero = pontuacoes.every((item) => item.pontosRodada === 0);
+    if (todosZero) continue;
+    pontuacoes.sort((a, b) => {
+      if (a.pontosRodada !== b.pontosRodada) return a.pontosRodada - b.pontosRodada;
+      return a.totalTurno - b.totalTurno;
+    });
+    const eliminado = pontuacoes[0].id;
+    eliminados[r] = [eliminado];
+    ativos.delete(eliminado);
+  }
+
+  return { eliminados, ativos };
+}
+
+function getEliminadosFonteEfetiva(rodadaAtual, parcialAtual = null) {
+  const limite = Math.min(rodadaAtual, RODADA_FIM - 1);
+  const eliminadosManuais = getFonteEliminados();
+
+  // A regra efetiva da liga é sempre eliminar 1 time por rodada até a 18,
+  // deixando 2 finalistas para decidirem campeão e vice na rodada 19.
+  // Por isso a UI deve preferir o cálculo dinâmico por pontuação e usar o
+  // arquivo manual apenas como fallback quando não houver base suficiente.
+  const { eliminados, ativos } = calcularEliminadosDinamico(
+    limite,
+    parcialAtual ? rodadaAtual : null,
+    parcialAtual
+  );
+
+  const qtdDinamica = Object.keys(eliminados).length;
+  const qtdManual = Object.keys(eliminadosManuais || {}).length;
+
+  if (qtdDinamica > 0 || !temEliminacaoManual(eliminadosManuais)) {
+    return {
+      eliminados,
+      ativos,
+      usarDinamico: true,
+    };
+  }
+
+  return {
+    eliminados: eliminadosManuais,
+    ativos: null,
+    usarDinamico: qtdManual < limite,
+  };
+}
+
 function getEliminadosRodada(rodadaAtual) {
   if (rodadaAguardandoConfrontos(rodadaAtual)) {
     return {
@@ -186,38 +248,13 @@ function getEliminadosRodada(rodadaAtual) {
   }
 
   const parcialAtual = getParcialRodada(rodadaAtual);
-  if (parcialAtual) {
-    const limite = Math.min(rodadaAtual, RODADA_FIM - 1);
-    const { eliminados, ativos } = calcularEliminadosDinamico(limite, rodadaAtual, parcialAtual);
-    const lista = eliminados[rodadaAtual] || eliminados[String(rodadaAtual)] || [];
-    return {
-      eliminadosRodada: Array.isArray(lista) ? lista.map((id) => String(id)) : [],
-      eliminadosFonte: eliminados,
-      ativos,
-      usarDinamico: true,
-    };
-  }
-
-  const eliminadosFonte = getFonteEliminados();
-  if (temEliminacaoManual(eliminadosFonte)) {
-    const lista = eliminadosFonte[rodadaAtual] || eliminadosFonte[String(rodadaAtual)] || [];
-    return {
-      eliminadosRodada: Array.isArray(lista) ? lista.map((id) => String(id)) : [],
-      eliminadosFonte,
-      ativos: null,
-      usarDinamico: false,
-    };
-  }
-
-  const limite = Math.min(rodadaAtual, RODADA_FIM - 1);
-  const parcial = getParcialRodada(rodadaAtual);
-  const { eliminados, ativos } = calcularEliminadosDinamico(limite, parcial ? rodadaAtual : null, parcial);
+  const { eliminados, ativos, usarDinamico } = getEliminadosFonteEfetiva(rodadaAtual, parcialAtual);
   const lista = eliminados[rodadaAtual] || eliminados[String(rodadaAtual)] || [];
   return {
     eliminadosRodada: Array.isArray(lista) ? lista.map((id) => String(id)) : [],
     eliminadosFonte: eliminados,
     ativos,
-    usarDinamico: true,
+    usarDinamico,
   };
 }
 
@@ -234,14 +271,8 @@ function getAtivosAteRodada(rodadaLimite, eliminadosFonte) {
 function getResultadoFinal(rodadaAtual) {
   if (rodadaAtual !== RODADA_FIM) return null;
 
-  const eliminadosFonte = getFonteEliminados();
-  let ativos = null;
-
-  if (temEliminacaoManual(eliminadosFonte)) {
-    ativos = getAtivosAteRodada(RODADA_FIM - 1, eliminadosFonte);
-  } else {
-    ativos = calcularEliminadosDinamico(RODADA_FIM - 1).ativos;
-  }
+  const { eliminados: eliminadosFonte, ativos: ativosCalculados } = getEliminadosFonteEfetiva(RODADA_FIM - 1);
+  const ativos = ativosCalculados || getAtivosAteRodada(RODADA_FIM - 1, eliminadosFonte);
 
   const pontuacoes = coletarPontuacoesRodada(rodadaAtual, ativos);
   if (pontuacoes.length < 2) return null;
@@ -386,8 +417,9 @@ function exibirPontuacoesRodada(rodada) {
   tbody.innerHTML = "";
   let { lista } = coletarPontuacoesExibicao(rodada);
 
-  const eliminadosFonte = getFonteEliminados();
-  if (temEliminacaoManual(eliminadosFonte)) {
+  const parcialAtual = getParcialRodada(rodada);
+  const { eliminados: eliminadosFonte } = getEliminadosFonteEfetiva(rodada - 1, parcialAtual);
+  if (Object.keys(eliminadosFonte).length > 0) {
     const ativos = getAtivosAteRodada(rodada - 1, eliminadosFonte);
     lista = lista.filter((item) => ativos.has(String(item.id)));
   } else {
