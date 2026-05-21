@@ -285,7 +285,7 @@
     if (classificados.length >= 2) {
       fallback.push({
         jogo: "Final",
-        rodada: 17,
+        rodada: 19,
         mandante: {
           id: classificados[0].classificado_id,
           nome: classificados[0].classificado_nome
@@ -300,7 +300,7 @@
     if (perdedores.length >= 2) {
       fallback.push({
         jogo: "Decisão 3º Lugar",
-        rodada: 17,
+        rodada: 19,
         mandante: {
           id: perdedores[0].perdedor_id,
           nome: perdedores[0].perdedor_nome
@@ -320,8 +320,11 @@
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
 
-  const RODADA_MINIMA = 17;
-  const RODADA_MAXIMA = 17;
+  // Excecao operacional deste turno: a final acontece na rodada 19,
+  // mas a pagina precisa ficar visivel ja nas rodadas 17 e 18.
+  const RODADA_EXIBICAO_MINIMA = 17;
+  const RODADA_MINIMA = 19;
+  const RODADA_MAXIMA = 19;
 
   const rodadasEncerradas = resultadosFase5Data
     .filter(r => {
@@ -368,7 +371,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const rodadaSistema = Number.isFinite(window.RODADA_ATUAL)
     ? window.RODADA_ATUAL
     : (Number.isFinite(window.rodadaAtual) ? window.rodadaAtual : null);
-  const faseNaoIniciou = rodadaSistema !== null && rodadaSistema < RODADA_MINIMA;
+  const faseNaoIniciou = rodadaSistema !== null && rodadaSistema < RODADA_EXIBICAO_MINIMA;
   const hasTimes = (() => {
     try {
       return Object.keys(classificacaoFase5Data || {}).length > 0;
