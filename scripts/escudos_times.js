@@ -84,6 +84,13 @@ window.escudosTimes = {
   "GrioTeam": "../imagens/1_grioteam.png",
   "Pepe Leal FC": "../imagens/1_pepe_leal_fc.png",  
   "Arran Katoko FC": "../imagens/1_arran_katoko_fc.png",
+  "bugredasmissões": "../imagens/1_bugredasmissoes.png",
+  "Esquadrão Gazembrino": "../imagens/1_esquadrao_gazembrino.png",
+  "Grêmio_Campeão_LA_27": "../imagens/1_gremio_campeao_la_27.png",
+  "JV5 Tricolor Gaúcho": "../imagens/1_jv5_tricolor_gaucho.png",
+  "Medonho´s F.C.": "../imagens/1_medonhos_fc.png",
+  "Pontaç0 F.C.": "../imagens/1_pontaco_fc.png",
+  "SC ÉoINTER!": "../imagens/1_sc_eointer.png",
   "RS Expressões da Arte": "../imagens/1_rs_expressoes_da_arte.png",
   "HVCARTOLA": "../imagens/1_hvcartola.png",
 };

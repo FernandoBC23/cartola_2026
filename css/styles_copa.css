@@ -101,6 +101,11 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  min-width: 0;
+}
+
+.team-name {
+  min-width: 0;
 }
 
 .team-escudo {
@@ -239,6 +244,19 @@
     position: relative;
     z-index: 0;
   }
+
+  .copa-aluna-page .copa-bracket {
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+  }
+
+  .copa-aluna-page .round-oitavas { grid-column: 1; }
+  .copa-aluna-page .round-quartas { grid-column: 2; }
+  .copa-aluna-page .round-semi { grid-column: 3; }
+
+  .copa-aluna-page .round-final,
+  .copa-aluna-page .round-terceiro {
+    grid-column: 4;
+  }
 }
 
 @media (max-width: 768px) {
@@ -284,4 +302,5 @@
     margin-bottom: 0;
     padding-bottom: 20px;
   }
+
 }
