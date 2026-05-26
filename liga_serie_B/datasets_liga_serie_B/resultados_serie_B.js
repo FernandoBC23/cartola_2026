@@ -1924,11 +1924,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "pura bucha/internacional",
-      "pontos": null
+      "pontos": 33.85
     },
     "visitante": {
       "nome": "FBC Colorado",
-      "pontos": null
+      "pontos": 65.32
     }
   },
   {
@@ -1936,11 +1936,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "PUXE FC",
-      "pontos": null
+      "pontos": 84.92
     },
     "visitante": {
       "nome": "Pity10",
-      "pontos": null
+      "pontos": 75.72
     }
   },
   {
@@ -1948,11 +1948,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "Sport Clube PAIM",
-      "pontos": null
+      "pontos": 58.65
     },
     "visitante": {
       "nome": "cartola scheuer17",
-      "pontos": null
+      "pontos": 65.62
     }
   },
   {
@@ -1960,11 +1960,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "Paulo Virgili FC",
-      "pontos": null
+      "pontos": 61.45
     },
     "visitante": {
       "nome": "JV5 Tricolor Gaúcho",
-      "pontos": null
+      "pontos": 60.12
     }
   },
   {
@@ -1972,11 +1972,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "Dom Camillo68",
-      "pontos": null
+      "pontos": 68.52
     },
     "visitante": {
       "nome": "CAFÉ AMARGO PRO26.2",
-      "pontos": null
+      "pontos": 59.12
     }
   },
   {
@@ -1984,11 +1984,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "TEAM LOPES 99",
-      "pontos": null
+      "pontos": 62.62
     },
     "visitante": {
       "nome": "Gremiomaniasm",
-      "pontos": null
+      "pontos": 66.82
     }
   },
   {
@@ -1996,7 +1996,7 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "TIGRE LEON",
-      "pontos": null
+      "pontos": 45.61
     },
     "visitante": {
       "nome": "Rolo Compressor  ZN",
@@ -2008,11 +2008,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "Tatols Beants F.C",
-      "pontos": null
+      "pontos": 78.02
     },
     "visitante": {
       "nome": "seralex",
-      "pontos": null
+      "pontos": 93.22
     }
   },
   {
@@ -2020,11 +2020,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "lsauer fc",
-      "pontos": null
+      "pontos": 70.82
     },
     "visitante": {
       "nome": "Mau Humor F.C.",
-      "pontos": null
+      "pontos": 71.62
     }
   },
   {
@@ -2032,11 +2032,11 @@ const resultadosFase1 = [
     "rodada": 17,
     "mandante": {
       "nome": "Texas Club 2026",
-      "pontos": null
+      "pontos": 65.62
     },
     "visitante": {
       "nome": "Fedato Futebol Clube",
-      "pontos": null
+      "pontos": 65.92
     }
   },
   {

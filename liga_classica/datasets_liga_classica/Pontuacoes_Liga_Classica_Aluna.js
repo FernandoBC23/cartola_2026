@@ -17,7 +17,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 57.8798828125,
       "Rodada 15": 45.780029296875,
       "Rodada 16": 74.75,
-      "Rodada 17": 74.75
+      "Rodada 17": 68.02001953125,
+      "Rodada 18": 68.02001953125
     },
     "bugredasmissões": {
       "Rodada 1": 63.56005859375,
@@ -36,7 +37,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 69.4501953125,
       "Rodada 15": 50.97998046875,
       "Rodada 16": 57.830078125,
-      "Rodada 17": 57.830078125
+      "Rodada 17": 76.8701171875,
+      "Rodada 18": 76.8701171875
     },
     "C R Juvenal": {
       "Rodada 1": 47.860107421875,
@@ -55,7 +57,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 78.4501953125,
       "Rodada 15": 45.14990234375,
       "Rodada 16": 105.5,
-      "Rodada 17": 105.5
+      "Rodada 17": 85.919921875,
+      "Rodada 18": 85.919921875
     },
     "Doug Leal F.C": {
       "Rodada 1": 66.3701171875,
@@ -74,7 +77,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 55.139892578125,
       "Rodada 15": 58.179931640625,
       "Rodada 16": 96.7900390625,
-      "Rodada 17": 96.7900390625
+      "Rodada 17": 61.419921875,
+      "Rodada 18": 61.419921875
     },
     "Esquadrão Gazembrino": {
       "Rodada 1": 83.2001953125,
@@ -93,7 +97,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 53.25,
       "Rodada 15": 39.1201171875,
       "Rodada 16": 86.830078125,
-      "Rodada 17": 86.830078125
+      "Rodada 17": 61.77001953125,
+      "Rodada 18": 61.77001953125
     },
     "FBC Colorado": {
       "Rodada 1": 53.659912109375,
@@ -112,7 +117,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 61.949951171875,
       "Rodada 15": 60.169921875,
       "Rodada 16": 72.27978515625,
-      "Rodada 17": 72.27978515625
+      "Rodada 17": 65.31982421875,
+      "Rodada 18": 65.31982421875
     },
     "GaúchoDaFronteira F.C": {
       "Rodada 1": 71.9599609375,
@@ -131,7 +137,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 70.14013671875,
       "Rodada 15": 81.97998046875,
       "Rodada 16": 81.77978515625,
-      "Rodada 17": 81.77978515625
+      "Rodada 17": 76.31982421875,
+      "Rodada 18": 76.31982421875
     },
     "GE Xavanchesteer": {
       "Rodada 1": 56.050048828125,
@@ -150,7 +157,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 67.83984375,
       "Rodada 15": 64.2001953125,
       "Rodada 16": 74.7001953125,
-      "Rodada 17": 74.7001953125
+      "Rodada 17": 69.6201171875,
+      "Rodada 18": 69.6201171875
     },
     "GrioTeam": {
       "Rodada 1": 61.56005859375,
@@ -169,7 +177,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 58.43994140625,
       "Rodada 15": 50.199951171875,
       "Rodada 16": 74.5498046875,
-      "Rodada 17": 74.5498046875
+      "Rodada 17": 82.919921875,
+      "Rodada 18": 82.919921875
     },
     "Grêmio_Campeão_LA_27": {
       "Rodada 1": 54.050048828125,
@@ -188,7 +197,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 71.25,
       "Rodada 15": 55.52001953125,
       "Rodada 16": 69.14990234375,
-      "Rodada 17": 69.14990234375
+      "Rodada 17": 76.6201171875,
+      "Rodada 18": 76.6201171875
     },
     "JV5 Tricolor Gaúcho": {
       "Rodada 1": 47.860107421875,
@@ -207,7 +217,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 57.72998046875,
       "Rodada 15": 55.89990234375,
       "Rodada 16": 103.39013671875,
-      "Rodada 17": 103.39013671875
+      "Rodada 17": 60.1201171875,
+      "Rodada 18": 60.1201171875
     },
     "La Primeira Patada Es Nuestra": {
       "Rodada 1": 55.659912109375,
@@ -226,7 +237,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 66.080078125,
       "Rodada 15": 49.6201171875,
       "Rodada 16": 76.27978515625,
-      "Rodada 17": 76.27978515625
+      "Rodada 17": 58.820068359375,
+      "Rodada 18": 58.820068359375
     },
     "lsauer fc": {
       "Rodada 1": 62.56005859375,
@@ -245,7 +257,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 49.280029296875,
       "Rodada 15": 54.580078125,
       "Rodada 16": 68.580078125,
-      "Rodada 17": 68.580078125
+      "Rodada 17": 70.81982421875,
+      "Rodada 18": 70.81982421875
     },
     "Medonho´s F.C.": {
       "Rodada 1": 55.659912109375,
@@ -264,7 +277,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 66.0498046875,
       "Rodada 15": 35.419921875,
       "Rodada 16": 91.35009765625,
-      "Rodada 17": 91.35009765625
+      "Rodada 17": 63.60009765625,
+      "Rodada 18": 63.60009765625
     },
     "NHU PORÃ SAF.": {
       "Rodada 1": 0.0,
@@ -283,7 +297,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 31.6500244140625,
       "Rodada 15": 32.93994140625,
       "Rodada 16": 48.93994140625,
-      "Rodada 17": 48.93994140625
+      "Rodada 17": 75.419921875,
+      "Rodada 18": 75.419921875
     },
     "Pepe Leal FC": {
       "Rodada 1": 60.60009765625,
@@ -302,7 +317,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 30.030029296875,
       "Rodada 15": 42.10009765625,
       "Rodada 16": 19.510009765625,
-      "Rodada 17": 19.510009765625
+      "Rodada 17": 52.949951171875,
+      "Rodada 18": 52.949951171875
     },
     "Pontaç0 F.C.": {
       "Rodada 1": 61.159912109375,
@@ -321,7 +337,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 50.75,
       "Rodada 15": 45.919921875,
       "Rodada 16": 63.60009765625,
-      "Rodada 17": 63.60009765625
+      "Rodada 17": 81.9501953125,
+      "Rodada 18": 81.9501953125
     },
     "SC 100 Sono": {
       "Rodada 1": 67.16015625,
@@ -340,7 +357,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 47.43994140625,
       "Rodada 15": 52.199951171875,
       "Rodada 16": 108.43994140625,
-      "Rodada 17": 108.43994140625
+      "Rodada 17": 68.22021484375,
+      "Rodada 18": 68.22021484375
     },
     "SC ÉoINTER!": {
       "Rodada 1": 54.89990234375,
@@ -359,7 +377,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 57.14990234375,
       "Rodada 15": 53.929931640625,
       "Rodada 16": 79.2001953125,
-      "Rodada 17": 79.2001953125
+      "Rodada 17": 66.31982421875,
+      "Rodada 18": 66.31982421875
     },
     "Texas Club 2026": {
       "Rodada 1": 68.06005859375,
@@ -378,7 +397,8 @@ const classificacaoLigaClassica = {
       "Rodada 14": 53.780029296875,
       "Rodada 15": 63.75,
       "Rodada 16": 73.080078125,
-      "Rodada 17": 73.080078125
+      "Rodada 17": 65.6201171875,
+      "Rodada 18": 65.6201171875
     }
   },
   "turnos": {
@@ -495,26 +515,26 @@ const classificacaoLigaClassica = {
       "Pepe Leal FC": 213.10009765625
     },
     "Maio": {
-      "C R Juvenal": 334.60009765625,
-      "JV5 Tricolor Gaúcho": 320.41015625,
-      "SC 100 Sono": 316.519775390625,
-      "GaúchoDaFronteira F.C": 315.6796875,
-      "Doug Leal F.C": 306.89990234375,
-      "Medonho´s F.C.": 284.169921875,
-      "GE Xavanchesteer": 281.4404296875,
-      "SC ÉoINTER!": 269.480224609375,
-      "La Primeira Patada Es Nuestra": 268.259765625,
-      "FBC Colorado": 266.679443359375,
-      "Esquadrão Gazembrino": 266.0302734375,
-      "Grêmio_Campeão_LA_27": 265.06982421875,
-      "Texas Club 2026": 263.690185546875,
-      "GrioTeam": 257.739501953125,
-      "Arran Katoko FC": 253.159912109375,
-      "lsauer fc": 241.020263671875,
-      "bugredasmissões": 236.09033203125,
-      "Pontaç0 F.C.": 223.8701171875,
-      "NHU PORÃ SAF.": 162.4698486328125,
-      "Pepe Leal FC": 111.150146484375
+      "C R Juvenal": 400.93994140625,
+      "GaúchoDaFronteira F.C": 386.53955078125,
+      "Grêmio_Campeão_LA_27": 349.16015625,
+      "GrioTeam": 349.029541015625,
+      "GE Xavanchesteer": 345.98046875,
+      "SC 100 Sono": 344.520263671875,
+      "JV5 Tricolor Gaúcho": 337.26025390625,
+      "Doug Leal F.C": 332.94970703125,
+      "bugredasmissões": 332.00048828125,
+      "FBC Colorado": 325.039306640625,
+      "Pontaç0 F.C.": 324.17041015625,
+      "SC ÉoINTER!": 322.919677734375,
+      "Texas Club 2026": 321.850341796875,
+      "Medonho´s F.C.": 320.02001953125,
+      "Arran Katoko FC": 314.449951171875,
+      "lsauer fc": 314.079833984375,
+      "La Primeira Patada Es Nuestra": 309.6201171875,
+      "Esquadrão Gazembrino": 302.740234375,
+      "NHU PORÃ SAF.": 264.3697509765625,
+      "Pepe Leal FC": 197.5400390625
     },
     "Julho": {
       "Arran Katoko FC": 0.0,
@@ -541,6 +561,6 @@ const classificacaoLigaClassica = {
   }
 };window.ligaClassicaMeta = {"status_http": 1, "rodada_parcial": null};
 const pontuacaoParcialRodadaAtual = {
-  "rodada": 17,
+  "rodada": 18,
   "times": {}
 };

@@ -1,5 +1,20 @@
 const rankingTop5Mensal2026_01 = [
   {
+    "time": "PUXE FC",
+    "pontos": 844.1796875,
+    "aparicoes": 2,
+    "posicoes": [
+      {
+        "mes": "Abril",
+        "posicao": 4
+      },
+      {
+        "mes": "Maio",
+        "posicao": 4
+      }
+    ]
+  },
+  {
     "time": "Bandoleros FCS",
     "pontos": 689.35986328125,
     "aparicoes": 3,
@@ -52,23 +67,56 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
-    "time": "PUXE FC",
-    "pontos": 470.77978515625,
-    "aparicoes": 1,
-    "posicoes": [
-      {
-        "mes": "Abril",
-        "posicao": 4
-      }
-    ]
-  },
-  {
     "time": "C.A. Charru@",
     "pontos": 468.05029296875,
     "aparicoes": 1,
     "posicoes": [
       {
         "mes": "Abril",
+        "posicao": 5
+      }
+    ]
+  },
+  {
+    "time": "Tabajara de Inhaua PB1",
+    "pontos": 404.03955078125,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Maio",
+        "posicao": 1
+      }
+    ]
+  },
+  {
+    "time": "VaiDescerkkkk!!!",
+    "pontos": 398.78955078125,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Maio",
+        "posicao": 2
+      }
+    ]
+  },
+  {
+    "time": "SUPER VASCÃO F.C",
+    "pontos": 382.680419921875,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Maio",
+        "posicao": 3
+      }
+    ]
+  },
+  {
+    "time": "TATITTA FC",
+    "pontos": 370.80029296875,
+    "aparicoes": 1,
+    "posicoes": [
+      {
+        "mes": "Maio",
         "posicao": 5
       }
     ]
@@ -216,6 +264,21 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
   "campeao_turno": null,
   "ranking": [
     {
+      "time": "PUXE FC",
+      "pontos": 844.1796875,
+      "aparicoes": 2,
+      "posicoes": [
+        {
+          "mes": "Abril",
+          "posicao": 4
+        },
+        {
+          "mes": "Maio",
+          "posicao": 4
+        }
+      ]
+    },
+    {
       "time": "Bandoleros FCS",
       "pontos": 689.35986328125,
       "aparicoes": 3,
@@ -268,23 +331,56 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
       ]
     },
     {
-      "time": "PUXE FC",
-      "pontos": 470.77978515625,
-      "aparicoes": 1,
-      "posicoes": [
-        {
-          "mes": "Abril",
-          "posicao": 4
-        }
-      ]
-    },
-    {
       "time": "C.A. Charru@",
       "pontos": 468.05029296875,
       "aparicoes": 1,
       "posicoes": [
         {
           "mes": "Abril",
+          "posicao": 5
+        }
+      ]
+    },
+    {
+      "time": "Tabajara de Inhaua PB1",
+      "pontos": 404.03955078125,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Maio",
+          "posicao": 1
+        }
+      ]
+    },
+    {
+      "time": "VaiDescerkkkk!!!",
+      "pontos": 398.78955078125,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Maio",
+          "posicao": 2
+        }
+      ]
+    },
+    {
+      "time": "SUPER VASCÃO F.C",
+      "pontos": 382.680419921875,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Maio",
+          "posicao": 3
+        }
+      ]
+    },
+    {
+      "time": "TATITTA FC",
+      "pontos": 370.80029296875,
+      "aparicoes": 1,
+      "posicoes": [
+        {
+          "mes": "Maio",
           "posicao": 5
         }
       ]
