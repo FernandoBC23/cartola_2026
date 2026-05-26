@@ -96,3 +96,53 @@ window.escudosTimes = {
 };
 
 window.ESCUDO_PADRAO = "escudo_default.png";
+
+(function () {
+  function repairMojibake(value) {
+    const s = value == null ? "" : String(value);
+    if (!/[ÃÂâð]/.test(s)) return s;
+    try {
+      const bytes = Uint8Array.from(s, (ch) => ch.charCodeAt(0) & 0xff);
+      const fixed = new TextDecoder("utf-8").decode(bytes);
+      return fixed || s;
+    } catch {
+      return s;
+    }
+  }
+
+  function normKey(value) {
+    return repairMojibake(value)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-zA-Z0-9]/g, "")
+      .toLowerCase();
+  }
+
+  const mapaOriginal = window.escudosTimes || {};
+  const mapaExpandido = { ...mapaOriginal };
+  const mapaNormalizado = {};
+
+  Object.entries(mapaOriginal).forEach(([nome, arquivo]) => {
+    const nomeCorrigido = repairMojibake(nome);
+    if (!(nomeCorrigido in mapaExpandido)) {
+      mapaExpandido[nomeCorrigido] = arquivo;
+    }
+    mapaNormalizado[normKey(nome)] = arquivo;
+    mapaNormalizado[normKey(nomeCorrigido)] = arquivo;
+  });
+
+  window.escudosTimes = mapaExpandido;
+  window.escudosTimesNormalizados = mapaNormalizado;
+  window.getEscudoArquivo = function (nome) {
+    const nomeOriginal = nome == null ? "" : String(nome);
+    const nomeCorrigido = repairMojibake(nomeOriginal);
+    return (
+      window.escudosTimes?.[nomeOriginal] ||
+      window.escudosTimes?.[nomeCorrigido] ||
+      window.escudosTimesNormalizados?.[normKey(nomeOriginal)] ||
+      window.escudosTimesNormalizados?.[normKey(nomeCorrigido)] ||
+      window.ESCUDO_PADRAO ||
+      "escudo_default.png"
+    );
+  };
+})();

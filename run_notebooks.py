@@ -36,7 +36,7 @@ DEFAULT_NOTEBOOKS = [
     # r"sulamericana/datasets_sula/4_busca_dados_sula_final.ipynb",
 
     # r"copa_leon/datasets_copa_leon/busca_dados_copa_leon.ipynb",
-    # r"copa_aluna/datasets_copa_aluna/busca_dados_copa_aluna.ipynb",
+    r"copa_aluna/datasets_copa_aluna/busca_dados_copa_aluna.ipynb",
 ]
 
 

@@ -11,9 +11,25 @@
     return NaN;
   }
 
+  function repairMojibake(value) {
+    const s = value == null ? "" : String(value);
+    if (!/[ÃÂâð]/.test(s)) return s;
+    try {
+      const bytes = Uint8Array.from(s, (ch) => ch.charCodeAt(0) & 0xff);
+      const fixed = new TextDecoder("utf-8").decode(bytes);
+      return fixed || s;
+    } catch {
+      return s;
+    }
+  }
+
+  function cleanDisplayName(value) {
+    return repairMojibake(value).trim();
+  }
+
   function normKey(s) {
     if (!s) return "";
-    return String(s)
+    return cleanDisplayName(s)
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/[^a-zA-Z0-9]/g, "")
@@ -33,7 +49,9 @@
 
   function escudoSrc(nome) {
     const base = window.ESCUDOS_BASE_PATH || "../imagens/";
-    const arquivo = window.escudosTimes?.[nome] || window.ESCUDO_PADRAO || "escudo_default.png";
+    const arquivo = typeof window.getEscudoArquivo === "function"
+      ? window.getEscudoArquivo(nome)
+      : (window.escudosTimes?.[nome] || window.escudosTimes?.[cleanDisplayName(nome)] || window.ESCUDO_PADRAO || "escudo_default.png");
     return base + arquivo;
   }
 
@@ -41,8 +59,12 @@
     const col = `Rodada ${rodadaReal + (cfg.turnoOffset || 0)}`;
     const { mapa, cacheNorm } = cfg.pontuacoesCache || buildPontuacoesCache(cfg.pontuacoesPorRodada);
     if (!mapa) return NaN;
+    const nomeLimpo = cleanDisplayName(nomeTime);
     if (mapa[nomeTime] && mapa[nomeTime][col] !== undefined) {
       return toNum(mapa[nomeTime][col]);
+    }
+    if (mapa[nomeLimpo] && mapa[nomeLimpo][col] !== undefined) {
+      return toNum(mapa[nomeLimpo][col]);
     }
     const altKey = cacheNorm.get(normKey(nomeTime));
     return altKey ? toNum(mapa?.[altKey]?.[col]) : NaN;
@@ -143,7 +165,7 @@
       });
     });
 
-    const limpos = nomes.map((n) => String(n).trim()).filter((n) => n.length > 0);
+    const limpos = nomes.map((n) => cleanDisplayName(n)).filter((n) => n.length > 0);
     return Array.from(new Set(limpos));
   }
 

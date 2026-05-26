@@ -99,33 +99,49 @@ const normalizarMatch = (match) => ({
 const matchTemPontuacao = (match) =>
   Number.isFinite(match?.casaPts) || Number.isFinite(match?.foraPts);
 
-const carregarCacheFases = () => {
+const getRodadaCacheKey = (meta = {}) => {
+  const rodada = Number.isFinite(meta?.rodada_copa) ? meta.rodada_copa : meta?.rodada;
+  return Number.isFinite(rodada) ? rodada : null;
+};
+
+const carregarCacheFases = (meta = {}) => {
   try {
     const raw = localStorage.getItem(CACHE_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
-    return parsed && typeof parsed === "object" ? parsed : null;
+    if (!parsed || typeof parsed !== "object") return null;
+    if (!parsed.fases || typeof parsed.fases !== "object") return null;
+    const rodadaAtual = getRodadaCacheKey(meta);
+    if (parsed.rodada !== rodadaAtual) return null;
+    return parsed;
   } catch {
     return null;
   }
 };
 
-const salvarCacheFases = (fases) => {
+const salvarCacheFases = (fases, meta = {}) => {
   try {
-    localStorage.setItem(CACHE_KEY, JSON.stringify(fases));
+    localStorage.setItem(
+      CACHE_KEY,
+      JSON.stringify({
+        rodada: getRodadaCacheKey(meta),
+        fases,
+      })
+    );
   } catch {
     // ignore
   }
 };
 
-const mesclarFasesComCache = (fases) => {
-  const cache = carregarCacheFases();
+const mesclarFasesComCache = (fases, meta = {}) => {
+  const cache = carregarCacheFases(meta);
   if (!cache) return fases;
+  const cacheFases = cache.fases || {};
   const resultado = { ...fases };
 
   Object.keys(fases).forEach((fase) => {
     const atual = fases[fase] || [];
-    const cached = cache[fase] || [];
+    const cached = cacheFases[fase] || [];
     const temPontuacaoAtual = atual.some(matchTemPontuacao);
     const temPontuacaoCache = cached.some(matchTemPontuacao);
     if (!temPontuacaoAtual && temPontuacaoCache && cached.length === atual.length) {
@@ -232,7 +248,8 @@ const aplicarParciaisNaFase = (lista, parciais) => {
 
 const construirFases = (timesMap) => {
   const dados = getCopaDados();
-  const fases = mesclarFasesComCache(dados.fases || {});
+  const meta = window.copaMeta || {};
+  const fases = mesclarFasesComCache(dados.fases || {}, meta);
   const pontuacoesPorFase =
     dados && typeof dados.pontuacoes_por_fase === "object" ? dados.pontuacoes_por_fase : null;
   const participantesPorFase = {};
@@ -298,7 +315,7 @@ const construirFases = (timesMap) => {
     (lista) => Array.isArray(lista) && lista.some(matchTemPontuacao)
   );
   if (temQualquerPontuacao) {
-    salvarCacheFases(fasesMontadas);
+    salvarCacheFases(fasesMontadas, meta);
   }
 
   return fasesMontadas;

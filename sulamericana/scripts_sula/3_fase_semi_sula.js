@@ -340,36 +340,87 @@ const confrontosSemiSulaData = (() => {
 
 const resultadosSemiSulaData = typeof resultados_semi_sula !== "undefined" ? resultados_semi_sula : [];
 
+function repairMojibake(value) {
+  const s = value == null ? "" : String(value);
+  if (!/[ÃÂâð]/.test(s)) return s;
+  try {
+    const bytes = Uint8Array.from(s, (ch) => ch.charCodeAt(0) & 0xff);
+    const fixed = new TextDecoder("utf-8").decode(bytes);
+    return fixed || s;
+  } catch {
+    return s;
+  }
+}
+
+function normalizeTeamName(value) {
+  return repairMojibake(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .toLowerCase();
+}
+
+function normalizeResultadoItem(item) {
+  if (!item) return item;
+  return {
+    ...item,
+    jogo: repairMojibake(item.jogo),
+    mandante: item.mandante ? { ...item.mandante, nome: repairMojibake(item.mandante.nome) } : item.mandante,
+    visitante: item.visitante ? { ...item.visitante, nome: repairMojibake(item.visitante.nome) } : item.visitante,
+  };
+}
+
+function normalizeConfrontoItem(item) {
+  if (!item) return item;
+  return {
+    ...item,
+    jogo: repairMojibake(item.jogo),
+    mandante: item.mandante ? { ...item.mandante, nome: repairMojibake(item.mandante.nome) } : item.mandante,
+    visitante: item.visitante ? { ...item.visitante, nome: repairMojibake(item.visitante.nome) } : item.visitante,
+  };
+}
+
+function normalizeClassificacaoMap(data) {
+  const out = {};
+  Object.entries(data || {}).forEach(([grupo, times]) => {
+    out[repairMojibake(grupo)] = Array.isArray(times)
+      ? times.map((time) => ({ ...time, nome: repairMojibake(time.nome) }))
+      : [];
+  });
+  return out;
+}
+
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
+
+  const classificacaoData = normalizeClassificacaoMap(classificacaoSemiSulaData);
+  const confrontosData = (confrontosSemiSulaData || []).map(normalizeConfrontoItem);
+  const resultadosData = (resultadosSemiSulaData || []).map(normalizeResultadoItem);
 
   const RODADA_MINIMA = 17;
   const RODADA_MAXIMA = 18;
 
-  // âœ… C?lculo da rodada atual (somente se houver pontua??o > 0)
+  // Abre sempre na rodada mais recente disponivel no chaveamento.
   let rodadaAtual = (() => {
-    const rodadasComPontuacao = resultadosSemiSulaData
-      .filter(
-        r =>
-          r.mandante?.pontos != null &&
-          r.visitante?.pontos != null &&
-          (r.mandante.pontos > 0 || r.visitante.pontos > 0)
-      )
-      .map(r => r.rodada)
-      .filter(r => r >= RODADA_MINIMA && r <= RODADA_MAXIMA);
-    const rodadaDetectada = rodadasComPontuacao.length ? Math.max(...rodadasComPontuacao) : RODADA_MINIMA;
+    const rodadasDisponiveis = [...confrontosData, ...resultadosData]
+      .map((r) => Number(r?.rodada))
+      .filter((r) => Number.isFinite(r) && r >= RODADA_MINIMA && r <= RODADA_MAXIMA);
+    const rodadaMaisRecenteDisponivel = rodadasDisponiveis.length
+      ? Math.max(...rodadasDisponiveis)
+      : null;
+    const rodadaDetectada = rodadaMaisRecenteDisponivel ?? RODADA_MINIMA;
     return Math.min(Math.max(rodadaDetectada, RODADA_MINIMA), RODADA_MAXIMA);
   })();
   const painelGrupos = document.getElementById("painel-sula-semi");
   const aviso = document.getElementById("aviso-sula");
   const hasTimes = (() => {
     try {
-      return Object.keys(classificacaoSemiSulaData || {}).length > 0;
+      return Object.keys(classificacaoData || {}).length > 0;
     } catch {
       return false;
     }
   })();
-  const hasConfrontos = Array.isArray(confrontosSemiSulaData) && confrontosSemiSulaData.length > 0;
+  const hasConfrontos = Array.isArray(confrontosData) && confrontosData.length > 0;
   const temDados = hasTimes || hasConfrontos;
   if (!temDados) {
     if (aviso) aviso.style.display = "block";
@@ -381,7 +432,9 @@ window.addEventListener("DOMContentLoaded", () => {
   // Escudos centralizados (usa scripts/escudos_times.js)
   function escudoSrc(nome) {
     const base = window.ESCUDOS_BASE_PATH || "../imagens/";
-    const arquivo = window.escudosTimes?.[nome] || window.ESCUDO_PADRAO || "escudo_default.png";
+      const arquivo = typeof window.getEscudoArquivo === "function"
+        ? window.getEscudoArquivo(nome)
+        : (window.escudosTimes?.[nome] || window.ESCUDO_PADRAO || "escudo_default.png");
     if (
       arquivo.startsWith("http://") ||
       arquivo.startsWith("https://") ||
@@ -450,8 +503,8 @@ const clubesTimes = {
   function renderPainelCompleto(numeroRodada) {
     painelGrupos.innerHTML = "";
 
-    const confrontosRodada = confrontosSemiSulaData.filter(j => j.rodada === numeroRodada);
-    const resultadosRodada = resultadosSemiSulaData.filter(j => j.rodada === numeroRodada);
+    const confrontosRodada = confrontosData.filter(j => j.rodada === numeroRodada);
+    const resultadosRodada = resultadosData.filter(j => j.rodada === numeroRodada);
 
     const confrontosPorGrupo = {};
     confrontosRodada.forEach(jogo => {
@@ -460,7 +513,7 @@ const clubesTimes = {
       confrontosPorGrupo[grupo].push(jogo);
     });
 
-    Object.entries(classificacaoSemiSulaData).forEach(([grupo, times]) => {
+    Object.entries(classificacaoData).forEach(([grupo, times]) => {
       const linha = document.createElement("div");
       linha.className = "linha-grupo";
 
@@ -548,10 +601,9 @@ const clubesTimes = {
             <img src="${escudoSrc(jogo.visitante.nome)}" alt="${jogo.visitante.nome}">
           `;
 
-          const resultado = resultadosRodada.find(
-            r =>
-              r.mandante.nome === jogo.mandante.nome &&
-              r.visitante.nome === jogo.visitante.nome
+          const resultado = resultadosRodada.find((r) =>
+            normalizeTeamName(r?.mandante?.nome) === normalizeTeamName(jogo?.mandante?.nome) &&
+            normalizeTeamName(r?.visitante?.nome) === normalizeTeamName(jogo?.visitante?.nome)
           );
 
           const p1Raw = resultado?.mandante?.pontos;
@@ -583,16 +635,16 @@ const clubesTimes = {
             !temPontos;
 
           if (semPontuacao) {
-            span.textContent = "🕒 Aguardando Confronto";
+            span.textContent = "\u{1F552} Aguardando Confronto";
             span.style.backgroundColor = "#ffc107";
             span.style.color = "#000";
             span.style.fontWeight = "600";
           } else if (resultado.mandante.pontos > resultado.visitante.pontos) {
-            span.textContent = `âœ… ${resultado.mandante.nome} venceu`;
+            span.textContent = `\u2705 ${resultado.mandante.nome} venceu`;
           } else if (resultado.mandante.pontos < resultado.visitante.pontos) {
-            span.textContent = `âœ… ${resultado.visitante.nome} venceu`;
+            span.textContent = `\u2705 ${resultado.visitante.nome} venceu`;
           } else {
-            span.textContent = "ðŸ¤ Empate";
+            span.textContent = "\u{1F91D} Empate";
           }
 
           jogoDiv.appendChild(time1);
