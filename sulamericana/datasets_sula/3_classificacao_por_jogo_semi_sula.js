@@ -2,38 +2,38 @@ const classificacao_semi_sula = {
   "Jogo 1 (JG1)": [
     {
       "posicao": 1,
+      "nome": "JV5 Tricolor Gaúcho",
+      "pontos": 3,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 1,
+      "totalCartola": 193.0703125,
+      "cartolaSofrido": 177.6201171875,
+      "saldoCartola": 15.4501953125
+    },
+    {
+      "posicao": 2,
       "nome": "JUV. KP",
       "pontos": 3,
       "vitorias": 1,
       "empates": 0,
-      "derrotas": 0,
-      "totalCartola": 80.52001953125,
-      "cartolaSofrido": 60.1201171875,
-      "saldoCartola": 20.39990234375
-    },
-    {
-      "posicao": 2,
-      "nome": "JV5 Tricolor Gaúcho",
-      "pontos": 0,
-      "vitorias": 0,
-      "empates": 0,
       "derrotas": 1,
-      "totalCartola": 60.1201171875,
-      "cartolaSofrido": 80.52001953125,
-      "saldoCartola": -20.39990234375
+      "totalCartola": 177.6201171875,
+      "cartolaSofrido": 193.0703125,
+      "saldoCartola": -15.4501953125
     }
   ],
   "Jogo 2 (JG2)": [
     {
       "posicao": 1,
       "nome": "FÚRIA LEON",
-      "pontos": 3,
-      "vitorias": 1,
+      "pontos": 6,
+      "vitorias": 2,
       "empates": 0,
       "derrotas": 0,
-      "totalCartola": 85.72021484375,
-      "cartolaSofrido": 66.919921875,
-      "saldoCartola": 18.80029296875
+      "totalCartola": 195.8203125,
+      "cartolaSofrido": 172.77001953125,
+      "saldoCartola": 23.05029296875
     },
     {
       "posicao": 2,
@@ -41,10 +41,10 @@ const classificacao_semi_sula = {
       "pontos": 0,
       "vitorias": 0,
       "empates": 0,
-      "derrotas": 1,
-      "totalCartola": 66.919921875,
-      "cartolaSofrido": 85.72021484375,
-      "saldoCartola": -18.80029296875
+      "derrotas": 2,
+      "totalCartola": 172.77001953125,
+      "cartolaSofrido": 195.8203125,
+      "saldoCartola": -23.05029296875
     }
   ]
 };

@@ -1,7 +1,7 @@
 const rankingTop5Mensal2026_01 = [
   {
     "time": "PUXE FC",
-    "pontos": 844.1796875,
+    "pontos": 882.009765625,
     "aparicoes": 2,
     "posicoes": [
       {
@@ -10,7 +10,7 @@ const rankingTop5Mensal2026_01 = [
       },
       {
         "mes": "Maio",
-        "posicao": 4
+        "posicao": 3
       }
     ]
   },
@@ -30,6 +30,21 @@ const rankingTop5Mensal2026_01 = [
       {
         "mes": "Marco",
         "posicao": 1
+      }
+    ]
+  },
+  {
+    "time": "seralex",
+    "pontos": 673.190185546875,
+    "aparicoes": 2,
+    "posicoes": [
+      {
+        "mes": "Fevereiro",
+        "posicao": 4
+      },
+      {
+        "mes": "Maio",
+        "posicao": 4
       }
     ]
   },
@@ -78,8 +93,8 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
-    "time": "Tabajara de Inhaua PB1",
-    "pontos": 404.03955078125,
+    "time": "VaiDescerkkkk!!!",
+    "pontos": 425.86962890625,
     "aparicoes": 1,
     "posicoes": [
       {
@@ -89,8 +104,8 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
-    "time": "VaiDescerkkkk!!!",
-    "pontos": 398.78955078125,
+    "time": "Tabajara de Inhaua PB1",
+    "pontos": 425.169921875,
     "aparicoes": 1,
     "posicoes": [
       {
@@ -100,19 +115,8 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
-    "time": "SUPER VASCÃO F.C",
-    "pontos": 382.680419921875,
-    "aparicoes": 1,
-    "posicoes": [
-      {
-        "mes": "Maio",
-        "posicao": 3
-      }
-    ]
-  },
-  {
-    "time": "TATITTA FC",
-    "pontos": 370.80029296875,
+    "time": "JV5 Tricolor Gaúcho",
+    "pontos": 410.09033203125,
     "aparicoes": 1,
     "posicoes": [
       {
@@ -199,17 +203,6 @@ const rankingTop5Mensal2026_01 = [
     ]
   },
   {
-    "time": "seralex",
-    "pontos": 263.08984375,
-    "aparicoes": 1,
-    "posicoes": [
-      {
-        "mes": "Fevereiro",
-        "posicao": 4
-      }
-    ]
-  },
-  {
     "time": "S.E.R. GRILLO",
     "pontos": 84.85986328125,
     "aparicoes": 1,
@@ -261,11 +254,37 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
   "temporada": 2026,
   "turno": "01",
   "tipo": "ranking_top5_mensal",
-  "campeao_turno": null,
+  "campeao_turno": {
+    "nome": "Campeao Turno",
+    "time": "FC Los Castilho",
+    "posicao": 1,
+    "pontos": 1594.489990234375,
+    "rodadas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
   "ranking": [
     {
       "time": "PUXE FC",
-      "pontos": 844.1796875,
+      "pontos": 882.009765625,
       "aparicoes": 2,
       "posicoes": [
         {
@@ -274,7 +293,7 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
         },
         {
           "mes": "Maio",
-          "posicao": 4
+          "posicao": 3
         }
       ]
     },
@@ -294,6 +313,21 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
         {
           "mes": "Marco",
           "posicao": 1
+        }
+      ]
+    },
+    {
+      "time": "seralex",
+      "pontos": 673.190185546875,
+      "aparicoes": 2,
+      "posicoes": [
+        {
+          "mes": "Fevereiro",
+          "posicao": 4
+        },
+        {
+          "mes": "Maio",
+          "posicao": 4
         }
       ]
     },
@@ -342,8 +376,8 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
       ]
     },
     {
-      "time": "Tabajara de Inhaua PB1",
-      "pontos": 404.03955078125,
+      "time": "VaiDescerkkkk!!!",
+      "pontos": 425.86962890625,
       "aparicoes": 1,
       "posicoes": [
         {
@@ -353,8 +387,8 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
       ]
     },
     {
-      "time": "VaiDescerkkkk!!!",
-      "pontos": 398.78955078125,
+      "time": "Tabajara de Inhaua PB1",
+      "pontos": 425.169921875,
       "aparicoes": 1,
       "posicoes": [
         {
@@ -364,19 +398,8 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
       ]
     },
     {
-      "time": "SUPER VASCÃO F.C",
-      "pontos": 382.680419921875,
-      "aparicoes": 1,
-      "posicoes": [
-        {
-          "mes": "Maio",
-          "posicao": 3
-        }
-      ]
-    },
-    {
-      "time": "TATITTA FC",
-      "pontos": 370.80029296875,
+      "time": "JV5 Tricolor Gaúcho",
+      "pontos": 410.09033203125,
       "aparicoes": 1,
       "posicoes": [
         {
@@ -459,17 +482,6 @@ window.rankingCampeoesDatasets.liga_classica_2026_01 = {
         {
           "mes": "Fevereiro",
           "posicao": 3
-        }
-      ]
-    },
-    {
-      "time": "seralex",
-      "pontos": 263.08984375,
-      "aparicoes": 1,
-      "posicoes": [
-        {
-          "mes": "Fevereiro",
-          "posicao": 4
         }
       ]
     },
